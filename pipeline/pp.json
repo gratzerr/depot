@@ -1,6 +1,6 @@
 {
- "fileDate": "2026-09-07 13:21",
- "generated": "2026-09-07 13:30",
+ "fileDate": "2026-09-07 13:32",
+ "generated": "2026-09-07 13:41",
  "engine": "pp-exact (verified vs PP app 2026-07-11)",
  "totalSecuritiesEur": 1857378,
  "cashEur": -98852.1,
@@ -39,8 +39,8 @@
  "totalEur": 1758526,
  "ttwrorSince2022": 342.88,
  "ttwrorYtd": 75.85,
- "ttwrorAnnualized": 37.47,
- "izf": 58.06,
+ "ttwrorAnnualized": 37.39,
+ "izf": 57.81,
  "yearlyReturns": {
   "2022": 3.3,
   "2023": 11.8,
@@ -27375,6 +27375,54 @@
   },
   {
    "d": "2026-09-04",
+   "v": 2009259,
+   "e": 1728841,
+   "r": 3.354052,
+   "c": 769042,
+   "k": 693272,
+   "q": 919459,
+   "Q": 748159,
+   "g": 12959,
+   "G": 12075,
+   "f": 12363,
+   "F": 10791,
+   "t": 1907,
+   "T": 1717
+  },
+  {
+   "d": "2026-09-05",
+   "v": 2009259,
+   "e": 1728841,
+   "r": 3.354052,
+   "c": 769042,
+   "k": 693272,
+   "q": 919459,
+   "Q": 748159,
+   "g": 12959,
+   "G": 12075,
+   "f": 12363,
+   "F": 10791,
+   "t": 1907,
+   "T": 1717
+  },
+  {
+   "d": "2026-09-06",
+   "v": 2009259,
+   "e": 1728841,
+   "r": 3.354052,
+   "c": 769042,
+   "k": 693272,
+   "q": 919459,
+   "Q": 748159,
+   "g": 12959,
+   "G": 12075,
+   "f": 12363,
+   "F": 10791,
+   "t": 1907,
+   "T": 1717
+  },
+  {
+   "d": "2026-09-07",
    "v": 2043759,
    "e": 1758526,
    "r": 3.428813,
@@ -65410,9 +65458,9 @@
    "realizedUsd": -53529,
    "avgCost": 70.5109,
    "unrealRet": 5.2,
-   "dayRet": -2.85,
-   "prevClose": 76.37,
-   "priceDate": "2026-09-04"
+   "dayRet": -0.0,
+   "prevClose": 74.19,
+   "priceDate": "2026-09-07"
   },
   {
    "account": "ALL",
@@ -65434,9 +65482,9 @@
    "realizedUsd": 0,
    "avgCost": 21.6647,
    "unrealRet": -16.2,
-   "dayRet": 6.76,
-   "prevClose": 17.0,
-   "priceDate": "2026-09-04"
+   "dayRet": -0.0,
+   "prevClose": 18.15,
+   "priceDate": "2026-09-07"
   },
   {
    "account": "ALL",
@@ -65457,9 +65505,9 @@
    "realizedUsd": 11487,
    "avgCost": 9.1996,
    "unrealRet": 383.7,
-   "dayRet": -0.8,
-   "prevClose": 44.86,
-   "priceDate": "2026-09-04"
+   "dayRet": 0.0,
+   "prevClose": 44.5,
+   "priceDate": "2026-09-07"
   },
   {
    "account": "ALL",
@@ -65480,9 +65528,9 @@
    "realizedUsd": -60391,
    "avgCost": 10.4779,
    "unrealRet": 33.2,
-   "dayRet": -0.64,
-   "prevClose": 14.05,
-   "priceDate": "2026-09-04"
+   "dayRet": -0.0,
+   "prevClose": 13.96,
+   "priceDate": "2026-09-07"
   },
   {
    "account": "ALL",
@@ -65503,9 +65551,9 @@
    "realizedUsd": 0,
    "avgCost": 5.6582,
    "unrealRet": 5.3,
-   "dayRet": -1.81,
-   "prevClose": 6.07,
-   "priceDate": "2026-09-04"
+   "dayRet": -0.0,
+   "prevClose": 5.96,
+   "priceDate": "2026-09-07"
   },
   {
    "account": "ALL",
@@ -65526,9 +65574,9 @@
    "realizedUsd": -50239,
    "avgCost": 1.8679,
    "unrealRet": 3.9,
-   "dayRet": 8.99,
-   "prevClose": 1.78,
-   "priceDate": "2026-09-04"
+   "dayRet": -0.0,
+   "prevClose": 1.94,
+   "priceDate": "2026-09-07"
   }
  ],
  "txmax": "2026-09-04"

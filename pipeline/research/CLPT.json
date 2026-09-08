@@ -48,7 +48,19 @@
     {
       "when": "2026-09",
       "label": "uniQure presents four-year AMT-130 follow-up data",
-      "detail": "uniQure has guided to topline four-year safety and efficacy data on all 24 patients from the first two AMT-130 cohorts (12 high-dose, 12 low-dose) in September 2026, using a June 30, 2026 data cut. Every one of those patients was dosed through ClearPoint's SmartFlow cannula and navigation system, so durability of the 75% progression-slowing signal seen at three years is the closest available read on the delivery platform performing over multiple years. A clean four-year dataset further de-risks the BLA now under FDA review; as of September 7 no exact presentation date has been announced.",
+      "detail": "uniQure has guided to topline four-year safety and efficacy data on all 24 patients from the first two AMT-130 cohorts (12 high-dose, 12 low-dose) in September 2026, using a June 30, 2026 data cut. Every one of those patients was dosed through ClearPoint's SmartFlow cannula and navigation system, so durability of the 75% progression-slowing signal seen at three years is the closest available read on the delivery platform performing over multiple years. As of September 8 the data had not yet been released and no exact presentation date has been announced; a clean four-year dataset would further de-risk the BLA now under FDA review.",
+      "confirmed": true
+    },
+    {
+      "when": "2026-Q4",
+      "label": "FDA 60-day filing review decides acceptance and Priority Review for the AMT-130 BLA",
+      "detail": "uniQure submitted the AMT-130 BLA on September 2, 2026 with a Priority Review request, which would cut the FDA review clock from ten months to roughly six. Within the standard 60-day filing review, due around early November, the FDA will confirm whether the application is accepted and whether Priority Review is granted; uniQure is also preparing for a possible advisory committee. This is the closest hard checkpoint on the single most important program in the ClearPoint delivery-platform thesis.",
+      "confirmed": true
+    },
+    {
+      "when": "2026-Q4",
+      "label": "UK MHRA review of the AMT-130 Marketing Authorisation Application",
+      "detail": "uniQure filed a parallel MAA with the UK MHRA on September 2, 2026 after a successful pre-submission meeting. A UK validation and subsequent review would extend ClearPoint's delivery platform into a second, ex-US commercial channel alongside the US accelerated-approval pathway and supports the company's global regulatory expansion pillar.",
       "confirmed": true
     },
     {
@@ -59,18 +71,6 @@
     },
     {
       "when": "2026-Q4",
-      "label": "FDA 60-day filing review decides acceptance and Priority Review for the AMT-130 BLA",
-      "detail": "uniQure submitted the AMT-130 BLA on September 2, 2026 with a Priority Review request, which would cut the FDA review clock from ten months to roughly six. Within the standard 60-day filing review, due around early November, the FDA will confirm whether the application is accepted and whether Priority Review is granted; uniQure is also preparing for a possible advisory committee. Sell-side analysts covering uniQure call acceptance the next incremental de-risking event, and it is the closest hard checkpoint on the single most important program in the ClearPoint delivery-platform thesis.",
-      "confirmed": true
-    },
-    {
-      "when": "2026-Q4",
-      "label": "UK MHRA review of the AMT-130 Marketing Authorisation Application",
-      "detail": "uniQure filed a parallel MAA with the UK MHRA on September 2, 2026 after a successful pre-submission meeting. A UK validation and subsequent review would extend ClearPoint's delivery platform into a second, ex-US commercial channel alongside the US accelerated-approval pathway and supports the company's global regulatory expansion pillar.",
-      "confirmed": true
-    },
-    {
-      "when": "2026-Q4",
       "label": "Further partner BLA filings flagged on the Q2 call",
       "detail": "Management stated on the August 3 call that multiple biopharma partners have recently received positive FDA feedback on potential BLA submissions and that additional cell and gene therapies should become commercially available by the end of 2027. Each partner filing beyond uniQure widens the base of recurring per-procedure delivery revenue and is the clearest way for ClearPoint to prove the platform thesis without depending on a single program.",
       "confirmed": false
@@ -78,13 +78,7 @@
     {
       "when": "2026-H2",
       "label": "EpilepsyGTx EPY201 Phase 1/2a start",
-      "detail": "EpilepsyGTx announced in mid-July 2026 that it selected ClearPoint's SmartFlow cannula and navigation system for a first-in-human Phase I/IIa trial of EPY201 in focal refractory epilepsy, with the therapy slated to enter human studies in 2026. Trial initiation would convert the partnership announcement into actual procedure and service revenue and adds to the 10-15 trials management expects to be enrolling within 18 months.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-H2",
-      "label": "Aspen Neuroscience post-RMAT regulatory alignment",
-      "detail": "With RMAT designation granted on July 31, 2026 for sasineprocel (ANPD001), Aspen gains early and frequent FDA interactions and potential eligibility for priority review and accelerated approval for its autologous dopaminergic cell therapy in Parkinson's disease. An announced pivotal trial design or expanded ASPIRO enrollment would put a second approval pathway on ClearPoint hardware and lift procedure volumes ahead of any commercial launch.",
+      "detail": "EpilepsyGTx announced in mid-July 2026 that it selected ClearPoint's SmartFlow cannula and navigation system for a first-in-human Phase I/IIa trial of EPY201 in focal refractory epilepsy, with the therapy slated to enter human studies in 2026. No first-patient-dosed update has been reported yet as of early September; trial initiation would convert the partnership announcement into actual procedure and service revenue.",
       "confirmed": false
     },
     {
@@ -101,16 +95,10 @@
     },
     {
       "when": "2027-H1",
-      "label": "First GLP IND-enabling study completed at CAL; robotics prototypes in preclinical use",
-      "detail": "ClearPoint signed its first GLP statement of work for the CAL facility, targeted for completion in 2027, and expects functioning cranial robot prototypes built around the KUKA LBR arm to be used preclinically at CAL and to generate incremental service revenue in 2027. Delivering both would prove out the capacity expansion from roughly $8M to over $60M in annual preclinical service capacity that underpins the new strategy.",
-      "confirmed": false
-    },
-    {
-      "when": "2027-H1",
       "label": "Potential FDA accelerated-approval decision on AMT-130",
       "detail": "With the BLA filed September 2, 2026 and Priority Review requested, an FDA decision on the first Huntington's gene therapy could arrive as early as the first half of 2027 if Priority Review is granted, or in late 2027 under standard review. Approval would establish recurring per-procedure delivery revenue for ClearPoint and be the first commercial validation of the platform in a large chronic indication, following the Kebilidi precedent where SmartFlow is the only FDA-authorized delivery device.",
       "confirmed": false
     }
   ],
-  "pulse": "CLPT closed around $13.96 in early September for a market cap near $425M, less than half the $30.10 52-week high, with the sell-side consensus target trimmed to roughly $23.50 after Stifel went to $22 and Lake Street to $25 (B. Riley still at $30). The week of September 3-7 brought no company press release; the only fresh datapoint is a Form 4 showing CEO Joe Burnett paid cash to exercise 12,517 options at $3.47 on September 2 and kept every share, which reads as a confidence signal after a stretch of insider selling. The story otherwise still hangs on partner uniQure, whose AMT-130 BLA and UK MAA went in on September 2 with Priority Review requested; the four-year Phase I/II readout on all 24 first-cohort patients is still promised for this month, and FDA filing acceptance is due around early November. Next to watch after that: the November Q3 print, where biologics has to reaccelerate on the new CAL facility or the $29.4M cash balance against a $10M quarterly operating loss becomes the story."
+  "pulse": "CLPT has slid back to roughly $14 (market cap near $420M) on September 8, down from the low-$16s right after the September 2 news and about 55% off the $30.10 52-week high, with no company-specific driver behind the latest pullback beyond general profit-taking after the run into the uniQure filing. The dominant storyline remains partner uniQure: the AMT-130 BLA and UK MAA went in on September 2 with Priority Review requested, the promised four-year Phase I/II readout on all 24 first-cohort patients has not yet been released as of today, and FDA filing acceptance is due around early November. The other recent datapoint is CEO Joe Burnett's September 2 cash exercise of options with no shares sold, a rare insider-buy-like signal; next up is the November Q3 print, where biologics needs to reaccelerate off the new CAL facility or the $29.4M cash balance against a roughly $10M quarterly operating loss becomes the bigger story."
 }

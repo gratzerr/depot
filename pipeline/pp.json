@@ -1,8 +1,8 @@
 {
- "fileDate": "2026-09-08 04:09",
- "generated": "2026-09-08 04:18",
+ "fileDate": "2026-09-08 04:20",
+ "generated": "2026-09-08 04:30",
  "engine": "pp-exact (verified vs PP app 2026-07-11)",
- "totalSecuritiesEur": 1857378,
+ "totalSecuritiesEur": 1827693,
  "cashEur": -98852.1,
  "cashByAccount": [
   {
@@ -36,22 +36,22 @@
    "eur": 0.85
   }
  ],
- "totalEur": 1758526,
- "ttwrorSince2022": 342.88,
- "ttwrorYtd": 75.85,
- "ttwrorAnnualized": 37.39,
- "izf": 57.81,
+ "totalEur": 1728841,
+ "ttwrorSince2022": 335.41,
+ "ttwrorYtd": 72.88,
+ "ttwrorAnnualized": 36.89,
+ "izf": 56.71,
  "yearlyReturns": {
   "2022": 3.3,
   "2023": 11.8,
   "2024": 45.2,
   "2025": 50.2,
-  "2026": 75.9
+  "2026": 72.9
  },
  "realizedEur": 748159,
- "unrealizedEur": 314841,
+ "unrealizedEur": 285156,
  "realizedUsd": 919459,
- "unrealizedUsd": 365928,
+ "unrealizedUsd": 331428,
  "netContribEur": 693272,
  "netContribUsd": 769042,
  "earningsEur": 12075.18,
@@ -27423,9 +27423,9 @@
   },
   {
    "d": "2026-09-07",
-   "v": 2043759,
-   "e": 1758526,
-   "r": 3.428813,
+   "v": 2009259,
+   "e": 1728841,
+   "r": 3.354052,
    "c": 769042,
    "k": 693272,
    "q": 919459,
@@ -65427,15 +65427,15 @@
    "name": "RAPID MICRO BIOSYSTEMS INC-A"
   }
  ],
- "ppReferenceTtwror": 342.88,
+ "ppReferenceTtwror": 335.41,
  "ppReferenceDate": "2026-09-08",
- "ttwrorApproxSince2022": 342.88,
+ "ttwrorApproxSince2022": 335.41,
  "yearlyReturnsApprox": {
   "2022": 3.3,
   "2023": 11.8,
   "2024": 45.2,
   "2025": 50.2,
-  "2026": 75.9
+  "2026": 72.9
  },
  "holdings": [
   {
@@ -65473,16 +65473,16 @@
    "isin": "",
    "ccy": "USD",
    "shares": 30000.0,
-   "price": 18.14999999,
-   "value": 544500.0,
-   "valueEur": 468508,
-   "valueUsd": 544500,
+   "price": 17.0,
+   "value": 510000.0,
+   "valueEur": 438823,
+   "valueUsd": 510000,
    "basisUsd": 649942,
    "basisEur": 560256,
    "realizedUsd": 0,
    "avgCost": 21.6647,
-   "unrealRet": -16.2,
-   "dayRet": -0.0,
+   "unrealRet": -21.5,
+   "dayRet": -6.34,
    "prevClose": 18.15,
    "priceDate": "2026-09-07"
   },

@@ -27,7 +27,7 @@
       "headline": "ClearPoint Neuro unveils five-pillar strategy targeting $500M in annual revenue",
       "source": "Investing.com",
       "url": "https://www.investing.com/news/company-news/clearpoint-neuro-aug-2026-slides-500m-revenue-target-amid-q2-miss-93CH-4832435",
-      "summary": "Alongside the Q2 miss, management presented a long-term strategy aiming at $500M in annual revenue built on five pillars: cell and gene therapy delivery, the newly acquired 30,000 sq ft ClearPoint Advanced Laboratories (CAL) preclinical site, the 10-year SONOCARE focused-ultrasound partnership at Sungkyunkwan University, a KUKA-arm cranial robot in development and Harmony 1.0 control software. Management cited 175+ active centers, 60+ pharma partners and expects high-teens to 20% revenue growth in 2027."
+      "summary": "Alongside the Q2 miss, management presented a long-term strategy aiming at $500M in annual revenue built on five pillars: cell and gene therapy delivery, the newly acquired 30,000 sq ft ClearPoint Advanced Laboratories (CAL) preclinical site in Torrey Pines, the 10-year SONOCARE focused-ultrasound partnership at Sungkyunkwan University, a KUKA-arm cranial robot in development and Harmony 1.0 control software. Management cited 175+ active centers, 60+ pharma partners and expects high-teens to 20% revenue growth in 2027."
     },
     {
       "date": "2026-08-03",
@@ -48,7 +48,7 @@
     {
       "when": "2026-09",
       "label": "uniQure presents four-year AMT-130 follow-up data",
-      "detail": "uniQure has guided to topline four-year safety and efficacy data on all 24 patients from the first two AMT-130 cohorts (12 high-dose, 12 low-dose) in September 2026, using a June 30, 2026 data cut. Every one of those patients was dosed through ClearPoint's SmartFlow cannula and navigation system, so durability of the 75% progression-slowing signal seen at three years is the closest available read on the delivery platform performing over multiple years. As of September 8 the data had not yet been released and no exact presentation date has been announced; a clean four-year dataset would further de-risk the BLA now under FDA review.",
+      "detail": "uniQure has guided to topline four-year safety and efficacy data on all 24 patients from the first two AMT-130 cohorts (12 high-dose, 12 low-dose) in September 2026, using a June 30, 2026 data cut and an expanded ~26,000-patient Enroll-HD external comparator. Every one of those patients was dosed through ClearPoint's SmartFlow cannula and navigation system, so durability of the 75% progression-slowing signal seen at three years is the closest available read on the delivery platform performing over multiple years. As of September 8 the data had not yet been released and no exact presentation date has been announced; a clean four-year dataset would further de-risk the BLA now under FDA review.",
       "confirmed": true
     },
     {
@@ -100,5 +100,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "CLPT has slid back to roughly $14 (market cap near $420M) on September 8, down from the low-$16s right after the September 2 news and about 55% off the $30.10 52-week high, with no company-specific driver behind the latest pullback beyond general profit-taking after the run into the uniQure filing. The dominant storyline remains partner uniQure: the AMT-130 BLA and UK MAA went in on September 2 with Priority Review requested, the promised four-year Phase I/II readout on all 24 first-cohort patients has not yet been released as of today, and FDA filing acceptance is due around early November. The other recent datapoint is CEO Joe Burnett's September 2 cash exercise of options with no shares sold, a rare insider-buy-like signal; next up is the November Q3 print, where biologics needs to reaccelerate off the new CAL facility or the $29.4M cash balance against a roughly $10M quarterly operating loss becomes the bigger story."
+  "pulse": "CLPT dropped sharply on September 8, trading around $14.08 (down about 6% intraday from the prior close of $15.03, market cap near $422M) and now roughly 55% off the $30.10 52-week high, with no fresh company-specific news behind the move beyond continued profit-taking after the run into the uniQure BLA filing. The dominant storyline remains partner uniQure: the AMT-130 BLA and UK MAA went in on September 2 with Priority Review requested, the promised four-year Phase I/II readout on all 24 first-cohort patients has still not been released as of today, and FDA filing acceptance is due around early November. The other recent datapoint is CEO Joe Burnett's September 2 cash exercise of options with no shares sold, a rare insider-buy-like signal; next up is the November Q3 print, where biologics needs to reaccelerate off the new CAL facility or the $29.4M cash balance against a roughly $10M quarterly operating loss becomes the bigger story."
 }

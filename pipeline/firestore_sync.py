@@ -29,6 +29,9 @@ _PROJECT = _icfg.get("firebaseProjectId", "portfolio-cockpit-rg")
 DOC_ID = (os.environ.get("FS_DOC_ID") or _icfg.get("docId") or "main").strip()
 _COLL = f"https://firestore.googleapis.com/v1/projects/{_PROJECT}/databases/(default)/documents/portfolios/"
 DOC = _COLL + DOC_ID
+# Ausgemusterte Schluessel (Config "retire": [...]): werden nach dem Push entwertet,
+# damit ein alter Link nicht als zweite Tuer offen bleibt (Schluessel-Kuerzung 2026-09-09)
+RETIRE = [str(x).strip() for x in (_icfg.get("retire") or []) if x and str(x).strip() != DOC_ID]
 LEGACY = _COLL + "main"   # das alte, ratbare Dokument: bleibt als leerer, oeffentlicher
                           # Herzschlag (nur "updated") fuer den Waechter — ohne Daten
 OWNER = _icfg.get("ownerEmail", "rafael.gratzer@gmail.com")
@@ -62,11 +65,14 @@ def pull():
         # Umzug: Einstellungen (Name, Watchlist, Benchmarks, ...) vom alten Dokument
         # uebernehmen, damit der neue Schluessel nicht bei Null anfaengt
         if DOC_ID != "main":
-            old = (req("GET", LEGACY, tok=tok).get("fields") or {})
-            keep = {k: v for k, v in old.items() if k in ("owner","name","public","hidden","benchmarks","watchlist","saReq")}
-            if not keep.get("owner",{}).get("stringValue"): keep.pop("owner", None)   # main ist schon entwertet
-            if keep:
-                body["fields"].update(keep); print("firestore: migrating settings from portfolios/main")
+            # Einstellungen vom Vorgaenger uebernehmen: zuerst ein ausgemusterter Schluessel
+            # (hat den aktuellsten Stand), sonst das alte main
+            for src in [_COLL + r for r in RETIRE] + [LEGACY]:
+                old = (req("GET", src, tok=tok).get("fields") or {})
+                keep = {k: v for k, v in old.items() if k in ("owner","name","public","hidden","benchmarks","watchlist","saReq")}
+                if not keep.get("owner",{}).get("stringValue"): keep.pop("owner", None)   # schon entwertet
+                if keep:
+                    body["fields"].update(keep); print("firestore: migrating settings from previous document"); break
         # updateMask: nur diese Felder setzen — ein bereits vorhandenes dataz bleibt unangetastet
         mask = "&".join("updateMask.fieldPaths="+k for k in body["fields"])
         j = req("PATCH", DOC+"?"+mask, body, tok)
@@ -131,6 +137,13 @@ def push():
                         "updated":body["fields"]["updated"]}}
         j2 = req("PATCH", LEGACY+"?updateMask.fieldPaths=dataz&updateMask.fieldPaths=data&updateMask.fieldPaths=owner&updateMask.fieldPaths=updated", hb, tok)
         if "fields" not in j2: print("firestore: heartbeat on main FAILED", str(j2)[:120])
+        # ausgemusterte Schluessel entwerten: keine Daten, kein Besitzer — greift effektiv einmal
+        for r in RETIRE:
+            f = (req("GET", _COLL + r, tok=tok).get("fields") or {})
+            if f and (f.get("dataz",{}).get("stringValue") or f.get("owner",{}).get("stringValue")):
+                j3 = req("PATCH", _COLL + r + "?updateMask.fieldPaths=dataz&updateMask.fieldPaths=data&updateMask.fieldPaths=owner",
+                         {"fields":{"dataz":{"stringValue":""},"data":{"stringValue":""},"owner":{"stringValue":""}}}, tok)
+                print("firestore: retired key blanked:", "ok" if "fields" in j3 else "FAILED "+str(j3)[:100])
 
 if __name__ == "__main__":
     (pull if (sys.argv[1:2] or ["pull"])[0]=="pull" else push)()

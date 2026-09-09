@@ -32,7 +32,7 @@ jobs:
           try:
               d=json.load(sys.stdin)
               t=d['fields']['updated']['stringValue'].replace('Z','')[:19]
-              print(int((datetime.datetime.utcnow()-datetime.datetime.fromisoformat(t)).total_seconds()/60))
+              print(int((datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)-datetime.datetime.fromisoformat(t)).total_seconds()/60))
           except Exception:
               print(9999)   # unlesbar = wie veraltet behandeln; Schritt 2 bremst
           ")
@@ -62,7 +62,7 @@ jobs:
           import json,sys,datetime
           try:
               r=json.load(sys.stdin)['workflow_runs'][0]['created_at'].replace('Z','')
-              print(int((datetime.datetime.utcnow()-datetime.datetime.fromisoformat(r)).total_seconds()/60))
+              print(int((datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)-datetime.datetime.fromisoformat(r)).total_seconds()/60))
           except Exception:
               print(0)
           ")

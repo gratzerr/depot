@@ -3,7 +3,6 @@
 
 Reads:
   portfolio.json      - snapshot from Parqet (value, gains, xirr, holdings)
-  port_chart_ytd.json - YTD portfolio value time-series from Parqet
   research/<TICKER>.json - per-ticker news + catalysts + pulse (from research agents)
 
 Writes:
@@ -20,7 +19,22 @@ def load(p):
         return json.load(f)
 
 port = load("portfolio.json")
-chart_ytd = load("port_chart_ytd.json")
+# portfolio.json liegt im OEFFENTLICHEN Repo und traegt seit 2026-09-09 keine Geldwerte
+# mehr (nur Thesen, Links, Ticker). Alle Zahlen kommen aus der Engine (pp.json);
+# die Nullen hier sind reine Absturzsicherung fuer einen Lauf ohne pp.json.
+port.setdefault("cashValue", 0)
+for _h in port.get("holdings", []):
+    for _k in ("value", "shares", "price"): _h.setdefault(_k, 0)
+_MONEY_TOP = ("totalValue","netGainUnrealized","unrealizedReturn","izf","ttwror",
+              "realizedAllTime","chartYtd","ttwrorYtd","since2022")
+_MONEY_H = ("costPrice","unrealizedReturn","totalGainNet","dayChange","prevClose")
+def sanitized(p):
+    """Kopie ohne Depotwerte — nur das darf ins Repo zurueckgeschrieben werden."""
+    q = {k: v for k, v in p.items() if k not in _MONEY_TOP}
+    q["cashValue"] = 0
+    q["holdings"] = [dict({k: v for k, v in h.items() if k not in _MONEY_H},
+                          value=0, shares=0, price=0) for h in p.get("holdings", [])]
+    return q
 try:
     pp = load("pp.json")
 except Exception:
@@ -116,7 +130,7 @@ if pp:
         # set changes, to avoid a value-churn diff in every minute commit)
         if set(by_tk) != {h["ticker"] for h in merged} or set(prev_opts) != {h["occ"] for h in options}:
             try:
-                json.dump(port, open(os.path.join(ROOT, "portfolio.json"), "w"),
+                json.dump(sanitized(port), open(os.path.join(ROOT, "portfolio.json"), "w"),
                           ensure_ascii=False, indent=1)
             except Exception: pass
     port["totalValue"] = sum(h["value"] for h in port["holdings"])
@@ -574,12 +588,12 @@ try:
             pass
 except Exception:
     pass
-if site_is_public():
-    out = TEMPLATE.replace("/*__DATA__*/", DATA_JSON)
-    mode = "public (data baked)"
-else:
-    out = TEMPLATE.replace("/*__DATA__*/", "null")
-    mode = "PRIVATE (no data in page — Firestore + Google sign-in only)"
+# Seit 2026-09-09 wird NIE mehr gebacken: die Seite liegt im oeffentlichen Repo, die
+# Daten holt sie sich per Schluessel-Link (#k=...) aus Firestore. site_is_public()
+# bleibt fuer die Sperrbildschirm-Logik erhalten, entscheidet aber nicht mehr ueber
+# den Inhalt der Datei.
+out = TEMPLATE.replace("/*__DATA__*/", "null")
+mode = "keyed (no data in page — Firestore via #k= link)"
 with open(os.path.join(ROOT, "cockpit.html"), "w", encoding="utf-8") as f:
     f.write(out)
 print(f"Built cockpit.html  ({len(out):,} bytes)  as-of {data['asOf']}  holdings={len(data['holdings'])}  mode={mode}")

@@ -51,6 +51,9 @@ jobs:
             # building with its old checkout for up to 22 minutes)
             git -C .. fetch -q origin && git -C .. checkout -q origin/main -- pipeline/ .github/ || true
             python drive_fetch.py /tmp/depot.xml || true
+            # der Schluessel des Familien-Links kommt per cockpit_config.json aus Drive —
+            # Logs oeffentlicher Repos sind oeffentlich, also maskieren, bevor er irgendwo auftaucht
+            k=$(python3 -c 'import json;print(json.load(open("cockpit_config.json")).get("docId",""))' 2>/dev/null); [ -n "$k" ] && echo "::add-mask::$k"
             python firestore_sync.py pull || true
             MISSING_ONLY=1 python bench_fetch.py || true
             python sec_prefetch.py || true

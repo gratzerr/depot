@@ -24,7 +24,13 @@ try:
 except Exception:
     _icfg = {}
 _PROJECT = _icfg.get("firebaseProjectId", "portfolio-cockpit-rg")
-DOC = f"https://firestore.googleapis.com/v1/projects/{_PROJECT}/databases/(default)/documents/portfolios/main"
+# Dokument-ID = der Schluessel im Familien-Link (#k=...). Er kommt aus dem GitHub-Secret
+# FS_DOC_ID und steht nirgends im Repo. Ohne Secret laeuft alles wie frueher auf "main".
+DOC_ID = (os.environ.get("FS_DOC_ID") or _icfg.get("docId") or "main").strip()
+_COLL = f"https://firestore.googleapis.com/v1/projects/{_PROJECT}/databases/(default)/documents/portfolios/"
+DOC = _COLL + DOC_ID
+LEGACY = _COLL + "main"   # das alte, ratbare Dokument: bleibt als leerer, oeffentlicher
+                          # Herzschlag (nur "updated") fuer den Waechter — ohne Daten
 OWNER = _icfg.get("ownerEmail", "rafael.gratzer@gmail.com")
 
 def req(method, url, body=None, tok=None):
@@ -39,21 +45,34 @@ def req(method, url, body=None, tok=None):
 def pull():
     tok = access_token()
     j = req("GET", DOC, tok=tok)
-    if "fields" not in j:
+    # Anlegen bei NOT_FOUND — oder nachruesten, wenn das Dokument zwar existiert (ein
+    # push kann es implizit erzeugen), aber die Sichtbarkeits-/Besitzerfelder fehlen:
+    # ohne "public" verweigern die Regeln jedem Besucher das Lesen.
+    if "fields" not in j or "public" not in j["fields"]:
         # ONLY create on a definitive NOT_FOUND — a transient API error must NEVER
         # recreate the doc with defaults (that reset Rafael's portfolio name on 2026-07-22)
         err = (j.get("error") or {})
-        if err.get("status") != "NOT_FOUND" and err.get("code") != 404:
+        if "fields" not in j and err.get("status") != "NOT_FOUND" and err.get("code") != 404:
             print("firestore pull: transient error, keeping local state:", str(j)[:150]); return
         body = {"fields":{
             "owner":{"stringValue":OWNER},
             "name":{"stringValue":_icfg.get("portfolioName", "Rafael's Portfolio")},
             "public":{"booleanValue":True},
             "data":{"stringValue":""}}}
-        j = req("PATCH", DOC, body, tok)
+        # Umzug: Einstellungen (Name, Watchlist, Benchmarks, ...) vom alten Dokument
+        # uebernehmen, damit der neue Schluessel nicht bei Null anfaengt
+        if DOC_ID != "main":
+            old = (req("GET", LEGACY, tok=tok).get("fields") or {})
+            keep = {k: v for k, v in old.items() if k in ("owner","name","public","hidden","benchmarks","watchlist","saReq")}
+            if not keep.get("owner",{}).get("stringValue"): keep.pop("owner", None)   # main ist schon entwertet
+            if keep:
+                body["fields"].update(keep); print("firestore: migrating settings from portfolios/main")
+        # updateMask: nur diese Felder setzen — ein bereits vorhandenes dataz bleibt unangetastet
+        mask = "&".join("updateMask.fieldPaths="+k for k in body["fields"])
+        j = req("PATCH", DOC+"?"+mask, body, tok)
         if "fields" not in j:
             print("firestore pull: create failed:", str(j)[:200]); return
-        print("firestore: created portfolios/main")
+        print("firestore: keyed document created/seeded")
     f = j["fields"]
     bench = [v.get("stringValue","") for v in f.get("benchmarks",{}).get("arrayValue",{}).get("values",[]) if v.get("stringValue")]
     watch = [v.get("stringValue","") for v in f.get("watchlist",{}).get("arrayValue",{}).get("values",[]) if v.get("stringValue")]
@@ -76,15 +95,12 @@ def push():
     tok = access_token()
     data = open(os.path.join(ROOT,"data.json"), encoding="utf-8").read()
     packed = base64.b64encode(gzip.compress(data.encode("utf-8"), 6)).decode("ascii")
-    # Firestore-Dokumente sind auf ~1 MiB begrenzt: die volle Trade-Historie (acts)
-    # sprengte das Limit und liess den Push tagelang scheitern (Vorfall 2026-07-24,
-    # eingefrorener Stand vom 21.07.). acts steckt in der gebackenen Seite — der
-    # Live-Push braucht sie nicht; der Client behaelt seine Liste beim Swap.
+    # Seit dem Schluessel-Link (2026-09-09) backt die Seite KEINE Daten mehr ein — acts
+    # (Trade-Historie) und social muessen daher mit. Gezippt bleibt der ganze Snapshot
+    # bei ~400 KB, weit unter dem 1-MiB-Limit, an dem der ungezippte Push 2026-07-24
+    # scheiterte. Nur noch kompakt serialisieren, nichts mehr wegwerfen.
     try:
-        j = json.loads(data)
-        j.pop("acts", None)
-        j.pop("social", None)   # 7-Tage-Archiv, steckt in der Seite — Push-Budget schonen
-        data = json.dumps(j, ensure_ascii=False, separators=(",", ":"))
+        data = json.dumps(json.loads(data), ensure_ascii=False, separators=(",", ":"))
     except Exception:
         pass
     # the old plain field is cleared in the SAME patch: it counts towards the 1 MiB
@@ -99,6 +115,14 @@ def push():
     ok = "fields" in j
     print("firestore push:", "ok" if ok else ("FAILED "+str(j)[:200]),
           f"({len(data)//1024} KB raw -> {len(packed)//1024} KB gzipped)")
+    # Herzschlag auf dem alten, ratbaren portfolios/main: KEINE Daten mehr, kein
+    # Besitzer — nur "updated", damit der GitHub-Waechter die Frische weiterhin
+    # anonym pruefen kann. #k=main zeigt damit nur noch den Sperrbildschirm.
+    if ok and DOC_ID != "main":
+        hb = {"fields":{"dataz":{"stringValue":""},"data":{"stringValue":""},"owner":{"stringValue":""},
+                        "updated":body["fields"]["updated"]}}
+        j2 = req("PATCH", LEGACY+"?updateMask.fieldPaths=dataz&updateMask.fieldPaths=data&updateMask.fieldPaths=owner&updateMask.fieldPaths=updated", hb, tok)
+        if "fields" not in j2: print("firestore: heartbeat on main FAILED", str(j2)[:120])
 
 if __name__ == "__main__":
     (pull if (sys.argv[1:2] or ["pull"])[0]=="pull" else push)()

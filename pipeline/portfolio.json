@@ -3,33 +3,24 @@
  "currency": "USD",
  "source": "Parqet (live)",
  "portfolioId": "66e18c9426cf62020ccc7ee7",
- "totalValue": 2379073,
- "cashValue": -114886,
- "netGainUnrealized": 772404,
- "unrealizedReturn": 48.1,
- "izf": 58.06,
- "ttwror": 331.6,
- "realizedAllTime": 1075764,
- "chartYtd": "__CHART_YTD__",
+ "cashValue": 0,
  "holdings": [
   {
    "ticker": "Cash",
    "name": "Net Cash (PP)",
    "assetType": "cash",
-   "value": -114886,
-   "unrealizedReturn": 0,
-   "totalGainNet": 0,
+   "value": 0,
    "thesis": "SQ USD/EUR + IBKR EUR/USD incl. margin",
-   "links": {}
+   "links": {},
+   "shares": 0,
+   "price": 0
   },
   {
    "pid": "hld_6a183e2a547bdef260161491",
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
    "assetType": "security",
-   "value": 556425,
-   "unrealizedReturn": 5.2,
-   "totalGainNet": -25935,
+   "value": 0,
    "thesis": "Rezpegaldesleukin (immunology / Treg biologic)",
    "ySym": "NKTR",
    "gquery": "Nektar Therapeutics",
@@ -39,19 +30,15 @@
     "x": "https://x.com/search?q=%24NKTR&f=live",
     "finviz": "https://finviz.com/quote.ashx?t=NKTR"
    },
-   "shares": 7500.0,
-   "price": 74.19000244,
-   "dayChange": -2.85,
-   "prevClose": 76.37
+   "shares": 0,
+   "price": 0
   },
   {
    "pid": "hld_69abfecda62d224ba6f896ed",
    "ticker": "QURE",
    "name": "uniQure",
    "assetType": "security",
-   "value": 445000,
-   "unrealizedReturn": 383.7,
-   "totalGainNet": 364491,
+   "value": 0,
    "thesis": "AMT-130 gene therapy for Huntington's disease",
    "ySym": "QURE",
    "gquery": "uniQure",
@@ -61,19 +48,15 @@
     "x": "https://x.com/search?q=%24QURE&f=live",
     "finviz": "https://finviz.com/quote.ashx?t=QURE"
    },
-   "shares": 10000.0,
-   "price": 44.5,
-   "dayChange": -0.8,
-   "prevClose": 44.86
+   "shares": 0,
+   "price": 0
   },
   {
    "pid": "hld_695f994d700de118b95a7054",
    "ticker": "CLPT",
    "name": "ClearPoint Neuro",
    "assetType": "security",
-   "value": 307120,
-   "unrealizedReturn": 33.2,
-   "totalGainNet": 16214,
+   "value": 0,
    "thesis": "Neuro-navigation / gene-therapy delivery",
    "ySym": "CLPT",
    "gquery": "ClearPoint Neuro",
@@ -83,19 +66,15 @@
     "x": "https://x.com/search?q=%24CLPT&f=live",
     "finviz": "https://finviz.com/quote.ashx?t=CLPT"
    },
-   "shares": 22000.0,
-   "price": 13.96000003,
-   "dayChange": -0.64,
-   "prevClose": 14.05
+   "shares": 0,
+   "price": 0
   },
   {
    "pid": "hld_69958ddb69baa58c8f1f8c4d",
    "ticker": "NRXS",
    "name": "Neuraxis",
    "assetType": "security",
-   "value": 208600,
-   "unrealizedReturn": 5.3,
-   "totalGainNet": 10564,
+   "value": 0,
    "thesis": "IB-Stim / PENFS neuromodulation (pediatrics)",
    "ySym": "NRXS",
    "gquery": "Neuraxis",
@@ -105,10 +84,8 @@
     "x": "https://x.com/search?q=%24NRXS&f=live",
     "finviz": "https://finviz.com/quote.ashx?t=NRXS"
    },
-   "shares": 35000.0,
-   "price": 5.96000003,
-   "dayChange": -1.81,
-   "prevClose": 6.07
+   "shares": 0,
+   "price": 0
   },
   {
    "pid": "pp_TENX",
@@ -123,24 +100,17 @@
     "x": "https://x.com/search?q=%24TENX&f=live",
     "finviz": "https://finviz.com/quote.ashx?t=TENX"
    },
-   "shares": 50000.0,
-   "price": 1.94000005,
-   "value": 97000,
-   "dayChange": 8.99,
-   "prevClose": 1.78,
-   "unrealizedReturn": 3.9,
-   "totalGainNet": -46635
+   "shares": 0,
+   "price": 0,
+   "value": 0
   },
   {
    "ticker": "ABVX",
    "name": "Abivax — Mar-2027 $120 Call",
    "assetType": "option",
-   "value": 544500,
-   "shares": 30000.0,
-   "price": 18.14999999,
-   "costPrice": 21.6647,
-   "unrealizedReturn": -16.2,
-   "totalGainNet": -105442,
+   "value": 0,
+   "shares": 0,
+   "price": 0,
    "thesis": "Long call on Abivax (exp Mar 2027, strike $120) — leveraged bet on obefazimod, the oral anti-inflammatory miR-124 enhancer in ulcerative colitis",
    "links": {
     "ir": "https://www.abivax.com/investors/",
@@ -149,11 +119,7 @@
     "finviz": "https://finviz.com/quote.ashx?t=ABVX"
    },
    "gquery": "Abivax",
-   "occ": "ABVX270319C00120000",
-   "dayChange": 6.76,
-   "prevClose": 17.0
+   "occ": "ABVX270319C00120000"
   }
- ],
- "ttwrorYtd": 75.85,
- "since2022": 342.88
+ ]
 }

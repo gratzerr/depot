@@ -6,3 +6,9 @@ sa*.json
 *.key
 pipeline/data.json
 pipeline/site_state.json
+
+# Engine-Ausgabe mit allen Depotwerten: wird jeden Zyklus aus depot.xml neu erzeugt,
+# gehoert nicht ins (oeffentliche) Repo
+pipeline/pp.json
+# traegt den Schluessel des Familien-Links (aus Drive geholt) — nie committen
+pipeline/cockpit_config.json

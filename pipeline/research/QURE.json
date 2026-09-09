@@ -2,25 +2,25 @@
  "ticker": "QURE",
  "news": [
   {
+   "date": "2026-09-08",
+   "headline": "Sell-side consensus firms at Moderate Buy with $65 average price target across 17 brokerages",
+   "source": "The Cerbat Gem (MarketBeat data)",
+   "url": "https://www.thecerbatgem.com/2026/09/08/analysts-set-uniqure-n-v-nasdaqqure-price-target-at-65-00.html",
+   "summary": "A compiled ratings snapshot shows seventeen brokerages covering uniQure at a consensus \"Moderate Buy,\" with fourteen buy ratings, two holds and one sell, and an average twelve-month price objective of $65.00. The reading reflects post-BLA-filing sell-side sentiment settling roughly 30-45% above the stock's early-September trading range."
+  },
+  {
    "date": "2026-09-02",
    "headline": "uniQure submits US BLA and UK MAA for AMT-130 in Huntington's disease",
    "source": "GlobeNewswire",
    "url": "https://www.globenewswire.com/news-release/2026/09/02/3354993/0/en/uniqure-announces-submission-of-biologics-license-application-for-ifezuntirgene-inilparvovec-amt-130-in-huntington-s-disease.html",
-   "summary": "uniQure filed a Biologics License Application with the FDA seeking accelerated approval for ifezuntirgene inilparvovec (AMT-130) and, in parallel, a Marketing Authorisation Application with the UK MHRA, both supported by the three-year Phase I/II analysis versus a propensity-score-matched Enroll-HD external control. The company requested priority review, which would compress the FDA review to six months after the 60-day filing review, and reiterated that it intends to present the four-year Phase I/II analysis before the end of Q3 2026."
-  },
-  {
-   "date": "2026-09-02",
-   "headline": "Reuters: uniQure seeks US approval for Huntington's gene therapy after FDA reversal",
-   "source": "Reuters (via Yahoo Finance)",
-   "url": "https://ca.finance.yahoo.com/news/uniqure-seeks-us-approval-huntingtons-122322108.html",
-   "summary": "Reuters framed the filing as the payoff from the FDA's June 2026 reversal, when the agency agreed to accept the existing Phase I/II data for accelerated review after previously demanding a new randomized trial with a placebo-surgery arm. Priority review, if granted, would cut the review clock to six months from the standard ten; the earlier dispute ran during the tenure of gene-therapy chief Vinay Prasad, who left the FDA in April 2026."
+   "summary": "uniQure filed a Biologics License Application with the FDA seeking accelerated approval for ifezuntirgene inilparvovec (AMT-130) and, in parallel, a Marketing Authorisation Application with the UK MHRA, both supported by the three-year Phase I/II analysis versus a propensity-score-matched Enroll-HD external control. The company requested priority review, which would compress the FDA review to six months after the 60-day filing review, and reiterated plans to present four-year Phase I/II data before the end of Q3 2026; the filing follows the FDA's June 2026 reversal, under new leadership, from its earlier demand for a new placebo-surgery-controlled trial."
   },
   {
    "date": "2026-09-02",
    "headline": "William Blair resumes coverage at Outperform with $73 value as the stock round-trips the filing pop",
    "source": "Benzinga",
    "url": "https://www.benzinga.com/news/fda/26/09/61585926/uniqure-filed-for-huntingtons-approval-acceptance-is-the-catalyst-analyst-says",
-   "summary": "Analyst Sami Corwin resumed coverage with an Outperform rating and a $73 sum-of-the-parts value, roughly 58% above the post-filing price, calling FDA acceptance of the BLA the next incremental de-risking event and approval itself the substantial one; William Blair models peak global AMT-130 sales of about $3.2B in 2035 and sees approval in two countries during 2027. Shares nonetheless sold the news, spiking to an intraday $50.74 on September 3 before closing at $45.49."
+   "summary": "Analyst Sami Corwin resumed coverage with an Outperform rating and a $73 sum-of-the-parts value, calling FDA acceptance of the BLA the next incremental de-risking event and approval itself the substantial one; William Blair models peak global AMT-130 sales of about $3.2B in 2035 and sees approval in two countries during 2027. Shares nonetheless sold the news, spiking to an intraday $50.74 on September 3 before closing back near $45."
   },
   {
    "date": "2026-08-20",
@@ -48,7 +48,7 @@
   {
    "when": "2026-09",
    "label": "Four-year AMT-130 Phase I/II data readout",
-   "detail": "uniQure has committed to presenting the four-year Phase I/II analysis before the end of Q3 2026 and reaffirmed that timing in the September 2 filing release; as of September 8 it still has not been released, leaving roughly three weeks until the September 30 deadline. The dataset covers all 24 patients from the first two cohorts (12 high-dose, 12 low-dose) at four years plus additional high-dose patients at three years, from a June 30, 2026 data cut, benchmarked against the Enroll-HD natural-history database. With the BLA already filed, this is the single biggest near-term swing factor for the stock and no specific date has been announced yet, so it can land on any trading day before quarter-end.",
+   "detail": "uniQure has committed to presenting the four-year Phase I/II analysis before the end of Q3 2026 and reaffirmed that timing in the September 2 filing release; as of September 9 it still has not been released, leaving roughly three weeks until the September 30 deadline. The dataset covers all 24 patients from the first two cohorts (12 high-dose, 12 low-dose) at four years plus additional high-dose patients at three years, from a June 30, 2026 data cut, benchmarked against the Enroll-HD natural-history database. With the BLA already filed, this is the single biggest near-term swing factor for the stock and no specific date has been announced yet, so it can land on any trading day before quarter-end.",
    "confirmed": true
   },
   {
@@ -118,5 +118,5 @@
    "confirmed": false
   }
  ],
- "pulse": "A week into September, QURE is trading in the mid-$44-45 range for a market cap of roughly $3.1B, holding the post-filing level rather than extending it, and still about 38% below its $71.49 52-week high even though the stock remains up more than 200% year-to-date on AMT-130 alone. The last company disclosure was the September 2 US BLA filing (with a priority-review request) plus the parallel UK MAA - shares popped to $50.74 intraday on September 3 before settling back near $45 - and there has been no fresh news in the six trading days since, leaving the tape quiet against sell-side targets clustered near $70-73. The market's attention now sits squarely on the still-undated four-year Phase I/II data uniQure has promised before September 30, followed by the FDA's filing/priority-review decision expected around early November and Q3 earnings shortly after."
+ "pulse": "QURE has firmed up in the week since the BLA/MAA filing, trading back into the high-$40s to low-$50s after briefly settling near $45 on the post-filing \"sell the news\" reaction, and remains roughly 25-35% below its $71.49 52-week high even though the stock is still up well over 150% year-to-date on the AMT-130 story. Sell-side sentiment stayed constructive through the week - a September 8 consensus read showed 14 of 17 covering brokerages at buy with an average $65 price target, alongside William Blair's fresh $73 Outperform call - keeping the tape supported even with no fresh company-specific news since the September 2 filing. The market's attention now sits squarely on the still-undated four-year Phase I/II data uniQure has promised before September 30, the September 11 ICER scoping-comment deadline, and the FDA's filing/priority-review decision expected around early November, with Q3 earnings shortly after."
 }

@@ -2,6 +2,10 @@ name: chain watchdog
 # Die update.yml-Kette haelt sich per Self-Dispatch am Leben. Bekommt ein Lauf keinen
 # Runner (GitHub-Kapazitaet, Vorfall 2026-08-06: 1,5 h Stillstand), reisst die Kette
 # ab und niemand startet sie neu. Dieser Waechter prueft stuendlich und belebt sie.
+#
+# Seit 2026-09-09 misst er zuerst die DATENFRISCHE statt nur "laeuft ein Job?":
+# ein Lauf kann in_progress sein und trotzdem nichts schreiben. Damit ersetzt er
+# den externen Claude-Waechter (24 Sessions/Tag) vollstaendig und kostenlos.
 on:
   schedule:
     - cron: '17 * * * *'   # Minute 17: abseits der gedrosselten :00-Welle
@@ -13,20 +17,64 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: restart update chain if dead
+      - name: restart update chain if data is stale
         run: |
-          count() {
+          set -uo pipefail
+
+          # ---- Schritt 1: Frische. Der Kunde ist der Firestore-Stand, den die Seite
+          # liest — nicht der Job-Status. Anker ist das Feld "updated" (RFC3339, von
+          # firestore_sync.py bei jedem Push gesetzt); "data" ist absichtlich leer,
+          # die Nutzlast liegt gepackt in "dataz". Der Web-API-Key ist kein Secret,
+          # er steht bereits oeffentlich in index.html.
+          FS='https://firestore.googleapis.com/v1/projects/portfolio-cockpit-rg/databases/(default)/documents/portfolios/main?key=AIzaSyA8ycuNIjcLCmYpTV8IMJLLpW8S0Jiv4mA'
+          AGE=$(curl -sS -m 20 "$FS" | python3 -c "
+          import json,sys,datetime
+          try:
+              d=json.load(sys.stdin)
+              t=d['fields']['updated']['stringValue'].replace('Z','')[:19]
+              print(int((datetime.datetime.utcnow()-datetime.datetime.fromisoformat(t)).total_seconds()/60))
+          except Exception:
+              print(9999)   # unlesbar = wie veraltet behandeln; Schritt 2 bremst
+          ")
+          echo "data age: ${AGE} min"
+          if [ "$AGE" -lt 20 ]; then
+            echo "pipeline gesund — nichts zu tun"
+            exit 0
+          fi
+
+          # ---- Schritt 2: Daten sind alt. Laeuft ueberhaupt noch jemand?
+          api() {
             curl -s -H "Authorization: Bearer ${{ github.token }}" \
-              "https://api.github.com/repos/${{ github.repository }}/actions/workflows/update.yml/runs?status=$1&per_page=1" \
-              | python3 -c "import json,sys; print(json.load(sys.stdin).get('total_count',0))"
+              "https://api.github.com/repos/${{ github.repository }}/actions/workflows/update.yml/runs?status=$1&per_page=1"
           }
+          count() { api "$1" | python3 -c "import json,sys; print(json.load(sys.stdin).get('total_count',0))"; }
           ACTIVE=$(count in_progress); QUEUED=$(count queued)
           echo "in_progress=$ACTIVE queued=$QUEUED"
+
+          RESTART=0
           if [ "$ACTIVE" = "0" ] && [ "$QUEUED" = "0" ]; then
+            RESTART=1                    # Kette abgerissen
+          elif [ "$QUEUED" != "0" ]; then
+            # "queued" heisst nicht gesund: GitHub bricht Laeufe, die ~15 Min keinen
+            # Runner bekommen, als cancelled ab. Haengt der neueste seit >20 Min in
+            # der Warteschlange, ist die Kette faktisch tot.
+            QAGE=$(api queued | python3 -c "
+          import json,sys,datetime
+          try:
+              r=json.load(sys.stdin)['workflow_runs'][0]['created_at'].replace('Z','')
+              print(int((datetime.datetime.utcnow()-datetime.datetime.fromisoformat(r)).total_seconds()/60))
+          except Exception:
+              print(0)
+          ")
+            echo "oldest queued run age: ${QAGE} min"
+            [ "$QAGE" -gt 20 ] && RESTART=1
+          fi
+
+          if [ "$RESTART" = "1" ]; then
             curl -s -X POST -H "Authorization: Bearer ${{ github.token }}" \
               -H "Accept: application/vnd.github+json" \
               "https://api.github.com/repos/${{ github.repository }}/actions/workflows/update.yml/dispatches" \
               -d '{"ref":"main"}' && echo "chain restarted"
           else
-            echo "chain alive — nothing to do"
+            echo "Lauf ist aktiv — eine Runde Zeit geben, kein Dispatch"
           fi

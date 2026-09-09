@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git log:*)",
+      "Bash(git log *)",
+      "Bash(git show:*)",
+      "Bash(git show *)",
+      "Bash(git diff:*)",
+      "Bash(git diff *)",
+      "Bash(git status:*)",
+      "Bash(git status *)",
+      "Bash(git branch:*)",
+      "Bash(git branch *)",
+      "Bash(git rev-list:*)",
+      "Bash(git rev-list *)",
+      "Bash(git rev-parse:*)",
+      "Bash(git rev-parse *)",
+      "Bash(git fetch:*)",
+      "Bash(git fetch *)",
+      "Bash(grep:*)",
+      "Bash(grep *)",
+      "Bash(find:*)",
+      "Bash(find *)",
+      "Bash(ls:*)",
+      "Bash(ls *)",
+      "Bash(cat:*)",
+      "Bash(cat *)",
+      "Bash(head:*)",
+      "Bash(head *)",
+      "Bash(tail:*)",
+      "Bash(tail *)",
+      "Bash(wc:*)",
+      "Bash(wc *)",
+      "Bash(sed -n:*)",
+      "Bash(sed -n *)",
+      "Bash(python3 -c:*)",
+      "Bash(python3 -c *)",
+      "Bash(python3 -m json.tool:*)",
+      "Bash(python3 -m json.tool *)"
+    ]
+  }
+}

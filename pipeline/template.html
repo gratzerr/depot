@@ -1250,7 +1250,19 @@ function refreshAllMoney(){ renderKpis(); rerender(); renderActivities(); }
      private, the data itself) work. No tokens, no PINs — just the Gmail login. */
 const FB_CFG={apiKey:'AIzaSyA8ycuNIjcLCmYpTV8IMJLLpW8S0Jiv4mA',
   authDomain:'portfolio-cockpit-rg.firebaseapp.com', projectId:'portfolio-cockpit-rg'};
-const FS_DOC='https://firestore.googleapis.com/v1/projects/portfolio-cockpit-rg/databases/(default)/documents/portfolios/main';
+/* Schluessel-Link (Parqet-Prinzip): die Dokument-ID steht NICHT in der Seite, sondern
+   hinter dem #k= im Link. Einmal gesehen, merkt sich das Geraet den Schluessel — die
+   Home-Screen-App startet ohne Hash (manifest start_url "./") und braeuchte ihn sonst
+   bei jedem Start neu. Ohne Schluessel gibt es keine Daten, nur den Sperrbildschirm. */
+const FS_KEY=(()=>{
+  try{
+    const m=location.hash.match(/[#&]k=([A-Za-z0-9_-]{3,})/);
+    if(m){ localStorage.setItem('pc-key',m[1]); return m[1]; }
+    return localStorage.getItem('pc-key')||'';
+  }catch(e){ return ''; }
+})();
+const FS_BASE='https://firestore.googleapis.com/v1/projects/portfolio-cockpit-rg/databases/(default)/documents/portfolios/';
+const FS_DOC=FS_BASE+(FS_KEY||'__no_key__');
 let _cfg={name:"Rafael's Portfolio", public:true, owner:''};
 let _user=null;           // firebase user when signed in
 const isOwner=()=>!!(_user && _cfg.owner && _user.email===_cfg.owner);
@@ -1309,7 +1321,7 @@ function applyVisibility(){
   const locked=(_cfg.public===false||_cfg.hidden===true) && !ownerDev();
   if(locked){
     if(!ov){ ov=document.createElement('div'); ov.id='lockov';
-      ov.innerHTML='<div class="lockbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="30" height="30" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><div class="lt1">This portfolio is private</div><div class="lt2">The owner has turned off public sharing.</div><div style="margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap"><button class="secbtn" onclick="ownerSignIn()">Owner sign in with Google</button><button class="secbtn" onclick="ogUnlock()">Geräte-Code</button></div></div>';
+      ov.innerHTML='<div class="lockbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="30" height="30" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><div class="lt1">'+(FS_KEY?'This portfolio is private':'Dieser Link ist unvollständig')+'</div><div class="lt2">'+(FS_KEY?'The owner has turned off public sharing.':'Öffne bitte den vollständigen Link, den du bekommen hast — inklusive dem Teil nach dem #.')+'</div><div style="margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap"><button class="secbtn" onclick="ownerSignIn()">Owner sign in with Google</button><button class="secbtn" onclick="ogUnlock()">Geräte-Code</button></div></div>';
       document.body.appendChild(ov); }
     ov.style.display='flex';
   } else if(ov) ov.style.display='none';
@@ -1419,7 +1431,7 @@ async function fsDataPoll(){
     if(fresh&&fresh.generated){ liveState.lastEngine=new Date(); setBadge(); }   // poll ok = engine data is current, even without a swap
     /* Selbstheilung: laeuft hier alter App-Code (iOS-PWA haelt die Seite ewig),
        Caches leeren und EINMAL pro Version neu laden — nie mehr manuelles Wegwischen */
-    if(fresh && fresh.appBuild && DATA.appBuild && fresh.appBuild!==DATA.appBuild){
+    if(fresh && fresh.appBuild && DATA && DATA.appBuild && fresh.appBuild!==DATA.appBuild){
       let done=null; try{ done=localStorage.getItem('pc-reloaded-for'); }catch(e){}
       if(done!==fresh.appBuild){
         try{ localStorage.setItem('pc-reloaded-for', fresh.appBuild); }catch(e){}
@@ -1468,9 +1480,9 @@ async function fsDataPoll(){
     }
   }catch(e){}
 }
-async function fsLoadData(){
+async function fsLoadData(withAuth=true){
   try{
-    const c=await fsGet(true);
+    const c=await fsGet(withAuth);
     Object.assign(_cfg,{name:c.name,public:c.public,hidden:c.hidden,owner:c.owner}); cfgLists(c);
     const snap=await fsSnapshot(c);
     if(snap){ DATA=snap; applyName(); applyVisibility();
@@ -1501,7 +1513,7 @@ function initAppSettings(){
   const btn=document.getElementById('appset'), pop=document.getElementById('apppop');
   if(!btn||!pop) return;
   applyName();
-  const shareUrl='https://gratzerr.github.io/mlens-x7q2k9/';
+  const shareUrl='https://gratzerr.github.io/mlens-x7q2k9/'+(FS_KEY?'#k='+FS_KEY:'');
   let P=null;
   const seed=()=>({name:_cfg.name, pub:!(_cfg.hidden===true||_cfg.public===false), ccy:_ccy, priv:_priv});
   const draw=()=>{ if(!P) P=seed(); pop.innerHTML=`
@@ -2645,7 +2657,7 @@ function boot(){
     o.innerHTML='<div style="font-size:34px">🧊</div>'
       +'<div style="font-size:17px;font-weight:700">Das ist nur ein eingefrorener Snapshot</div>'
       +'<div style="font-size:13.5px;color:var(--muted);max-width:420px">Kurse und Depotwerte aktualisieren sich hier NICHT. Die Live-Version läuft auf GitHub Pages.</div>'
-      +'<a href="https://gratzerr.github.io/mlens-x7q2k9/" style="background:var(--up);color:#fff;font-weight:700;padding:12px 22px;border-radius:10px;text-decoration:none;font-size:15px">→ Live-Version öffnen</a>'
+      +'<a href="https://gratzerr.github.io/mlens-x7q2k9/'+(FS_KEY?'#k='+FS_KEY:'')+'" style="background:var(--up);color:#fff;font-weight:700;padding:12px 22px;border-radius:10px;text-decoration:none;font-size:15px">→ Live-Version öffnen</a>'
       +'<button id="snapdismiss" style="background:none;border:none;color:var(--muted);font-size:12px;cursor:pointer;text-decoration:underline">Snapshot trotzdem ansehen</button>';
     document.body.appendChild(o);
     o.querySelector('#snapdismiss').onclick=()=>o.remove();
@@ -4836,10 +4848,13 @@ function drawLines(svg,tip,lines,pts,opt){
 /* ===== start: public build boots instantly; private build gates on Google sign-in ===== */
 (async function start(){
   if(DATA){ boot(); fbInit(); return; }               // public: baked data, auth lazily for owner edits
-  // private build: no data in the page at all — everything comes from Firestore
-  { const v=document.getElementById('bootveil'); if(v) v.remove(); }   // sign-in screen must be visible
+  // no data in the page at all — everything comes from Firestore
+  { const v=document.getElementById('bootveil'); if(v) v.remove(); }   // lock/sign-in screen must be visible
   document.querySelector('.wrap').style.display='none';
-  initTheme(); _cfg.public=false; applyVisibility();  // lock screen with "Owner sign in" button
+  initTheme();
+  // Schluessel-Link: anonym laden (die Firestore-Regeln erlauben das fuer public docs)
+  if(FS_KEY){ await fsLoadData(false); if(DATA){ fbInit(); return; } }
+  _cfg.public=false; applyVisibility();               // kein/ungueltiger Schluessel: Sperrbildschirm
   await fbInit();                                     // onAuthStateChanged -> fsLoadData() when owner
 })();
 

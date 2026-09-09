@@ -26,6 +26,8 @@ jobs:
           # firestore_sync.py bei jedem Push gesetzt); "data" ist absichtlich leer,
           # die Nutzlast liegt gepackt in "dataz". Der Web-API-Key ist kein Secret,
           # er steht bereits oeffentlich in index.html.
+          # portfolios/main traegt seit dem Schluessel-Link keine Daten mehr, nur noch den
+          # Herzschlag "updated" — genau das, was hier gebraucht wird.
           FS='https://firestore.googleapis.com/v1/projects/portfolio-cockpit-rg/databases/(default)/documents/portfolios/main?key=AIzaSyA8ycuNIjcLCmYpTV8IMJLLpW8S0Jiv4mA'
           AGE=$(curl -sS -m 20 "$FS" | python3 -c "
           import json,sys,datetime

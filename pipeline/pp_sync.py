@@ -778,7 +778,8 @@ try:
 except SystemExit: raise
 except Exception: pass
 json.dump(out,open(os.path.join(ROOT,"pp.json"),"w"),ensure_ascii=False,indent=1)
-print(f"pp.json written: {len(holdings)} holdings, securities EUR {tot_sec_eur:,.0f}, cash EUR {PP_CASH_EUR:,.2f} (txmax {out['txmax']})")
-print(f"TTWROR since 2022: {acc_ret*100:.2f}%  YTD {ytd:.2f}%  annualized {annualized:.2f}%  IZF {izf:.2f}%")
-print(f"capital gains (FIFO since 2022): realized EUR {realized_eur:,.0f} / USD {realized_usd:,.0f}  unrealized EUR {unrealized_eur:,.0f} / USD {unrealized_usd:,.0f}  net-worth series {len(daily)} days (today USD {daily[-1]['v']:,})")
-print("yearly:",yearly)
+# Actions-Logs oeffentlicher Repos sind oeffentlich (90 Tage): hier stehen NIE
+# Betraege — nur Zaehler und Zeitstempel (Vorfall 2026-09-09: Depotwert, Cash und
+# Gewinne standen minuetlich im Log)
+print(f"pp.json written: {len(holdings)} holdings (txmax {out['txmax']})")
+print(f"capital gains (FIFO since 2022) computed; net-worth series {len(daily)} days")

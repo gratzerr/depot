@@ -553,7 +553,7 @@ _CFG_DEFAULTS = {
     "firebaseAuthDomain": "portfolio-cockpit-rg.firebaseapp.com",
     "firebaseProjectId": "portfolio-cockpit-rg",
     "portfolioName": "Rafael's Portfolio",
-    "liveUrl": "https://gratzerr.github.io/mlens-x7q2k9/",
+    "liveUrl": "https://gratzerr.github.io/depot/",
     "ogHash": "4bc2b77abbd6131c88235e7de77c55e13c8ed7a573ccdaec8e45a9b1dbcf93f7",
 }
 try:

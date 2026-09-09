@@ -1297,6 +1297,16 @@ function applyName(){
   document.title=_cfg.name;
   try{ localStorage.setItem('pc-name',_cfg.name); }catch(e){}   // next load paints the right name instantly
 }
+/* Sperrbildschirm ohne Schluessel: Home-Screen-Apps koennen keinen Link oeffnen und
+   haben auf iOS eigenen Speicher — hier kommt der Schluessel per Einfuegen hinein. */
+function keyUnlock(){
+  const el=document.getElementById('keyin'), err=document.getElementById('keyerr');
+  const raw=(el&&el.value||'').trim();
+  const m=raw.match(/[#&]k=([A-Za-z0-9_-]{3,})/)||raw.match(/^([A-Za-z0-9_-]{8,})$/);
+  if(!m){ if(err) err.textContent='Da fehlt der Teil nach dem # — bitte den ganzen Link einfügen.'; return; }
+  try{ localStorage.setItem('pc-key',m[1]); }catch(e){}
+  location.hash='#k='+m[1]; location.reload();
+}
 function applyVisibility(){
   /* guest mode (anyone who isn't the signed-in owner): read-only. No settings,
      no research search (that queue burns the owner's API quota) — guests get a
@@ -1321,7 +1331,9 @@ function applyVisibility(){
   const locked=(_cfg.public===false||_cfg.hidden===true) && !ownerDev();
   if(locked){
     if(!ov){ ov=document.createElement('div'); ov.id='lockov';
-      ov.innerHTML='<div class="lockbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="30" height="30" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><div class="lt1">'+(FS_KEY?'This portfolio is private':'Dieser Link ist unvollständig')+'</div><div class="lt2">'+(FS_KEY?'The owner has turned off public sharing.':'Öffne bitte den vollständigen Link, den du bekommen hast — inklusive dem Teil nach dem #.')+'</div><div style="margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap"><button class="secbtn" onclick="ownerSignIn()">Owner sign in with Google</button><button class="secbtn" onclick="ogUnlock()">Geräte-Code</button></div></div>';
+      ov.innerHTML='<div class="lockbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="30" height="30" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><div class="lt1">'+(FS_KEY?'This portfolio is private':'Dieser Link ist unvollständig')+'</div><div class="lt2">'+(FS_KEY?'The owner has turned off public sharing.':'Füge hier den vollständigen Link ein, den du bekommen hast (mit dem Teil nach dem #):')+'</div>'
+        +(FS_KEY?'':'<form onsubmit="keyUnlock();return false" style="margin-top:12px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap"><input id="keyin" inputmode="url" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Link hier einfügen" style="flex:1 1 260px;max-width:360px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);font-size:15px"><button class="secbtn" type="submit">Öffnen</button></form><div id="keyerr" style="margin-top:8px;font-size:12.5px;color:var(--down)"></div>')
+        +'<div style="margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap"><button class="secbtn" onclick="ownerSignIn()">Owner sign in with Google</button><button class="secbtn" onclick="ogUnlock()">Geräte-Code</button></div></div>';
       document.body.appendChild(ov); }
     ov.style.display='flex';
   } else if(ov) ov.style.display='none';

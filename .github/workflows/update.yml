@@ -80,7 +80,9 @@ jobs:
       - name: self-dispatch (GitHub drosselt cron um Stunden — die Kette haelt den Minutentakt)
         if: always()
         run: |
-          curl -s -X POST \
+          # -L --post301/302: nach einer Repo-Umbenennung kennt ein laufender Job noch den
+          # alten Namen; GitHub antwortet 301, und ohne diese Flags riss die Kette (2026-09-09)
+          curl -s -L --post301 --post302 -X POST \
             -H "Authorization: Bearer ${{ github.token }}" \
             -H "Accept: application/vnd.github+json" \
             https://api.github.com/repos/${{ github.repository }}/actions/workflows/update.yml/dispatches \

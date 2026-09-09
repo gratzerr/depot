@@ -1485,7 +1485,7 @@ async function fsLoadData(withAuth=true){
     const c=await fsGet(withAuth);
     Object.assign(_cfg,{name:c.name,public:c.public,hidden:c.hidden,owner:c.owner}); cfgLists(c);
     const snap=await fsSnapshot(c);
-    if(snap){ DATA=snap; applyName(); applyVisibility();
+    if(snap && Array.isArray(snap.holdings)){ DATA=snap; applyName(); applyVisibility();
       document.querySelector('.wrap').style.display=''; boot(); }
   }catch(e){}
 }

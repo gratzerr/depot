@@ -2744,7 +2744,9 @@ function switchTab(t){
   if(changed) scrollAppTop();   // ein Tab-Wechsel startet oben — kein Scroll-Sprung bei kurzen Tabs
   document.querySelectorAll('[data-tab]').forEach(el=>el.classList.toggle('tabon',el.dataset.tab===t));
   document.querySelectorAll('[data-tabbtn]').forEach(b=>b.classList.toggle('on',b.dataset.tabbtn===t));
-  try{ history.replaceState(null,'','#'+t); }catch(e){}
+  // der Schluessel bleibt in der Adresse — sonst sieht der neue Link nach dem Laden aus wie
+  // der alte, und aus der Adresszeile kopierte Links kaemen ohne Schluessel an (2026-09-09)
+  try{ history.replaceState(null,'','#'+t+(FS_KEY?'&k='+FS_KEY:'')); }catch(e){}
   if(t==='portfolio'){ renderChart(); hydrateSparks(); }
   if(t==='performance'){ renderPerf(); }
   if(t==='securities'){ renderSecurities(); }
@@ -2755,7 +2757,7 @@ function switchTab(t){
 }
 function initTabs(){
   document.querySelectorAll('[data-tabbtn]').forEach(b=>b.addEventListener('click',()=>switchTab(b.dataset.tabbtn)));
-  const h=(location.hash||'').replace('#','');
+  const h=(location.hash||'').replace('#','').split('&')[0];   // hinter & steht der Schluessel
   switchTab(['portfolio','news','performance','payments','securities','watchlist','research'].includes(h)?h:'portfolio');
 }
 

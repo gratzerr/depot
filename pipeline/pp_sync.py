@@ -321,7 +321,7 @@ def live_overlay():
                 # und funktioniert dort. Kurs = Geld/Brief-Mitte wie beim Broker.
                 m2=re.match(r"^([A-Z.]{1,6})(\d{2})(\d{2})(\d{2})([CP])(\d{8})$", tk)
                 und,yy,mm,dd,cp,kk=m2.groups()
-                px=0.0
+                px=0.0; qual=0   # 2 = Geld/Brief-Mitte, 1 = Last-Trade VON HEUTE, 0 = nichts
                 for _try in range(3):
                     try:
                         oc=yf.Ticker(und).option_chain(f"20{yy}-{mm}-{dd}")
@@ -330,23 +330,42 @@ def live_overlay():
                         if len(row):
                             r0=row.iloc[0]
                             bid=float(r0.get("bid") or 0); ask=float(r0.get("ask") or 0)
-                            px=(bid+ask)/2.0 if (bid>0 and ask>0) else float(r0.get("lastPrice") or 0)
-                        if px>0: break
+                            if bid>0 and ask>0:
+                                px,qual=(bid+ask)/2.0,2
+                            else:
+                                # lastPrice ist der letzte GEHANDELTE Kurs — bei einem weit
+                                # aus dem Geld liegenden Call ist der oft Tage alt. Nur
+                                # nehmen, wenn der Trade wirklich von eff stammt, sonst
+                                # kippt der Kurs nachts auf einen Altdruck zurueck
+                                # (ABVX-Call: 21.25 -> 17.00 von vorgestern, 2026-09-09).
+                                lp=float(r0.get("lastPrice") or 0)
+                                ltd=str(r0.get("lastTradeDate") or "")[:10]
+                                if lp>0 and re.match(r"^\d{4}-\d{2}-\d{2}$",ltd) and ltd>=eff:
+                                    px,qual=lp,1
+                        if qual: break
                     except Exception:
                         pass
                     time.sleep(1.5)
-                if px>0:
-                    c0=oq.get(tk)
+                c0=oq.get(tk)
+                # Ein schlechterer Kurs darf einen besseren DESSELBEN Tages nie ersetzen:
+                # nach Boersenschluss liefert die Kette haeufig bid=ask=0, der Altdruck
+                # wuerde sonst die tagsueber ermittelte Mitte ueberschreiben.
+                if qual and c0 and c0.get("d")==eff and qual<int(c0.get("q") or 1):
+                    qual=0
+                if qual:
                     if c0 and c0.get("d") and c0["d"]<eff and float(c0.get("px") or 0)>0:
                         PREV[si]=float(c0["px"])           # Stand von gestern = Vortagesschluss
                     elif c0 and c0.get("prev"):
                         PREV[si]=float(c0["prev"])
-                    oq[tk]={"d":eff,"px":px,
+                    oq[tk]={"d":eff,"px":px,"q":qual,
                             "prev":PREV.get(si) or (c0 or {}).get("prev")}; oq_dirty=True
                 else:
-                    c=oq.get(tk)          # Abruf gescheitert: letzten GUTEN Kurs halten,
-                    if not c: continue    # niemals auf den PP-Kaufpreis zurueckfallen
-                    px=float(c["px"])
+                    if not c0: continue      # Abruf gescheitert/nur Altdruck: letzten GUTEN
+                    px=float(c0["px"])       # Kurs halten, nie auf den PP-Kaufpreis zurueck
+                    # Vortagesschluss auch im Halte-Fall setzen, sonst rechnet die
+                    # Tagesveraenderung gegen die eingefrorene Datei-Historie
+                    if c0.get("d") and c0["d"]<eff and px>0: PREV[si]=px
+                    elif c0.get("prev"): PREV[si]=float(c0["prev"])
                 pairs=[(eff, px)]
             else:
                 h2=yf.Ticker(tk).history(period="10d")["Close"]

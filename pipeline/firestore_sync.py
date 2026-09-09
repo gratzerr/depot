@@ -119,7 +119,15 @@ def push():
     # Besitzer — nur "updated", damit der GitHub-Waechter die Frische weiterhin
     # anonym pruefen kann. #k=main zeigt damit nur noch den Sperrbildschirm.
     if ok and DOC_ID != "main":
-        hb = {"fields":{"dataz":{"stringValue":""},"data":{"stringValue":""},"owner":{"stringValue":""},
+        # Alte, im Geraet gecachte Seiten (iOS-Home-Screen!) fragen weiter main ab und
+        # heilen sich nur, wenn sie dort eine ANDERE appBuild sehen. Ein komplett leeres
+        # Dokument gab ihnen nichts -> sie blieben ewig auf dem eingebackenen Stand
+        # (Vorfall 2026-09-09 16:30). Darum: nur die Versionsnummer, sonst nichts.
+        try: ab = json.loads(data).get("appBuild", "")
+        except Exception: ab = ""
+        hb = {"fields":{"dataz":{"stringValue":""},
+                        "data":{"stringValue": json.dumps({"appBuild": ab}) if ab else ""},
+                        "owner":{"stringValue":""},
                         "updated":body["fields"]["updated"]}}
         j2 = req("PATCH", LEGACY+"?updateMask.fieldPaths=dataz&updateMask.fieldPaths=data&updateMask.fieldPaths=owner&updateMask.fieldPaths=updated", hb, tok)
         if "fields" not in j2: print("firestore: heartbeat on main FAILED", str(j2)[:120])

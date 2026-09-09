@@ -1525,7 +1525,7 @@ function initAppSettings(){
   const btn=document.getElementById('appset'), pop=document.getElementById('apppop');
   if(!btn||!pop) return;
   applyName();
-  const shareUrl='https://gratzerr.github.io/mlens-x7q2k9/'+(FS_KEY?'#k='+FS_KEY:'');
+  const shareUrl='https://gratzerr.github.io/depot/'+(FS_KEY?'#k='+FS_KEY:'');
   let P=null;
   const seed=()=>({name:_cfg.name, pub:!(_cfg.hidden===true||_cfg.public===false), ccy:_ccy, priv:_priv});
   const draw=()=>{ if(!P) P=seed(); pop.innerHTML=`
@@ -2669,7 +2669,7 @@ function boot(){
     o.innerHTML='<div style="font-size:34px">🧊</div>'
       +'<div style="font-size:17px;font-weight:700">Das ist nur ein eingefrorener Snapshot</div>'
       +'<div style="font-size:13.5px;color:var(--muted);max-width:420px">Kurse und Depotwerte aktualisieren sich hier NICHT. Die Live-Version läuft auf GitHub Pages.</div>'
-      +'<a href="https://gratzerr.github.io/mlens-x7q2k9/'+(FS_KEY?'#k='+FS_KEY:'')+'" style="background:var(--up);color:#fff;font-weight:700;padding:12px 22px;border-radius:10px;text-decoration:none;font-size:15px">→ Live-Version öffnen</a>'
+      +'<a href="https://gratzerr.github.io/depot/'+(FS_KEY?'#k='+FS_KEY:'')+'" style="background:var(--up);color:#fff;font-weight:700;padding:12px 22px;border-radius:10px;text-decoration:none;font-size:15px">→ Live-Version öffnen</a>'
       +'<button id="snapdismiss" style="background:none;border:none;color:var(--muted);font-size:12px;cursor:pointer;text-decoration:underline">Snapshot trotzdem ansehen</button>';
     document.body.appendChild(o);
     o.querySelector('#snapdismiss').onclick=()=>o.remove();

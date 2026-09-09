@@ -20,7 +20,7 @@
       "headline": "MAK Capital group discloses 7.8% passive stake in ClearPoint Neuro via Schedule 13G/A",
       "source": "StockTitan / SEC EDGAR",
       "url": "https://www.stocktitan.net/sec-filings/CLPT/schedule-13g-a-clear-point-neuro-inc-amended-passive-investment-discl-68dc7086232f.html",
-      "summary": "MAK Capital Fund LP and MAK Capital One LLC reported 2,375,861 CLPT shares as of June 30, 2026, or 7.8% of the 30,504,227 shares outstanding, up from 1,901,489 shares (6.3%) disclosed on May 15. Filed nine days after the post-earnings selloff, the larger passive position points to institutional accumulation into the weakness, alongside BlackRock's 7.1% 13G from July 27."
+      "summary": "MAK Capital Fund LP and MAK Capital One LLC reported 2,375,861 CLPT shares as of June 30, 2026, or 7.8% of the 30,504,227 shares outstanding, up from 1,901,489 shares (6.3%) disclosed on May 15. Filed nine days after the post-earnings selloff, the larger passive position points to institutional accumulation into the weakness, alongside BlackRock's 7.1% 13G/A (2,118,912 shares) filed July 27."
     },
     {
       "date": "2026-08-03",
@@ -41,14 +41,14 @@
       "headline": "Partner Aspen Neuroscience wins FDA RMAT designation for Parkinson's cell therapy delivered with ClearPoint hardware",
       "source": "ClearPoint Neuro IR / ACCESS Newswire",
       "url": "https://ir.clearpointneuro.com/news-events/press-releases/detail/1155/clearpoint-neuro-congratulates-partner-aspen-neuroscience",
-      "summary": "The FDA granted Regenerative Medicine Advanced Therapy designation to Aspen Neuroscience's sasineprocel (ANPD001), an autologous dopaminergic neuron replacement therapy for Parkinson's disease, on the strength of the ongoing Phase 1/2a ASPIRO trial. Every transplantation procedure in ASPIRO uses the ClearPoint Neuro Navigation System and the SmartFlow cannula, so RMAT's early and frequent FDA interactions and accelerated-approval eligibility put a second partner program on a faster route to commercial procedure volume."
+      "summary": "The FDA granted Regenerative Medicine Advanced Therapy designation to Aspen Neuroscience's sasineprocel (ANPD001), an autologous dopaminergic neuron replacement therapy for Parkinson's disease, on the strength of the ongoing Phase 1/2a ASPIRO trial, which had dosed 15 patients across four cohorts. Every transplantation procedure in ASPIRO uses the ClearPoint Neuro Navigation System and the SmartFlow cannula, so RMAT's early and frequent FDA interactions and accelerated-approval eligibility put a second partner program on a faster route to commercial procedure volume."
     }
   ],
   "catalysts": [
     {
       "when": "2026-09",
       "label": "uniQure presents four-year AMT-130 follow-up data",
-      "detail": "uniQure has guided to topline four-year safety and efficacy data on all 24 patients from the first two AMT-130 cohorts (12 high-dose, 12 low-dose) in September 2026, using a June 30, 2026 data cut and an expanded ~26,000-patient Enroll-HD external comparator. Every one of those patients was dosed through ClearPoint's SmartFlow cannula and navigation system, so durability of the 75% progression-slowing signal seen at three years is the closest available read on the delivery platform performing over multiple years. As of September 8 the data had not yet been released and no exact presentation date has been announced; a clean four-year dataset would further de-risk the BLA now under FDA review.",
+      "detail": "uniQure has guided to topline four-year safety and efficacy data on all 24 patients from the first two AMT-130 cohorts (12 high-dose, 12 low-dose) in September 2026, using a June 30, 2026 data cut and an expanded ~26,000-patient Enroll-HD external comparator. Every one of those patients was dosed through ClearPoint's SmartFlow cannula and navigation system, so durability of the 75% progression-slowing signal seen at three years is the closest available read on the delivery platform performing over multiple years. As of September 9 the data had not yet been released and no exact presentation date has been announced; a clean four-year dataset would further de-risk the BLA now under FDA review.",
       "confirmed": true
     },
     {
@@ -100,5 +100,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "CLPT dropped sharply on September 8, trading around $14.08 (down about 6% intraday from the prior close of $15.03, market cap near $422M) and now roughly 55% off the $30.10 52-week high, with no fresh company-specific news behind the move beyond continued profit-taking after the run into the uniQure BLA filing. The dominant storyline remains partner uniQure: the AMT-130 BLA and UK MAA went in on September 2 with Priority Review requested, the promised four-year Phase I/II readout on all 24 first-cohort patients has still not been released as of today, and FDA filing acceptance is due around early November. The other recent datapoint is CEO Joe Burnett's September 2 cash exercise of options with no shares sold, a rare insider-buy-like signal; next up is the November Q3 print, where biologics needs to reaccelerate off the new CAL facility or the $29.4M cash balance against a roughly $10M quarterly operating loss becomes the bigger story."
+  "pulse": "CLPT has settled around $14 after dropping sharply on September 8 (roughly $14.08, down about 6% intraday from a $15.03 prior close, market cap near $420-430M) and remains about 55% off its $30.10 52-week high, with no fresh company-specific news behind the move beyond continued profit-taking after the run into the uniQure BLA filing. The dominant storyline stays partner uniQure: the AMT-130 BLA and UK MAA went in on September 2 with Priority Review requested, the promised four-year Phase I/II readout on all 24 first-cohort patients has still not been released as of September 9, and FDA filing acceptance is due around early November. The other recent datapoint is CEO Joe Burnett's September 2 cash exercise of options with no shares sold, a rare insider-buy-like signal against a backdrop of two 13G holders (MAK Capital 7.8%, BlackRock 7.1%) adding into the weakness; next up is the still-pending uniQure four-year data and the November Q3 print, where biologics needs to reaccelerate off the new CAL facility or the $29.4M cash balance against a roughly $10M quarterly operating loss becomes the bigger story."
 }

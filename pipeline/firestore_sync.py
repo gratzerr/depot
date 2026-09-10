@@ -59,7 +59,7 @@ def pull():
             print("firestore pull: transient error, keeping local state:", str(j)[:150]); return
         body = {"fields":{
             "owner":{"stringValue":OWNER},
-            "name":{"stringValue":_icfg.get("portfolioName", "Rafael's Portfolio")},
+            "name":{"stringValue":_icfg.get("portfolioName", "Mein Depot")},
             "public":{"booleanValue":True},
             "data":{"stringValue":""}}}
         # Umzug: Einstellungen (Name, Watchlist, Benchmarks, ...) vom alten Dokument
@@ -83,7 +83,7 @@ def pull():
     bench = [v.get("stringValue","") for v in f.get("benchmarks",{}).get("arrayValue",{}).get("values",[]) if v.get("stringValue")]
     watch = [v.get("stringValue","") for v in f.get("watchlist",{}).get("arrayValue",{}).get("values",[]) if v.get("stringValue")]
     sareq = [v.get("stringValue","") for v in f.get("saReq",{}).get("arrayValue",{}).get("values",[]) if v.get("stringValue")]
-    state = {"name": f.get("name",{}).get("stringValue","Rafael's Portfolio"),
+    state = {"name": f.get("name",{}).get("stringValue","Mein Depot"),
              "public": f.get("public",{}).get("booleanValue", True),
              "benchmarks": bench, "watchlist": watch, "saReq": sareq}
     json.dump(state, open(os.path.join(ROOT,"site_state.json"),"w"))

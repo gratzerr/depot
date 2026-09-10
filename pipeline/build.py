@@ -552,7 +552,7 @@ _CFG_DEFAULTS = {
     "firebaseApiKey": "AIzaSyA8ycuNIjcLCmYpTV8IMJLLpW8S0Jiv4mA",
     "firebaseAuthDomain": "portfolio-cockpit-rg.firebaseapp.com",
     "firebaseProjectId": "portfolio-cockpit-rg",
-    "portfolioName": "Rafael's Portfolio",
+    "portfolioName": "Mein Depot",
     "liveUrl": "https://gratzerr.github.io/depot/",
     "ogHash": "4bc2b77abbd6131c88235e7de77c55e13c8ed7a573ccdaec8e45a9b1dbcf93f7",
 }

@@ -3,11 +3,31 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Mission $10M">
+<meta name="apple-mobile-web-app-title" content="Rafael's Portfolio">
 <meta name="theme-color" content="#0f131c">
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="manifest.json" id="pwa-manifest">
+<script>
+/* "Zum Home-Bildschirm" ohne Tippen: eine installierte App startet mit manifest.start_url
+   — und die statische manifest.json darf den Schluessel nicht kennen (oeffentliches Repo).
+   Kennt DIESER Browser den Schluessel (Link oder gemerkt), bekommt er ein eigenes Manifest
+   mit start_url "./#k=<schluessel>", nur im Speicher, nie auf dem Server. Die App landet
+   dann bei jedem Start direkt im Depot statt auf dem Sperrbildschirm. */
+(function(){
+  try{
+    var m=location.hash.match(/[#&]k=([A-Za-z0-9_-]{3,})/);
+    var k=m?m[1]:(localStorage.getItem('pc-key')||'');
+    if(!k) return;
+    fetch('manifest.json',{cache:'no-store'}).then(function(r){return r.json();}).then(function(mf){
+      mf.start_url='./#k='+k; mf.scope='./';
+      (mf.icons||[]).forEach(function(i){ i.src=new URL(i.src,location.href).href; });
+      var l=document.getElementById('pwa-manifest');
+      if(l) l.href='data:application/manifest+json;charset=utf-8,'+encodeURIComponent(JSON.stringify(mf));
+    }).catch(function(){});
+  }catch(e){}
+})();
+</script>
 <meta name="robots" content="noindex, nofollow">
-<title>Mission $10M</title>
+<title>Rafael's Portfolio</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101828'/%3E%3Cpath d='M12 44L26 30l10 8 16-20' fill='none' stroke='%233ecb63' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='52' cy='18' r='4.5' fill='%233ecb63'/%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
@@ -540,7 +560,7 @@
   <div class="breaking" id="breaking"></div>
   <header class="top">
     <div>
-      <div class="title"><span class="dot"></span><span id="ptitle">Mission $10M</span></div>
+      <div class="title"><span class="dot"></span><span id="ptitle">Rafael's Portfolio</span></div>
       <div class="sub"><span id="livebadge" class="badge snap"></span> As of <b id="asof"></b> · <span id="hcount"></span> positions</div>
     </div>
     <div style="position:relative;display:flex;align-items:center;gap:8px">
@@ -1263,7 +1283,7 @@ const FS_KEY=(()=>{
 })();
 const FS_BASE='https://firestore.googleapis.com/v1/projects/portfolio-cockpit-rg/databases/(default)/documents/portfolios/';
 const FS_DOC=FS_BASE+(FS_KEY||'__no_key__');
-let _cfg={name:"Mission $10M", public:true, owner:''};
+let _cfg={name:"Rafael's Portfolio", public:true, owner:''};
 let _user=null;           // firebase user when signed in
 const isOwner=()=>!!(_user && _cfg.owner && _user.email===_cfg.owner);
 /* owner DEVICE: signed-in owner OR a device unlocked once via the secret ?og= link
@@ -1571,7 +1591,7 @@ function initAppSettings(){
       pop.querySelectorAll('[data-c]').forEach(x=>x.classList.toggle('on',x.dataset.c===P.ccy));
     }));
     pop.querySelector('#privchk').addEventListener('change',e=>{ P.priv=e.target.checked; });
-    pop.querySelector('#pnamein').addEventListener('input',e=>{ P.name=e.target.value.trim()||"Mission $10M"; });
+    pop.querySelector('#pnamein').addEventListener('input',e=>{ P.name=e.target.value.trim()||"Rafael's Portfolio"; });
     pop.querySelectorAll('[data-vis]').forEach(b=>b.addEventListener('click',e=>{
       e.stopPropagation(); P.pub=b.dataset.vis==='1';
       pop.querySelectorAll('[data-vis]').forEach(x=>x.classList.toggle('on',(x.dataset.vis==='1')===P.pub));

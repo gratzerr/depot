@@ -346,27 +346,32 @@ def live_overlay():
                     except Exception:
                         pass
                     time.sleep(1.5)
-                c0=oq.get(tk)
+                c0=oq.get(tk) or {}
+                # Tagesschlusskurse TAGEWEISE merken (hist: Datum -> Kurs). Optionskurse
+                # kommen anders als Aktienkurse nur fuer HEUTE aus der Kette; ohne hist
+                # kannte die Wertreihe fuer alle Tage seit dem letzten PP-Refresh nur den
+                # Dateikurs — der Punkt von gestern lag beim ABVX-Call ~80k zu tief und
+                # die "Today"-Kachel zeigte +4,5 % statt +0,3 % (2026-09-11).
+                hist={k:float(v) for k,v in (c0.get("hist") or {}).items() if v}
+                if c0.get("d") and float(c0.get("px") or 0)>0: hist.setdefault(c0["d"],float(c0["px"]))
                 # Ein schlechterer Kurs darf einen besseren DESSELBEN Tages nie ersetzen:
                 # nach Boersenschluss liefert die Kette haeufig bid=ask=0, der Altdruck
                 # wuerde sonst die tagsueber ermittelte Mitte ueberschreiben.
-                if qual and c0 and c0.get("d")==eff and qual<int(c0.get("q") or 1):
+                if qual and c0.get("d")==eff and qual<int(c0.get("q") or 1):
                     qual=0
                 if qual:
-                    if c0 and c0.get("d") and c0["d"]<eff and float(c0.get("px") or 0)>0:
-                        PREV[si]=float(c0["px"])           # Stand von gestern = Vortagesschluss
-                    elif c0 and c0.get("prev"):
-                        PREV[si]=float(c0["prev"])
-                    oq[tk]={"d":eff,"px":px,"q":qual,
-                            "prev":PREV.get(si) or (c0 or {}).get("prev")}; oq_dirty=True
+                    hist[eff]=px
                 else:
-                    if not c0: continue      # Abruf gescheitert/nur Altdruck: letzten GUTEN
-                    px=float(c0["px"])       # Kurs halten, nie auf den PP-Kaufpreis zurueck
-                    # Vortagesschluss auch im Halte-Fall setzen, sonst rechnet die
-                    # Tagesveraenderung gegen die eingefrorene Datei-Historie
-                    if c0.get("d") and c0["d"]<eff and px>0: PREV[si]=px
-                    elif c0.get("prev"): PREV[si]=float(c0["prev"])
-                pairs=[(eff, px)]
+                    if not hist: continue    # Abruf gescheitert/nur Altdruck: letzten GUTEN
+                    px=hist[max(hist)]       # Kurs halten, nie auf den PP-Kaufpreis zurueck
+                    qual=int(c0.get("q") or 1) if c0.get("d")==eff else 0
+                prevd=[d for d in hist if d<eff]
+                if prevd: PREV[si]=hist[max(prevd)]            # Vortagesschluss = letzter Tag davor
+                elif c0.get("prev"): PREV[si]=float(c0["prev"])
+                hist={k:hist[k] for k in sorted(hist)[-60:]}   # begrenzt halten
+                oq[tk]={"d":max(hist),"px":hist[max(hist)],"q":qual,
+                        "prev":PREV.get(si) or c0.get("prev"),"hist":hist}; oq_dirty=True
+                pairs=sorted(hist.items())   # ALLE Tage -> die Wertreihe bekommt echte Schlusskurse
             else:
                 h2=yf.Ticker(tk).history(period="10d")["Close"]
                 pairs=[(idx.strftime("%Y-%m-%d"), float(px)) for idx,px in h2.items()]

@@ -6,14 +6,14 @@
       "headline": "Tenax at Cantor Conference: Trial Miss Sharpens Next-Step Strategy",
       "source": "Investing.com",
       "url": "https://uk.investing.com/news/stock-market-news/tenax-at-cantor-conference-trial-miss-sharpens-nextstep-strategy-93CH-4862756",
-      "summary": "At the 12th Annual Cantor Fitzgerald Global Healthcare Conference, CEO Chris Giordano argued the LEVEL trial miss was a lesson in patient selection rather than a verdict on levosimendan, pointing to strong biomarker and subgroup effects as the basis for an enriched LEVEL-2 path. Shares rose about 9-10% on the appearance."
+      "summary": "At the 12th Annual Cantor Fitzgerald Global Healthcare Conference, CEO Chris Giordano argued the LEVEL trial miss was a lesson in patient selection rather than a verdict on levosimendan, pointing to strong biomarker and subgroup effects as the basis for an enriched LEVEL-2 path. Shares rose about 9-10% on the appearance, closing near $2.11-$2.13."
     },
     {
       "date": "2026-09-04",
       "headline": "Tenax Therapeutics, Inc. Given Consensus Rating of \"Hold\" by Brokerages",
       "source": "MarketBeat / Daily Political",
       "url": "https://www.dailypolitical.com/2026/09/04/tenax-therapeutics-inc-nasdaqtenx-given-consensus-rating-of-hold-by-brokerages.html",
-      "summary": "With 10 analysts now covering the stock (1 sell, 5 hold, 3 buy, 1 strong buy), the post-LEVEL-miss analyst shakeout settled into a consensus \"Hold,\" down from a \"Moderate Buy\" average in mid-August. Average price targets still imply substantial upside from the roughly $2 share price."
+      "summary": "With 10 analysts now covering the stock (1 sell, 5 hold, 3 buy, 1 strong buy), the post-LEVEL-miss analyst shakeout settled into a consensus \"Hold,\" down from a \"Moderate Buy\" average in mid-August. Average price targets (some outlets cite a mean near $12.56, others further-spread individual targets from $4 to $35) still imply substantial upside from the roughly $2 share price."
     },
     {
       "date": "2026-09-03",
@@ -34,7 +34,7 @@
       "headline": "Tenax Therapeutics Announces Presentation of Phase 3 LEVEL Results in Late-Breaking Scientific Sessions at ESC Congress 2026",
       "source": "GlobeNewswire",
       "url": "https://www.globenewswire.com/news-release/2026/08/29/3352929/12401/en/tenax-therapeutics-announces-presentation-of-phase-3-level-results-in-late-breaking-scientific-sessions-at-esc-congress-2026.html",
-      "summary": "Northwestern's Dr. Sanjiv Shah presented the complete LEVEL dataset as a late-breaker, confirming a favorable treatment effect in the prespecified subgroup with lower baseline 6-minute walk distance, alongside consistent biomarker and pulmonary-hemodynamic improvements across the trial."
+      "summary": "Northwestern's Dr. Sanjiv Shah presented the complete LEVEL dataset as a late-breaker, confirming a favorable treatment effect in the prespecified subgroup with lower baseline 6-minute walk distance, alongside consistent biomarker and pulmonary-hemodynamic improvements (including NT-proBNP and pressure reductions) across the trial."
     },
     {
       "date": "2026-08-10",
@@ -48,7 +48,7 @@
     {
       "when": "2026-Q4",
       "label": "FDA Type C meeting on levosimendan path forward",
-      "detail": "Requested meeting to discuss the complete LEVEL dataset and an enriched registrational path for LEVEL-2, leaning on the subgroup and biomarker data presented at ESC; no meeting date has been publicly confirmed as of September 10.",
+      "detail": "Requested meeting to discuss the complete LEVEL dataset and an enriched registrational path for LEVEL-2, leaning on the subgroup and biomarker data presented at ESC; no meeting date has been publicly confirmed as of September 11.",
       "confirmed": false
     },
     {
@@ -60,7 +60,7 @@
     {
       "when": "2026-11 (est.)",
       "label": "Q3 2026 earnings and cash-runway/strategy update",
-      "detail": "Next quarterly report should update the cash position (guided to a runway through Q2 2028 as of June 30, 2026) and give concrete next steps for the levosimendan program, including any outcome from the FDA Type C meeting. Third-party trackers estimate mid/late November; not yet confirmed by the company.",
+      "detail": "Next quarterly report should update the cash position (guided to a runway through Q2 2028 as of June 30, 2026, with $118.0M cash including $13.4M of warrant-exercise proceeds) and give concrete next steps for the levosimendan program, including any outcome from the FDA Type C meeting. Third-party trackers estimate mid/late November; not yet confirmed by the company.",
       "confirmed": false
     },
     {
@@ -70,5 +70,5 @@
       "confirmed": true
     }
   ],
-  "pulse": "Six weeks after LEVEL missed its primary endpoint, Tenax has stabilized around $2/share as CEO Chris Giordano reframes the miss as a patient-selection issue, backed by the ESC Congress late-breaker's confirmed subgroup benefit and biomarker signal in patients with lower baseline walk distance. ADAR1 Capital's Daniel Schneeberger kept buying almost daily through early September, pushing his stake to roughly 14-15% (~6.5 million shares), even as Wall Street's consensus settled to 'Hold' (Guggenheim cut to Neutral, $4 target) pending regulatory clarity. The key overhang remains the still-unscheduled FDA Type C meeting on an enriched LEVEL-2 path; no meeting date or other material news has emerged since September 9."
+  "pulse": "About a month after LEVEL missed its primary endpoint, Tenax has stabilized in the low-$2 range as CEO Chris Giordano reframes the miss as a patient-selection issue at investor conferences (shares popped ~10% on his September 9 Cantor Fitzgerald appearance), backed by the ESC Congress late-breaker's confirmed subgroup benefit and biomarker signal in patients with lower baseline walk distance. ADAR1 Capital's Daniel Schneeberger kept buying almost daily through early September, pushing his stake to roughly 14-15% (~6.5 million shares), even as Wall Street's consensus settled to 'Hold' (Guggenheim cut to Neutral, $4 target, while Cantor Fitzgerald has stayed at Overweight/$35) pending regulatory clarity. The key overhang remains the still-unscheduled FDA Type C meeting on an enriched LEVEL-2 path; no meeting date, financing, or other material news has emerged since the September 9 conference appearance."
 }

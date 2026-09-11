@@ -2,13 +2,6 @@
   "ticker": "CLPT",
   "news": [
     {
-      "date": "2026-09-06",
-      "headline": "Compass Financial Management Discloses New CLPT Position via 13F",
-      "source": "MarketBeat (SEC 13F filing)",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-compass-financial-management-llc-buys-new-position-in-clearpoint-neuro-inc-clpt-2026-09-06/",
-      "summary": "Compass Financial Management LLC disclosed a new position of 295,680 ClearPoint Neuro shares in its Q2 2026 13F filing. A minor, routine institutional flow item with no strategic signal attached."
-    },
-    {
       "date": "2026-09-03",
       "headline": "CEO Joe Burnett Cash-Exercises 12,517 Options at $3.47 and Holds Every Share",
       "source": "SEC EDGAR Form 4",
@@ -42,6 +35,13 @@
       "source": "ClearPoint Neuro IR / ACCESS Newswire",
       "url": "https://www.accessnewswire.com/newsroom/en/biotechnology/clearpoint-neuro-reports-second-quarter-2026-results-1200753",
       "summary": "Q2 revenue rose 18% to $10.88M but landed roughly $1.8M below consensus, with neurosurgery navigation and therapy up 62% while biologics and drug delivery fell 15% on fewer products shipped for new trial starts. Cash fell to $29.4M from $45.9M at year-end, and FY2026 guidance was cut from $52-56M to $48-52M."
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "Partner Aspen Neuroscience Receives FDA RMAT Designation for Parkinson's Cell Therapy Delivered via ClearPoint's Platform",
+      "source": "ACCESS Newswire / BioSpace",
+      "url": "https://www.accessnewswire.com/newsroom/en/biotechnology/clearpoint-neuro-congratulates-partner-aspen-neuroscience-on-fda-regenerative-medicin-1199747",
+      "summary": "The FDA granted Regenerative Medicine Advanced Therapy designation to Aspen Neuroscience's sasineprocel (ANPD001), an autologous dopaminergic cell therapy for Parkinson's disease delivered in every case via the ClearPoint Navigation System and SmartFlow cannula in the Phase I/IIa ASPIRO trial. RMAT status gives Aspen early, frequent FDA interaction and potential eligibility for priority review and accelerated approval, adding a third active gene/cell-therapy partner pathway (with uniQure and EpilepsyGTx) built on ClearPoint's delivery platform."
     }
   ],
   "catalysts": [
@@ -76,6 +76,12 @@
       "confirmed": false
     },
     {
+      "when": "2026-H2/2027",
+      "label": "Aspen Neuroscience post-RMAT FDA engagement for sasineprocel",
+      "detail": "Following the July 31, 2026 RMAT designation, Aspen Neuroscience gains early and frequent FDA interaction and potential eligibility for priority review or accelerated approval for its ClearPoint-delivered Parkinson's cell therapy. Any resulting alignment on a registrational pathway would add a third biopharma partner, alongside uniQure and EpilepsyGTx, moving toward a filing built on ClearPoint's delivery platform.",
+      "confirmed": false
+    },
+    {
       "when": "2026-H2",
       "label": "EpilepsyGTx EPY201 Phase 1/2a start",
       "detail": "EpilepsyGTx selected ClearPoint's SmartFlow cannula and navigation system for a first-in-human Phase I/IIa trial of EPY201 in focal refractory epilepsy, slated to enter human studies in 2026. No first-patient-dosed update has been reported yet.",
@@ -100,5 +106,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "ClearPoint's newsflow has gone quiet since the September 2-3 combination of uniQure's US BLA/UK MAA submission and CEO Joe Burnett's cash option exercise (no shares sold), with the only subsequent item a small, unremarkable Compass Financial 13F stake disclosure on September 6. All eyes remain on uniQure's four-year AMT-130 data - still pending as of a September 10 STAT News preview and guided for before month-end - as the next major stock-moving event given ClearPoint's platform is central to AMT-130 delivery. Sentiment stays constructive on the multi-partner BioPharma pipeline (uniQure, Aspen Neuroscience RMAT, EpilepsyGTx) even as near-term device revenue growth has decelerated following August's guidance cut to $48-52M, with the November Q3 print the next hard checkpoint on cash burn against the $29.4M balance."
+  "pulse": "ClearPoint's dealflow remains anchored by the September 2 uniQure AMT-130 BLA/UK MAA submission and CEO Joe Burnett's cash option exercise (no shares sold) on September 3, with no material company news since as of September 11; the still-pending four-year AMT-130 data - guided for before month-end per a September 10 STAT News preview - is the next major stock-moving event given ClearPoint's platform is central to AMT-130 delivery. Beneath that headline, ClearPoint's partner base keeps widening: Aspen Neuroscience's July 31 RMAT designation for its ClearPoint-delivered Parkinson's cell therapy adds a third active gene/cell-therapy pathway alongside uniQure and EpilepsyGTx, even as near-term device revenue growth has decelerated following August's guidance cut to $48-52M. Institutional positioning firmed into the summer selloff, with MAK Capital's stake rising to 7.8% by mid-August alongside BlackRock's 7.1% filing, while the November Q3 print is the next hard checkpoint on cash burn against a $29.4M cash balance."
 }

@@ -2,6 +2,13 @@
   "ticker": "NKTR",
   "news": [
     {
+      "date": "2026-09-10",
+      "headline": "Lilly Owes Nektar Nearly $1 Billion If It Breached Rezpeg Deal, Damages Expert Tells Jury",
+      "source": "Law360",
+      "url": "https://www.law360.com/consumerprotection/articles/2523817",
+      "summary": "On the third day of the San Francisco federal jury trial, Nektar's damages expert testified that Eli Lilly could owe the company close to $1 billion in lost milestone and royalty payments if jurors find Lilly breached the 2017 rezpegaldesleukin collaboration agreement. The testimony followed Tuesday's ruling admitting Nektar's financial condition into evidence, with no verdict yet reached as witness testimony continues in the breach-of-contract trial (N.D. Cal. 3:23-cv-03943)."
+    },
+    {
       "date": "2026-09-09",
       "headline": "Nektar Fails to Block Financial-Condition Evidence After CEO's Cross-Examination in Eli Lilly Trial",
       "source": "Law360",
@@ -14,13 +21,6 @@
       "source": "Law360 / CourtListener (N.D. Cal. 3:23-cv-03943)",
       "url": "https://www.law360.com/trials/articles/2522664",
       "summary": "The long-delayed jury trial over the terminated rezpegaldesleukin collaboration opened with opening statements before an 8-person federal jury in San Francisco, after being pushed back from an original October 2025 date. Nektar's counsel told jurors Lilly breached the 2017 deal and favored a competing internal program, mishandling the ISLAND lupus trial and miscalculating REZOLVE-AD/psoriasis results shown at EADV 2022; Lilly's counsel countered Nektar was unharmed by the deal's termination, with only Nektar's claims reaching the jury after its counterclaims were dismissed."
-    },
-    {
-      "date": "2026-09-06",
-      "headline": "Nektar Therapeutics Holds 'Moderate Buy' Consensus as Wall Street Models Widening Losses Through 2028",
-      "source": "Daily Political / MarketBeat",
-      "url": "https://www.dailypolitical.com/2026/09/06/nektar-therapeutics-nasdaqnktr-receives-average-rating-of-moderate-buy-from-analysts.html",
-      "summary": "Thirteen research firms now cover NKTR with an average 'Moderate Buy' rating (nine buys, two holds, one sell), even as consensus models a widening per-share loss from roughly $8.51 in 2026 to $16-18 in 2027-2028 as Phase 3 spending ramps. The split rating underscores how far apart price targets remain ahead of the mid-2028 ZENITH AD readout, spanning cautious sub-$70 targets to bullish targets near $190."
     },
     {
       "date": "2026-08-25",
@@ -48,7 +48,7 @@
     {
       "when": "2026-09 (ongoing)",
       "label": "Nektar v. Eli Lilly jury trial (N.D. Cal., San Francisco)",
-      "detail": "Trial opened September 8, 2026 before an 8-person jury; on September 9 the judge admitted evidence of Nektar's financial condition after CEO Howard Robin's cross-examination opened the door to it for impeachment purposes, a setback for Nektar heading into closing arguments. Nektar seeks compensatory and punitive damages for lost milestone and royalty payments tied to Lilly's handling of rezpeg data and the ISLAND lupus trial; Lilly denies wrongdoing. This remains a binary, clinically-uncorrelated financial wildcard for the stock, with no verdict reported as of September 10.",
+      "detail": "Trial opened September 8, 2026 before an 8-person jury. On September 9 the judge admitted evidence of Nektar's financial condition after CEO Howard Robin's cross-examination opened the door to it for impeachment purposes, and on September 10 Nektar's damages expert testified Lilly could owe nearly $1 billion in lost milestones and royalties if breach is found. Lilly denies wrongdoing; no verdict reported as of September 11 as witness testimony continues. This remains a binary, clinically-uncorrelated financial wildcard for the stock.",
       "confirmed": true
     },
     {
@@ -84,7 +84,7 @@
     {
       "when": "2026-11 (est.)",
       "label": "Q3 2026 earnings report",
-      "detail": "The next quarterly report should update cash burn against full-year R&D guidance of $210-230 million, confirm the ZENITH AD-3 start with enrollment color across all three Phase 3 AD studies, and address the financial and strategic consequences of the September Eli Lilly jury trial. Zacks raised its Q3 loss estimate to a narrower ($2.70) per share on September 3, 2026, from ($2.92) previously. Exact date not yet announced; Nektar has reported Q3 in early-to-mid November in prior years.",
+      "detail": "The next quarterly report should update cash burn against full-year R&D guidance of $210-230 million, confirm the ZENITH AD-3 start with enrollment color across all three Phase 3 AD studies, and address the financial and strategic consequences of the September Eli Lilly jury trial outcome. Zacks raised its Q3 loss estimate to a narrower ($2.70) per share on September 3, 2026, from ($2.92) previously. Exact date not yet announced; Nektar has reported Q3 in early-to-mid November in prior years.",
       "confirmed": false
     },
     {
@@ -118,5 +118,5 @@
       "confirmed": true
     }
   ],
-  "pulse": "Shares trade around $74 (market cap in the mid-$2 billions, down modestly this week) with the tape driven mostly by legal-event positioning rather than fresh clinical news: the Nektar v. Eli Lilly breach-of-contract jury trial over the terminated rezpeg collaboration opened September 8 in San Francisco, and on September 9 the judge admitted evidence of Nektar's financial condition after CEO Howard Robin's cross-examination opened the door to it for impeachment purposes - a procedural setback with no verdict yet reported as of September 10. Analyst sentiment remains a 'Moderate Buy' on balance (roughly 9 buy/2 hold/1 sell across 13 firms) but wide open on magnitude, spanning JPMorgan's cautious $65 target to Piper Sandler's bullish target near $190, while consensus models widening annual losses (around $8.51/share in 2026 growing toward the high teens by 2028) as Phase 3 spend ramps. The latest genuine business catalyst remains the August 25 Lancet publication of the full REZOLVE-AD Phase 2b dataset (61% vs 31% mean EASI reduction), cementing peer-reviewed validation of the Treg mechanism; with about $1.02 billion in cash funding runway into Q3 2028, the near-term sequence is the Lilly trial outcome, the ZENITH AD-3 Phase 3 start by late September, two EADV oral presentations in Vienna (Sept 30-Oct 3) on maintenance-dosing durability, and a Q4 alopecia off-treatment topline, ahead of the pivotal mid-2028 ZENITH AD Phase 3 readout."
+  "pulse": "Shares trade around $74-75 (market cap in the mid-$2 billions) with the tape still driven mainly by legal-event positioning: the Nektar v. Eli Lilly breach-of-contract jury trial over the terminated rezpeg collaboration is now in its third day in San Francisco federal court, and on September 10 Nektar's damages expert told the jury Lilly could owe close to $1 billion if breach is found, building on Tuesday's ruling admitting Nektar's financial condition into evidence - with no verdict yet reported as of September 11. Analyst sentiment stays split but net constructive (a 'Moderate Buy'/'Strong Buy' mix across roughly a dozen firms), spanning JPMorgan's cautious $65 target to Piper Sandler's bullish target near $190, while the genuine business catalyst underpinning the bull case remains the August 25 Lancet publication of the full REZOLVE-AD Phase 2b dataset (61% vs 31% mean EASI reduction) validating the Treg mechanism. With about $1.02 billion in cash funding runway into Q3 2028, the near-term sequence is the Lilly trial outcome, the ZENITH AD-3 Phase 3 start by late September, two EADV oral presentations in Vienna (Sept 30-Oct 3) on maintenance-dosing durability, and a Q4 alopecia off-treatment topline, ahead of the pivotal mid-2028 ZENITH AD Phase 3 readout."
 }

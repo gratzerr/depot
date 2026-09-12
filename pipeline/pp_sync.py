@@ -289,7 +289,7 @@ def live_overlay():
         if t["kind"]=="port" and t["sec"] is not None:
             if t["type"] in PADD: net[t["sec"]]+=t["shares"]
             elif t["type"] in PSUB: net[t["sec"]]-=t["shares"]
-    held=[si for si,sh in net.items() if sh>1e-6]
+    held=[si for si,sh in net.items() if abs(sh)>1e-6]   # auch Shorts (negativer Bestand)
     if not held: return
     try:
         import warnings; warnings.filterwarnings("ignore")
@@ -540,7 +540,7 @@ annualized=((1+acc_ret)**(365.0/ndays)-1)*100
 from collections import deque
 lots=defaultdict(deque)   # sec -> deque of [shares, basis_eur, basis_usd, buy_date]
 for s,sh in open_sh.items():
-    if sh>1e-9:
+    if abs(sh)>1e-9:                 # negativ = Short: Lot mit negativer Basis (Erloes)
         v=sh*sec_price(s,START)
         lots[s].append([sh, to_eur(v,SEC[s]["ccy"],START), to_usd(v,SEC[s]["ccy"],START), START])
 realized_eur=0.0;realized_usd=0.0
@@ -571,7 +571,32 @@ for t in ptx:
                  "port":(portfolios.get(t["owner"]) or {}).get("name")}
         acts.append(act_row)
     if ty in ("BUY","DELIVERY_INBOUND"):
-        lots[s].append([sh,eur,usd,t["date"]])
+        # Short-Deckung: liegen negative Lots (Leerverkauf) vor, schliesst der Kauf zuerst
+        # diese — Gewinn = Leerverkaufserloes minus Deckungskosten (MRNA-Short, 2026-09-12)
+        rem=sh;q=lots[s];cov_e=cov_u=covered=0.0;open_d=None
+        while rem>1e-9 and q and q[0][0]<-1e-9:
+            l=q[0];take=min(-l[0],rem);frac=take/(-l[0])
+            cov_e+=-l[1]*frac;cov_u+=-l[2]*frac          # Erloes-Anteil des gedeckten Teils
+            l[1]-=l[1]*frac;l[2]-=l[2]*frac;l[0]+=take;rem-=take;covered+=take
+            if open_d is None: open_d=l[3]
+            if l[0]>=-1e-9: q.popleft()
+        if covered>1e-9:
+            ce=eur*covered/sh;cu=usd*covered/sh          # Deckungskosten
+            realized_eur+=cov_e-ce;realized_usd+=cov_u-cu;rz_usd_by_sec[s]+=cov_u-cu
+            rz_day[t["date"]][0]+=cov_e-ce;rz_day[t["date"]][1]+=cov_u-cu
+            if act_row is not None:
+                act_row["gEur"]=round(cov_e-ce,2);act_row["gUsd"]=round(cov_u-cu,2);act_row["cover"]=True
+                act_row["ret"]=round((cov_u-cu)/cu*100,2) if cu>1e-6 else None
+            if ty=="BUY": trades.append({"sec":s,
+                "port":(portfolios.get(t["owner"]) or {}).get("name"),
+                "buy":open_d,"sell":t["date"],
+                "days":(datetime.date.fromisoformat(t["date"])-datetime.date.fromisoformat(open_d)).days if open_d else 0,
+                "sh":round(covered,4),"short":True,
+                "proceedsUsd":round(cov_u),"basisUsd":round(cu),
+                "proceedsEur":round(cov_e),"basisEur":round(ce),
+                "gainUsd":round(cov_u-cu),"gainEur":round(cov_e-ce),
+                "ret":round((cov_u-cu)/cu*100,2) if cu>1e-6 else None})
+        if rem>1e-9: lots[s].append([rem,eur*rem/sh,usd*rem/sh,t["date"]])
         if sh>1e-9:
             b=buys_by_sec[s][t["date"]]; b[0]+=sh; b[1]+=(t["amount"]-t["fee"]-t["tax"])  # native cost ex-fee
     elif ty in ("SELL","DELIVERY_OUTBOUND"):
@@ -588,22 +613,30 @@ for t in ptx:
             taken+=take
             l[0]-=take;rem-=take
             if l[0]<=1e-9: q.popleft()
+        # Leerverkauf: bleibt nach dem FIFO-Abbau ein Rest ohne Bestand, OEFFNET dieser
+        # Rest eine Short-Position (negatives Lot, Basis = Erloes). Vorher wurde der
+        # komplette Erloes als Gewinn verbucht (MRNA-Short: +118k, 2026-09-12).
+        if rem>1e-9:
+            lots[s].append([-rem, -(eur*rem/sh), -(usd*rem/sh), t["date"]])
+            if act_row is not None: act_row["short"]=True
+        cf=(sh-rem)/sh if sh>1e-9 else 0.0            # gedeckter Anteil des Verkaufs
+        eur_c=eur*cf; usd_c=usd*cf
         if ty=="SELL":
-            realized_eur+=eur-basis;realized_usd+=usd-basis_u
-            rz_usd_by_sec[s]+=usd-basis_u
+            realized_eur+=eur_c-basis;realized_usd+=usd_c-basis_u
+            rz_usd_by_sec[s]+=usd_c-basis_u
             if act_row is not None:      # Activities feed shows the gain of each single sell
-                act_row["gEur"]=round(eur-basis,2); act_row["gUsd"]=round(usd-basis_u,2)
-                act_row["ret"]=round((usd-basis_u)/basis_u*100,2) if basis_u>1e-6 else None
-            rz_day[t["date"]][0]+=eur-basis;rz_day[t["date"]][1]+=usd-basis_u
-            trades.append({"sec":s,
+                act_row["gEur"]=round(eur_c-basis,2); act_row["gUsd"]=round(usd_c-basis_u,2)
+                act_row["ret"]=round((usd_c-basis_u)/basis_u*100,2) if basis_u>1e-6 else None
+            rz_day[t["date"]][0]+=eur_c-basis;rz_day[t["date"]][1]+=usd_c-basis_u
+            if taken>1e-9: trades.append({"sec":s,
                 "port":(portfolios.get(t["owner"]) or {}).get("name"),
                 "buy":first_buy,"sell":t["date"],
-                "days":round(wdays/taken) if taken>1e-9 else 0,
-                "sh":round(sh,4),
-                "proceedsUsd":round(usd),"basisUsd":round(basis_u),
-                "proceedsEur":round(eur),"basisEur":round(basis),
-                "gainUsd":round(usd-basis_u),"gainEur":round(eur-basis),
-                "ret":round((usd-basis_u)/basis_u*100,2) if basis_u>1e-6 else None})
+                "days":round(wdays/taken),
+                "sh":round(taken,4),
+                "proceedsUsd":round(usd_c),"basisUsd":round(basis_u),
+                "proceedsEur":round(eur_c),"basisEur":round(basis),
+                "gainUsd":round(usd_c-basis_u),"gainEur":round(eur_c-basis),
+                "ret":round((usd_c-basis_u)/basis_u*100,2) if basis_u>1e-6 else None})
 # attach cumulative Calculation rows to the daily series: q/Q realized, g/G earnings,
 # f/F fees, t/T taxes (USD/EUR) — lets the calc widget report any reporting period
 _re=_ru=_ge=_gu=_fe=_fu=_te=_tu=0.0
@@ -619,7 +652,7 @@ assert abs(_ru-realized_usd)<1 and abs(_gu-earn_usd)<1 and abs(_fu-fees_usd)<1 a
 unrealized_eur=0.0;unrealized_usd=0.0
 for s,q in lots.items():
     rsh=sum(l[0] for l in q)
-    if rsh<=1e-6: continue
+    if abs(rsh)<=1e-6: continue                 # Short-Lots (negative Stueck) zaehlen mit
     v=rsh*sec_price(s,END)
     unrealized_eur+=to_eur(v,SEC[s]["ccy"],END)-sum(l[1] for l in q)
     unrealized_usd+=to_usd(v,SEC[s]["ccy"],END)-sum(l[2] for l in q)
@@ -686,7 +719,7 @@ for t in txs.values():
 holdings=[]
 tot_sec_eur=0.0
 for si,a in posagg.items():
-    if si is None or a["net"]<=1e-4: continue
+    if si is None or abs(a["net"])<=1e-4: continue   # negativ = Short (z.B. MRNA 2026-09-11)
     s=SEC[si]
     px=sec_price(si,END)
     la=LATEST[si];ds,_=PRICES[si]
@@ -698,7 +731,7 @@ for si,a in posagg.items():
     basis_usd=sum(l[2] for l in lots.get(si,[]))   # FIFO remaining cost basis (USD, tx-date FX)
     basis_eur=sum(l[1] for l in lots.get(si,[]))   # ...and the same basis in EUR, so an EUR
                                                    # page never mixes a USD cost into a EUR value
-    byport={n:round(v,4) for n,v in sh_by_port.get(si,{}).items() if v>1e-6}
+    byport={n:round(v,4) for n,v in sh_by_port.get(si,{}).items() if abs(v)>1e-6}
     holdings.append({"account":"ALL","ticker":s["tk"] or (s["name"] or "")[:10],"name":s["name"],
         "byPort":byport,
         "isin":s["isin"],"ccy":s["ccy"],"shares":round(a["net"],4),"price":px,
@@ -710,12 +743,14 @@ for si,a in posagg.items():
         # the naive all-buys average is wrong once some lots were sold. Non-USD (PINK/CAD)
         # keeps the buy average — no sells there, so both are identical.
         "avgCost":round(basis_usd/a["net"],4) if (s["ccy"]=="USD" and a["net"]) else round(avg,4),
-        "unrealRet":(round((to_usd(val,s["ccy"],END)/basis_usd-1)*100,1) if basis_usd
+        # Short: Basis und Wert sind negativ; Gewinn = Wert - Basis, bezogen auf |Basis|
+        "unrealRet":(round((to_usd(val,s["ccy"],END)-basis_usd)/abs(basis_usd)*100,1) if basis_usd
                      else (round((px-avg)/avg*100,1) if avg else 0)),
         # Tagesveraenderung AUS DER ENGINE (Kurs heute vs. letzter Schlusskurs davor):
         # die Yahoo-Variante im Client lief auf eigenem Takt und widersprach dem
         # Gesamt-Tageswert der Kachel (Vorfall 2026-07-29)
-        "dayRet":_day_ret(si,px),
+        "dayRet":(lambda r:(None if r is None else (-r if a["net"]<0 else r)))(_day_ret(si,px)),   # Short: Kurs hoch = Verlust
+        "short":a["net"]<0,
         "prevClose":round(PREV[si],4) if PREV.get(si) else None,   # nachpruefbar: gegen welchen Kurs gerechnet wird
         "priceDate":pdate})
 holdings.sort(key=lambda h:-h["valueEur"])

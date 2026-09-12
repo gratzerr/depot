@@ -160,6 +160,7 @@
   :root[data-theme="dark"] .co.sec{--brand:var(--down)}
   .feed .co{margin-bottom:5px}
   .tkr{font-weight:700;font-size:11px;padding:1px 6px;border-radius:4px;color:#fff;vertical-align:middle}
+  .shortbadge{font-weight:700;font-size:9px;letter-spacing:.04em;padding:1px 5px;border-radius:4px;color:#fff;background:#c0392b;vertical-align:middle;margin-left:4px}
   .tkr.neutral{background:var(--chip);color:var(--chip-ink)}
   .tkr.sec{background:var(--down);color:#fff}
   .social .si{display:block;padding:10px 2px;border-top:1px solid var(--grid)}
@@ -1199,7 +1200,7 @@ function _htRows(){
     const gain=basis?value-basis:null;
     return {h, sym, shares:h.ppShares!=null?h.ppShares*frac:null, avg:h.ppAvgCost, basis, price,
       day:(h.dayChange!=null?h.dayChange:null), gain,
-      gainPct:(gain!=null&&basis)?gain/basis*100:null,
+      gainPct:(gain!=null&&basis)?gain/Math.abs(basis)*100:null,   // Short: Basis negativ
       value, weight:_hport==='ALL'?h.alloc:null, realized:_hport==='ALL'?h.ppRealizedUsd:null};
   }).filter(Boolean);
   if(_hport!=='ALL'){ const tot=rows.reduce((a,r)=>a+r.value,0);
@@ -1238,7 +1239,7 @@ function renderHoldingsTable(){
   el.innerHTML='<thead><tr>'+cols.map(c=>`<th data-k="${c.key==='name'?'value':c.key}">${c.lab}${arrow(c)}</th>`).join('')+'</tr></thead>'
     +'<tbody>'+rows.map(r=>{
       const cells=[];
-      cells.push(`<td><div class="hname sd-clk" data-sd="${esc(r.h.ticker)}">${logoImg(r.h.logos,'llogo')}<div style="min-width:0"><div class="c1">${esc(r.h.ticker)}</div><div class="nm2">${esc(r.h.name)}</div></div></div></td>`);
+      cells.push(`<td><div class="hname sd-clk" data-sd="${esc(r.h.ticker)}">${logoImg(r.h.logos,'llogo')}<div style="min-width:0"><div class="c1">${esc(r.h.ticker)}${r.h.short?' <span class="shortbadge">SHORT</span>':''}</div><div class="nm2">${esc(r.h.name)}</div></div></div></td>`);
       if(_hcols.shares) cells.push(`<td><div class="c1">${r.shares!=null?maskable((+r.shares).toLocaleString('en-US')):'—'}</div></td>`);
       if(_hcols.entry) cells.push(`<td><div class="c1">${r.avg!=null?maskable(r.sym+fmt2(r.avg,r.avg<1?4:2)):'—'}</div><div class="c2">${r.basis?fmtUsd(r.basis):''}</div></td>`);
       if(_hcols.price) cells.push(`<td><div class="c1">${r.price!=null?r.sym+fmt2(r.price,r.price<1?4:2):'—'}</div><div class="c2">&nbsp;</div></td>`);
@@ -2111,7 +2112,7 @@ function securitiesRows(){
       price:h?(h.livePrice!=null?h.livePrice:h.price):null,
       day:h?h.dayChange:null,
       value, unreal,
-      unrealPct:(unreal!=null&&basis)?unreal/basis*100:null,
+      unrealPct:(unreal!=null&&basis)?unreal/Math.abs(basis)*100:null,
       realized:r.realized, divs:r.divs, cost:r.cost,
       total:r.realized+r.divs-r.cost+(unreal||0),
       ret:invested>1e-6?((r.realized+r.divs-r.cost+(unreal||0))/invested*100):null,

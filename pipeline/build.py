@@ -89,6 +89,8 @@ if pp:
             if x.get("unrealRet") is not None: h["unrealizedReturn"] = x["unrealRet"]
             if x.get("basisUsd"):
                 h["totalGainNet"] = round((x.get("valueUsd") or 0) - x["basisUsd"] + (x.get("realizedUsd") or 0))
+            if x.get("short"): h["short"] = True   # Leerverkauf: Stueck/Wert negativ, Badge im Client
+            else: h.pop("short", None)               # kein Dauer-Rauschen in portfolio.json
             merged.append(h)
         cash_first = [h for h in rest if h.get("assetType") == "cash"]
         # options reconcile like securities: the engine (OCC-style tickers, e.g.

@@ -1,0 +1,92 @@
+{
+  "ticker": "MRNA",
+  "news": [
+    {
+      "date": "2026-09-11",
+      "headline": "Moderna Shares Jump Roughly 9% as Evercore ISI Lifts Target and UBS Flags Fall Oncology Readouts",
+      "source": "TradingKey / Timothy Sykes",
+      "url": "https://www.tradingkey.com/news/market-movers/262164027-market-movers-mrna-20260911",
+      "summary": "MRNA stock climbed to an intraday high near $149 after Evercore ISI raised its price target to $80 from $50 (still rated In Line) and UBS highlighted upcoming individualized neoantigen therapy readouts, led by further Phase 3 melanoma data this fall, as key catalysts. The move extended a rally that began with the August cancer-vaccine trial success and subsequent COVID-vaccine approval and convertible-notes financing."
+    },
+    {
+      "date": "2026-08-28",
+      "headline": "Moderna Prices Upsized $2.6 Billion Offering of 0% Convertible Senior Notes Due 2032",
+      "source": "BioSpace / PR Newswire",
+      "url": "https://www.biospace.com/press-releases/moderna-announces-pricing-of-upsized-2-6-billion-offering-of-convertible-senior-notes",
+      "summary": "Moderna priced an upsized $2.6 billion private placement of 0.00% convertible senior notes due 2032 (up from a planned $2.0 billion, with a further $400 million greenshoe), paired with capped call transactions capping dilution up to a 175% share-price premium. Proceeds are earmarked for general corporate purposes, including investment in the growing oncology business and debt repayment."
+    },
+    {
+      "date": "2026-08-27",
+      "headline": "Moderna Receives U.S. FDA Approval for Updated 2026-2027 Spikevax and mNEXSPIKE COVID-19 Vaccines",
+      "source": "Drugs.com / Moderna",
+      "url": "https://www.drugs.com/newdrugs/moderna-receives-u-s-fda-approval-updated-2026-2027-spikevax-mnexspike-covid-19-vaccines-6871.html",
+      "summary": "The FDA approved supplemental BLAs for JN.1-lineage XFG-updated formulations of Spikevax and mNEXSPIKE ahead of the 2026-2027 respiratory season, with Spikevax cleared for high-risk 6-month-to-64-year-olds and all adults 65+, and mNEXSPIKE for high-risk 12-to-64-year-olds and all adults 65+. The approval keeps Moderna with three approved COVID-19 vaccine options alongside its RSV and flu shots."
+    },
+    {
+      "date": "2026-08-19",
+      "headline": "Merck and Moderna's Phase 3 INTerpath-001 Trial of Intismeran Autogene Plus Keytruda Meets Melanoma Endpoints",
+      "source": "Merck / BioSpace",
+      "url": "https://www.biospace.com/press-releases/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patients-with-completely-resected-stage-iib-iv-melanoma",
+      "summary": "The Phase 3 INTerpath-001 trial met its primary endpoint of recurrence-free survival and the key secondary endpoint of distant metastasis-free survival for intismeran autogene (mRNA-4157/V940) combined with Keytruda versus Keytruda alone in resected stage IIB-IV melanoma, marking the first-ever positive Phase 3 result for an individualized mRNA cancer therapy. The news sent MRNA shares to an intraday high above $176, roughly triple their mid-August level, as investors priced in a validated oncology platform beyond respiratory vaccines."
+    },
+    {
+      "date": "2026-08-05",
+      "headline": "FDA Approves Moderna's mFLUSIVA, the First mRNA-Based Influenza Vaccine",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/05/fda-approves-moderna-mflusiva-first-mrna-flu-vaccine/",
+      "summary": "The FDA granted standard approval of mFLUSIVA (mRNA-1010) for adults 50-64 and accelerated approval for adults 65 and older, pending a postmarketing confirmatory study spanning two flu seasons; Phase 3 data showed 26.6% relative efficacy versus standard-dose flu vaccine overall and 27.4% in the 65-plus cohort. The clearance makes mFLUSIVA Moderna's fifth commercial mRNA product and its first in influenza ahead of the 2026-2027 season."
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "Moderna Reports Second Quarter 2026 Results; Revenue Beats Guidance, Reiterates Full-Year Outlook",
+      "source": "Moderna / SEC 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+      "summary": "Q2 2026 revenue of $145 million came in above guidance on international partnership and stand-ready manufacturing revenue, with a GAAP net loss of $782 million ($1.97/share) versus $6.9 billion in cash and investments at quarter-end; management reiterated up to 10% full-year revenue growth and trimmed 2026 cash-cost guidance to roughly $4 billion. The norovirus candidate mRNA-1403 did not meet the statistical bar for early success at its Phase 3 interim analysis, while management flagged the pending mFLUSIVA PDUFA date as a potential fifth product approval."
+    }
+  ],
+  "catalysts": [
+    {
+      "when": "2026-09-14",
+      "label": "Morgan Stanley 24th Annual Global Healthcare Conference presentation",
+      "detail": "Moderna management is scheduled to present and webcast at 10:00 a.m. ET, an opportunity to update investors on the post-INTerpath-001 oncology strategy, respiratory franchise trajectory, and use of proceeds from the August convertible-notes raise.",
+      "confirmed": true
+    },
+    {
+      "when": "2026-09-23",
+      "label": "Bernstein Insights: Healthcare Leaders and Disruptors 3rd Annual Healthcare Forum presentation",
+      "detail": "A second scheduled investor-conference appearance (8:50 a.m. ET) shortly after Morgan Stanley's healthcare conference, likely to keep sell-side attention on the oncology inflection and 2026-2027 respiratory vaccine season launch.",
+      "confirmed": true
+    },
+    {
+      "when": "2026-Q4",
+      "label": "Additional INTerpath individualized neoantigen therapy readouts (NSCLC, RCC, bladder)",
+      "detail": "Beyond the positive INTerpath-001 melanoma result, the program includes a newly initiated Phase 3 in high-risk Stage I NSCLC (INTerpath-014), a fully enrolled Phase 2 in adjuvant renal cell carcinoma (INTerpath-004), and enrolling Phase 2 studies in resected bladder cancer. UBS has flagged further individualized neoantigen therapy data as a near-term catalyst, though exact readout timing has not been disclosed.",
+      "confirmed": false
+    },
+    {
+      "when": "2026-10-29",
+      "label": "Q3 2026 earnings report",
+      "detail": "The next quarterly report should update revenue trajectory against the reiterated up-to-10%-growth 2026 guidance, early commercial uptake of mFLUSIVA and the updated Spikevax/mNEXSPIKE formulations for the 2026-2027 season, cash burn following the $2.6 billion convertible-notes raise, and next steps for the intismeran autogene regulatory pathway. Date is an analyst/exchange estimate pending official confirmation.",
+      "confirmed": false
+    },
+    {
+      "when": "2026-2027 season",
+      "label": "Commercial launch of mFLUSIVA and updated Spikevax/mNEXSPIKE for the respiratory season",
+      "detail": "With five approved mRNA respiratory products (COVID-19 x2, flu/COVID combination mCombriax in the EU, RSV, and now flu via mFLUSIVA), Moderna targets a roughly $30 billion combined COVID/flu/RSV addressable market; management has cited a path to $8-15 billion in 2027 respiratory sales, making uptake through the current season a closely watched commercial signal.",
+      "confirmed": true
+    },
+    {
+      "when": "2027 (potential)",
+      "label": "Regulatory filing for intismeran autogene in adjuvant melanoma",
+      "detail": "Following the positive INTerpath-001 Phase 3 result, analysts (including Argus) have noted management's timeline for a potential regulatory submission and approval of intismeran autogene plus Keytruda in resected melanoma has moved up to 2027, which would be Moderna's first approved oncology product and its first approval for an individualized neoantigen therapy.",
+      "confirmed": false
+    },
+    {
+      "when": "2026-H2/2027",
+      "label": "Path-forward decision for mRNA-1403 norovirus vaccine",
+      "detail": "After the Phase 3 interim analysis disclosed with Q2 2026 results did not meet the statistical bar for early success, investors are watching for the final Phase 3 analysis and management's decision on whether to continue, redesign, or discontinue the norovirus program.",
+      "confirmed": false
+    }
+  ],
+  "pulse": "Moderna shares have roughly doubled since mid-August, driven first by the August 19 Phase 3 INTerpath-001 result showing intismeran autogene plus Keytruda beat Keytruda alone in resected melanoma - the first positive Phase 3 readout ever for an individualized mRNA cancer therapy - and then by an August 27 FDA approval of updated 2026-2027 Spikevax/mNEXSPIKE COVID-19 vaccines, a $2.6 billion convertible-notes raise on August 28, and a string of analyst target upgrades (Argus to Buy/$180, Evercore ISI to $80) into a roughly 9% single-day jump on September 11. Fundamentally the company still posts modest quarterly revenue (Q2 2026: $145 million) and sizable GAAP losses while it now fields five approved respiratory mRNA products and reiterates up to 10% revenue growth for 2026, with the norovirus candidate mRNA-1403 having missed its Phase 3 interim bar. Near-term attention centers on two mid-September investor conferences, further individualized neoantigen therapy readouts in other tumor types, uptake of the new flu and updated COVID shots this season, and the path toward a possible 2027 melanoma-therapy filing."
+}

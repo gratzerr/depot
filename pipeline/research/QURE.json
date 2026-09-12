@@ -52,10 +52,10 @@
       "confirmed": true
     },
     {
-      "when": "2026-09-11",
-      "label": "ICER scoping comment deadline",
-      "detail": "ICER's public comment period on the draft scoping document for its AMT-130 review closes today, September 11, 2026, with a revised scoping document expected on or about September 21. The framing set here shapes the value benchmark US payers will use against uniQure's eventual price for a one-time gene therapy.",
-      "confirmed": true
+      "when": "2026-09-21 (est.)",
+      "label": "ICER revised scoping document",
+      "detail": "ICER's public comment period on the draft scoping document for its AMT-130 review closed September 11, 2026; a revised scoping document is expected on or about September 21. The framing set here shapes the value benchmark US payers will use against uniQure's eventual price for a one-time gene therapy, ahead of the January 2027 draft evidence report and March 2027 CEPAC vote.",
+      "confirmed": false
     },
     {
       "when": "2026-Q3",
@@ -112,5 +112,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "As of September 11, uniQure's headline catalyst - the four-year AMT-130 data - has still not been released, even though the company already filed its US BLA and UK MAA on three-year data back on September 2; a September 10 STAT News piece reconfirmed the readout remains pending and guided for before quarter-end, and no further update has emerged in the day since. Sentiment stays broadly bullish but nervy while the market waits: William Blair resumed at Outperform ($73 target) on September 2, and a September 8 consensus read showed 14 of 17 covering brokerages at buy with an average $65 price target, with no new insider selling, financing or negative regulatory news since the filing. Attention next sits squarely on the still-undated four-year data due before September 30, today's ICER scoping-comment deadline, and the FDA's filing/priority-review decision expected around early November, with Q3 earnings shortly after."
+  "pulse": "As of September 12, uniQure's headline catalyst - the four-year AMT-130 data - still has not been released, even though the company already filed its US BLA and UK MAA on three-year data back on September 2; a September 10 STAT News piece reconfirmed the readout remains pending and guided for before quarter-end, and no further update has emerged since. Sentiment stays broadly bullish but nervy while the market waits: William Blair resumed at Outperform ($73 target) on September 2, and a September 8 consensus read showed 14 of 17 covering brokerages at buy with an average $65 price target, with no new insider selling, financing or negative regulatory news since the filing. ICER's scoping-comment window closed September 11 with a revised document due around September 21, and attention otherwise sits on the still-undated four-year data due before September 30 and the FDA's filing/priority-review decision expected around early November, with Q3 earnings shortly after."
 }

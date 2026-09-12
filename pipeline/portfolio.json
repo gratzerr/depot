@@ -88,6 +88,24 @@
    "price": 0
   },
   {
+   "pid": "pp_MRNA",
+   "ticker": "MRNA",
+   "name": "Moderna Inc",
+   "assetType": "security",
+   "thesis": "",
+   "ySym": "MRNA",
+   "gquery": "Moderna Inc",
+   "links": {
+    "stocktwits": "https://stocktwits.com/symbol/MRNA",
+    "x": "https://x.com/search?q=%24MRNA&f=live",
+    "finviz": "https://finviz.com/quote.ashx?t=MRNA"
+   },
+   "shares": 0,
+   "price": 0,
+   "value": 0,
+   "short": true
+  },
+  {
    "ticker": "ABVX",
    "name": "Abivax — Mar-2027 $120 Call",
    "assetType": "option",

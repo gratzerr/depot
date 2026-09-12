@@ -353,6 +353,11 @@
   "l": "hsl(352 72% 31%)",
   "src": "https://assets.parqet.com/logos/isin/IL0011762130?format=png&size=64"
  },
+ "MRNA": {
+  "d": "hsl(351 85% 71%)",
+  "l": "hsl(351 72% 31%)",
+  "src": "https://assets.parqet.com/logos/isin/US60770K1079?format=png&size=64"
+ },
  "MSCI": {
   "d": "hsl(232 84% 71%)",
   "l": "hsl(232 72% 31%)",

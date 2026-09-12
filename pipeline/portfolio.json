@@ -88,23 +88,6 @@
    "price": 0
   },
   {
-   "pid": "pp_TENX",
-   "ticker": "TENX",
-   "name": "Tenax Therapeutics Inc",
-   "assetType": "security",
-   "thesis": "",
-   "ySym": "TENX",
-   "gquery": "Tenax Therapeutics Inc",
-   "links": {
-    "stocktwits": "https://stocktwits.com/symbol/TENX",
-    "x": "https://x.com/search?q=%24TENX&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=TENX"
-   },
-   "shares": 0,
-   "price": 0,
-   "value": 0
-  },
-  {
    "ticker": "ABVX",
    "name": "Abivax — Mar-2027 $120 Call",
    "assetType": "option",

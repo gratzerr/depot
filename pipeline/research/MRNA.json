@@ -1,0 +1,86 @@
+{
+  "ticker": "MRNA",
+  "news": [
+    {
+      "date": "2026-08-31",
+      "headline": "Argus Upgrades Moderna to Buy With $180 Price Target",
+      "source": "TipRanks / The Fly (Argus Research)",
+      "url": "https://www.tipranks.com/news/the-fly/moderna-upgraded-to-buy-at-argus-after-fda-approval-for-updated-covid-vaccines-thefly-news",
+      "summary": "Argus Research upgraded Moderna to Buy from Hold with a $180 price target, citing the recent run of FDA approvals that now give the company five approved mRNA products across COVID-19, flu and RSV. The upgrade capped a string of bullish analyst actions following the melanoma vaccine data and vaccine approvals earlier in August."
+    },
+    {
+      "date": "2026-08-28",
+      "headline": "Moderna Prices Upsized $2.6 Billion Offering of 0% Convertible Senior Notes Due 2032",
+      "source": "Nasdaq / Moderna press release",
+      "url": "https://www.nasdaq.com/press-release/moderna-announces-pricing-upsized-26-billion-offering-convertible-senior-notes-2026",
+      "summary": "Moderna priced an upsized $2.6 billion private placement of zero-coupon convertible senior notes maturing 2032, with a $400 million greenshoe option and a conversion price of about $210.58 per share, a roughly 47.5% premium to the last sale price. Net proceeds of about $2.56 billion are earmarked for general corporate purposes, including funding the growing oncology business and debt repayment."
+    },
+    {
+      "date": "2026-08-27",
+      "headline": "Moderna Receives U.S. FDA Approval for Updated 2026-2027 Spikevax and mNEXSPIKE COVID-19 Vaccines",
+      "source": "BioSpace / Moderna press release",
+      "url": "https://www.biospace.com/press-releases/moderna-receives-u-s-fda-approval-for-updated-2026-2027-covid-19-vaccines",
+      "summary": "The FDA approved supplemental BLAs for XFG-subvariant-updated 2026-2027 formulas of Spikevax and mNEXSPIKE, clearing the way for fall vaccination campaigns, with approval limited to adults 65+ and younger people with high-risk conditions. Both vaccines already carry approvals in Europe, the UK, Japan and other markets for the updated formula."
+    },
+    {
+      "date": "2026-08-19",
+      "headline": "Merck and Moderna Announce Phase 3 INTerpath-001 Trial Met Endpoints in Resected Melanoma",
+      "source": "Moderna / Merck press release",
+      "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma",
+      "summary": "The Phase 3 INTerpath-001 trial showed intismeran autogene (mRNA-4157) plus Keytruda significantly improved recurrence-free and distant metastasis-free survival versus Keytruda alone in resected stage IIB-IV melanoma, the first positive Phase 3 result ever for an individualized mRNA cancer therapy. Shares rallied sharply and triggered a wave of analyst price-target increases, with Merck and Moderna saying they plan to present full data at an upcoming medical meeting and engage regulators on a filing."
+    },
+    {
+      "date": "2026-08-06",
+      "headline": "FDA Approves Moderna's mFlusiva, the First mRNA Flu Vaccine",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/06/fda-approves-moderna-mrna-flu-shot-mflusiva.html",
+      "summary": "The FDA approved mFlusiva for adults 50 and older, with traditional approval for ages 50-64 and accelerated approval for 65+, making it the first influenza vaccine ever approved using mRNA technology. The approval followed a rocky path after the FDA briefly declined to review the application in February 2026 before reversing course."
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "Moderna Announces Second Quarter 2026 Financial Results",
+      "source": "SEC 8-K / Moderna press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+      "summary": "Q2 2026 revenue of $145 million topped guidance despite continued declines in U.S. and South American COVID vaccine sales, while net loss narrowed to $782 million ($1.97/share) from $825 million a year earlier. Moderna ended the quarter with $6.9 billion in cash, lowered full-year cost-of-sales and R&D guidance by $0.1 billion each to a roughly $4 billion total cash-cost target, and reaffirmed a path to cash breakeven by 2028."
+    }
+  ],
+  "catalysts": [
+    {
+      "when": "2026-10-16 to 2026-10-20",
+      "label": "ESMO Congress 2026 (Berlin) - full INTerpath-001 data presentation",
+      "detail": "Merck and Moderna said they plan to present full results from the positive Phase 3 INTerpath-001 melanoma trial at an upcoming international oncology meeting; ESMO Congress 2026, running October 16-20 in Berlin, is the most likely venue given timing. Depth of the survival benefit, subgroup consistency and safety detail beyond the August 19 topline will shape how durable the oncology-driven re-rating in the stock proves to be.",
+      "confirmed": false
+    },
+    {
+      "when": "2026-Q4 (ongoing)",
+      "label": "Fall/winter 2026-2027 respiratory vaccination season - commercial execution",
+      "detail": "With updated Spikevax, mNEXSPIKE and the newly approved mFlusiva flu vaccine now cleared for the season, Q3 revenue is guided by management to represent roughly 55% of second-half revenue as the vaccination campaign ramps. Actual COVID and flu vaccination uptake, particularly among the narrowed eligible high-risk/65+ population under current ACIP/CDC guidance, is the key swing factor for full-year revenue growth (guided up to 10%).",
+      "confirmed": true
+    },
+    {
+      "when": "2026-H2 / 2027 (unconfirmed)",
+      "label": "Regulatory filing for intismeran autogene + Keytruda in melanoma",
+      "detail": "Following the positive August 19 Phase 3 INTerpath-001 readout, Merck and Moderna said they would engage regulators on a filing submission for intismeran autogene plus Keytruda in resected melanoma; no specific filing date has been disclosed. An earlier accelerated-approval attempt in 2024 was rebuffed by the FDA, so the path and timeline for a full BLA submission remain a key open question for the oncology thesis.",
+      "confirmed": false
+    },
+    {
+      "when": "2026-11 (est.)",
+      "label": "Q3 2026 earnings report",
+      "detail": "The next quarterly report should update actual fall-season vaccine uptake and revenue against the roughly $4 billion full-year cash-cost target, and give further color on the broader INTerpath oncology program (which includes nine Phase 2/3 trials across melanoma, NSCLC, bladder and renal cell carcinoma) as well as the mCOMBRIAX flu/COVID combination vaccine's still-unscheduled U.S. resubmission. Moderna has historically reported Q3 results in early November; exact date not yet announced.",
+      "confirmed": false
+    },
+    {
+      "when": "Unconfirmed",
+      "label": "mCOMBRIAX (flu/COVID combination vaccine) U.S. BLA resubmission",
+      "detail": "Moderna withdrew its original U.S. application for the combination flu/COVID vaccine in 2025 after the FDA requested additional Phase 3 influenza efficacy data; the vaccine already holds EU marketing authorization (granted April 2026) for adults 50+. Moderna has said it intends to resubmit in the U.S. but has not given a timeline, and mFlusiva's approval in August 2026 was viewed as a needed precursor.",
+      "confirmed": false
+    },
+    {
+      "when": "2027 (pushed back)",
+      "label": "Norovirus vaccine (mRNA-1403) Phase 3 readout",
+      "detail": "Moderna's Phase 3 norovirus vaccine trial did not meet statistical criteria for early success, and the company is enrolling an additional Northern Hemisphere season cohort to accrue enough cases, pushing the readout beyond 2026. This is one of the few remaining infectious-disease pipeline assets after the CMV vaccine program (mRNA-1647) was discontinued in 2026 following a missed primary efficacy endpoint.",
+      "confirmed": false
+    }
+  ],
+  "pulse": "Moderna has spent August 2026 re-rating sharply higher on an unusually dense run of positive news: FDA approvals for mFlusiva (the first mRNA flu vaccine), updated 2026-2027 Spikevax/mNEXSPIKE COVID shots, and above all the August 19 Phase 3 INTerpath-001 melanoma readout, the first-ever positive pivotal trial for an mRNA cancer therapy, which triggered a wave of analyst upgrades (Argus to Buy/$180, Barclays PT to $125) and an upsized $2.6 billion convertible note raise to fund the oncology push. Underlying vaccine commercial performance remains weak and shrinking (Q2 revenue of just $145 million, still net-loss-making at $782 million for the quarter) even as cost cuts continue toward a 2028 cash-breakeven target, so the stock's recent strength is now overwhelmingly an oncology-narrative and short-covering story layered on top of a structurally declining core COVID vaccine franchise. Near-term attention centers on full INTerpath-001 data at ESMO (mid-October), fall vaccination-season uptake feeding into Q3 results (expected November), and clarity on a regulatory filing path for the melanoma combination."
+}

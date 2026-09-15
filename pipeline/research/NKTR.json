@@ -2,25 +2,25 @@
   "ticker": "NKTR",
   "news": [
     {
+      "date": "2026-09-15",
+      "headline": "Eli Lilly Executive Testifies About 'Desperate' Note in Rezpeg Trial",
+      "source": "Law360",
+      "url": "https://www.law360.com/trials/articles/2524969",
+      "summary": "An Eli Lilly executive testified before the San Francisco jury that his handwritten note describing Nektar as 'desperate' referred to the struggling biotech's need for rezpegaldesleukin to succeed, part of ongoing witness testimony in Nektar's roughly $1 billion breach-of-contract suit. No verdict has been reached; the trial, now in its second week, continues with witness testimony from both sides."
+    },
+    {
       "date": "2026-09-10",
-      "headline": "Lilly Owes Nektar $1B If It Breached Rezpeg Deal, Jury Told",
+      "headline": "Lilly Owes Nektar Nearly $1B If It Breached Rezpeg Deal, Jury Told; Judge Allows Financial-Condition Evidence",
       "source": "Law360",
       "url": "https://www.law360.com/trials/articles/2523817",
-      "summary": "Nektar's damages expert testified to the San Francisco federal jury that Eli Lilly could owe Nektar Therapeutics close to $1 billion in lost milestone and royalty payments if jurors find Lilly breached the rezpegaldesleukin collaboration agreement. The testimony came after Nektar's CEO's cross-examination opened the door for the judge to admit evidence of the company's financial condition for impeachment purposes."
+      "summary": "Nektar's damages expert testified that Eli Lilly could owe close to $1 billion in lost milestone and royalty payments if jurors find Lilly breached the rezpegaldesleukin collaboration agreement, a day after the judge ruled Nektar's CEO had opened the door on cross-examination to admitting evidence of the company's financial condition for impeachment purposes. Nektar had sought to block that financial evidence from reaching the jury."
     },
     {
       "date": "2026-09-08",
-      "headline": "Nektar v. Eli Lilly Breach-of-Contract Jury Trial Opens in San Francisco",
-      "source": "CourtListener (N.D. Cal. 3:23-cv-03943)",
+      "headline": "Nektar v. Eli Lilly Breach-of-Contract Jury Trial Opens: Nektar Says Lilly 'Sabotaged' Rezpeg",
+      "source": "Law360 / CourtListener (N.D. Cal. 3:23-cv-03943)",
       "url": "https://www.courtlistener.com/docket/67670334/nektar-therapeutics-v-eli-lilly-co/",
-      "summary": "The long-delayed jury trial over the terminated rezpegaldesleukin collaboration opened today before an 8-person jury in the Northern District of California, after being pushed back from an original October 2025 date. Nektar alleges Lilly used flawed statistics that understated rezpeg's efficacy and mismanaged the ISLAND lupus trial before handing back rights; only Nektar's claims go to the jury after Lilly's counterclaims were dismissed and its summary judgment motion was denied."
-    },
-    {
-      "date": "2026-08-28",
-      "headline": "Nektar's (NKTR) Billion-Dollar Balance Sheet Faces a Multi-Year Test",
-      "source": "Insider Monkey / Yahoo Finance",
-      "url": "https://finance.yahoo.com/healthcare/articles/nektar-nktr-billion-dollar-balance-135659492.html",
-      "summary": "The piece frames the bear case: roughly $1.02 billion of cash funds a multi-year wait to the mid-2028 ZENITH AD readout and into second-half 2029 for the ~850-patient alopecia areata Phase 3, against full-year R&D guidance of $210-230 million and revenue capped near $45 million, mostly non-cash royalties. It cited short interest near 19.9% of float and a decline in the number of hedge funds holding the stock quarter over quarter."
+      "summary": "The long-delayed jury trial over the terminated rezpegaldesleukin collaboration opened before an 8-person jury in the Northern District of California, with Nektar's counsel alleging Lilly used flawed statistics that understated rezpeg's efficacy and 'sabotaged' its development after acquiring competing-drug maker Dermira, while Lilly's counsel countered that Nektar was unharmed by the termination. Only Nektar's claims go to the jury after Lilly's counterclaims were dismissed and its summary judgment motion was denied."
     },
     {
       "date": "2026-08-25",
@@ -48,7 +48,7 @@
     {
       "when": "2026-09 (ongoing)",
       "label": "Nektar v. Eli Lilly jury trial (N.D. Cal., San Francisco) - verdict pending",
-      "detail": "Trial opened September 8, 2026 before an 8-person jury; as of September 10 Nektar's damages expert told jurors Lilly could owe close to $1 billion, and the judge allowed evidence of Nektar's financial condition after CEO cross-examination opened the door to it. No verdict has been reported as of September 13. Nektar seeks compensatory and punitive damages for lost milestone and royalty payments tied to Lilly's handling of rezpeg data and the ISLAND lupus trial; Lilly denies wrongdoing and blames a third-party CRO. This is a binary, clinically-uncorrelated financial wildcard for the stock, with a verdict plausible within the next one to two weeks.",
+      "detail": "Trial opened September 8, 2026 before an 8-person jury and was still hearing witness testimony as of September 15 (most recently an Eli Lilly executive's testimony about a 'desperate' handwritten note). Nektar's damages expert put potential exposure near $1 billion, and the judge separately allowed evidence of Nektar's own financial condition after CEO cross-examination opened the door to it. No verdict has been reported yet; this remains a binary, clinically-uncorrelated financial wildcard for the stock, with a verdict plausible within the next couple of weeks as testimony and closing arguments conclude.",
       "confirmed": true
     },
     {
@@ -66,7 +66,7 @@
     {
       "when": "2026-Q4",
       "label": "24-week off-treatment alopecia areata topline (REZOLVE-AA)",
-      "detail": "Management guided on the Q2 call to report topline data from the 24-week off-treatment period of REZOLVE-AA in Q4 2026, to inform long-term maintenance dosing ahead of the Phase 3 start. Durability off drug is the key differentiator versus chronically dosed JAK inhibitors like Litfulo and Olumiant. Exact date and venue have not been named.",
+      "detail": "Management guided to report topline data from the 24-week off-treatment period of REZOLVE-AA in Q4 2026, to inform long-term maintenance dosing ahead of the Phase 3 start; a September industry report noted Nektar has 'gone quiet' pending this readout. Durability off drug is the key differentiator versus chronically dosed JAK inhibitors like Litfulo and Olumiant. Exact date and venue have not been named.",
       "confirmed": true
     },
     {
@@ -108,7 +108,7 @@
     {
       "when": "2028-H1",
       "label": "First ZENITH AD Phase 3 topline readout (mid-2028)",
-      "detail": "Initial registrational efficacy data for rezpeg in moderate-to-severe atopic dermatitis is the decisive binary event for the equity. Cash runway extends into Q3 2028, so the company reaches this readout without needing another raise. Replicating the Phase 2b 61%-vs-31% mean EASI delta at Phase 3 scale is essentially what the roughly $150+ consensus target discounts.",
+      "detail": "Initial registrational efficacy data for rezpeg in moderate-to-severe atopic dermatitis is the decisive binary event for the equity. Cash runway extends into Q3 2028, so the company reaches this readout without needing another raise. Replicating the Phase 2b 61%-vs-31% mean EASI delta at Phase 3 scale is essentially what the roughly $144-153 consensus target discounts.",
       "confirmed": true
     },
     {
@@ -118,5 +118,5 @@
       "confirmed": true
     }
   ],
-  "pulse": "Shares continue to trade mostly on legal-event positioning: the Nektar v. Eli Lilly breach-of-contract jury trial over the terminated rezpeg collaboration is underway in San Francisco, with Nektar's damages expert telling the jury on September 10 that Lilly could owe close to $1 billion, while the judge separately allowed evidence of Nektar's financial condition after CEO cross-examination; no verdict has landed yet as of September 13, leaving a binary, clinically-uncorrelated outcome hanging over the stock. The last genuine clinical/business milestone was the August 25 Lancet publication of the full REZOLVE-AD Phase 2b dataset (61% vs 31% mean EASI reduction), cementing peer-reviewed validation of the Treg mechanism, even as sell-side coverage stays split between JPMorgan's cautious $65 target and Piper Sandler's bullish $192, with a Strong Buy consensus and roughly $144-153 average target. With about $1.02 billion in cash funding runway into Q3 2028, the near-term sequence is the Lilly verdict, the ZENITH AD-3 Phase 3 start by late September, two EADV oral presentations in Vienna (Sept 30-Oct 3) on maintenance-dosing durability, and a Q4 alopecia off-treatment topline, ahead of the pivotal mid-2028 ZENITH AD Phase 3 readout."
+  "pulse": "Shares continue to trade mostly on legal-event positioning: the Nektar v. Eli Lilly breach-of-contract jury trial over the terminated rezpeg collaboration is in its second week in San Francisco, with witness testimony running through September 15 (an Eli Lilly executive's 'desperate' note, the CEO's cross-examination opening the door to Nektar's own finances, and a damages expert putting exposure near $1 billion), and no verdict reported yet - a binary, clinically-uncorrelated outcome that could land within weeks. The last genuine clinical/business milestone was the August 25 Lancet publication of the full REZOLVE-AD Phase 2b dataset (61% vs 31% mean EASI reduction), cementing peer-reviewed validation of the Treg mechanism, even as sell-side coverage stays split between JPMorgan's cautious $65 target and Piper Sandler's bullish $192, with a Strong Buy consensus and roughly $144-153 average target. With about $1.02 billion in cash funding runway into Q3 2028, the near-term sequence beyond the Lilly verdict is the ZENITH AD-3 Phase 3 start by late September, two EADV oral presentations in Vienna (Sept 30-Oct 3) on maintenance-dosing durability, and a Q4 alopecia off-treatment topline, ahead of the pivotal mid-2028 ZENITH AD Phase 3 readout."
 }

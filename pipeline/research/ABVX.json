@@ -2,6 +2,13 @@
   "ticker": "ABVX",
   "news": [
     {
+      "date": "2026-09-14",
+      "headline": "Abivax Earnings Are Imminent: Most-Accurate Analysts' Forecasts Ahead of the September 21 Call",
+      "source": "Benzinga",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61757828/abivax-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+      "summary": "With Abivax's H1 2026 report due after the close on Monday, September 21, Benzinga surveyed top-rated analysts' pre-print positioning: consensus calls for a loss of about $1.08 per ADS on roughly $1.86m of revenue. Recent target moves cited include Jefferies' Faisal Khurshid (Buy, $158), Piper Sandler's Allison Bratzel (Overweight, $175) and Wedbush's David Nierengarten (Neutral, $110), with the broader 10-analyst consensus target near $155."
+    },
+    {
       "date": "2026-09-10",
       "headline": "Goldman Sachs Initiates Abivax at Buy With $155 Price Target",
       "source": "Investing.com",
@@ -20,7 +27,7 @@
       "headline": "STAT: The Drugmaker Abivax Has Still Not Been Acquired. What's Going On?",
       "source": "STAT News",
       "url": "https://www.statnews.com/2026/09/03/abivax-acquisition-target-replimune-fda/",
-      "summary": "STAT's Adam Feuerstein examined why, nine months into a record biotech M&A year in which a roughly $20bn takeout of Abivax was widely treated as imminent, no deal has materialized, to the visible frustration of the shareholder base. The piece frames the delay as timing and process rather than a broken thesis, noting obefazimod's blockbuster commercial potential in ulcerative colitis remains intact."
+      "summary": "STAT's Adam Feuerstein examined why, nine months into a record biotech M&A year in which a roughly $20bn takeout of Abivax was widely treated as imminent, no deal has materialized, to the visible frustration of the shareholder base. The piece recaps the reported Eli Lilly approach (~EUR15bn, January 2026) and the AstraZeneca data-room exclusivity story (March 2026) and frames the delay as timing and process rather than a broken thesis, noting obefazimod's blockbuster commercial potential in ulcerative colitis remains intact."
     },
     {
       "date": "2026-08-26",
@@ -35,20 +42,13 @@
       "source": "HCPLive",
       "url": "https://www.hcplive.com/view/abtect-part-2-data-obefazimod-sustains-remission-in-uc",
       "summary": "A clinical review of the Phase 3 ABTECT Part 2 maintenance package confirmed that 37.2% of induction non-responders reached clinical remission and 34.5% endoscopic remission at Week 44 on continued 50 mg obefazimod, and that dose escalation to 50 mg recaptured clinical remission in 45.5% of patients who had relapsed in Part 1. Crucially for the June malignancy overhang, the expanded exposure showed malignancy and non-melanoma skin cancer rates consistent with UC background rates and no apparent dose-dependent signal."
-    },
-    {
-      "date": "2026-07-30",
-      "headline": "Abivax Announces Positive Pre-NDA Interaction with the FDA for Obefazimod",
-      "source": "Abivax Investor Relations",
-      "url": "https://ir.abivax.com/news-releases/news-release-details/abivax-announces-positive-pre-nda-interaction-fda-obefazimod",
-      "summary": "The FDA gave constructive feedback and aligned with Abivax on the planned submission strategy, content and format of the obefazimod NDA in moderately-to-severely active ulcerative colitis. Abivax confirmed it remains on track to file its first-ever NDA in Q4 2026, removing a key procedural uncertainty."
     }
   ],
   "catalysts": [
     {
       "when": "2026-09-21",
       "label": "H1 2026 financial results",
-      "detail": "Abivax's published financial calendar fixes this date, now about a week out and the next confirmed company communication. The report will show the first post-raise balance sheet (cash was EUR 491.6m at March 31, 2026 before the $920m July offering, with runway now guided into 2029) and the step-up in R&D and pre-launch commercial spend. Expect a business update on NDA preparation, EMA filing timing and the U.S. commercial build-out, plus management's first chance since the September 3 STAT piece and the September 10 Goldman Sachs Buy initiation to address the M&A question directly.",
+      "detail": "Abivax's published financial calendar fixes this date (after market close on Monday, September 21), now less than a week out and the next confirmed company communication. Consensus (per Benzinga's September 14 preview) expects roughly a $1.08 per-ADS loss on ~$1.86m revenue. The report will show the first post-raise balance sheet (cash was EUR491.6m at March 31, 2026 before the $920m July offering, with runway now guided into 2029) and the step-up in R&D and pre-launch commercial spend. Expect a business update on NDA preparation, EMA filing timing and the U.S. commercial build-out, plus management's first chance since the September 3 STAT piece and the September 10 Goldman Sachs Buy initiation to address the M&A question directly.",
       "confirmed": true
     },
     {
@@ -60,7 +60,7 @@
     {
       "when": "2026-Q4",
       "label": "NDA submission to FDA for obefazimod in ulcerative colitis",
-      "detail": "After positive Phase 3 ABTECT induction data, the 44-week maintenance readout, the Part 2 refractory-patient dataset and the constructive pre-NDA meeting on July 30, 2026, Abivax plans to submit its first NDA for obefazimod in moderately-to-severely active UC in late Q4 2026. This is the single biggest near-term de-risking event and the gate that starts the FDA review clock. Goldman Sachs's September 10 initiation explicitly built its $155 target around this filing proceeding on schedule.",
+      "detail": "After positive Phase 3 ABTECT induction data, the 44-week maintenance readout, the Part 2 refractory-patient dataset and the constructive pre-NDA meeting on July 30, 2026, Abivax plans to submit its first NDA for obefazimod in moderately-to-severely active UC in late Q4 2026. This is the single biggest near-term de-risking event and the gate that starts the FDA review clock. Goldman Sachs's September 10 initiation explicitly built its $155 target around this filing proceeding on schedule; the September 21 H1 results call is the next scheduled opportunity for a timeline update.",
       "confirmed": true
     },
     {
@@ -88,5 +88,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "No material company news has emerged in the three days since the September 10 Goldman Sachs Buy initiation ($155 target) and the Euronext CAC family review that left Abivax's index status unchanged; the stock continues to trade in a broad $114-$128 range on the ADR line, still well below the $148.83 52-week high, as the market marks time into the next confirmed event. The dominant narrative remains the September 3 STAT piece asking why a company widely expected to be acquired for around $20bn remains independent nine months into a record M&A year, a question sharpened by the $920m July raise that funds a solo U.S. launch into 2029 and removes seller urgency, even as PharmaVoice still lists Abivax among the sector's top takeover candidates. All eyes are now on H1 2026 results on September 21 (confirmed on Abivax's financial calendar), just over a week away, where management should update on the Q4 2026 NDA filing timeline, EMA MAA plans, and cash runway, and will likely face direct questions on the stalled M&A speculation."
+  "pulse": "No new company-specific catalyst has emerged since the September 10 Goldman Sachs Buy initiation ($155 target) and unchanged CAC index status; the main development this week is Benzinga's September 14 pre-earnings survey showing a ~$155 average 10-analyst price target and consensus estimates of roughly a $1.08 per-ADS loss on ~$1.86m revenue ahead of H1 2026 results, due after the close on Monday, September 21 (now under a week away). The dominant narrative remains the September 3 STAT piece asking why a company widely expected to be acquired for around $20bn (Eli Lilly's reported ~EUR15bn January approach, AstraZeneca's March data-room exclusivity) remains independent nine months into a record M&A year, sharpened by the $920m July raise that funds a solo U.S. launch into 2029 and reduces seller urgency, even as PharmaVoice still lists Abivax among the sector's top takeover candidates. All eyes now turn to the September 21 H1 results, where management should update on the Q4 2026 NDA filing timeline, EMA MAA plans and cash runway, and will likely face direct questions on the stalled M&A speculation."
 }

@@ -48,7 +48,7 @@
     {
       "when": "2026-09",
       "label": "uniQure presents four-year AMT-130 follow-up data",
-      "detail": "uniQure has guided to topline four-year safety and efficacy data on all 24 patients from the first two AMT-130 cohorts (12 high-dose, 12 low-dose) in September 2026, using a June 30, 2026 data cut. Every one of those patients was dosed through ClearPoint's SmartFlow cannula and navigation system, so durability of the 75% progression-slowing signal seen at three years is the closest available read on the delivery platform performing over multiple years. As of September 8 the data had not yet been released and no exact presentation date has been announced; a clean four-year dataset would further de-risk the BLA now under FDA review.",
+      "detail": "uniQure has guided to topline four-year safety and efficacy data on all 24 patients from the first two AMT-130 cohorts (12 high-dose, 12 low-dose) before the end of September 2026, using a June 30, 2026 data cut. Every one of those patients was dosed through ClearPoint's SmartFlow cannula and navigation system, so durability of the 75% progression-slowing signal seen at three years is the closest available read on the delivery platform performing over multiple years. A September 10 STAT News preview confirmed the readout is still expected before month-end; as of September 15 the data had not yet been released and no exact presentation date has been announced. A clean four-year dataset would further de-risk the BLA now under FDA review.",
       "confirmed": true
     },
     {
@@ -78,7 +78,7 @@
     {
       "when": "2026-H2",
       "label": "EpilepsyGTx EPY201 Phase 1/2a start",
-      "detail": "EpilepsyGTx announced in mid-July 2026 that it selected ClearPoint's SmartFlow cannula and navigation system for a first-in-human Phase I/IIa trial of EPY201 in focal refractory epilepsy, with the therapy slated to enter human studies in 2026. No first-patient-dosed update has been reported yet as of early September; trial initiation would convert the partnership announcement into actual procedure and service revenue.",
+      "detail": "EpilepsyGTx announced in mid-July 2026 that it selected ClearPoint's SmartFlow cannula and navigation system for a first-in-human Phase I/IIa trial of EPY201 in focal refractory epilepsy, with the therapy slated to enter human studies in 2026. No first-patient-dosed update has been reported yet as of mid-September; trial initiation would convert the partnership announcement into actual procedure and service revenue.",
       "confirmed": false
     },
     {
@@ -100,5 +100,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "CLPT is still trading around $14 (market cap roughly $420M) as of September 13, essentially flat over the past week and about 55% off the $30.10 52-week high, with the stock stuck in a holding pattern while the market waits on uniQure's four-year AMT-130 data. That readout, cut from a June 30, 2026 database lock on all 24 first-cohort patients, was guided for September and per a September 10 STAT News preview remains expected before month-end but had not been released as of today; FDA acceptance/Priority Review decision on the September 2 BLA filing is due around early November. The other recent datapoint is CEO Joe Burnett's September 2 cash exercise of options with no shares sold, a rare insider-buy-like signal; next up is the four-year data itself, then the November Q3 print, where biologics needs to reaccelerate off the new CAL facility or the $29.4M cash balance against a roughly $10M quarterly operating loss becomes the bigger story."
+  "pulse": "CLPT is trading around $13.50-13.94 (market cap roughly $410-420M) as of September 14-15, essentially flat over the past two weeks and about 55% off the $30.10 52-week high, with the stock stuck in a holding pattern while the market waits on uniQure's four-year AMT-130 data. That readout, cut from a June 30, 2026 database lock on all 24 first-cohort patients, was guided for September and per a September 10 STAT News preview remains expected before month-end but had not been released as of September 15; FDA acceptance/Priority Review decision on the September 2 BLA filing is due around early November, with a parallel UK MHRA review also underway. No new ClearPoint-specific news has broken since CEO Joe Burnett's September 2 cash exercise of options with no shares sold (a rare insider-buy-like signal) and MAK Capital's and BlackRock's passive stake-building disclosed in August; next up is the four-year data itself, then the November Q3 print, where biologics needs to reaccelerate off the new CAL facility or the $29.4M cash balance against a roughly $10M quarterly operating loss becomes the bigger story."
 }

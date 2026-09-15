@@ -2,18 +2,25 @@
   "ticker": "ABVX",
   "news": [
     {
+      "date": "2026-09-14",
+      "headline": "Bank of America Drops Back Below 5% in Abivax a Week After Crossing Above It",
+      "source": "MarketScreener (AMF filing)",
+      "url": "https://www.marketscreener.com/news/bank-of-america-drops-back-below-5-in-abivax-ce785bdcdb8cf527",
+      "summary": "Bank of America disclosed to the AMF that it fell below the 5% threshold on September 9, 2026, holding 4,323,717 shares (4.96% of capital), after crossing above it on September 2 with 5.08%. The quick in-and-out through market purchases and sales looks like trading/hedging flow rather than a strategic position, so it carries little fundamental signal."
+    },
+    {
       "date": "2026-09-10",
-      "headline": "Goldman Sachs Initiates Abivax at Buy With $155 Price Target",
+      "headline": "Goldman Sachs Initiates Coverage of Abivax with Buy Rating and $155 Price Target",
       "source": "Investing.com",
       "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-initiates-abivax-stock-coverage-with-buy-rating-93CH-4895453",
-      "summary": "Goldman Sachs analyst Rajan Sharma started coverage of Abivax ADRs with a Buy rating and a $155 price target, calling obefazimod a potential 'multiblockbuster' with a de-risked, biologic-like efficacy profile in ulcerative colitis. Goldman models roughly EUR4bn in peak UC sales plus EUR3.5bn of further peak-sales potential in Crohn's disease, and the note helped push the ADR to a session high near $122 (about EUR105 in Paris) ahead of the September 21 earnings date."
+      "summary": "Goldman Sachs started coverage at Buy with a $155 target, modelling peak obefazimod sales of about EUR 4bn in ulcerative colitis plus EUR 3.5bn potential in Crohn's disease, and said the maintenance-trial cancer signal should not impede approval or long-term uptake. The bank also flagged Abivax as a potential acquisition target while calling a solo launch viable after the July financing."
     },
     {
       "date": "2026-09-03",
       "headline": "STAT: The Drugmaker Abivax Has Still Not Been Acquired. What's Going On?",
       "source": "STAT News",
       "url": "https://www.statnews.com/2026/09/03/abivax-acquisition-target-replimune-fda/",
-      "summary": "STAT's Adam Feuerstein examined why, nine months into a record biotech M&A year in which a roughly $20bn takeout of Abivax was widely treated as imminent, no deal has materialized, to the visible frustration of the shareholder base. The piece frames the delay as timing and process rather than a broken thesis, noting obefazimod's blockbuster commercial potential in ulcerative colitis remains intact."
+      "summary": "STAT's Adam Feuerstein dissected why, nine months into a record biotech M&A year in which a roughly $20bn takeout of Abivax was widely treated as imminent, no deal has materialised - to the visible frustration of the shareholder base. The piece frames the delay as timing and process rather than a broken thesis, noting obefazimod's blockbuster commercial potential in ulcerative colitis remains intact."
     },
     {
       "date": "2026-08-26",
@@ -30,37 +37,30 @@
       "summary": "A clinical review of the Phase 3 ABTECT Part 2 maintenance package confirmed that 37.2% of induction non-responders reached clinical remission and 34.5% endoscopic remission at Week 44 on continued 50 mg obefazimod, and that dose escalation to 50 mg recaptured clinical remission in 45.5% of patients who had relapsed in Part 1. Crucially for the June malignancy overhang, the expanded exposure showed malignancy and non-melanoma skin cancer rates consistent with UC background rates and no apparent dose-dependent signal."
     },
     {
-      "date": "2026-08-14",
-      "headline": "TCG Crossover and Chen Yu Report 7.0% Stake in Abivax After the July Offering",
-      "source": "Stock Titan (SEC Schedule 13G/A)",
-      "url": "https://www.stocktitan.net/sec-filings/ABVX/schedule-13g-a-abivax-s-a-amended-passive-investment-disclosure-8741cb45e81c.html",
-      "summary": "Healthcare crossover investor TCG Crossover (Funds I and II, via managing partner Chen Yu) disclosed beneficial ownership of 6,007,834 ADSs, or 7.0% of Abivax, based on 86.09 million shares outstanding after the July 2, 2026 offering. It confirms that a dedicated biotech specialist held on through the large equity raise rather than selling into strength."
-    },
-    {
-      "date": "2026-08-13",
-      "headline": "Invus Entities Disclose 6.0% Beneficial Stake in Abivax",
-      "source": "Stock Titan (SEC Schedule 13G/A)",
-      "url": "https://www.stocktitan.net/sec-filings/ABVX/schedule-13g-a-abivax-s-a-amended-passive-investment-disclosure-a60edefd9648.html",
-      "summary": "Long-standing shareholder Invus (together with the Avicenna Fund) reported 4,825,759 ordinary shares and ADSs, equal to 6.0% of Abivax as of June 30, 2026. Alongside the TCG filing it rounds out a picture of a stable, concentrated institutional register ahead of the NDA filing."
+      "date": "2026-07-30",
+      "headline": "Abivax Announces Positive Pre-NDA Interaction with the FDA for Obefazimod",
+      "source": "Abivax Investor Relations",
+      "url": "https://ir.abivax.com/news-releases/news-release-details/abivax-announces-positive-pre-nda-interaction-fda-obefazimod",
+      "summary": "The FDA gave constructive feedback and aligned with Abivax on the planned submission strategy, content and format of the obefazimod NDA in moderately-to-severely active ulcerative colitis. Abivax confirmed it remains on track to file its first-ever NDA in Q4 2026, removing a key procedural uncertainty; it is still the company's most recent press release."
     }
   ],
   "catalysts": [
     {
       "when": "2026-09-21",
-      "label": "H1 2026 financial results",
-      "detail": "Abivax has this date fixed in its published financial calendar, now under a week out (report due after the September 21 close). The report will show the first post-raise balance sheet (cash was EUR 491.6m at March 31, 2026 before the $920m July offering, with runway now guided into 2029) and the step-up in R&D and pre-launch commercial spend; consensus points to a roughly $1.08 loss per share. Expect a business update on NDA preparation, EMA filing timing and the U.S. commercial build-out alongside the numbers, and the first chance since the September 10 Goldman Sachs Buy initiation for management to address the M&A question directly.",
+      "label": "H1 2026 financial results (after U.S. close)",
+      "detail": "Abivax reports H1 2026 results on Monday, September 21, 2026 after the U.S. market close, now less than a week away. It will show the first post-raise balance sheet (cash was EUR 491.6m at March 31, 2026 before the $920m July offering, runway guided into 2029) and the step-up in R&D and pre-launch commercial spend. Expect updates on NDA preparation, EMA filing timing, UEG Week plans and the U.S. commercial build-out - and the first chance since July 30 for management to address the M&A question and the stock's recent slide.",
       "confirmed": true
     },
     {
-      "when": "2026-Q4",
-      "label": "Full ABTECT maintenance dataset at an autumn gastroenterology congress (UEG Week / ACG)",
-      "detail": "Abivax presented two ABTECT induction late-breakers at UEG Week in Berlin in October 2025 and has a consistent pattern of taking full datasets to autumn congresses. A detailed public presentation of the Week-44 maintenance efficacy and, above all, the complete malignancy and safety database (already previewed via the August ABTECT Part 2 review) would be the cleanest way to fully retire the June cancer-signal overhang. No venue, abstract acceptance or presentation date for a 2026 autumn congress has been announced yet.",
+      "when": "2026-10-17",
+      "label": "UEG Week 2026 (Barcelona, Oct 17-20) - possible full ABTECT maintenance dataset",
+      "detail": "UEG Week 2026 runs October 17-20 in Barcelona; the late-breaking abstract window closed September 7. Abivax presented two ABTECT induction late-breakers at UEG Week 2025 and a detailed presentation of the Week-44 maintenance efficacy and full malignancy/safety database would be the cleanest way to retire the June cancer-signal overhang. No Abivax abstract acceptance or presentation has been announced yet (ACG in late October is the alternative venue).",
       "confirmed": false
     },
     {
       "when": "2026-Q4",
       "label": "NDA submission to FDA for obefazimod in ulcerative colitis",
-      "detail": "After positive Phase 3 ABTECT induction data, the 44-week maintenance readout, the Part 2 refractory-patient dataset and the constructive pre-NDA meeting on July 30, 2026, Abivax plans to submit its first NDA for obefazimod in moderately-to-severely active UC in late Q4 2026. This is the single biggest near-term de-risking event and the gate that starts the FDA review clock. Management has reiterated the timeline at every update this year, and Goldman Sachs' September 10 Buy initiation explicitly underwrites this filing schedule.",
+      "detail": "After positive Phase 3 ABTECT induction data, the 44-week maintenance readout, the Part 2 refractory-patient dataset and the constructive pre-NDA meeting on July 30, 2026, Abivax plans to submit its first NDA for obefazimod in moderately-to-severely active UC in late Q4 2026. This is the single biggest near-term de-risking event and the gate that starts the FDA review clock. Management has reiterated the timeline at every update this year, most recently on July 30.",
       "confirmed": true
     },
     {
@@ -78,15 +78,15 @@
     {
       "when": "2027-H1",
       "label": "Phase 2b ENHANCE-CD Crohn's disease 12-week induction topline data",
-      "detail": "Topline results from the Phase 2b induction trial of obefazimod in moderately-to-severely active Crohn's disease are guided for mid-2027 (first patient enrolled October 2024). Management has explicitly pushed this from an earlier late-2026 expectation. A positive readout opens a second large indication for the miR-124 mechanism - Goldman Sachs now models roughly EUR3.5bn of added peak-sales potential from it - and is the main pipeline diversification event, but it likely lands near or just after the March-2027 option expiry.",
+      "detail": "Topline results from the Phase 2b induction trial of obefazimod in moderately-to-severely active Crohn's disease are guided for mid-2027 (first patient enrolled October 2024). Management has explicitly pushed this from an earlier late-2026 expectation. A positive readout opens a second large indication for the miR-124 mechanism and is the main pipeline diversification event, but it likely lands near or just after the March-2027 option expiry.",
       "confirmed": true
     },
     {
       "when": "2027-H2",
       "label": "Potential FDA approval decision and U.S. launch of obefazimod",
-      "detail": "With a Q4 2026 filing and a standard review cycle, an FDA decision would fall roughly 10-12 months later, i.e. in H2 2027, after the March-2027 call expiry. No PDUFA date exists yet because the NDA has not been submitted. The commercial organisation being hired since July 2026 is being built against this window, making it the ultimate approval and revenue catalyst for the equity.",
+      "detail": "With a Q4 2026 filing and a standard review cycle, an FDA decision would fall roughly 10-12 months later, i.e. in H2 2027 - after the March-2027 call expiry. No PDUFA date exists yet because the NDA has not been submitted. The commercial organisation being hired since July 2026 is being built against this window, making it the ultimate approval and revenue catalyst for the equity.",
       "confirmed": false
     }
   ],
-  "pulse": "Abivax has moved back into the news after a quiet late-August lull, with the ADR trading in a roughly $115-$128 band this week - still well below its $148.83 52-week high - after Goldman Sachs initiated coverage on September 10 at Buy with a $155 target, modeling a 'multiblockbuster' EUR4bn UC plus EUR3.5bn Crohn's peak-sales opportunity for obefazimod. That call reinforced rather than resolved the dominant narrative: the September 3 STAT piece asking why a company widely expected to be acquired for around $20bn remains independent nine months into a record M&A year, a question sharpened by the $920m July equity raise that funds a solo U.S. launch into 2029 and removes seller urgency, even as PharmaVoice still lists Abivax among the sector's top takeover candidates. Fundamentally the thesis stays de-risked - ABTECT induction plus Week-44 maintenance data remain strong and the Part 2 safety database put malignancy rates in line with UC background - with the September 21 H1 2026 results the next scheduled catalyst, giving the first post-raise balance sheet and an update on the late-Q4 2026 FDA NDA filing and any M&A resolution."
+  "pulse": "ABVX closed at $106.71 on September 15, down about 10% in two sessions from $118.64 on September 11 with no company news to explain it, leaving the March-2027 $120 call roughly 11% out of the money (the stock needs about +12.5%) with around six months to expiry and a market cap near $9.2bn. The week's inputs were mixed: Goldman Sachs initiated at Buy with a $155 target on September 10 (seeing the cancer signal as no barrier to approval and flagging M&A optionality), but the same-day Euronext annual review left Abivax out of the CAC Next 20/CAC 40, removing a hoped-for passive-buying catalyst, and there is still no takeover news and no press release since the July 30 pre-NDA update. The thesis itself is unchanged - strong ABTECT induction and Week-44 maintenance data, background-level malignancy rates in the Part 2 database, FDA alignment for a late-Q4 NDA - so getting through the strike before expiry hinges on the September 21 H1 report, a full safety presentation at UEG Week (October 17-20) or ACG, the NDA landing on time, or a revived M&A story; the Crohn's readout and FDA decision both fall after expiry."
 }

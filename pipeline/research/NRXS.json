@@ -46,9 +46,9 @@
   ],
   "catalysts": [
     {
-      "when": "2026-11",
-      "label": "Q3 2026 earnings",
-      "detail": "Next quarterly report, expected in the first half of November on the usual cadence (Q1 on May 12, Q2 on August 11). Key tests: whether revenue tracks the $7-8M full-year pace management reiterated on September 15 (implying $3.5-4.5M in H2 versus $3.5M in H1), whether ASP keeps climbing from $992 toward the ~$1,200 list price, the first read on orders from the newly hired 10-12 VA reps, cash burn against the $8.3M June-30 balance as W-2 headcount heads to ~15 by year-end, and whether the going-concern qualification can be dropped.",
+      "when": "2026-11-17",
+      "label": "Q3 2026 earnings (estimated date)",
+      "detail": "Consensus/data-provider estimates point to roughly November 17, 2026 for the Q3 report, continuing the usual cadence (Q1 on May 12, Q2 on August 11); NeurAxis has not yet issued its own \"host a call\" press release confirming the date. Key tests: whether revenue tracks the $7-8M full-year pace management reiterated on September 15 (implying $3.5-4.5M in H2 versus $3.5M in H1), whether ASP keeps climbing from $992 toward the ~$1,200 list price, the first read on orders from the newly hired 10-12 VA reps, cash burn against the $8.3M June-30 balance as W-2 headcount heads to ~15 by year-end, and whether the going-concern qualification can be dropped.",
       "confirmed": false
     },
     {
@@ -88,5 +88,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "NRXS closed at $5.79 on September 14 for a market cap near $79M on the 13.6 million shares management cited (about $118M on 20.4M fully diluted), up roughly 137% over twelve months but well below the $9.33 52-week high, on a stretched ~12x trailing EV/Sales with Craig-Hallum's Buy and $13 target the lone active coverage. The September 15 iAccess Alpha presentation broke the post-earnings news vacuum with incremental positives rather than a new catalyst: the 10-12 VA reps were hired on time, policies now number nearly 30 covering over 100 million lives, and management guided to a $7-8M 2026 revenue pace without new payer wins, with breakeven seen around $13-14M. The thesis still hinges on landing one of the two large commercial payers in negotiation and Medicaid states loading CPT 64567, set against the going-concern language, $8.3M of June-30 cash, the 1.92M-share resale overhang and 3.7M Series B preferred shares expected to convert after December 31."
+  "pulse": "NRXS is trading around $5.75-5.90 on September 16, essentially flat versus the $5.79 close two days earlier, for a market cap near $72-79M depending on whether the 12.5-13.6M basic share count is used, still up roughly 90-140% over the trailing year but well off the $9.33 52-week high, on a stretched ~12x trailing EV/Sales with Craig-Hallum's Buy and $13 target the lone active coverage. No new company-specific news has emerged since the September 15 iAccess Alpha conference presentation and accompanying Zacks momentum piece; the story remains the incremental read-through from that update - 10-12 VA reps hired on schedule, nearly 30 payer policies covering over 100 million lives, and a $7-8M 2026 revenue pace guided without needing new wins. The thesis still hinges on landing one of the two large commercial payers in negotiation and further Medicaid states loading CPT 64567, set against the going-concern language, $8.3M of June-30 cash, the 1.92M-share resale overhang and 3.7M Series B preferred shares expected to convert after December 31, with Q3 earnings (estimated mid-to-late November, unconfirmed) the next hard catalyst."
 }

@@ -48,7 +48,7 @@
     {
       "when": "2026-09",
       "label": "Four-year AMT-130 Phase I/II data readout",
-      "detail": "uniQure has committed to presenting the four-year Phase I/II analysis before the end of Q3 2026 and reaffirmed that timing in the September 2 filing release, yet as of September 15 no date or webcast has been announced, leaving about two weeks for the promise to be met. The dataset covers all 24 patients from the first two cohorts (12 high-dose, 12 low-dose) at four years plus three additional high-dose patients at three years from a June 30, 2026 data cut, with cUHDRS, TFC and CSF NfL compared against a propensity-matched control drawn from an Enroll-HD database expanded to roughly 26,000 participants. With the BLA already filed, durability of last year's 75% slowing is the single biggest near-term swing factor for the stock and supporting evidence the FDA and any advisory committee will weigh.",
+      "detail": "uniQure has committed to presenting the four-year Phase I/II analysis before the end of Q3 2026, a promise reaffirmed as recently as the September 2 filing release and previewed by STAT on September 10; as of September 16 no date or webcast has been announced, leaving about two weeks for the promise to be met. The dataset covers all 24 patients from the first two cohorts (12 high-dose, 12 low-dose) at four years plus three additional high-dose patients at three years from a June 30, 2026 data cut, with cUHDRS, TFC and CSF NfL compared against a propensity-matched control drawn from an Enroll-HD database expanded to roughly 26,000 participants. With the BLA already filed, durability of last year's 75% slowing is the single biggest near-term swing factor for the stock and supporting evidence the FDA and any advisory committee will weigh.",
       "confirmed": true
     },
     {
@@ -78,7 +78,7 @@
     {
       "when": "2026-H2",
       "label": "FDA advisory committee (AdCom) decision",
-      "detail": "Chief Medical Officer Walid Abi-Saab said in late July that the company considers an advisory committee meeting for what would be the first gene therapy for Huntington's disease probable and is preparing for one. The FDA has not confirmed a meeting or a date; timing would follow BLA acceptance rather than submission, so any announcement would most likely come with or after the filing decision expected in early November.",
+      "detail": "Chief Medical Officer Walid Abi-Saab said in late July that the company considers an advisory committee meeting for what would be the first gene therapy for Huntington's disease probable and is preparing for one, a stance uniQure has reiterated it welcomes. The FDA has not confirmed a meeting or a date; timing would follow BLA acceptance rather than submission, so any announcement would most likely come with or after the filing decision expected in early November.",
       "confirmed": false
     },
     {
@@ -102,7 +102,7 @@
     {
       "when": "2027-H1",
       "label": "ICER evidence report and CEPAC verdict",
-      "detail": "ICER's draft evidence report on AMT-130 is due in January 2027, followed by a Midwest CEPAC public meeting in March 2027 where the panel deliberates and votes, and a final report in April 2027 - landing essentially on top of the expected FDA action date. The verdict frames the US pricing debate for a therapy expected to be priced in line with other one-time gene therapies.",
+      "detail": "ICER's draft evidence report on AMT-130 is due in January 2027, following the revised scoping document expected around September 21, 2026, with a Midwest CEPAC public meeting in March 2027 where the panel deliberates and votes, and a final report in April 2027 - landing essentially on top of the expected FDA action date. The verdict frames the US pricing debate for a therapy expected to be priced in line with other one-time gene therapies.",
       "confirmed": true
     },
     {
@@ -118,5 +118,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "QURE closed September 15 around $43.05 for a market cap of roughly $3.0B, about 3% below where it ended the post-filing week, some 40% under its $71.49 52-week high and well short of a roughly $71 consensus target, with virtually the entire valuation still resting on AMT-130. The US BLA (priority review requested) and UK MAA filed September 2 were sold into, and the two weeks since have brought no new company disclosure, no conference appearances and no rating changes, only previews of the pending readout. The next swing is the still-undated four-year Phase I/II data uniQure has promised before September 30, which must show durability of last year's 75% slowing, followed by the FDA's filing and priority-review decision around early November and a likely advisory committee ahead of a potential approval around late April 2027."
+  "pulse": "QURE has traded roughly sideways in the mid-$40s through mid-September (around $44.50 on September 11), still about 40% below its $71.49 52-week high and well under a roughly $71 consensus target, with virtually the entire valuation resting on AMT-130. The US BLA (priority review requested) and UK MAA filed September 2 were sold into on the news, and since then there has been no new company disclosure beyond STAT's September 10 preview of the still-undated four-year Phase I/II readout uniQure has promised before September 30. That data, which must show durability of last year's 75% slowing of disease progression, is the dominant near-term catalyst, followed by the FDA's filing and priority-review decision around early November, ICER's revised AMT-130 scoping document due around September 21, and a likely advisory committee ahead of a potential approval around late April 2027."
 }

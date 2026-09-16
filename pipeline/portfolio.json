@@ -52,24 +52,6 @@
    "price": 0
   },
   {
-   "pid": "hld_695f994d700de118b95a7054",
-   "ticker": "CLPT",
-   "name": "ClearPoint Neuro",
-   "assetType": "security",
-   "value": 0,
-   "thesis": "Neuro-navigation / gene-therapy delivery",
-   "ySym": "CLPT",
-   "gquery": "ClearPoint Neuro",
-   "links": {
-    "ir": "https://ir.clearpointneuro.com/",
-    "stocktwits": "https://stocktwits.com/symbol/CLPT",
-    "x": "https://x.com/search?q=%24CLPT&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=CLPT"
-   },
-   "shares": 0,
-   "price": 0
-  },
-  {
    "pid": "hld_69958ddb69baa58c8f1f8c4d",
    "ticker": "NRXS",
    "name": "Neuraxis",
@@ -86,24 +68,6 @@
    },
    "shares": 0,
    "price": 0
-  },
-  {
-   "pid": "pp_MRNA",
-   "ticker": "MRNA",
-   "name": "Moderna Inc",
-   "assetType": "security",
-   "thesis": "",
-   "ySym": "MRNA",
-   "gquery": "Moderna Inc",
-   "links": {
-    "stocktwits": "https://stocktwits.com/symbol/MRNA",
-    "x": "https://x.com/search?q=%24MRNA&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=MRNA"
-   },
-   "shares": 0,
-   "price": 0,
-   "value": 0,
-   "short": true
   },
   {
    "ticker": "ABVX",

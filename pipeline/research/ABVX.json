@@ -2,6 +2,13 @@
   "ticker": "ABVX",
   "news": [
     {
+      "date": "2026-09-17",
+      "headline": "Abivax Earnings Are Imminent: Most-Accurate Analysts' Forecasts Ahead of the Sept 21 Call",
+      "source": "Benzinga",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61757828/abivax-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+      "summary": "Benzinga confirmed Abivax will release H1 2026 results after the close on Monday, September 21, with consensus modeling a loss of about $1.08 per share on revenue near $1.86 million, and recapped recent price targets from Wedbush ($110, Neutral), Jefferies ($158, Buy) and Piper Sandler ($175, Overweight). No date change or pre-announcement was reported."
+    },
+    {
       "date": "2026-09-14",
       "headline": "Bank of America Drops Back Below 5% in Abivax a Week After Crossing Above It",
       "source": "MarketScreener (AMF filing)",
@@ -35,20 +42,13 @@
       "source": "HCPLive",
       "url": "https://www.hcplive.com/view/abtect-part-2-data-obefazimod-sustains-remission-in-uc",
       "summary": "A clinical review of the Phase 3 ABTECT Part 2 maintenance package confirmed that 37.2% of induction non-responders reached clinical remission and 34.5% endoscopic remission at Week 44 on continued 50 mg obefazimod, and that dose escalation to 50 mg recaptured clinical remission in 45.5% of patients who had relapsed in Part 1. Crucially for the June malignancy overhang, the expanded exposure showed malignancy and non-melanoma skin cancer rates consistent with UC background rates and no apparent dose-dependent signal."
-    },
-    {
-      "date": "2026-07-30",
-      "headline": "Abivax Announces Positive Pre-NDA Interaction with the FDA for Obefazimod",
-      "source": "Abivax Investor Relations",
-      "url": "https://ir.abivax.com/news-releases/news-release-details/abivax-announces-positive-pre-nda-interaction-fda-obefazimod",
-      "summary": "The FDA gave constructive feedback and aligned with Abivax on the planned submission strategy, content and format of the obefazimod NDA in moderately-to-severely active ulcerative colitis. Abivax confirmed it remains on track to file its first-ever NDA in Q4 2026, removing a key procedural uncertainty; it remains the company's most recent press release as of mid-September."
     }
   ],
   "catalysts": [
     {
       "when": "2026-09-21",
       "label": "H1 2026 financial results (after U.S. close)",
-      "detail": "Abivax reports H1 2026 results on Monday, September 21, 2026 after the U.S. market close, now four days away. It will show the first post-raise balance sheet (cash was EUR 491.6m at March 31, 2026 before the $920m July offering, runway guided into 2029) and the step-up in R&D and pre-launch commercial spend. Expect updates on NDA preparation, EMA filing timing, UEG Week plans and the U.S. commercial build-out - and the first chance since July 30 for management to address the M&A question and the stock's recent volatility. The date also coincides with the CAC-family index review taking effect (announced September 10), which left Abivax out of the CAC 40/CAC Next 20.",
+      "detail": "Abivax reports H1 2026 results on Monday, September 21, 2026 after the U.S. market close, now three days away. It will show the first post-raise balance sheet (cash was EUR 491.6m at March 31, 2026 before the $920m July offering, runway guided into 2029) and the step-up in R&D and pre-launch commercial spend. Expect updates on NDA preparation, EMA filing timing, UEG Week plans and the U.S. commercial build-out - and the first chance since July 30 for management to address the M&A question and the stock's recent volatility. A September 17 Benzinga preview confirmed no date change or pre-announcement, with consensus modeling a loss of about $1.08/share on roughly $1.86m revenue and price targets from Wedbush ($110), Jefferies ($158) and Piper Sandler ($175). The date also coincides with the CAC-family index review taking effect (announced September 10), which left Abivax out of the CAC 40/CAC Next 20.",
       "confirmed": true
     },
     {
@@ -88,5 +88,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "ABVX kept grinding lower into the September 21 earnings date, closing around $102.63 on September 16 (down roughly 4% on the day and about 13-14% over the week from $118.64 on September 11, part of a reported ~41% four-week slide) on thin company-specific news, which market commentary attributes mainly to pre-earnings positioning rather than new negative data; that leaves the March-2027 $120 call solidly out of the money (roughly 15%+) with about six months left and a market cap near $9-10bn. Newsflow stayed thin but net positive: Goldman Sachs initiated coverage at Buy/$155 on September 10 (arguing the June cancer signal is no barrier to approval and flagging M&A optionality), even as that day's Euronext CAC-family annual review (effective September 21) left Abivax out of the CAC 40/CAC Next 20, and STAT News's September 3 feature noted that, nine months into a record biotech M&A year, no Abivax takeover has materialised despite persistent speculation, with no press release since the July 30 pre-NDA update. The next hard catalyst is the H1 2026 results on September 21 (four days away - consensus models a loss of about $1.08/share on roughly $1.9m revenue - the first post-raise balance sheet and management's first comment on the slide and the M&A question), followed by a possible full ABTECT maintenance safety presentation at UEG Week (October 17-20) or ACG and the on-track Q4 2026 NDA filing, while the Crohn's readout and FDA decision both still land after the option's expiry."
+  "pulse": "ABVX chopped in a roughly $102-108 range heading into the September 21 H1 2026 print, bouncing off the September 16 close near $102.63 to touch the $107-108 area mid-week before easing back toward $104-105, with no pre-announcement, delay or fresh M&A headline surfacing since the September 14 BofA filing and September 10 Goldman initiation; that leaves the March-2027 $120 call solidly out of the money with about six months left and a market cap near $9-10bn. A September 17 Benzinga earnings preview confirmed the report is still on for Monday after the close, with consensus modeling a loss of about $1.08/share on roughly $1.86m revenue and analyst targets clustered well above the tape (Wedbush $110, Jefferies $158, Piper Sandler $175, Goldman $155). The next hard catalyst remains the H1 2026 results on September 21 - the first post-raise balance sheet and management's first comment on the slide and the M&A question - followed by a possible full ABTECT maintenance safety presentation at UEG Week in Barcelona (October 17-20) or ACG and the on-track Q4 2026 NDA filing, while the Crohn's readout and FDA decision both still land after the option's expiry."
 }

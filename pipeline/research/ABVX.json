@@ -3,84 +3,72 @@
   "news": [
     {
       "date": "2026-09-19",
-      "headline": "Analysts Split on Abivax's Post-Earnings Reaction Ahead of Q2/H1 Report",
-      "source": "TipRanks",
-      "url": "https://www.tipranks.com/news/will-abivax-stock-abvx-rise-or-fall-after-q2-earnings",
-      "summary": "With Abivax's H1 2026 results due after the close on September 21, TipRanks noted the stock has fallen after six of its last eight earnings reports even as Wall Street's consensus stays Strong Buy with an average price target near $163. Analysts expect a $1.08 per-share loss on about $1.86 million of revenue."
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Top-Rated Analysts Revise Abivax Estimates as Earnings Call Approaches",
+      "headline": "Abivax Earnings Imminent as Analysts Revise Forecasts Ahead of H1 2026 Call",
       "source": "Benzinga",
       "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61757828/abivax-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
-      "summary": "Benzinga highlighted recent forecast updates from high-accuracy analysts such as Piper Sandler's Allison Bratzel and Truist's Gregory Renza ahead of Abivax's September 21 earnings call. The piece framed the report as a key near-term test of sentiment following the company's positive pre-NDA FDA interaction."
+      "summary": "Ahead of Abivax's H1 2026 results (due after market close on September 21), analysts covering the stock revised their forecasts, with consensus pointing to a roughly $1.08 per-share loss and minimal revenue as the company remains pre-commercial."
     },
     {
-      "date": "2026-09-15",
-      "headline": "Abivax Shares Slide 5.6% as Investors De-Risk Before H1 Results",
-      "source": "The Cerbat Gem",
-      "url": "https://www.thecerbatgem.com/2026/09/15/abivax-nasdaqabvx-trading-down-5-6-heres-why.html",
-      "summary": "ABVX dropped as low as $108.50 on light-volume selling that market watchers linked to pre-earnings positioning ahead of the September 21 half-year report. The move pared back some of the stock's early-September rally following the Goldman Sachs initiation."
-    },
-    {
-      "date": "2026-09-14",
-      "headline": "Bank of America Cuts Abivax Stake Below 5% Ownership Threshold",
-      "source": "Option Finance",
-      "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-09-14-bank-of-america-repasse-sous-les-5-dabivax.html",
-      "summary": "Bank of America notified France's AMF that it had crossed below the 5% capital and voting-rights threshold in Abivax, now holding 4,323,717 shares (4.96% of capital), after selling shares on the open market. The filing follows BofA's crossing above the threshold earlier in the year."
-    },
-    {
-      "date": "2026-09-13",
-      "headline": "Wall Street Zen Lifts Abivax Rating to Hold From Sell",
-      "source": "MarketBeat",
-      "url": "https://www.marketbeat.com/instant-alerts/abivax-nasdaqabvx-raised-to-strong-buy-at-the-goldman-sachs-group-2026-09-12/",
-      "summary": "Wall Street Zen upgraded Abivax from Sell to Hold, a more cautious counterpoint to the wave of bullish coverage the stock received earlier in the month. The move came just days after Goldman Sachs' Buy initiation pushed the stock toward multi-month highs."
+      "date": "2026-09-12",
+      "headline": "Morgan Stanley Raises Abivax Price Target to $101, Keeps Overweight",
+      "source": "MarketBeat / Morgan Stanley research note",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-abivax-nasdaq-abvx-raised-to-strong-buy-at-the-goldman-sachs-group-2026-09-12/",
+      "summary": "Morgan Stanley lifted its Abivax price target from $71 to $101 while reiterating an Overweight rating, part of a broader wave of bullish sell-side re-ratings ahead of the H1 2026 earnings call."
     },
     {
       "date": "2026-09-10",
-      "headline": "Goldman Sachs Initiates Abivax at Buy, Sees Obefazimod as Multi-Blockbuster",
+      "headline": "Goldman Sachs Initiates Abivax at Buy, Sees Obefazimod as 'Multiblockbuster'",
       "source": "Investing.com",
       "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-initiates-abivax-stock-coverage-with-buy-rating-93CH-4895453",
-      "summary": "Goldman Sachs analyst Rajan Sharma started coverage of Abivax with a Buy rating and $155 price target, modeling roughly €4 billion in peak ulcerative colitis sales for obefazimod given its biologic-like efficacy. Shares rose about 3% to trade near €104 on Euronext Paris, extending an already unanimous Buy-side analyst panel."
+      "summary": "Goldman Sachs started coverage with a Buy rating and $155 price target, modeling roughly €4B peak UC sales and €3.5B in Crohn's disease for obefazimod; the move came alongside a regulatory filing showing Bank of America had crossed the 5% ownership threshold in Abivax, underscoring rising institutional accumulation."
+    },
+    {
+      "date": "2026-09-03",
+      "headline": "The Drugmaker Abivax Has Still Not Been Acquired. What's Going On?",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/09/03/abivax-acquisition-target-replimune-fda/",
+      "summary": "STAT examines why a widely-expected buyout of Abivax hasn't materialized despite a red-hot biotech M&A market, noting the company's $920M July capital raise now lets it pursue a solo US commercial launch of obefazimod instead of relying on a Big Pharma partner."
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "Abivax Announces Positive Pre-NDA Interaction with the FDA for Obefazimod",
+      "source": "GlobeNewswire / Abivax IR",
+      "url": "https://www.globenewswire.com/news-release/2026/07/30/3336434/0/en/Abivax-Announces-Positive-Pre-NDA-Interaction-with-the-FDA-for-Obefazimod.html",
+      "summary": "Abivax reported constructive FDA feedback that aligned the agency and company on the planned NDA content and format for obefazimod in moderately to severely active ulcerative colitis, keeping the company on track for a late-Q4 2026 NDA submission."
+    },
+    {
+      "date": "2026-07-06",
+      "headline": "Abivax Announces Closing of Upsized $920 Million Public Offering",
+      "source": "BioSpace / Abivax IR",
+      "url": "https://www.biospace.com/press-releases/abivax-announces-closing-of-920-million-public-offering",
+      "summary": "Abivax closed a public offering of 7.36 million ADSs at $125 each (underwriters' overallotment fully exercised), raising about $920M in gross proceeds earmarked to fund a potential US commercial launch of obefazimod and extend its cash runway into 2029."
     }
   ],
   "catalysts": [
     {
-      "when": "2026-09-21 (after market close)",
+      "when": "2026-09-21 (after US market close)",
       "label": "H1 2026 financial results",
-      "detail": "Abivax is scheduled to report first-half 2026 financial results after the U.S. market close on Monday, September 21, 2026 — as of this writing (September 19) the report has not yet occurred. Investors will watch for cash runway commentary, commercial build-out progress, and any update on NDA-readiness given the ~$920M July capital raise.",
+      "detail": "First financial and pipeline update since the $920M July capital raise and the positive July FDA pre-NDA meeting; watch for commentary on NDA-readiness spend, cash runway, and US commercial build-out plans.",
       "confirmed": true
     },
     {
       "when": "Late Q4 2026",
-      "label": "FDA NDA submission for obefazimod in ulcerative colitis",
-      "detail": "Following a positive pre-NDA meeting with the FDA (announced July 30, 2026), Abivax remains on track to submit its first New Drug Application for obefazimod in moderately to severely active ulcerative colitis by the end of 2026.",
+      "label": "Obefazimod NDA submission to FDA (ulcerative colitis)",
+      "detail": "Company reaffirmed it remains on track to submit its first NDA, following FDA alignment on submission content/format reached at the July 2026 pre-NDA meeting.",
       "confirmed": true
     },
     {
-      "when": "Second half 2026 (following the FDA filing)",
-      "label": "EMA Marketing Authorization Application (MAA) submission",
-      "detail": "Abivax has guided to an EMA MAA filing for obefazimod in ulcerative colitis following its U.S. NDA submission, but no specific submission date has been disclosed yet.",
-      "confirmed": false
+      "when": "Mid-2027",
+      "label": "ENHANCE-CD Phase 2b Crohn's disease induction readout",
+      "detail": "12-week induction data from the Phase 2b trial of obefazimod in Crohn's disease; guidance has shifted out from an earlier expectation of late 2026 to mid-2027.",
+      "confirmed": true
     },
     {
-      "when": "October 17-20, 2026 (Barcelona)",
-      "label": "UEG Week 2026",
-      "detail": "United European Gastroenterology Week 2026 takes place in Barcelona October 17-20; Abivax has presented obefazimod data at UEG in prior years, but the company has not yet issued a 2026 abstract-acceptance announcement.",
-      "confirmed": false
-    },
-    {
-      "when": "Late 2026 / mid-2027 (guidance has varied)",
-      "label": "ENHANCE-CD Phase 2b Crohn's disease readout",
-      "detail": "Topline 12-week induction data from the ENHANCE-CD Phase 2b trial of obefazimod in Crohn's disease is expected, though company disclosures have cited both \"late 2026\" and \"mid-2027\" at different points, so the exact timing is unsettled.",
-      "confirmed": false
-    },
-    {
-      "when": "Unscheduled / ongoing",
-      "label": "Takeover / partnership speculation",
-      "detail": "Persistent, unconfirmed reports (originating from a January 2026 La Lettre story) that Eli Lilly explored a roughly €15 billion acquisition of Abivax continue to circulate; management has said it is in no rush to do a deal and the $920M July raise was framed as supporting a potential solo U.S. launch instead.",
+      "when": "Unconfirmed / ongoing",
+      "label": "Potential M&A / takeover of Abivax",
+      "detail": "Recurring speculation about acquisition interest — first Eli Lilly (denied by CEO, January 2026), then AstraZeneca (denied, March 2026) — continues to shadow the stock; the $920M raise gives Abivax a credible go-it-alone path if no deal emerges.",
       "confirmed": false
     }
   ],
-  "pulse": "Abivax remains one of biotech's highest-profile momentum stories: obefazimod's Phase 3 ABTECT maintenance and supplemental data, a positive July pre-NDA FDA meeting, and a fresh Goldman Sachs Buy initiation ($155 target, modeling ~€4B peak UC sales) pushed shares toward multi-month highs in early September. Sentiment has cooled slightly into mid-September — shares slipped roughly 5-6% and Bank of America trimmed its stake below the 5% disclosure threshold — as investors de-risk ahead of H1 2026 results due after the close on September 21, 2026 (not yet reported as of today). The core thesis is intact: an on-track late-Q4 2026 FDA NDA filing for obefazimod in ulcerative colitis, an EMA filing expected to follow, and lingering (unconfirmed) M&A speculation, with Wall Street overwhelmingly rated Buy/Strong Buy heading into the print."
+  "pulse": "Abivax heads into its H1 2026 results (after the close on September 21) on a wave of bullish sell-side re-ratings — Goldman Sachs initiated at Buy ($155 PT) and Morgan Stanley lifted its target to $101 — alongside disclosure that Bank of America has built a >5% stake. The company is fully funded into 2029 after closing a $920M offering and remains on track for a late-Q4 2026 FDA NDA submission for obefazimod in ulcerative colitis following a positive pre-NDA meeting, even as persistent (and repeatedly denied) Eli Lilly/AstraZeneca takeover speculation continues to swirl around the stock."
 }

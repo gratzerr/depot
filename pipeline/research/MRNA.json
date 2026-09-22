@@ -2,6 +2,13 @@
   "ticker": "MRNA",
   "news": [
     {
+      "date": "2026-09-21",
+      "headline": "Moderna Shares Hit Fresh 52-Week High (~$177) as Full Melanoma Vaccine Data Accepted for ESMO 2026 Presidential Symposium",
+      "source": "BioSpace / ad-hoc-news.de",
+      "url": "https://www.biospace.com/press-releases/moderna-announces-late-breaking-data-to-be-presented-at-esmo-congress-2026",
+      "summary": "Moderna said three intismeran autogene abstracts were accepted for ESMO Congress 2026 in Madrid (Oct 23-27), including the full Phase 3 INTerpath-001 melanoma results as a Presidential Symposium late-breaker on Oct 24, a Phase 1 pancreatic-cancer combination study, and the Phase 3 INTerpath-014 NSCLC trial design. Shares jumped as much as 13% intraday to close around $172.94, briefly touching a new 52-week high near $176.75."
+    },
+    {
       "date": "2026-09-17",
       "headline": "Moderna Shares Extend Rally to ~137% Over the Month Amid Short-Squeeze Dynamics",
       "source": "24/7 Wall St. / MarketBeat",
@@ -9,11 +16,25 @@
       "summary": "MRNA rose another ~6% to roughly $154 on September 17, extending gains to about 137% over the prior month as short sellers (an estimated 13-14% of free float) continued covering positions after the August 19 melanoma-vaccine data. William Blair upgraded the stock to Outperform and Leerink Partners raised its peak sales estimate for intismeran autogene to roughly $1.4 billion by 2032."
     },
     {
-      "date": "2026-08-27",
-      "headline": "FDA Approves Moderna's Updated 2026-2027 Spikevax and mNEXSPIKE COVID-19 Vaccines",
-      "source": "BioSpace / Nasdaq",
-      "url": "https://www.nasdaq.com/press-release/moderna-receives-us-fda-approval-updated-2026-2027-covid-19-vaccines-2026-08-27",
-      "summary": "On August 27, 2026 the FDA approved the JN.1-lineage XFG-subvariant 2026-2027 formulas of Spikevax and mNEXSPIKE; Spikevax is cleared for ages 6 months-64 with a high-risk condition plus all adults 65+, while mNEXSPIKE covers ages 12-64 with a high-risk condition plus adults 65+. The narrower age-based labels (versus prior universal recommendations) keep both shots restricted mainly to high-risk and older populations."
+      "date": "2026-09-15",
+      "headline": "US Vaccine Guidance Paralysis Leaves mFlusiva Without a 2026-27 ACIP Recommendation",
+      "source": "Pink Sheet (Citeline)",
+      "url": "https://insights.citeline.com/pink-sheet/vaccines/us-vaccine-guidance-paralysis-leaves-modernas-mflusiva-without-a-launchpad-XEKCUWVFCBHVXLG6KII5Y6CSAQ/",
+      "summary": "New CDC Director Erica Schwartz, sworn in September 2, opted not to bypass the still-frozen ACIP to issue a standalone recommendation for Moderna's mFlusiva, so the CDC instead rolled over last year's flu guidance for the 2026-27 season. With ACIP unable to convene since a March court order froze 13 members' appointments, mFlusiva remains without the insurer-friendly recommendation that typically ensures no-cost coverage."
+    },
+    {
+      "date": "2026-09-03",
+      "headline": "Rothschild & Co (Redburn) Downgrades Moderna to Sell, Even While Doubling Price Target to $81",
+      "source": "GuruFocus / MarketBeat",
+      "url": "https://www.gurufocus.com/news/9066243/mrna-downgraded-by-rothschild-co-price-target-raised-to-81",
+      "summary": "Analyst Simon Baker cut Moderna to Sell from Neutral and raised his price target to $81 from $40, arguing the market has overreacted to the single melanoma readout since nine other intismeran autogene trials across different tumor types remain unproven. J.P. Morgan's Jessica Fye voiced similar caution, saying the immediate economics of the Merck deal already look priced in."
+    },
+    {
+      "date": "2026-08-28",
+      "headline": "Moderna Prices Upsized $2.6 Billion Offering of 0% Convertible Senior Notes Due 2032",
+      "source": "Nasdaq / BioSpace",
+      "url": "https://www.nasdaq.com/press-release/moderna-announces-pricing-upsized-26-billion-offering-convertible-senior-notes-2026",
+      "summary": "Moderna priced an upsized $2.6 billion private placement of zero-coupon convertible notes (from a planned $2.0 billion), with an initial conversion price near $210.58/share (a 47.5% premium) and capped-call transactions capping dilution up to about $392.62/share. Proceeds are earmarked mainly to fund growth of the oncology business, including the intismeran autogene launch, alongside general corporate purposes."
     },
     {
       "date": "2026-08-19",
@@ -21,52 +42,37 @@
       "source": "STAT News / Merck",
       "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/",
       "summary": "Intismeran autogene (mRNA-4157/V940) combined with Merck's Keytruda met both co-primary/key endpoints - recurrence-free survival and distant metastasis-free survival - in the Phase 3 INTerpath-001 trial of resected stage IIB-IV melanoma, the first positive late-stage trial for an individualized mRNA cancer vaccine. Moderna shares nearly doubled intraday on the news, and the companies said they aim to file for regulatory approval within months."
-    },
-    {
-      "date": "2026-08-05",
-      "headline": "FDA Approves mFlusiva, Moderna's First mRNA-Based Flu Vaccine, but ACIP Recommendation Remains Stalled",
-      "source": "MedCity News / Pharmacy Times",
-      "url": "https://medcitynews.com/2026/08/moderna-flu-vaccine-fda-approval-mflusiva-acip-cdc-mrna/",
-      "summary": "The FDA approved mFlusiva (mRNA-1010) on August 5, 2026 for adults 50-64 and 65+, Moderna's fifth approved product and the first mRNA seasonal flu vaccine, conditional on an additional post-approval trial in the 65+ group; in trials it showed about 27% greater relative efficacy than a standard-dose flu shot. A March 2026 federal court ruling has left ACIP unable to issue new recommendations, meaning insurers are not required to cover mFlusiva and its fall 2026-27 rollout is at risk."
-    },
-    {
-      "date": "2026-07-31",
-      "headline": "Moderna Q2 2026 Revenue Beats Guidance at $145M; Narrows 2026 Cost Guidance After $950M Patent Settlement Payment",
-      "source": "Moderna 8-K / GuruFocus",
-      "url": "https://www.gurufocus.com/news/8995768/moderna-inc-mrna-q2-2026-earnings-call-highlights-revenue-beat-and-pipeline-progress-amid-norovirus-setback",
-      "summary": "Q2 2026 revenue was $145 million versus a guided range of $50-100 million, with a roughly $782 million GAAP net loss partly reflecting the $950 million upfront payment in Moderna's LNP patent settlement with Genevant/Arbutus. Moderna reiterated full-year 2026 revenue guidance of up to 10% growth while cutting cost-of-sales guidance to $1.7 billion (from $1.8 billion) and R&D guidance to $2.9 billion (from $3.0 billion)."
-    },
-    {
-      "date": "2026-07-31",
-      "headline": "Moderna's Norovirus Vaccine Misses Phase 3 Interim Efficacy Bar; Trial Extended With New Cohort",
-      "source": "Bloomberg / BioSpace",
-      "url": "https://www.biospace.com/news/moderna-maintains-10-growth-target-despite-phase-3-norovirus-miss",
-      "summary": "Moderna disclosed on July 31, 2026 that its trivalent norovirus candidate mRNA-1403 did not meet the statistical bar for early success in its Phase 3 interim analysis because too few norovirus infections had occurred among the roughly 20,000-25,000 enrollees; the company is recruiting an additional cohort to assess efficacy through the 2026-2027 winter season. Shares fell about 5.7%-7% intraday despite management maintaining its overall growth targets."
     }
   ],
   "catalysts": [
     {
-      "when": "2026-11",
+      "when": "2026-10-29",
       "label": "Q3 2026 earnings report",
-      "detail": "Financial-data aggregators list Moderna's Q3 2026 results around late October to early November 2026 (estimates range from Oct 29 to Nov 5), though the company has not yet published an official date. The release should update 2026-27 respiratory-season uptake for mFlusiva, Spikevax, mNEXSPIKE and mRESVIA, progress on the norovirus vaccine's expanded cohort, and full-year revenue/cost guidance.",
+      "detail": "Financial-data aggregators point to Moderna reporting Q3 2026 results around October 29 (with some estimates ranging as late as November 5); the company has not yet published an official date. The release should update 2026-27 respiratory-season uptake for mFlusiva, Spikevax, mNEXSPIKE and mRESVIA amid the ACIP coverage gap, progress on the norovirus vaccine's expanded cohort, and full-year revenue/cost guidance.",
       "confirmed": false
+    },
+    {
+      "when": "2026-10-24",
+      "label": "Full INTerpath-001 melanoma data at ESMO 2026 Presidential Symposium",
+      "detail": "Moderna and Merck will present the complete Phase 3 INTerpath-001 results for intismeran autogene plus Keytruda in resected melanoma at ESMO Congress 2026 in Madrid (Presidential Symposium, Oct 24, with a live webcast the same evening), alongside early data on an intismeran/FOLFIRINOX pancreatic-cancer combination and the INTerpath-014 NSCLC trial design. This is the first full public readout of the pivotal data behind the stock's rally.",
+      "confirmed": true
     },
     {
       "when": "2026-H2/2027",
       "label": "Intismeran autogene (mRNA-4157) regulatory filing for melanoma",
-      "detail": "Following the August 19, 2026 Phase 3 INTerpath-001 success, Moderna and Merck said they intend to file for approval with global regulators (including the FDA) within months, without giving a specific date, and will present full data at an upcoming international medical meeting. Approval would mark the first individualized mRNA cancer therapy to reach market.",
+      "detail": "Following the August 19, 2026 Phase 3 INTerpath-001 success, Moderna and Merck said they intend to file for approval with global regulators (including the FDA) within months, without giving a specific date. Approval would mark the first individualized mRNA cancer therapy to reach market; the ESMO 2026 presentation (Oct 24) is expected to inform the filing package.",
       "confirmed": false
     },
     {
-      "when": "2026-Q4",
-      "label": "ACIP reconvening and vote on mFlusiva coverage recommendation",
-      "detail": "A March 2026 federal court ruling left the CDC's Advisory Committee on Immunization Practices unable to issue new vaccine recommendations, so mFlusiva currently lacks an ACIP recommendation that insurers typically rely on for no-cost coverage. Moderna has said the vaccine could still become broadly available this fall if the legal impasse is resolved and ACIP reconvenes in time for the 2026-27 flu season.",
+      "when": "2026-Q4/TBD",
+      "label": "ACIP quorum restoration and mFlusiva coverage recommendation",
+      "detail": "New CDC Director Erica Schwartz declined in September to bypass the still-frozen Advisory Committee on Immunization Practices to grant mFlusiva a standalone recommendation, so the CDC is running the 2026-27 flu season on rolled-over prior-year guidance. mFlusiva's path to broad, no-cost insurance coverage now depends on when the courts and HHS resolve the ACIP membership freeze (in place since March) and the committee reconvenes.",
       "confirmed": false
     },
     {
       "when": "2026-2027 winter",
       "label": "mRNA-1403 norovirus vaccine expanded-cohort Phase 3 readout",
-      "detail": "After the initial interim analysis fell short due to insufficient norovirus infections in the study population, Moderna is enrolling an additional participant cohort to re-assess vaccine efficacy over the 2026-2027 winter norovirus season. A successful readout would support Moderna's push to diversify beyond respiratory vaccines.",
+      "detail": "After the initial interim analysis fell short due to insufficient norovirus infections in the study population, Moderna is enrolling an additional participant cohort (including a return to Northern Hemisphere sites) to re-assess vaccine efficacy over the 2026-2027 winter norovirus season. A successful readout would support Moderna's push to diversify beyond respiratory vaccines.",
       "confirmed": false
     },
     {
@@ -74,13 +80,7 @@
       "label": "mCOMBRIAX (flu/COVID combination vaccine) US regulatory path",
       "detail": "mCOMBRIAX has EU marketing authorization, but Moderna withdrew its original U.S. FDA application in May 2025 pending additional Phase 3 data and has not given an updated U.S. filing timeline. A renewed U.S. submission, if and when filed, would be a first-of-its-kind combination shot for the American market.",
       "confirmed": false
-    },
-    {
-      "when": "2026",
-      "label": "Potential broader COVID-19 vaccine label via Phase 4 data",
-      "detail": "Moderna is working with the FDA on post-marketing (Phase 4) data for Spikevax/mNEXSPIKE aimed at restoring eligibility to a wider population than the current high-risk/65+-focused label the agency imposed. Any label expansion would be a meaningful catalyst for core COVID vaccine volumes, but no submission or decision date has been disclosed.",
-      "confirmed": false
     }
   ],
-  "pulse": "MRNA trades around $154 (Sept 19, 2026, intraday range roughly $150-$160) within a 52-week band of $22.28-$176.66, having rallied over 100% since the August 19 Phase 3 INTerpath-001 melanoma cancer-vaccine win with Merck, a move amplified by heavy short covering (short interest estimated at 13-14% of float). Near-term narrative is split between oncology momentum - intismeran autogene's expected regulatory filing 'within months' - and respiratory-franchise headwinds, as newly FDA-approved products (mFlusiva flu shot, updated Spikevax/mNEXSPIKE COVID shots) face an ACIP recommendation vacuum that threatens insurance coverage and fall 2026-27 uptake even as core COVID/RSV vaccine revenue keeps shrinking. Cost discipline continues (2026 cost-of-sales and R&D guidance both trimmed at Q2), while the norovirus vaccine's Phase 3 miss underscores execution risk in the pipeline-diversification push."
+  "pulse": "MRNA has kept ripping higher, closing around $173 on September 21 (a fresh 52-week high near $177 intraday, versus a 52-week low of $22.28) after Moderna disclosed that full INTerpath-001 melanoma data will headline ESMO 2026's Presidential Symposium on October 24 - the next major proof point behind intismeran autogene's expected regulatory filing. The move remains largely short-covering driven (short interest still estimated near 13-14% of float) even as sell-side sentiment turns more cautious - Rothschild & Co/Redburn downgraded to Sell on September 3 despite doubling its price target, and Moderna itself raised an upsized $2.6B convertible note to fund the oncology buildout with only modest near-term dilution. Meanwhile the respiratory franchise faces a real coverage headwind: new CDC Director Erica Schwartz chose not to bypass the still-frozen ACIP for mFlusiva, leaving the mRNA flu vaccine without a fresh recommendation heading into the 2026-27 season, and Q3 2026 earnings (expected around October 29, unconfirmed) will be the next checkpoint on both respiratory uptake and the norovirus vaccine's expanded-cohort progress."
 }

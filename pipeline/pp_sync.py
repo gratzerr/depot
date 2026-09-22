@@ -265,18 +265,20 @@ if _bad:
 
 # ---- Short-Konvention (PP-Eingabe) --------------------------------------------
 # PP will Kauf VOR Verkauf. Wer einen Leerverkauf deshalb "verkehrt" eintraegt,
-# schreibt das Wort "short" in die Notiz der Buchungen. Regel:
-#   * Alle markierten Kaeufe+Verkaeufe eines Wertpapiers bilden eine Short-Episode.
-#     Die eingetragenen Daten gelten als richtig, nur ihre Zuordnung ist verdreht:
-#     die fruehesten Daten gehen an die Verkaeufe (Eroeffnung), die spaeten an die
-#     Kaeufe (Deckung). Kurse/Betraege bleiben an ihrem Buchungstyp. Bei 1:1 ist
-#     das ein einfacher Datumstausch.
-#   * Ist nur EINE Seite markiert (z.B. nur der Kauf), wird ein unmarkierter Partner
-#     NUR bei exakt gleicher Stueckzahl gesucht (Kauf -> naechster Verkauf danach,
-#     Verkauf -> letzter Kauf davor). Nie ein Partner mit anderer Stueckzahl: das
-#     hat am 22.09.2026 einen POET-Verkauf ein halbes Jahr verschoben.
-#   * Am selben Tag wird ein markierter Kauf NACH dem Verkauf verarbeitet.
-# Korrekt eingetragene Shorts (Verkauf zuerst) brauchen keine Notiz.
+# schreibt das Wort "short" in die Notiz der Buchungen. Die Engine korrigiert NUR
+# echte Verstoesse, richtig eingetragene Sequenzen bleiben unveraendert:
+#   * Markierter Kauf (Deckung), obwohl zu dem Zeitpunkt kein/zu wenig Short offen
+#     ist -> die naechsten markierten Verkaeufe (Eroeffnung) muessen davor liegen:
+#     die Daten dieser kleinen Gruppe werden neu verteilt (frueheste an die
+#     Verkaeufe, spaeteste an den Kauf). Bei 1:1 ist das ein Datumstausch.
+#     Gibt es keine markierten Verkaeufe, zaehlt ein unmarkierter Verkauf danach
+#     mit EXAKT gleicher Stueckzahl als Partner.
+#   * Markierter Verkauf, obwohl davor eine Long-Position steht: Partner ist der
+#     letzte unmarkierte Kauf davor mit exakt gleicher Stueckzahl (Datumstausch).
+#   * Nie ein Partner mit anderer Stueckzahl (22.09.2026: POET-Verkauf um ein
+#     halbes Jahr verschoben). Am selben Tag wird ein markierter Kauf NACH dem
+#     Verkauf verarbeitet.
+# Kurse/Betraege bleiben immer an ihrem Buchungstyp, nur der Zeitpunkt wandert.
 _SHORT_RE=re.compile(r"\bshort\b",re.I)
 def _short_convention():
     bysec=defaultdict(list)
@@ -292,28 +294,49 @@ def _short_convention():
         for l,al,d in pairs:
             l["date"]=d
             for a in al: a["date"]=d
+    def regroup(buy,sells):   # Verkaeufe bekommen die fruehesten Daten der Gruppe, der Kauf das spaeteste
+        dates=sorted(t["date"] for t in [buy]+sells)
+        redate(sorted(sells,key=lambda t:t["date"]),dates[:-1]); redate([buy],dates[-1:])
     n=0;warn=0
     for s,lst in bysec.items():
-        mb=sorted([t for t in lst if t["type"]=="BUY" and _SHORT_RE.search(t["note"])],key=lambda t:t["date"])
-        ms=sorted([t for t in lst if t["type"]=="SELL" and _SHORT_RE.search(t["note"])],key=lambda t:t["date"])
-        if not mb and not ms: continue
-        for t in mb: t["shortCover"]=True
-        for t in ms: t["shortOpen"]=True
-        if mb and ms:
-            dates=sorted(t["date"] for t in ms+mb)
-            redate(ms,dates[:len(ms)]); redate(mb,dates[len(ms):]); n+=1
-            continue
-        for b in mb:   # nur Kauf markiert: 1:1-Partner mit gleicher Stueckzahl
-            c=[t for t in lst if t["type"]=="SELL" and not t.get("shortOpen") and t["date"]>=b["date"] and abs(t["shares"]-b["shares"])<1e-6]
-            if not c: warn+=1; continue
-            sl=min(c,key=lambda t:t["date"]); sl["shortOpen"]=True
-            db,ds=b["date"],sl["date"]; redate([b,sl],[ds,db]); n+=1
-        for sl in ms:  # nur Verkauf markiert
-            c=[t for t in lst if t["type"]=="BUY" and not t.get("shortCover") and t["date"]<=sl["date"] and abs(t["shares"]-sl["shares"])<1e-6]
-            if not c: warn+=1; continue
-            b=max(c,key=lambda t:t["date"]); b["shortCover"]=True
-            db,ds=b["date"],sl["date"]; redate([b,sl],[ds,db]); n+=1
-    if n or warn: print(f"short convention: {n} episode(s) re-dated via note, {warn} marked leg(s) without equal-size partner (left as is)")
+        marked=[t for t in lst if _SHORT_RE.search(t["note"])]
+        if not marked: continue
+        for t in marked: t["shortCover" if t["type"]=="BUY" else "shortOpen"]=True
+        order=lambda:sorted(lst,key=lambda t:(t["date"], 2 if t.get("shortCover") else (0 if t["type"]=="BUY" else 1)))
+        # Kaeufe: Deckung ohne offenen Short
+        for _ in range(len(lst)+1):
+            seq=order();pos=0.0;changed=False
+            for i,t in enumerate(seq):
+                if t["type"]=="BUY" and t.get("shortCover") and not t.get("_fixed"):
+                    deficit=t["shares"]-max(0.0,-pos)
+                    if deficit>1e-9:
+                        t["_fixed"]=True
+                        later=[x for x in seq[i+1:] if x["type"]=="SELL" and x.get("shortOpen") and not x.get("_fixed")]
+                        need=[];cum=0.0
+                        for x in later:
+                            need.append(x);cum+=x["shares"]
+                            if cum>=deficit-1e-9: break
+                        if not need:   # keine markierten Verkaeufe: unmarkierter Partner nur bei gleicher Stueckzahl
+                            c=[x for x in seq[i+1:] if x["type"]=="SELL" and not x.get("shortOpen") and abs(x["shares"]-t["shares"])<1e-6]
+                            if c: need=[c[0]];c[0]["shortOpen"]=True
+                        if need:
+                            for x in need: x["_fixed"]=True
+                            regroup(t,need);n+=1;changed=True;break
+                        warn+=1
+                pos+=t["shares"] if t["type"]=="BUY" else -t["shares"]
+            if not changed: break
+        # Verkaeufe: markiert, aber davor steht eine Long-Position (1:1 verkehrt, nur Verkauf markiert)
+        seq=order();pos=0.0
+        for i,t in enumerate(seq):
+            if t["type"]=="SELL" and t.get("shortOpen") and not t.get("_fixed") and pos>1e-9:
+                c=[x for x in seq[:i] if x["type"]=="BUY" and not x.get("shortCover") and abs(x["shares"]-t["shares"])<1e-6]
+                if c:
+                    b=c[-1];b["shortCover"]=True;t["_fixed"]=True;b["_fixed"]=True
+                    db,ds=b["date"],t["date"];redate([b,t],[ds,db]);n+=1
+                    pos-=2*b["shares"]   # Kauf liegt jetzt hinter dem Verkauf
+                else: warn+=1
+            pos+=t["shares"] if t["type"]=="BUY" else -t["shares"]
+    if n or warn: print(f"short convention: {n} fix(es) via note, {warn} marked leg(s) left as is (no equal-size partner)")
 _short_convention()
 
 # ---------------- event streams (unfiltered entire portfolio) ----------------

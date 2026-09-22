@@ -264,14 +264,19 @@ if _bad:
     print(f"WARNING: {len(_bad)} unresolved tx legs — results may drift",file=sys.stderr)
 
 # ---- Short-Konvention (PP-Eingabe) --------------------------------------------
-# PP will Kauf VOR Verkauf. Wer einen Leerverkauf deshalb "verkehrt" eintraegt
-# (Kauf = Deckung mit dem frueheren Datum, Verkauf = Eroeffnung mit dem spaeteren,
-# oder beides am selben Tag), schreibt das Wort "short" in die Notiz EINES der
-# beiden Buchungen. Die Engine tauscht dann die Daten der beiden Legs zurueck
-# (Verkauf zuerst) — Kurse und Betraege bleiben an ihrem Buchungstyp, nur der
-# Zeitpunkt wandert. Am selben Tag sorgt das Flag dafuer, dass der Verkauf vor dem
-# Kauf verarbeitet wird. Korrekt eingetragene Shorts (Verkauf zuerst) brauchen
-# keine Notiz — sie funktionieren ohnehin (MRNA 11.09.->15.09.2026).
+# PP will Kauf VOR Verkauf. Wer einen Leerverkauf deshalb "verkehrt" eintraegt,
+# schreibt das Wort "short" in die Notiz der Buchungen. Regel:
+#   * Alle markierten Kaeufe+Verkaeufe eines Wertpapiers bilden eine Short-Episode.
+#     Die eingetragenen Daten gelten als richtig, nur ihre Zuordnung ist verdreht:
+#     die fruehesten Daten gehen an die Verkaeufe (Eroeffnung), die spaeten an die
+#     Kaeufe (Deckung). Kurse/Betraege bleiben an ihrem Buchungstyp. Bei 1:1 ist
+#     das ein einfacher Datumstausch.
+#   * Ist nur EINE Seite markiert (z.B. nur der Kauf), wird ein unmarkierter Partner
+#     NUR bei exakt gleicher Stueckzahl gesucht (Kauf -> naechster Verkauf danach,
+#     Verkauf -> letzter Kauf davor). Nie ein Partner mit anderer Stueckzahl: das
+#     hat am 22.09.2026 einen POET-Verkauf ein halbes Jahr verschoben.
+#   * Am selben Tag wird ein markierter Kauf NACH dem Verkauf verarbeitet.
+# Korrekt eingetragene Shorts (Verkauf zuerst) brauchen keine Notiz.
 _SHORT_RE=re.compile(r"\bshort\b",re.I)
 def _short_convention():
     bysec=defaultdict(list)
@@ -282,33 +287,33 @@ def _short_convention():
     def acc_legs(pt):   # Geld-Seite derselben Buchung: gleicher Tag, Typ, Betrag (und Wertpapier, falls verlinkt)
         return [a for a in acc if a["date"]==pt["date"] and a["type"]==pt["type"]
                 and abs(a["amount"]-pt["amount"])<0.005 and (a["sec"] is None or a["sec"]==pt["sec"])]
-    n=0
+    def redate(legs,dates):   # legs[i] bekommt dates[i]; Geld-Legs wandern mit
+        pairs=[(l,acc_legs(l),d) for l,d in zip(legs,dates)]
+        for l,al,d in pairs:
+            l["date"]=d
+            for a in al: a["date"]=d
+    n=0;warn=0
     for s,lst in bysec.items():
-        if not any(_SHORT_RE.search(t["note"]) for t in lst): continue
-        paired=set()
-        def pair(b,sl):
-            nonlocal n
-            paired.add(id(b));paired.add(id(sl))
-            db,ds=b["date"],sl["date"]
-            if db!=ds:
-                lb,ls=acc_legs(b),acc_legs(sl)
-                for a in lb: a["date"]=ds
-                for a in ls: a["date"]=db
-                b["date"],sl["date"]=ds,db
-            b["shortCover"]=True;sl["shortOpen"]=True;n+=1
-        # 1) markierter Kauf -> passender Verkauf am selben/spaeteren Tag (gleiche Stueckzahl bevorzugt)
-        for b in sorted([t for t in lst if t["type"]=="BUY" and _SHORT_RE.search(t["note"])],key=lambda t:t["date"]):
-            c=[t for t in lst if t["type"]=="SELL" and id(t) not in paired and t["date"]>=b["date"]]
-            same=[t for t in c if abs(t["shares"]-b["shares"])<1e-6]
-            if not c: continue
-            pair(b,min(same or c,key=lambda t:(t["date"],0 if _SHORT_RE.search(t["note"]) else 1)))
-        # 2) markierter Verkauf ohne Partner -> passender Kauf am selben/frueheren Tag
-        for sl in sorted([t for t in lst if t["type"]=="SELL" and _SHORT_RE.search(t["note"]) and id(t) not in paired],key=lambda t:t["date"]):
-            c=[t for t in lst if t["type"]=="BUY" and id(t) not in paired and t["date"]<=sl["date"]]
-            same=[t for t in c if abs(t["shares"]-sl["shares"])<1e-6]
-            if not c: continue
-            pair(max(same or c,key=lambda t:t["date"]),sl)
-    if n: print(f"short convention: {n} buy/sell pair(s) re-ordered via note")
+        mb=sorted([t for t in lst if t["type"]=="BUY" and _SHORT_RE.search(t["note"])],key=lambda t:t["date"])
+        ms=sorted([t for t in lst if t["type"]=="SELL" and _SHORT_RE.search(t["note"])],key=lambda t:t["date"])
+        if not mb and not ms: continue
+        for t in mb: t["shortCover"]=True
+        for t in ms: t["shortOpen"]=True
+        if mb and ms:
+            dates=sorted(t["date"] for t in ms+mb)
+            redate(ms,dates[:len(ms)]); redate(mb,dates[len(ms):]); n+=1
+            continue
+        for b in mb:   # nur Kauf markiert: 1:1-Partner mit gleicher Stueckzahl
+            c=[t for t in lst if t["type"]=="SELL" and not t.get("shortOpen") and t["date"]>=b["date"] and abs(t["shares"]-b["shares"])<1e-6]
+            if not c: warn+=1; continue
+            sl=min(c,key=lambda t:t["date"]); sl["shortOpen"]=True
+            db,ds=b["date"],sl["date"]; redate([b,sl],[ds,db]); n+=1
+        for sl in ms:  # nur Verkauf markiert
+            c=[t for t in lst if t["type"]=="BUY" and not t.get("shortCover") and t["date"]<=sl["date"] and abs(t["shares"]-sl["shares"])<1e-6]
+            if not c: warn+=1; continue
+            b=max(c,key=lambda t:t["date"]); b["shortCover"]=True
+            db,ds=b["date"],sl["date"]; redate([b,sl],[ds,db]); n+=1
+    if n or warn: print(f"short convention: {n} episode(s) re-dated via note, {warn} marked leg(s) without equal-size partner (left as is)")
 _short_convention()
 
 # ---------------- event streams (unfiltered entire portfolio) ----------------
@@ -652,7 +657,9 @@ for t in ptx:
         rem=sh;basis=0.0;basis_u=0.0;q=lots[s]
         first_buy=None;wdays=0.0;taken=0.0
         sell_dt=datetime.date.fromisoformat(t["date"])
-        while rem>1e-9 and q:
+        # nur LONG-Lots abbauen: liegt schon ein Short-Lot (negativ) vorn, vergroessert
+        # dieser Verkauf den Short (unten) statt das negative Lot zu "verbrauchen"
+        while rem>1e-9 and q and q[0][0]>1e-9:
             l=q[0];take=min(l[0],rem)
             frac=take/l[0] if l[0]>1e-12 else 0.0
             basis+=l[1]*frac;l[1]-=l[1]*frac

@@ -257,10 +257,59 @@ for el in root.iter():
             "ccy":el.findtext("currencyCode") or "EUR",
             "amount":int(amt)/100.0 if amt else 0.0,
             "fee":fee,"tax":tax,
-            "shares":int(sh)/1e8 if sh else 0.0,"sec":sidx}
+            "shares":int(sh)/1e8 if sh else 0.0,"sec":sidx,
+            "note":(el.findtext("note") or "").strip()}
 _bad=[t for t in txs.values() if t["type"] is None or t["owner"] is None]
 if _bad:
     print(f"WARNING: {len(_bad)} unresolved tx legs — results may drift",file=sys.stderr)
+
+# ---- Short-Konvention (PP-Eingabe) --------------------------------------------
+# PP will Kauf VOR Verkauf. Wer einen Leerverkauf deshalb "verkehrt" eintraegt
+# (Kauf = Deckung mit dem frueheren Datum, Verkauf = Eroeffnung mit dem spaeteren,
+# oder beides am selben Tag), schreibt das Wort "short" in die Notiz EINES der
+# beiden Buchungen. Die Engine tauscht dann die Daten der beiden Legs zurueck
+# (Verkauf zuerst) — Kurse und Betraege bleiben an ihrem Buchungstyp, nur der
+# Zeitpunkt wandert. Am selben Tag sorgt das Flag dafuer, dass der Verkauf vor dem
+# Kauf verarbeitet wird. Korrekt eingetragene Shorts (Verkauf zuerst) brauchen
+# keine Notiz — sie funktionieren ohnehin (MRNA 11.09.->15.09.2026).
+_SHORT_RE=re.compile(r"\bshort\b",re.I)
+def _short_convention():
+    bysec=defaultdict(list)
+    for t in txs.values():
+        if t["kind"]=="port" and t["sec"] is not None and t["type"] in ("BUY","SELL"):
+            bysec[t["sec"]].append(t)
+    acc=[t for t in txs.values() if t["kind"]=="acc" and t["type"] in ("BUY","SELL")]
+    def acc_legs(pt):   # Geld-Seite derselben Buchung: gleicher Tag, Typ, Betrag (und Wertpapier, falls verlinkt)
+        return [a for a in acc if a["date"]==pt["date"] and a["type"]==pt["type"]
+                and abs(a["amount"]-pt["amount"])<0.005 and (a["sec"] is None or a["sec"]==pt["sec"])]
+    n=0
+    for s,lst in bysec.items():
+        if not any(_SHORT_RE.search(t["note"]) for t in lst): continue
+        paired=set()
+        def pair(b,sl):
+            nonlocal n
+            paired.add(id(b));paired.add(id(sl))
+            db,ds=b["date"],sl["date"]
+            if db!=ds:
+                lb,ls=acc_legs(b),acc_legs(sl)
+                for a in lb: a["date"]=ds
+                for a in ls: a["date"]=db
+                b["date"],sl["date"]=ds,db
+            b["shortCover"]=True;sl["shortOpen"]=True;n+=1
+        # 1) markierter Kauf -> passender Verkauf am selben/spaeteren Tag (gleiche Stueckzahl bevorzugt)
+        for b in sorted([t for t in lst if t["type"]=="BUY" and _SHORT_RE.search(t["note"])],key=lambda t:t["date"]):
+            c=[t for t in lst if t["type"]=="SELL" and id(t) not in paired and t["date"]>=b["date"]]
+            same=[t for t in c if abs(t["shares"]-b["shares"])<1e-6]
+            if not c: continue
+            pair(b,min(same or c,key=lambda t:(t["date"],0 if _SHORT_RE.search(t["note"]) else 1)))
+        # 2) markierter Verkauf ohne Partner -> passender Kauf am selben/frueheren Tag
+        for sl in sorted([t for t in lst if t["type"]=="SELL" and _SHORT_RE.search(t["note"]) and id(t) not in paired],key=lambda t:t["date"]):
+            c=[t for t in lst if t["type"]=="BUY" and id(t) not in paired and t["date"]<=sl["date"]]
+            same=[t for t in c if abs(t["shares"]-sl["shares"])<1e-6]
+            if not c: continue
+            pair(max(same or c,key=lambda t:t["date"]),sl)
+    if n: print(f"short convention: {n} buy/sell pair(s) re-ordered via note")
+_short_convention()
 
 # ---------------- event streams (unfiltered entire portfolio) ----------------
 CREDIT={"DEPOSIT","DIVIDENDS","FEES_REFUND","INTEREST","SELL","TRANSFER_IN","TAX_REFUND"}
@@ -553,7 +602,7 @@ rz_day=defaultdict(lambda:[0.0,0.0])   # d -> [eur, usd] realized that day (for 
 # round-trip sells from an empty lot queue (full proceeds booked as "gain") and leaves
 # a ghost lot behind (caused +99k realized / +20k unrealized drift vs the PP app)
 ptx=sorted((t for t in txs.values() if t["kind"]=="port" and t["sec"] is not None and t["date"]>START),
-           key=lambda t:(t["date"], 0 if t["type"] in ("BUY","DELIVERY_INBOUND") else 1))
+           key=lambda t:(t["date"], 2 if t.get("shortCover") else (0 if t["type"] in ("BUY","DELIVERY_INBOUND") else 1)))   # markierte Deckung NACH dem Verkauf
 for t in ptx:
     ty=t["type"];s=t["sec"];sh=t["shares"]
     if ty in ("TRANSFER_IN","TRANSFER_OUT"): continue     # internal moves, client-neutral

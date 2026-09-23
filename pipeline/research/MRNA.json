@@ -2,6 +2,13 @@
   "ticker": "MRNA",
   "news": [
     {
+      "date": "2026-09-22",
+      "headline": "Moderna Shares Jump ~5.6% to Fresh 52-Week High Near $187 as FDA Clears Updated Spikevax/mNEXSPIKE COVID Shots",
+      "source": "ad-hoc-news.de / 24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/09/22/moderna-adds-another-5-and-is-up-500-in-2026-can-mrna-stock-continue-the-melt-up/",
+      "summary": "Moderna stock rose about 5.6% on September 22 to roughly $182.56 (touching a fresh 52-week high near $187 intraday) after the FDA signed off on Moderna's updated 2026-2027 Spikevax and mNEXSPIKE COVID-19 vaccines targeting the JN.1-lineage XFG variant, adding to momentum from the melanoma-vaccine rally that has pushed the stock up roughly 500% year-to-date. Sell-side sentiment stayed split, with several analysts flagging valuation risk even as price targets rise."
+    },
+    {
       "date": "2026-09-21",
       "headline": "Moderna Shares Hit Fresh 52-Week High (~$177) as Full Melanoma Vaccine Data Accepted for ESMO 2026 Presidential Symposium",
       "source": "BioSpace / ad-hoc-news.de",
@@ -28,13 +35,6 @@
       "source": "GuruFocus / MarketBeat",
       "url": "https://www.gurufocus.com/news/9066243/mrna-downgraded-by-rothschild-co-price-target-raised-to-81",
       "summary": "Analyst Simon Baker cut Moderna to Sell from Neutral and raised his price target to $81 from $40, arguing the market has overreacted to the single melanoma readout since nine other intismeran autogene trials across different tumor types remain unproven. J.P. Morgan's Jessica Fye voiced similar caution, saying the immediate economics of the Merck deal already look priced in."
-    },
-    {
-      "date": "2026-08-28",
-      "headline": "Moderna Prices Upsized $2.6 Billion Offering of 0% Convertible Senior Notes Due 2032",
-      "source": "Nasdaq / BioSpace",
-      "url": "https://www.nasdaq.com/press-release/moderna-announces-pricing-upsized-26-billion-offering-convertible-senior-notes-2026",
-      "summary": "Moderna priced an upsized $2.6 billion private placement of zero-coupon convertible notes (from a planned $2.0 billion), with an initial conversion price near $210.58/share (a 47.5% premium) and capped-call transactions capping dilution up to about $392.62/share. Proceeds are earmarked mainly to fund growth of the oncology business, including the intismeran autogene launch, alongside general corporate purposes."
     },
     {
       "date": "2026-08-19",
@@ -82,5 +82,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "MRNA has kept ripping higher, closing around $173 on September 21 (a fresh 52-week high near $177 intraday, versus a 52-week low of $22.28) after Moderna disclosed that full INTerpath-001 melanoma data will headline ESMO 2026's Presidential Symposium on October 24 - the next major proof point behind intismeran autogene's expected regulatory filing. The move remains largely short-covering driven (short interest still estimated near 13-14% of float) even as sell-side sentiment turns more cautious - Rothschild & Co/Redburn downgraded to Sell on September 3 despite doubling its price target, and Moderna itself raised an upsized $2.6B convertible note to fund the oncology buildout with only modest near-term dilution. Meanwhile the respiratory franchise faces a real coverage headwind: new CDC Director Erica Schwartz chose not to bypass the still-frozen ACIP for mFlusiva, leaving the mRNA flu vaccine without a fresh recommendation heading into the 2026-27 season, and Q3 2026 earnings (expected around October 29, unconfirmed) will be the next checkpoint on both respiratory uptake and the norovirus vaccine's expanded-cohort progress."
+  "pulse": "MRNA has kept ripping higher, closing around $182.56 on September 22 (a fresh 52-week high near $187 intraday, up roughly 500% year-to-date versus a 52-week low of $22.28) after the FDA cleared Moderna's updated 2026-27 Spikevax/mNEXSPIKE COVID shots on top of the ongoing melanoma-vaccine rally, with full INTerpath-001 data still set to headline ESMO 2026's Presidential Symposium on October 24 - the next major proof point behind intismeran autogene's expected regulatory filing. The move remains partly short-covering driven (short interest still estimated near 13-14% of float) even as sell-side sentiment turns more cautious, with several outlets on September 22 noting most analysts hold neutral/sell ratings and see downside risk to the current valuation despite rising price targets. Meanwhile the respiratory franchise faces a real coverage headwind: new CDC Director Erica Schwartz chose not to bypass the still-frozen ACIP for mFlusiva, leaving the mRNA flu vaccine without a fresh recommendation heading into the 2026-27 season, and Q3 2026 earnings (expected around October 29, unconfirmed) will be the next checkpoint on both respiratory uptake and the norovirus vaccine's expanded-cohort progress."
 }

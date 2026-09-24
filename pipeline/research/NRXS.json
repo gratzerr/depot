@@ -35,38 +35,31 @@
       "source": "GlobeNewswire",
       "url": "https://www.globenewswire.com/news-release/2026/08/11/3342584/0/en/neuraxis-reports-record-second-quarter-2026-financial-results-driven-by-116-year-over-year-revenue-growth.html",
       "summary": "NeurAxis reported Q2 2026 revenue of $1.93 million, up 116% year-over-year, with gross margin improving to 85.9% from 83.6% as new payer coverage and the CPT Category I code lifted average selling prices. Shares fell after the report despite the growth because the company's per-share loss of $0.19 came in wider than the $0.16 loss analysts had forecast."
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "NeurAxis Expands Payer Coverage with New Policies",
-      "source": "GlobeNewswire / Nasdaq",
-      "url": "https://www.globenewswire.com/news-release/2026/08/04/3338132/0/en/NeurAxis-Expands-Payer-Coverage-with-New-Policies.html",
-      "summary": "NeurAxis announced additional medical policy coverage for PENFS representing over 500,000 covered lives from regional health plans in the Mid-Atlantic region. CEO Brian Carrico said adding coverage from regional plans broadens patient access and strengthens the company's reimbursement network as it builds toward comprehensive nationwide coverage for IB-Stim."
     }
   ],
   "catalysts": [
     {
       "when": "2026-09-29 to 2026-09-30",
       "label": "Lytham Partners Fall 2026 Investor Conference",
-      "detail": "Virtual conference with a NeurAxis management webcast presentation at 11:45 a.m. ET on Sept 29 and one-on-one investor meetings; scheduled and publicly confirmed, now about one week away.",
+      "detail": "Virtual conference with a NeurAxis management webcast presentation at 11:45 a.m. ET on Sept 29 and one-on-one investor meetings; scheduled and publicly confirmed, now less than a week away.",
       "confirmed": true
     },
     {
       "when": "Est. early-to-mid November 2026",
       "label": "Q3 2026 earnings and business update call",
-      "detail": "Based on the company's 2026 cadence (Q1 call May 12, Q2 call Aug 11), a Q3 2026 results call would fall in early-to-mid November, but NeurAxis has not yet announced the specific date.",
+      "detail": "Based on the company's 2026 cadence (Q1 call May 12, Q2 call Aug 11) and last year's Q3 call on Nov 11, 2025, a Q3 2026 results call would fall in early-to-mid November, but NeurAxis has not yet announced the specific date.",
       "confirmed": false
     },
     {
       "when": "Ongoing through H2 2026 / early 2027",
       "label": "Additional payer medical-policy coverage decisions",
-      "detail": "Management has guided toward further national and regional payer coverage wins for PENFS/IB-Stim beyond the ~120 million covered lives reached in September, which would keep expanding the addressable, reimbursed patient base.",
+      "detail": "Management has guided toward further national and regional payer coverage wins for PENFS/IB-Stim beyond the ~120 million covered lives reached in mid-September, which would keep expanding the addressable, reimbursed patient base.",
       "confirmed": false
     },
     {
       "when": "Ongoing through 2026",
       "label": "State-level Medicaid fee-schedule adoption of CPT 64567",
-      "detail": "Many states have still not added the new Category I CPT code (64567, effective Jan 1, 2026) to their Medicaid fee schedules, which continues to limit reimbursed access for Medicaid beneficiaries; further state adoptions would remove a near-term revenue bottleneck.",
+      "detail": "Roughly 20-25 states have still not loaded the new Category I CPT code (64567, effective Jan 1, 2026) into their Medicaid fee schedules, which continues to limit reimbursed access for Medicaid/EPSDT beneficiaries; further state adoptions would remove a near-term revenue bottleneck.",
       "confirmed": false
     },
     {
@@ -76,5 +69,5 @@
       "confirmed": true
     }
   ],
-  "pulse": "NeurAxis continues to post triple-digit revenue growth (Q2 2026 revenue up 116% YoY to $1.93M, 85.9% gross margin) as its new Category I CPT code (64567, effective Jan 1, 2026) and rapidly expanding payer coverage — now over 120 million covered lives after the September 16 milestone — convert PENFS/IB-Stim into a broadly reimbursed therapy. No major new company news has broken in the past week; the stock's near-term focus is management's appearances at investor conferences (iAccess Alpha on Sept 15, Lytham Partners Fall 2026 on Sept 29-30) while state-level Medicaid fee-schedule gaps still cap near-term conversion of coverage wins into revenue. Investors are watching for further payer wins and the still-unscheduled Q3 2026 earnings call to confirm the growth ramp can be sustained despite last quarter's wider-than-expected per-share loss."
+  "pulse": "NeurAxis remains on a steep growth trajectory (Q2 2026 revenue up 116% YoY to $1.93M, 85.9% gross margin) as its new Category I CPT code (64567, effective Jan 1, 2026) and rapidly expanding payer coverage -- now over 120 million covered lives after the September 16 milestone -- convert PENFS/IB-Stim into a broadly reimbursed pediatric and adult neuromodulation therapy. No new company-specific news has broken since September 16; the near-term catalyst is management's webcast and investor meetings at the Lytham Partners Fall 2026 conference on Sept 29-30, following back-to-back appearances at iAccess Alpha and other investor events this month. Investors are still watching for further payer wins, faster state Medicaid fee-schedule adoption of the new CPT code, and an as-yet-unscheduled Q3 2026 earnings call (likely early-to-mid November) to confirm the growth ramp can offset last quarter's wider-than-expected per-share loss."
 }

@@ -2,6 +2,13 @@
   "ticker": "MRNA",
   "news": [
     {
+      "date": "2026-09-24",
+      "headline": "Moderna Shares Touch Fresh 52-Week High of $192.31 as Bancel Frames Company as an 'mRNA Platform,' Teases Cancer Vaccine Filing",
+      "source": "Yahoo Finance / Investing.com (Bernstein Healthcare Forum)",
+      "url": "https://finance.yahoo.com/healthcare/articles/moderna-eyes-cancer-vaccine-filing-150231769.html",
+      "summary": "At Bernstein's Healthcare Leaders and Disruptors forum on September 23, CEO Stephane Bancel and Chief Development Officer David Berman described Moderna as an mRNA platform company built on vaccines, oncology and rare disease rather than a COVID-only business, citing the Phase 3 intismeran autogene melanoma win as proof of concept and flagging plans to file for cancer-vaccine approval. Shares touched a fresh 52-week high of $192.31 on September 24 as the presentation reinforced bullish sentiment around the oncology pipeline."
+    },
+    {
       "date": "2026-09-23",
       "headline": "Moderna Stock Hits Fresh 52-Week High of $187.20 as Melanoma Vaccine Rally Extends, Analysts Grow Split on Valuation",
       "source": "Zacks / Yahoo Finance",
@@ -35,16 +42,15 @@
       "source": "GuruFocus / MarketBeat",
       "url": "https://www.gurufocus.com/news/9066243/mrna-downgraded-by-rothschild-co-price-target-raised-to-81",
       "summary": "Analyst Simon Baker cut Moderna to Sell from Neutral and raised his price target to $81 from $40, arguing the market has overreacted to the single melanoma readout since nine other intismeran autogene trials across different tumor types remain unproven. J.P. Morgan's Jessica Fye voiced similar caution, saying the immediate economics of the Merck deal already look priced in."
-    },
-    {
-      "date": "2026-08-28",
-      "headline": "Moderna Prices Upsized $2.6 Billion Offering of 0% Convertible Senior Notes Due 2032",
-      "source": "Nasdaq / BioSpace",
-      "url": "https://www.nasdaq.com/press-release/moderna-announces-pricing-upsized-26-billion-offering-convertible-senior-notes-2026",
-      "summary": "Moderna priced an upsized $2.6 billion private placement of zero-coupon convertible notes (from a planned $2.0 billion), with an initial conversion price near $210.58/share (a 47.5% premium) and capped-call transactions capping dilution up to about $392.62/share. Proceeds are earmarked mainly to fund growth of the oncology business, including the intismeran autogene launch, alongside general corporate purposes."
     }
   ],
   "catalysts": [
+    {
+      "when": "2026-10-24",
+      "label": "Full INTerpath-001 melanoma data at ESMO 2026 Presidential Symposium",
+      "detail": "Moderna and Merck will present the complete Phase 3 INTerpath-001 results for intismeran autogene plus Keytruda in resected melanoma at ESMO Congress 2026 in Madrid (Presidential Symposium, Oct 24, with a live webcast the same evening), alongside early data on an intismeran/FOLFIRINOX pancreatic-cancer combination and the INTerpath-014 NSCLC trial design. This is the first full public readout of the pivotal data behind the stock's rally, and is being widely framed by sell-side analysts as a key test of whether the run-up is justified.",
+      "confirmed": true
+    },
     {
       "when": "2026-10-29",
       "label": "Q3 2026 earnings report",
@@ -52,10 +58,10 @@
       "confirmed": false
     },
     {
-      "when": "2026-10-24",
-      "label": "Full INTerpath-001 melanoma data at ESMO 2026 Presidential Symposium",
-      "detail": "Moderna and Merck will present the complete Phase 3 INTerpath-001 results for intismeran autogene plus Keytruda in resected melanoma at ESMO Congress 2026 in Madrid (Presidential Symposium, Oct 24, with a live webcast the same evening), alongside early data on an intismeran/FOLFIRINOX pancreatic-cancer combination and the INTerpath-014 NSCLC trial design. This is the first full public readout of the pivotal data behind the stock's rally, and is being widely framed by sell-side analysts as a key test of whether the run-up is justified.",
-      "confirmed": true
+      "when": "By year-end 2026",
+      "label": "mRNA-3927 propionic acidemia pivotal data readout",
+      "detail": "CEO Stephane Bancel said at Bernstein's September 23, 2026 healthcare forum that target enrollment has been reached in the registrational study of mRNA-3927 for propionic acidemia, with pivotal data expected by year-end 2026. Management is positioning it as the first proof point for a broader liver-focused rare-disease mRNA franchise beyond vaccines and oncology.",
+      "confirmed": false
     },
     {
       "when": "2026-H2/2027",
@@ -82,5 +88,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "Moderna's rally kept extending into the September 24 close, with shares touching a fresh 52-week high of $187.20 on September 23 and now up roughly 500% year-to-date, driven almost entirely by momentum around intismeran autogene's Phase 3 melanoma win and the upcoming full data unveiling at ESMO's October 24 Presidential Symposium. Sell-side sentiment remains split: firms like Wolfe Research, William Blair and Argus have turned more constructive on the oncology franchise's multibillion-dollar peak-sales potential, while others including Rothschild & Co/Redburn have downgraded to Sell and recent coverage notes average price targets still trail well below the trading price. Meanwhile the legacy respiratory-vaccine business faces a genuine headwind, as the still-frozen ACIP left mFlusiva without a fresh 2026-27 recommendation, and Q3 2026 earnings (unofficially expected around October 29) will be the next checkpoint on respiratory uptake and use of proceeds from the recent $2.6B convertible note raise."
+  "pulse": "Moderna's rally kept extending through September 24, with shares touching a fresh 52-week high of $192.31 as CEO Stephane Bancel used Bernstein's healthcare forum on September 23 to reframe the company as a broad 'mRNA platform' spanning vaccines, oncology and rare disease rather than a COVID-only business, pointing to intismeran autogene's Phase 3 melanoma win and a newly flagged year-end propionic acidemia data readout (mRNA-3927) as proof points. The stock is now up roughly 500% year-to-date heading into the full INTerpath-001 data unveiling at ESMO's October 24 Presidential Symposium. Sell-side sentiment remains split: firms like Wolfe Research, William Blair and Argus have turned more constructive on the oncology franchise's multibillion-dollar peak-sales potential, while others including Rothschild & Co/Redburn have downgraded to Sell and recent coverage notes average price targets still trail well below the trading price. Meanwhile the legacy respiratory-vaccine business faces a genuine headwind, as the still-frozen ACIP left mFlusiva without a fresh 2026-27 recommendation, and Q3 2026 earnings (unofficially expected around October 29) will be the next checkpoint on respiratory uptake and use of proceeds from the recent $2.6B convertible note raise."
 }

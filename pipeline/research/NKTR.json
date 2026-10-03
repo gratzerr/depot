@@ -2,6 +2,13 @@
   "ticker": "NKTR",
   "news": [
     {
+      "date": "2026-10-02",
+      "headline": "NKTR Reiterated by HC Wainwright & Co. -- Price Target Maintained at $185",
+      "source": "GuruFocus",
+      "url": "https://www.gurufocus.com/news/9107468/nktr-reiterated-by-hc-wainwright-co-price-target-maintained-at-185",
+      "summary": "H.C. Wainwright reiterated its Buy rating and $185 target a day after the alopecia areata durability data triggered a ~21% selloff."
+    },
+    {
       "date": "2026-10-01",
       "headline": "Nektar Therapeutics (NKTR) Shares Drop After Rezpegaldesleukin Trial Results on Alopecia Areata",
       "source": "GuruFocus",
@@ -42,13 +49,6 @@
       "source": "thepharmaletter.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQY1lZM25naWo1clNrSE9WdUlqTTBJZElRUnlFNXZ3QktNVnpJdUNoRXcyN2p1ZXBsTlJGQzd5SG5MV2V6OFI3c0VHREZISGh6VTIyY2UyTGdkLWpWelBPcnlCUWhBb0ZzNjdHTUcyUjYyakxjWjBvMVI1eFFkaDRfMmJTdkpFTzQ3Vm5ac2ZuU3gyQm9pcDA0NF9R?oc=5",
       "summary": "A California federal jury found Eli Lilly breached the implied covenant of good faith in the rezpegaldesleukin license and awarded Nektar $90M, far below the $1B sought. Post-trial motions and appeals remain possible."
-    },
-    {
-      "date": "2026-09-28",
-      "headline": "Nektar Announces Three Oral Presentations for Rezpegaldesleukin at the European Academy of Dermatology & Venereology (EADV) Congress 2026",
-      "source": "PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNb3BITEI1TmxqM05Oa0JXU1BRblRnNUNLdEwwNEVCeEJLbVFudzFMWkhJWUszS3hoVHlCd3hfd2tMR29vcXd5aUVoNi1iNU83VUpmSmNnRXJOaUg5RlNVUDVvUkJ2WXhtbDdESEZMZjhOT2kxQkluNFIyV0kwd0J6YmFJUjBYZE1wN2pqWE5DRlJUREhNUW5nd0tZcXYzdFZ1Rld0MkpNWDVEVkJPbkNBdlpmdjFZMGJJSDlvbkRpenVaOVhwSHVZaU9ocTZuNFFCMlM1Z0J4ek5iREw0YlBaMjhSRUYtYmFkR3pUSFJLUTZfZXRnSkxnNjY1NXlhZk00WU1uOS0zdG9CM2JnUngxY09JemlsUUxfMFE?oc=5",
-      "summary": "Nektar will present Phase 2b rezpegaldesleukin data in atopic dermatitis and alopecia areata in three oral sessions at EADV 2026, with an investor webcast on October 1."
     }
   ],
   "catalysts": [
@@ -56,18 +56,6 @@
       "when": "Pending (post-verdict)",
       "label": "Post-trial motions / appeal in Nektar v. Eli Lilly",
       "detail": "A jury awarded Nektar $90M on Sept 24, 2026 for Lilly's breach of the implied covenant of good faith (well below the $1B sought), sending shares up ~15%; the court still must set interest, and the verdict is subject to post-trial motions and possible appeal by either side.",
-      "confirmed": true
-    },
-    {
-      "when": "Oct 1, 2026",
-      "label": "EADV 2026 oral presentations and investor webcast",
-      "detail": "Three oral presentations of rezpegaldesleukin Phase 2b data (atopic dermatitis, alopecia areata) at EADV, followed by an investor webcast on October 1.",
-      "confirmed": true
-    },
-    {
-      "when": "Reported Oct 1, 2026",
-      "label": "REZOLVE-AA 24-week off-treatment durability data",
-      "detail": "Six-month off-treatment durability data were presented at EADV 2026 on Oct 1 (63% maintaining SALT <=20); this clears the gate for the Phase 3 start.",
       "confirmed": true
     },
     {

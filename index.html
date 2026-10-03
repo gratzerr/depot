@@ -848,10 +848,13 @@ function _renderKpis(){
      note:_today?(_priv?MASK:fmtUsd(_today.usd))+' vs yesterday':'—',
      cls:_today&&_today.pct>=0?'up':'down'},
     (()=>{ const use=pg&&!pAll;
-      const v=use?pg.unrealized:un;
-      return {lab:use?'Unrealized · '+pbLabel():'Unrealized Gain',
+      /* IMMER der echte Stand der offenen Positionen (Engine-FIFO). Die Perioden-
+         Veraenderung war als Hauptzahl irrefuehrend: realisierte Jahresanfangs-
+         Gewinne erschienen dort als "Verlust" (−$1,09M statt −$667k, 2026-10-03) */
+      const v=un;
+      return {lab:'Unrealized Gain',
         val:_priv?MASK:(_ccy==='EUR'?fmtE(v):fmtUsd(v)),
-        note:use?'value change of the holdings in this period':'current holdings · FIFO vs cost',
+        note:'open positions · FIFO vs cost'+(use?'<br>Δ '+pbLabel()+' '+(_priv?MASK:(_ccy==='EUR'?fmtE(pg.unrealized):fmtUsd(pg.unrealized))):''),
         cls:(v||0)>=0?'up':'down'}; })(),
     (()=>{ const use=pg&&!pAll;
       const v=use?pg.realized:rl;

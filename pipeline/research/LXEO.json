@@ -2,6 +2,20 @@
   "ticker": "LXEO",
   "news": [
     {
+      "date": "2026-09-29",
+      "headline": "Lexeo Therapeutics completes acquisition of Mantle Therapeutics",
+      "source": "Investing.com (SEC filing)",
+      "url": "https://www.investing.com/news/sec-filings/lexeo-therapeutics-completes-acquisition-of-mantle-therapeutics-93CH-4923537",
+      "summary": "Lexeo closed its purchase of Mantle Therapeutics under the merger agreement dated September 16, 2026, making Mantle a wholly owned subsidiary. The deal was announced September 22 together with several new Friedreich ataxia collaborations."
+    },
+    {
+      "date": "2026-09-23",
+      "headline": "Apertura Gene Therapy gives Lexeo access to TfR1 CapX for Friedreich ataxia program",
+      "source": "Apertura Gene Therapy / GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/09/22/3366142/0/en/lexeo-therapeutics-enters-into-agreement-to-acquire-mantle-therapeutics-and-announces-multiple-new-strategic-collaborations-to-expand-leadership-in-friedreich-ataxia.html",
+      "summary": "Apertura will provide Lexeo access to its TfR1 CapX capsid technology for a program aimed at Friedreich ataxia. It is one of several collaborations announced alongside the Mantle acquisition."
+    },
+    {
       "date": "2026-09-09",
       "headline": "Lexeo at Cantor: LX2006 effect well above pivotal powering, PKP2 registrational design still open with FDA",
       "source": "Investing.com (Cantor conference transcript)",
@@ -35,20 +49,13 @@
       "source": "GlobeNewswire",
       "url": "https://www.globenewswire.com/news-release/2026/08/12/3343500/0/en/lexeo-therapeutics-reports-second-quarter-2026-financial-results-and-operational-highlights.html",
       "summary": "Q2 net loss was $25.9 million ($0.30/share) and cash, equivalents and investments stood at $234.2 million, guided to fund operations into 2028. Pivotal SUNRISE-FA 2 for LX2006 dosed its first patient in June, keeping topline data on track for 2H 2027 and a potential BLA in 1H 2028."
-    },
-    {
-      "date": "2026-08-05",
-      "headline": "FDA grants RMAT designation to LX2020 for PKP2 arrhythmogenic cardiomyopathy",
-      "source": "GlobeNewswire via StockTitan",
-      "url": "https://www.stocktitan.net/news/LXEO/lexeo-therapeutics-receives-fda-regenerative-medicine-advanced-s2l6k9ty9zab.html",
-      "summary": "The FDA awarded Regenerative Medicine Advanced Therapy status to LX2020 based on interim HEROIC-PKP2 Phase I/II data, adding to its Orphan Drug and Fast Track designations and opening the door to more frequent FDA interaction, rolling and priority review and potential accelerated approval. Lexeo said it will share additional clinical and regulatory updates before year-end."
     }
   ],
   "catalysts": [
     {
-      "when": "2026-09-15",
-      "label": "Baird Global Healthcare Conference fireside chat",
-      "detail": "Management fireside chat at the Baird 2026 Global Healthcare Conference today at 11:25 a.m. ET in New York, webcast from the IR site. After the September 9 Cantor chat left the LX2020 registrational questions (clinically meaningful NSVT effect, need for a control arm) open and the stock slid, investors will listen for any tighter timing on the Q4 PKP2 update and SUNRISE-FA 2 enrollment pace. No new data is expected.",
+      "when": "2026-10-07",
+      "label": "LX2006 neurologic subscore data at MDS 2026 (Seoul)",
+      "detail": "Oral presentation of new neurological subscore analyses of LX2006 in Friedreich ataxia, including earlier findings of possible early stabilization or improvement versus a matched natural-history cohort.",
       "confirmed": true
     },
     {
@@ -82,5 +89,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "Lexeo has slid to $4.22 (Sep 14 close, market cap roughly $345 million against $234.2 million of June cash, so the pipeline is valued at little more than $110 million) after the September 9 Cantor fireside chat, where a bullish LX2006 case (28% LVMI reduction versus a 15% powering assumption, durable mFARS benefit, commercial build under way) was overshadowed by the admission that the FDA debate on LX2020's registrational endpoint and possible control arm is unresolved, with that study now a 2027 start. The stock sits just above its $3.99 52-week low and far below the ~$18 average analyst target despite heavy specialist ownership (Balyasny, Affinity, Paradigm, OrbiMed, State Street) and runway into 2028. Next up are today's Baird chat and the Q3 print in November, but the real swing factor is the Q4 12-month high-dose PKP2 data plus year-end FDA feedback on LX2020, before the thesis shifts to 2H 2027 SUNRISE-FA 2 topline."
+  "pulse": "Lexeo closed the Mantle Therapeutics acquisition on Sept 29 and added new Friedreich ataxia collaborations (Apertura TfR1 CapX), broadening its FA franchise after the stock slid to ~$4.2 following the Sept 9 Cantor chat, where the FDA path for LX2020 stayed unresolved. Near-term markers are the Oct 7 MDS presentation, the Q3 print in November and the Q4 12-month HEROIC-PKP2 data, with SUNRISE-FA 2 topline in 2H 2027 and cash guided into 2028."
 }

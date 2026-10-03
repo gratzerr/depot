@@ -16,40 +16,38 @@
    "price": 0
   },
   {
-   "pid": "hld_6a183e2a547bdef260161491",
-   "ticker": "NKTR",
-   "name": "Nektar Therapeutics",
+   "pid": "pp_HROW",
+   "ticker": "HROW",
+   "name": "Harrow Inc",
    "assetType": "security",
-   "value": 0,
-   "thesis": "Rezpegaldesleukin (immunology / Treg biologic)",
-   "ySym": "NKTR",
-   "gquery": "Nektar Therapeutics",
+   "thesis": "",
+   "ySym": "HROW",
+   "gquery": "Harrow Inc",
    "links": {
-    "ir": "https://ir.nektar.com/",
-    "stocktwits": "https://stocktwits.com/symbol/NKTR",
-    "x": "https://x.com/search?q=%24NKTR&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=NKTR"
+    "stocktwits": "https://stocktwits.com/symbol/HROW",
+    "x": "https://x.com/search?q=%24HROW&f=live",
+    "finviz": "https://finviz.com/quote.ashx?t=HROW"
    },
    "shares": 0,
-   "price": 0
+   "price": 0,
+   "value": 0
   },
   {
-   "pid": "hld_69958ddb69baa58c8f1f8c4d",
-   "ticker": "NRXS",
-   "name": "Neuraxis",
+   "pid": "pp_LXEO",
+   "ticker": "LXEO",
+   "name": "Lexeo Therapeutics Inc",
    "assetType": "security",
-   "value": 0,
-   "thesis": "IB-Stim / PENFS neuromodulation (pediatrics)",
-   "ySym": "NRXS",
-   "gquery": "Neuraxis",
+   "thesis": "",
+   "ySym": "LXEO",
+   "gquery": "Lexeo Therapeutics Inc",
    "links": {
-    "ir": "https://ir.neuraxis.com/",
-    "stocktwits": "https://stocktwits.com/symbol/NRXS",
-    "x": "https://x.com/search?q=%24NRXS&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=NRXS"
+    "stocktwits": "https://stocktwits.com/symbol/LXEO",
+    "x": "https://x.com/search?q=%24LXEO&f=live",
+    "finviz": "https://finviz.com/quote.ashx?t=LXEO"
    },
    "shares": 0,
-   "price": 0
+   "price": 0,
+   "value": 0
   },
   {
    "ticker": "ABVX",

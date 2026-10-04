@@ -2,6 +2,13 @@
   "ticker": "LXEO",
   "news": [
     {
+      "date": "2026-10-01",
+      "headline": "Lexeo Therapeutics Announces Oral Presentation of LX2006 at the International Congress of Parkinson's Disease and Movement Disorders 2026 (MDS)",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/10/01/3372931/0/en/lexeo-therapeutics-announces-oral-presentation-of-lx2006-at-the-international-congress-of-parkinson-s-disease-and-movement-disorders-2026-mds.html",
+      "summary": "Dr. Theresa Zesiewicz will give an oral presentation on Oct 7 (12:30 KST, Seoul) with new mFARS subscore analyses showing neurologic improvements in LX2006-treated Friedreich ataxia patients, complementing the cardiac benefits reported to date."
+    },
+    {
       "date": "2026-09-29",
       "headline": "Lexeo Therapeutics completes acquisition of Mantle Therapeutics",
       "source": "Investing.com (SEC filing)",
@@ -42,13 +49,6 @@
       "source": "TipRanks / The Fly",
       "url": "https://www.tipranks.com/news/the-fly/lexeo-therapeutics-price-target-lowered-to-20-from-24-at-rbc-capital",
       "summary": "RBC reiterated Outperform while cutting its target to $20 from $24 after Q2, citing the clean tolerability of Lexeo's AAV cardiac programs. Nine covering analysts sit at an average target of roughly $18.44 (range about $9-$30)."
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "Lexeo reports Q2 2026: $234.2M cash into 2028, SUNRISE-FA 2 enrolling",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/08/12/3343500/0/en/lexeo-therapeutics-reports-second-quarter-2026-financial-results-and-operational-highlights.html",
-      "summary": "Q2 net loss was $25.9 million ($0.30/share) and cash, equivalents and investments stood at $234.2 million, guided to fund operations into 2028. Pivotal SUNRISE-FA 2 for LX2006 dosed its first patient in June, keeping topline data on track for 2H 2027 and a potential BLA in 1H 2028."
     }
   ],
   "catalysts": [

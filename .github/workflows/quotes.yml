@@ -1,0 +1,44 @@
+name: quote probe
+# Manuell: aktuelle Schlusskurse fuer eine Tickerliste ins Log schreiben (nur Kurse,
+# keine Depotbetraege). OCC-Optionssymbole werden ueber die Optionskette quotiert.
+on:
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: 'Kommagetrennte Ticker (Yahoo-Format, OCC fuer Optionen)'
+        required: true
+permissions:
+  contents: read
+jobs:
+  quotes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip -q install yfinance
+      - name: quotes
+        env:
+          TICKERS: ${{ inputs.tickers }}
+        run: |
+          python - <<'PY'
+          import os, re, warnings
+          warnings.filterwarnings("ignore")
+          import yfinance as yf
+          for tk in [t.strip() for t in os.environ["TICKERS"].split(",") if t.strip()]:
+              try:
+                  m = re.match(r"^([A-Z.]{1,6})(\d{2})(\d{2})(\d{2})([CP])(\d{8})$", tk)
+                  if m:
+                      und, yy, mm, dd, cp, k = m.groups()
+                      ch = yf.Ticker(und).option_chain(f"20{yy}-{mm}-{dd}")
+                      df = ch.calls if cp == "C" else ch.puts
+                      r = df[abs(df["strike"] - int(k) / 1000) < 1e-6].iloc[0]
+                      print(f"QUOTE {tk} bid={r['bid']} ask={r['ask']} last={r['lastPrice']} lastTrade={r['lastTradeDate']}")
+                  else:
+                      h = yf.Ticker(tk).history(period="7d", auto_adjust=False)
+                      rows = [f"{d.date()}={c:.4f}" for d, c in zip(h.index[-3:], h['Close'][-3:])]
+                      print(f"QUOTE {tk} " + " ".join(rows))
+              except Exception as e:
+                  print(f"QUOTE {tk} ERROR {e}")
+          PY

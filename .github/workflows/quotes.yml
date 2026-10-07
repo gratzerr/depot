@@ -7,6 +7,10 @@ on:
       tickers:
         description: 'Kommagetrennte Ticker (Yahoo-Format, OCC fuer Optionen)'
         required: true
+      date:
+        description: 'Optional YYYY-MM-DD: Schlusskurse bis zu diesem Datum statt der letzten Tage'
+        required: false
+        default: ''
 permissions:
   contents: read
 jobs:
@@ -21,9 +25,11 @@ jobs:
       - name: quotes
         env:
           TICKERS: ${{ inputs.tickers }}
+          QDATE: ${{ inputs.date }}
         run: |
           python - <<'PY'
-          import os, re, warnings
+          import os, re, warnings, datetime as dt
+          qd = os.environ.get("QDATE", "").strip()
           warnings.filterwarnings("ignore")
           import yfinance as yf
           for tk in [t.strip() for t in os.environ["TICKERS"].split(",") if t.strip()]:
@@ -36,7 +42,11 @@ jobs:
                       r = df[abs(df["strike"] - int(k) / 1000) < 1e-6].iloc[0]
                       print(f"QUOTE {tk} bid={r['bid']} ask={r['ask']} last={r['lastPrice']} lastTrade={r['lastTradeDate']}")
                   else:
-                      h = yf.Ticker(tk).history(period="7d", auto_adjust=False)
+                      if qd:
+                          e = dt.date.fromisoformat(qd)
+                          h = yf.Ticker(tk).history(start=e - dt.timedelta(days=8), end=e + dt.timedelta(days=1), auto_adjust=False)
+                      else:
+                          h = yf.Ticker(tk).history(period="7d", auto_adjust=False)
                       rows = [f"{d.date()}={c:.4f}" for d, c in zip(h.index[-3:], h['Close'][-3:])]
                       print(f"QUOTE {tk} " + " ".join(rows))
               except Exception as e:

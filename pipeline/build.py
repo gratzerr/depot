@@ -388,7 +388,7 @@ total = port["totalValue"]
 for h in port["holdings"]:
     h["alloc"] = round(100.0 * h["value"] / total, 1)
     h["logos"] = logo_candidates(h)
-    if h["assetType"] == "option":   # Kursquelle = Engine (letzter Trade, Tag gemerkt): der Chart-Feed
+    if h["assetType"] == "option":   # Kursquelle = Engine (Bid/Ask-Mitte): der Chart-Feed
         h.pop("ySym", None)          # liefert nur den letzten Trade — beim illiquiden Kontrakt
                                      # tagealt (zeigte 30.90 vom eigenen Kauf, 2026-07-26)
         h["gquery"] = NEWS_QUERY.get(h["ticker"], (h.get("name") or h["ticker"]).split(" \u2014 ")[0])

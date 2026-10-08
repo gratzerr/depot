@@ -395,12 +395,10 @@ def live_overlay():
             if occ:
                 # OCC-Optionen: yfinance-history ist leer, rohes curl blockt Yahoo im
                 # CI — die Optionskette (yf.option_chain) geht ueber yfinance-Cookies
-                # und funktioniert dort. Kurs = LETZTER GEHANDELTER Kurs (lastPrice), keine
-                # Geld/Brief-Mitte: der Spread ist bei den Calls breit und die Mitte ist
-                # kein echter Kurs (Wunsch des Owners, 2026-10-08).
+                # und funktioniert dort. Kurs = Geld/Brief-Mitte wie beim Broker.
                 m2=re.match(r"^([A-Z.]{1,6})(\d{2})(\d{2})(\d{2})([CP])(\d{8})$", tk)
                 und,yy,mm,dd,cp,kk=m2.groups()
-                px=0.0; ltd=""   # ltd = Handelstag des letzten Trades
+                px=0.0; qual=0   # 2 = Geld/Brief-Mitte, 1 = Last-Trade VON HEUTE, 0 = nichts
                 for _try in range(3):
                     try:
                         oc=yf.Ticker(und).option_chain(f"20{yy}-{mm}-{dd}")
@@ -408,11 +406,20 @@ def live_overlay():
                         row=df[abs(df["strike"]-int(kk)/1000.0)<1e-6]
                         if len(row):
                             r0=row.iloc[0]
-                            lp=float(r0.get("lastPrice") or 0)
-                            d0=str(r0.get("lastTradeDate") or "")[:10]
-                            if lp>0 and re.match(r"^\d{4}-\d{2}-\d{2}$",d0) and d0<=eff:
-                                px,ltd=lp,d0
-                        if px>0: break
+                            bid=float(r0.get("bid") or 0); ask=float(r0.get("ask") or 0)
+                            if bid>0 and ask>0:
+                                px,qual=(bid+ask)/2.0,2
+                            else:
+                                # lastPrice ist der letzte GEHANDELTE Kurs — bei einem weit
+                                # aus dem Geld liegenden Call ist der oft Tage alt. Nur
+                                # nehmen, wenn der Trade wirklich von eff stammt, sonst
+                                # kippt der Kurs nachts auf einen Altdruck zurueck
+                                # (ABVX-Call: 21.25 -> 17.00 von vorgestern, 2026-09-09).
+                                lp=float(r0.get("lastPrice") or 0)
+                                ltd=str(r0.get("lastTradeDate") or "")[:10]
+                                if lp>0 and re.match(r"^\d{4}-\d{2}-\d{2}$",ltd) and ltd>=eff:
+                                    px,qual=lp,1
+                        if qual: break
                     except Exception:
                         pass
                     time.sleep(1.5)
@@ -424,18 +431,22 @@ def live_overlay():
                 # die "Today"-Kachel zeigte +4,5 % statt +0,3 % (2026-09-11).
                 hist={k:float(v) for k,v in (c0.get("hist") or {}).items() if v}
                 if c0.get("d") and float(c0.get("px") or 0)>0: hist.setdefault(c0["d"],float(c0["px"]))
-                # Der Trade wird unter SEINEM Handelstag abgelegt. Ein aelterer Trade darf
-                # einen juengeren Tag nie ueberschreiben — Yahoo liefert nachts manchmal
-                # einen Altdruck von vorgestern (ABVX-Call: 21.25 -> 17.00, 2026-09-09).
-                if px>0 and (not hist or ltd>=max(hist)):
-                    hist[ltd]=px
-                if not hist: continue        # Abruf gescheitert: Dateikurs behalten
-                px=hist[max(hist)]
+                # Ein schlechterer Kurs darf einen besseren DESSELBEN Tages nie ersetzen:
+                # nach Boersenschluss liefert die Kette haeufig bid=ask=0, der Altdruck
+                # wuerde sonst die tagsueber ermittelte Mitte ueberschreiben.
+                if qual and c0.get("d")==eff and qual<int(c0.get("q") or 1):
+                    qual=0
+                if qual:
+                    hist[eff]=px
+                else:
+                    if not hist: continue    # Abruf gescheitert/nur Altdruck: letzten GUTEN
+                    px=hist[max(hist)]       # Kurs halten, nie auf den PP-Kaufpreis zurueck
+                    qual=int(c0.get("q") or 1) if c0.get("d")==eff else 0
                 prevd=[d for d in hist if d<eff]
                 if prevd: PREV[si]=hist[max(prevd)]            # Vortagesschluss = letzter Tag davor
                 elif c0.get("prev"): PREV[si]=float(c0["prev"])
                 hist={k:hist[k] for k in sorted(hist)[-60:]}   # begrenzt halten
-                oq[tk]={"d":max(hist),"px":hist[max(hist)],"q":1,
+                oq[tk]={"d":max(hist),"px":hist[max(hist)],"q":qual,
                         "prev":PREV.get(si) or c0.get("prev"),"hist":hist}; oq_dirty=True
                 pairs=sorted(hist.items())   # ALLE Tage -> die Wertreihe bekommt echte Schlusskurse
             else:

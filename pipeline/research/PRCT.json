@@ -1,0 +1,28 @@
+{
+  "ticker": "PRCT",
+  "news": [
+    {
+      "date": "2026-08-17",
+      "headline": "PROCEPT BioRobotics to Attend the Baird 2026 Global Healthcare Conference on September 15, 2026",
+      "source": "PROCEPT BioRobotics (GlobeNewswire)",
+      "url": "https://reportify.cn/news/1286823169491210240",
+      "summary": "Management presented and held investor meetings at Baird's conference in New York on September 15."
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "PROCEPT BioRobotics Reports Second Quarter 2026 Financial Results",
+      "source": "PROCEPT BioRobotics (GlobeNewswire)",
+      "url": "https://www.streetinsider.com/Globe+Newswire/PROCEPT+BioRobotics+Reports+Second+Quarter+2026+Financial+Results/26865998.html",
+      "summary": "Q2 revenue was $94.5M (+19% YoY) with U.S. procedures above 13,100 (about +21%) and 65 U.S. HYDROS systems delivered. Gross margin rose to 66% and full-year revenue guidance of $390-410M was reiterated; WATER IV prostate cancer enrollment was completed."
+    }
+  ],
+  "catalysts": [
+    {
+      "when": "~Nov 3, 2026",
+      "label": "Q3 2026 earnings report",
+      "detail": "Third-party estimate, not yet confirmed by the company; key test for system placements and procedure growth versus the $390-410M full-year guide.",
+      "confirmed": false
+    }
+  ],
+  "pulse": "PROCEPT's Q2 2026 revenue grew 19% to $94.5M with gross margin expanding to 66%, and full-year guidance of $390-410M was reiterated. Aquablation gained a strengthened recommendation in updated AUA guidelines and WATER IV enrollment is complete. Operating expenses are rising as the company invests in commercial build-out and the prostate cancer trial."
+}

@@ -33,17 +33,17 @@
    "value": 0
   },
   {
-   "pid": "pp_LXEO",
-   "ticker": "LXEO",
-   "name": "Lexeo Therapeutics Inc",
+   "pid": "pp_PRCT",
+   "ticker": "PRCT",
+   "name": "Procept Biorobotics Corp",
    "assetType": "security",
    "thesis": "",
-   "ySym": "LXEO",
-   "gquery": "Lexeo Therapeutics Inc",
+   "ySym": "PRCT",
+   "gquery": "Procept Biorobotics Corp",
    "links": {
-    "stocktwits": "https://stocktwits.com/symbol/LXEO",
-    "x": "https://x.com/search?q=%24LXEO&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=LXEO"
+    "stocktwits": "https://stocktwits.com/symbol/PRCT",
+    "x": "https://x.com/search?q=%24PRCT&f=live",
+    "finviz": "https://finviz.com/quote.ashx?t=PRCT"
    },
    "shares": 0,
    "price": 0,

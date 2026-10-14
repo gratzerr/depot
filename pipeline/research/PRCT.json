@@ -2,6 +2,13 @@
   "ticker": "PRCT",
   "news": [
     {
+      "date": "2026-10-13",
+      "headline": "PROCEPT BioRobotics to Report Third Quarter 2026 Financial Results on November 4th, 2026",
+      "source": "GlobeNewswire",
+      "url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/globenewswire/procept-biorobotics-to-report-third-quarter-2026-financial-results-on-november-4th-2026/2444100",
+      "summary": "PROCEPT will release Q3 2026 results on November 4, 2026. Investors will look for progress against the reiterated $390-410M full-year revenue guidance."
+    },
+    {
       "date": "2026-08-17",
       "headline": "PROCEPT BioRobotics to Attend the Baird 2026 Global Healthcare Conference on September 15, 2026",
       "source": "PROCEPT BioRobotics (GlobeNewswire)",
@@ -18,10 +25,10 @@
   ],
   "catalysts": [
     {
-      "when": "~Oct 29, 2026",
+      "when": "Nov 4, 2026",
       "label": "Q3 2026 earnings report",
-      "detail": "Third-party estimate (company has not confirmed the date); key test for system placements and procedure growth versus the $390-410M full-year guide.",
-      "confirmed": false
+      "detail": "Company confirmed on Oct 13, 2026 that it will report Q3 results on Nov 4; key test for system placements and procedure growth versus the $390-410M full-year guide.",
+      "confirmed": true
     }
   ],
   "pulse": "PROCEPT's Q2 2026 revenue grew 19% to $94.5M with gross margin expanding to 66%, and full-year guidance of $390-410M was reiterated. Aquablation gained a strengthened recommendation in updated AUA guidelines and WATER IV enrollment is complete. Operating expenses are rising as the company invests in commercial build-out and the prostate cancer trial."

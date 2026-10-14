@@ -2,6 +2,13 @@
   "ticker": "HROW",
   "news": [
     {
+      "date": "2026-10-08",
+      "headline": "Harrow has lost 32% in 3 months: why BTIG sees 106% upside from here",
+      "source": "TIKR",
+      "url": "https://www.tikr.com/de/blog/harrow-has-lost-32-in-3-months-heres-why-btig-sees-106-upside-from-here",
+      "summary": "BTIG reaffirmed its Buy rating with a $63 price target after the stock fell about 32% in three months. First-half revenue of $115M trails the plan, so Harrow needs $235-250M in 2H to hit its 2026 guidance."
+    },
+    {
       "date": "2026-10-05",
       "headline": "Harrow Closes Acquisition of TYRVAYA®",
       "source": "Harrow (GlobeNewswire)",
@@ -35,13 +42,6 @@
       "source": "GlobeNewswire",
       "url": "https://www.globenewswire.com/news-release/2026/08/10/3342205/0/en/harrow-announces-second-quarter-2026-financial-results.html",
       "summary": "Revenue was $70.7M, up 11% year over year and 60% sequentially, with VEVYE at $29.4M (+58% YoY). The net loss was $17.3M ($0.46 per share), wider than analysts expected."
-    },
-    {
-      "date": "2026-08-10",
-      "headline": "Harrow to acquire global rights to TYRVAYA for $30 million",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/healthcare/articles/harrow-hrow-adds-eye-care-091053042.html",
-      "summary": "Harrow agreed to buy global rights to TYRVAYA for $30M in cash, expected to close in 2H 2026, with over $30M of revenue anticipated in 2027. The company also launched BYOOVIZ and expanded its commercial organization."
     }
   ],
   "catalysts": [

@@ -50,6 +50,23 @@
    "value": 0
   },
   {
+   "pid": "pp_FTAI",
+   "ticker": "FTAI",
+   "name": "Ftai Aviation Ltd",
+   "assetType": "security",
+   "thesis": "",
+   "ySym": "FTAI",
+   "gquery": "Ftai Aviation Ltd",
+   "links": {
+    "stocktwits": "https://stocktwits.com/symbol/FTAI",
+    "x": "https://x.com/search?q=%24FTAI&f=live",
+    "finviz": "https://finviz.com/quote.ashx?t=FTAI"
+   },
+   "shares": 0,
+   "price": 0,
+   "value": 0
+  },
+  {
    "ticker": "ABVX",
    "name": "Abivax — Mar-2027 $120 Call",
    "assetType": "option",

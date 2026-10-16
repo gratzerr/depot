@@ -1,0 +1,55 @@
+{
+  "ticker": "FTAI",
+  "news": [
+    {
+      "date": "2026-10-08",
+      "headline": "Multi-Year Engine Exchange Program Extends from V2500, Replacing Traditional Shop Visits with Serviceable Engines Delivered Ahead of Scheduled Removals",
+      "source": "FTAI Aviation press release",
+      "url": "https://ir.ftaiaviation.com/news-events/press-releases",
+      "summary": "FTAI extended its engine exchange program to the CFM56-7B after launching it on the V2500. Customers receive serviceable engines ahead of scheduled removals instead of going through traditional shop visits."
+    },
+    {
+      "date": "2026-09-28",
+      "headline": "FTAI Aviation acquires 27 Boeing 737-700 aircraft from WestJet",
+      "source": "Simply Wall St",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/learn-why-the-bull-case-for-ftai-aviation-stock-could-change",
+      "summary": "FTAI's 2026 SPV bought 17 WestJet-leased aircraft via sale-leaseback, and FTAI acquired the other 10 off lease for its Aerospace Products business."
+    },
+    {
+      "date": "2026-09-23",
+      "headline": "FTAI strengthens collaboration with Garuda Indonesia's GMF on engine maintenance in Asia-Pacific",
+      "source": "FTAI Aviation press release",
+      "url": "https://ir.ftaiaviation.com/news-events/press-releases",
+      "summary": "The expanded partnership with GMF broadens FTAI's engine maintenance reach in Asia-Pacific."
+    },
+    {
+      "date": "2026-09-15",
+      "headline": "FTAI Aviation board authorizes share repurchase program of up to $500 million",
+      "source": "FTAI Aviation press release",
+      "url": "https://ir.ftaiaviation.com/news-events/press-releases",
+      "summary": "The board approved a buyback of up to $500 million."
+    },
+    {
+      "date": "2026-08-15",
+      "headline": "FTAI closes $2.0 billion warehouse facility for 2026 SPV",
+      "source": "FTAI Aviation press release",
+      "url": "https://ir.ftaiaviation.com/news-events/press-releases",
+      "summary": "The facility carries a $1.0 billion accordion that could lift total capacity to $3.0 billion, funding aircraft acquisitions."
+    }
+  ],
+  "catalysts": [
+    {
+      "when": "Oct 29, 2026",
+      "label": "Q3 2026 earnings",
+      "detail": "Results before market open with an 8:00 a.m. ET call.",
+      "confirmed": true
+    },
+    {
+      "when": "Dec 10, 2026",
+      "label": "Investor meeting in New York",
+      "detail": "Scheduled investor meeting.",
+      "confirmed": true
+    }
+  ],
+  "pulse": "FTAI is expanding its engine exchange model (V2500, now CFM56-7B) and scaling aircraft acquisitions via a $2B warehouse facility, while a new $500M buyback and a $0.50 quarterly dividend support capital returns. Q3 results on Oct 29 are the next key test."
+}

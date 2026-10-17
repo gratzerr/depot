@@ -2,99 +2,85 @@
   "ticker": "ABVX",
   "news": [
     {
+      "date": "2026-10-13",
+      "headline": "TCG Crossover and Chen Yu Report 7.0% ADS Stake in Abivax",
+      "source": "Stock Titan (SEC Schedule 13G/A)",
+      "url": "https://www.stocktitan.net/sec-filings/ABVX/schedule-13g-a-abivax-s-a-amended-passive-investment-disclosure-8741cb45e81c.html",
+      "summary": "Biotech crossover investor TCG Crossover (Chen Yu) disclosed beneficial ownership of 6,007,834 ADSs, or 7.0% of Abivax, across its Fund I (5.7%) and Fund II (1.3%). A specialist fund holding a sizeable passive stake after the July offering is a supportive sign, even as Bank of America and Goldman Sachs trimmed their positions in mid-October filings."
+    },
+    {
       "date": "2026-09-30",
-      "headline": "Abivax to Present Data on Obefazimod at United European Gastroenterology (UEG) Week 2026",
-      "source": "Stockhouse / Company press release",
-      "url": "https://stockhouse.com/news/press-releases/2026/09/30/abivax-to-present-data-on-obefazimod-at-united-european-gastroenterology-ueg",
-      "summary": "Abivax will present seven obefazimod abstracts at UEG Week in Barcelona, Oct 17-20, covering Phase 3 ABTECT induction and maintenance data in ulcerative colitis, Phase 2 long-term follow-up and preclinical work."
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "ABIVAX Société Anonyme (ENXTPA:ABVX) Appoints New Chief Medical And Technical Officers",
-      "source": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdUhLTGhQeWFVLU9CVzEzYUVaQ3RiR3JoaEZPQS0yZEJlOWpGblRsdjM2eWdnOUVsZTRQWnctNnJoRUtrMExjUlVPZ2VFNUluaVZDN19JRll4QlVCanZpS0owTXg4VUREcnBSSDQtQzlVUFFqMWJOWHhfaF9FSXpCdE9YVnIwb1ZZV3ljUDUzWDhHSE0?oc=5",
-      "summary": "Abivax named Chris Rabbat chief medical officer (effective Q4 2026) and Tim Kelly chief technical officer as it prepares the obefazimod NDA filing."
-    },
-    {
-      "date": "2026-09-25",
-      "headline": "JMP Securities raises Abivax price target to $114 from $95",
-      "source": "GuruFocus (Citizens JMP)",
-      "url": "https://www.gurufocus.com/news/3120577/abivax-abvx-jmp-securities-raises-price-target-to-114-abvx-stock-news",
-      "summary": "JMP Securities (Citizens JMP) raised its Abivax price target to $114 from $95 while maintaining a Market Outperform rating, updating its model for the H1 2026 results and the July ADS financing."
+      "headline": "Abivax to Present Seven Obefazimod Abstracts at UEG Week 2026, Including Full ABTECT Maintenance Results",
+      "source": "Abivax Investor Relations",
+      "url": "https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology",
+      "summary": "Abivax will present four oral presentations and three posters at UEG Week in Barcelona (October 17-20), led by the Phase 3 ABTECT Maintenance efficacy and safety results, maintenance outcomes in treatment-experienced patients and three-year Phase 2 follow-up with dose de-escalation to 25 mg. This is the first full medical-meeting presentation of the Week-44 data and safety database since the June malignancy debate."
     },
     {
       "date": "2026-09-22",
-      "headline": "Barclays Reaffirms Overweight Rating for Abivax, $148 Price Target",
-      "source": "MarketBeat",
-      "url": "https://www.marketbeat.com/instant-alerts/analyst-barclays-reaffirms-overweight-rating-for-abivax-nasdaq-abvx-2026-09-22/",
-      "summary": "Barclays reissued an Overweight rating on Abivax with a $148 price target on Sept 22, 2026, implying meaningful upside from the post-earnings share price. The reaffirmation came in the same week most sell-side firms stayed bullish despite a wider-than-expected H1 net loss."
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "Sell-Side Analysts Trim Price Targets on Abivax After Wider-Than-Expected H1 Loss",
-      "source": "Benzinga / The Stock Observer",
+      "headline": "Analysts Slash Forecasts on Abivax Following H1 Results; Wedbush Cuts Target to $118",
+      "source": "Benzinga",
       "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61919671/these-analysts-slash-their-forecasts-on-abivax-following-h1-results",
-      "summary": "Following Abivax's Sept 21 H1 2026 report showing a wider-than-expected per-share loss, Wedbush's David Nierengarten cut his price target to $118 from $140 (Neutral) while Truist's Gregory Renza trimmed his target to $151 from $155 (Buy). Shares gave back ground even as most analysts kept a constructive view on obefazimod's regulatory and commercial trajectory."
+      "summary": "Several analysts lowered price targets after the H1 report, with Wedbush cutting to $118 (Neutral), arguing a 2026 NDA filing and possible 2027 approval are already priced in, and Truist trimming to $151 (Buy). Consensus remains well above the share price, at roughly $155-164 on average."
     },
     {
       "date": "2026-09-21",
       "headline": "Abivax Presents Business Updates and First Half 2026 Financial Results",
-      "source": "GlobeNewswire / Abivax",
-      "url": "https://www.globenewswire.com/news-release/2026/09/21/3365853/0/en/abivax-presents-business-updates-and-first-half-2026-financial-results.html",
-      "summary": "Abivax reported €402.4 million in cash at June 30, 2026, projecting a runway into Q4 2029 after its July ADS offering; H1 net loss widened to €165.9 million on R&D spend of €107.9 million. The company reaffirmed it remains on track to submit the obefazimod NDA to the FDA for ulcerative colitis by end-2026, announced CMO Fabio Cataldi's departure (succeeded by Chris Rabbat) alongside new CTO Tim Kelly, and said it will present further obefazimod data at UEGW in October 2026."
+      "source": "Abivax Investor Relations",
+      "url": "https://ir.abivax.com/news-releases/news-release-details/abivax-presents-business-updates-and-first-half-2026-financial",
+      "summary": "Pro-forma cash is about EUR 1.17bn (EUR 402.4m at June 30 plus EUR 767.1m from the July offering), extending runway into Q4 2029, and the NDA for obefazimod in UC remains planned by end-2026, with Crohn's ENHANCE-CD topline in mid-2027. Abivax also completed a EUR 76.5m royalty-certificate buy-back and named Chris Rabbat CMO (succeeding Fabio Cataldi) and Tim Kelly CTO; R&D spend rose 38% to EUR 107.9m."
     },
     {
       "date": "2026-09-10",
-      "headline": "Goldman Sachs Initiates Coverage on Abivax With Buy Rating, $155 Price Target",
+      "headline": "Goldman Sachs Initiates Coverage of Abivax with Buy Rating and $155 Price Target",
       "source": "Investing.com",
       "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-initiates-abivax-stock-coverage-with-buy-rating-93CH-4895453",
-      "summary": "Goldman Sachs analyst Rajan Sharma started coverage of Abivax with a Buy rating and a $155 price target, calling obefazimod's Phase 3 ABTECT efficacy and maintenance data \"biologic-like\" in an oral pill and modeling peak sales of roughly €4 billion in ulcerative colitis."
+      "summary": "Goldman Sachs started coverage at Buy with a $155 target, modelling peak obefazimod sales of about EUR 4bn in ulcerative colitis plus EUR 3.5bn potential in Crohn's disease, and said the maintenance-trial cancer signal should not impede approval or long-term uptake. The bank also flagged Abivax as a potential acquisition target while calling a solo launch viable after the July financing."
     },
     {
       "date": "2026-09-03",
-      "headline": "The Drugmaker Abivax Has Still Not Been Acquired. What's Going On?",
-      "source": "STAT News (Adam's Biotech Scorecard, Adam Feuerstein)",
+      "headline": "STAT: The Drugmaker Abivax Has Still Not Been Acquired. What's Going On?",
+      "source": "STAT News",
       "url": "https://www.statnews.com/2026/09/03/abivax-acquisition-target-replimune-fda/",
-      "summary": "Nine months after speculation first pegged a roughly $20 billion buyout of Abivax as imminent, STAT News noted the deal still had not materialized despite red-hot biotech M&A activity, framing Abivax's continued independence as a source of growing investor frustration even as obefazimod's commercial potential remains widely viewed as attractive to acquirers."
+      "summary": "STAT's Adam Feuerstein dissected why, nine months into a record biotech M&A year in which a roughly $20bn takeout of Abivax was widely treated as imminent, no deal has materialised - to the visible frustration of the shareholder base. The piece frames the delay as timing and process rather than a broken thesis, noting obefazimod's blockbuster commercial potential in ulcerative colitis remains intact."
     }
   ],
   "catalysts": [
     {
-      "when": "Late Q4 2026",
-      "label": "Obefazimod NDA submission to FDA (ulcerative colitis)",
-      "detail": "Following a positive pre-NDA FDA interaction (July 30, 2026), Abivax reaffirmed at its Sept 21, 2026 H1 report that it remains on track to submit the NDA for obefazimod in moderately to severely active ulcerative colitis by the end of 2026. Not yet submitted as of Sept 26, 2026.",
+      "when": "2026-10-17",
+      "label": "UEG Week 2026 (Barcelona, Oct 17-20) - full ABTECT maintenance presentation",
+      "detail": "Underway now: Abivax presents seven abstracts, including four orals covering the Phase 3 ABTECT Maintenance efficacy and safety results, maintenance outcomes in treatment-experienced patients, three-year Phase 2 follow-up with 25 mg de-escalation, and miR-124 anti-fibrotic data. How investigators and the market read the detailed malignancy/safety database is the key swing factor for the stock before the NDA filing.",
       "confirmed": true
     },
     {
-      "when": "H2 2026",
-      "label": "EMA marketing authorization filing (ulcerative colitis)",
-      "detail": "Company guidance calls for filing obefazimod for EMA approval in ulcerative colitis in the second half of 2026, alongside the FDA NDA submission.",
+      "when": "2026-Q4",
+      "label": "NDA submission to FDA for obefazimod in ulcerative colitis",
+      "detail": "After positive ABTECT induction and Week-44 maintenance data and the constructive pre-NDA meeting on July 30, Abivax reiterated in its September 21 H1 report that it plans to submit the obefazimod NDA in moderately-to-severely active UC by end-2026. This is the biggest near-term de-risking event and starts the FDA review clock; FDA acceptance (about 60 days after submission) would likely follow in Q1 2027, before the March-2027 option expiry.",
       "confirmed": true
     },
     {
-      "when": "Oct 17-20, 2026",
-      "label": "Obefazimod data presentation at UEGW",
-      "detail": "Seven abstracts incl. Phase 3 ABTECT Induction and Maintenance data will be presented at UEG Week in Barcelona.",
+      "when": "2026-12-14",
+      "label": "Q3 2026 financial results",
+      "detail": "Abivax's financial calendar lists Q3 2026 results for December 14, 2026. By then the NDA should have been submitted or be days away, making the release the natural venue to confirm the filing and give guidance on review type and expected PDUFA timing. It is the last scheduled financial update before the March-2027 option expiry.",
       "confirmed": true
     },
     {
-      "when": "Mid-2027",
-      "label": "ENHANCE-CD Phase 2b induction readout (Crohn's disease)",
-      "detail": "Topline 12-week induction data from the ENHANCE-CD Phase 2b trial of obefazimod in Crohn's disease has slipped to mid-2027 per the latest pipeline guidance, reaffirmed at the Sept 21, 2026 H1 report.",
-      "confirmed": true
-    },
-    {
-      "when": "Q4 2026",
-      "label": "CMO transition to Chris Rabbat",
-      "detail": "Current Chief Medical Officer Fabio Cataldi will depart in Q4 2026 and be succeeded by Chris Rabbat, alongside newly appointed CTO Tim Kelly, as the company builds out commercial/CMC leadership ahead of a potential launch.",
+      "when": "2027-H1",
+      "label": "MAA submission to the EMA for obefazimod in ulcerative colitis",
+      "detail": "Abivax earlier guided to a European Marketing Authorization Application in H2 2026, but the September 21 H1 report gave no EMA timing and focused solely on the end-2026 FDA filing, so the MAA looks likely to slip into 2027. A European filing would open the second-largest UC market; timing remains unconfirmed.",
       "confirmed": false
     },
     {
-      "when": "Unscheduled / speculative",
-      "label": "Potential acquisition by Big Pharma (Eli Lilly / AstraZeneca)",
-      "detail": "Recurring 2026 media reports linked Abivax to takeover interest from Eli Lilly (~€15bn, January 2026) and AstraZeneca (March 2026); both companies have declined to confirm or denied talks. As of Sept 3, 2026 (STAT News) and through Sept 26, 2026, no deal has materialized, with management continuing to emphasize a standalone U.S. launch strategy instead.",
+      "when": "2027-H1",
+      "label": "Phase 2b ENHANCE-CD Crohn's disease 12-week induction topline data",
+      "detail": "Topline results from the Phase 2b induction trial of obefazimod in moderately-to-severely active Crohn's disease are guided for mid-2027, reconfirmed in the H1 2026 report. A positive readout would open a second large indication for the miR-124 mechanism, but it likely lands just after the March-2027 option expiry.",
+      "confirmed": true
+    },
+    {
+      "when": "2027-H2",
+      "label": "Potential FDA approval decision and U.S. launch of obefazimod",
+      "detail": "With an end-2026 filing and a standard review, an FDA decision would fall roughly 10-12 months later, in H2 2027 - after the March-2027 call expiry. No PDUFA date exists yet. Abivax is building its U.S. commercial organisation against this window with about EUR 1.17bn of pro-forma cash.",
       "confirmed": false
     }
   ],
-  "pulse": "Abivax's Sept 21, 2026 H1 report reaffirmed that the obefazimod NDA for ulcerative colitis remains on track for filing by end-2026 (with a parallel EMA filing guided for H2 2026) and that additional Phase 3 data will be shown at UEGW in October, but a wider-than-expected net loss (€165.9M) prompted Wedbush and Truist to trim price targets even as Barclays reaffirmed Overweight ($148 PT), JMP Securities raised its target to $114 on Sept 25, and the broader sell-side consensus stays Strong Buy following Goldman Sachs' Buy initiation ($155 PT) earlier in September. The Crohn's-disease ENHANCE-CD Phase 2b readout has slipped to mid-2027, and CMO Fabio Cataldi is set to hand off to Chris Rabbat in Q4 2026. The long-running Eli Lilly/AstraZeneca takeover speculation remains unresolved per STAT News, with management continuing to build out an independent U.S. commercial launch instead; neither the NDA filing nor the UEGW data readout has occurred yet as of Sept 26, 2026."
+  "pulse": "ABVX closed at $88.13 on October 16 (-4.6% on the day, market cap about $7.7bn), down from about $107 in mid-September and $118 on September 11, after the H1 report triggered target cuts (Wedbush to $118) and takeover hopes faded; it sits well below the July offering price of $125 despite consensus targets near $155-164. That leaves the March-2027 $120 call about 27% out of the money with roughly five months left, so the stock needs about +36% to reach the strike. Near-term upside hinges on a well-received full ABTECT maintenance and safety presentation at UEG Week (October 17-20), an on-time NDA submission by year-end, or a revived M&A story; the Crohn's readout and FDA decision fall after expiry."
 }

@@ -2,11 +2,18 @@
   "ticker": "PINK",
   "news": [
     {
-      "date": "2026-09-10",
-      "headline": "Perimeter Medical Imaging AI (OTC: PYNKF) short interest falls 97.5% in August",
-      "source": "The Cerbat Gem",
-      "url": "https://www.thecerbatgem.com/2026/09/10/perimeter-medical-imaging-ai-inc-otcmktspynkf-short-interest-down-97-5-in-august.html",
-      "summary": "Short interest in the US OTC line collapsed from 201,539 shares on August 15 to just 5,000 on August 31, suggesting the post-Q2 bearish positioning has been covered. The shares traded around US$0.21 on thin volume, just below the 50-day (US$0.22) and 200-day (US$0.25) moving averages."
+      "date": "2026-10-15",
+      "headline": "TIME names Perimeter's Claire OCT System a special mention on its Best Inventions of 2026 list",
+      "source": "TIME / BioTuesdays",
+      "url": "https://time.com/collection/best-inventions-special-mentions/2026/perimeter-medical-imaging-ai-claire/",
+      "summary": "TIME recognized Claire, the only FDA-approved imaging device that uses AI during breast-conserving surgery for real-time margin assessment, with a special mention in its Best Inventions of 2026 collection, citing Intermountain surgeon feedback that the AI acts as 'an additional set of trained eyes.' It is a visibility boost for hospital sales conversations but came with no new placement, revenue or reimbursement news."
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "Perimeter Medical Imaging AI Appoints Finance Executive Michelle Caron to Board of Directors",
+      "source": "Perimeter IR / PR Newswire",
+      "url": "https://ir.perimetermed.com/news-events/press-releases/detail/216/perimeter-medical-imaging-ai-appoints-finance-executive",
+      "summary": "Michelle Caron, CPA, currently CFO of Nasdaq-listed A10 Networks and previously CFO at Danaher units Beckman Coulter Life Sciences, Pall and Phenomenex, joined the board effective immediately, adding 28 years of medtech and life-science finance experience. CEO Adrian Mendes framed the hire around scaling commercial operations and advancing Claire; the release contained no reimbursement or revenue news, making this the first company announcement of any kind since the August 20 Q2 print."
     },
     {
       "date": "2026-08-21",
@@ -20,7 +27,7 @@
       "headline": "Perimeter Announces Preliminary Second Quarter 2026 Financial Results",
       "source": "Perimeter IR / PR Newswire",
       "url": "https://ir.perimetermed.com/news-events/press-releases/detail/215/perimeter-announces-preliminary-second-quarter-2026",
-      "summary": "Q2 2026 revenue was about US$503K, all recurring (S-Series consumables, leases, maintenance) and flat versus US$506K a year ago, while operating expenses fell 28% year-over-year to US$3.1M and the net loss narrowed to US$2.6M from US$3.9M. Cash stood at US$6.4M at June 30, and the release highlighted the first two Claire placements as S-Series replacements at two top-tier hospitals."
+      "summary": "Q2 2026 revenue was about US$503K, all recurring (S-Series consumables, leases, maintenance) and flat versus US$506K a year ago though up 31% sequentially from Q1's US$385K, while operating expenses fell 28% year-over-year to US$3.1M and the net loss narrowed to US$2.6M from US$3.9M. Cash stood at US$6.4M at June 30, and the release highlighted the first two Claire placements as S-Series replacements at two top-tier hospitals."
     },
     {
       "date": "2026-08-20",
@@ -35,44 +42,37 @@
       "source": "Perimeter IR / PR Newswire",
       "url": "https://ir.perimetermed.com/news-events/press-releases/detail/213/intermountain-health-brings-perimeters-claire-to-the",
       "summary": "Intermountain Health became the first US health system to commercially deploy Claire for real-time margin assessment in breast-conserving surgery, going live at LDS Hospital and American Fork Hospital under its January 2026 systemwide agreement; LDS breast surgeon Dr. Teresa Reading called it simple to fit into her workflow. It is the first named commercial placement since the March 2026 FDA PMA approval, and the shares jumped roughly 11% on the news."
-    },
-    {
-      "date": "2026-08-13",
-      "headline": "Perimeter Schedules Second Quarter 2026 Conference Call and Discloses Final LIFE Offering Tranche",
-      "source": "Perimeter IR / PR Newswire",
-      "url": "https://ir.perimetermed.com/news-events/press-releases/detail/214/perimeter-schedules-second-quarter-2026-financial-results",
-      "summary": "Alongside scheduling the August 20 Q2 call, Perimeter disclosed a final 1,955,500 units issued at C$0.35 on May 8, 2026 for C$684,425, taking the LIFE offering to 21,489,000 units and C$7,521,150 in total. It also paid C$47,910 in additional cash commissions and issued 136,885 broker warrants."
     }
   ],
   "catalysts": [
     {
-      "when": "2026-H2",
-      "label": "Roll-out across the wider Intermountain Health network",
-      "detail": "Claire is live at only two Intermountain hospitals (LDS Hospital and American Fork Hospital) despite a systemwide agreement covering a much larger network, and no further sites have been announced since the August 13 go-live. Expansion would show the flagship customer scales rather than stalling at a two-site footprint and would lift per-procedure consumable revenue, the recurring part of the model.",
-      "confirmed": false
-    },
-    {
       "when": "2026-11",
       "label": "Q3 2026 results - first full quarter of Claire commercialization",
-      "detail": "The Q3 print, typically released in November, is the first full reporting period after the August Intermountain go-live and the first look at Claire-related revenue and gross margin against the roughly US$2M annualized S-Series base, plus the next hard update on cash burn and runway. No date announced yet; Perimeter usually schedules the call about a week in advance.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-Q4",
-      "label": "First net-new Claire placement outside the legacy base",
-      "detail": "Both commercial Claire systems are conversions of existing S-Series customers on a flat 22-site base, carrying no upfront capital-sale revenue. A genuinely new hospital system signing is the clearest proof the Intermountain deal is repeatable; management cites late-stage opportunities but will not size the funnel, blaming hospital AI review committees for delays. No new placement has been announced as of mid-September.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-Q4",
-      "label": "Delivery on the 2-3x FY2026 revenue growth target",
-      "detail": "Management reaffirmed 2-3x revenue growth for 2026 but conceded deals could slip into 2027. With H1 revenue under US$0.9M against FY2025 revenue of about US$2.3M, the target implies an extremely back-loaded Q4 built on capital sales not yet signed - a hard test of the commercial ramp and of management credibility.",
+      "detail": "The Q3 print is the first full reporting period after the August Intermountain go-live and the first look at Claire-related revenue and gross margin against the roughly US$2M annualized S-Series base, plus the next hard update on cash burn after the US$6.4M June 30 balance. Market calendars point to around November 12-17 (Q3 2025 came on November 12); Perimeter usually announces the call date about a week in advance.",
       "confirmed": false
     },
     {
       "when": "2026-12",
       "label": "CMS preliminary HCPCS determination for Claire (B2 2026 public meeting)",
-      "detail": "Perimeter filed its HCPCS Level II application in June 2026, which under CMS's biannual non-drug schedule (July 1 deadline) falls into the B2 2026 cycle. In that cycle CMS posts preliminary coding determinations ahead of a public meeting held in mid-December (B2 2025 met December 17-18), making December the first public read on whether Claire gets a dedicated code.",
+      "detail": "Perimeter filed its HCPCS Level II application in June 2026, which under CMS's biannual non-drug schedule (July 1 deadline) falls into the B2 2026 cycle. In that cycle CMS posts preliminary coding determinations ahead of a public meeting held in mid-December (B2 2025 met December 17-18), making December the first public read on whether Claire gets a dedicated code. This is the single biggest binary item on the calendar.",
+      "confirmed": false
+    },
+    {
+      "when": "2026-Q4",
+      "label": "First net-new Claire placement outside the legacy base",
+      "detail": "Both commercial Claire systems are conversions of existing S-Series customers on a flat 22-site base, carrying no upfront capital-sale revenue. A genuinely new hospital system signing is the clearest proof the Intermountain deal is repeatable; management cites late-stage opportunities but will not size the funnel, blaming hospital AI review committees for delays. Nothing has been announced as of mid-October, seven months after FDA approval.",
+      "confirmed": false
+    },
+    {
+      "when": "2026-Q4",
+      "label": "Roll-out across the wider Intermountain Health network",
+      "detail": "Claire is live at only two Intermountain hospitals (LDS Hospital and American Fork Hospital) despite a systemwide agreement covering a much larger network, and no further sites have been announced since the August 13 go-live. Expansion would show the flagship customer scales rather than stalling at a two-site footprint and would lift per-procedure consumable revenue, the recurring part of the model.",
+      "confirmed": false
+    },
+    {
+      "when": "2026-Q4",
+      "label": "Delivery on the 2-3x FY2026 revenue growth target",
+      "detail": "Management reaffirmed 2-3x revenue growth for 2026 but conceded deals could slip into 2027. With H1 revenue of about US$0.89M against FY2025 revenue of US$2.3M, the target implies an extremely back-loaded Q4 built on capital sales that have not yet been signed - a hard test of the commercial ramp and of management credibility, with the verdict landing at the FY2026 print in March 2027.",
       "confirmed": false
     },
     {
@@ -84,9 +84,9 @@
     {
       "when": "2027-H1",
       "label": "Next financing round",
-      "detail": "Cash stood at US$6.4M on June 30 with roughly 12 months of runway, following the C$7.52M LIFE offering at C$0.35 and C$6.04M of convertible debentures closed in June. With the shares around C$0.29, below that issue price, a further raise is likely before the HCPCS code is effective and would be materially dilutive unless a new customer signing re-rates the stock first.",
+      "detail": "Cash stood at US$6.4M on June 30 with roughly 12 months of runway, following the C$7.52M LIFE offering at C$0.35 and C$6.04M of convertible debentures closed in June. With the shares around C$0.27, well below that issue price, a further raise is likely before the HCPCS code is effective and would be materially dilutive unless a new customer signing or a positive coding decision re-rates the stock first. The October addition of a sitting public-company CFO to the board reads as preparation for that step.",
       "confirmed": false
     }
   ],
-  "pulse": "Still no company news since the August 20 Q2 print - the IR feed is silent through mid-September - and the stock has drifted to about US$0.208 (C$0.29), a market cap near C$44M, below the C$0.35 LIFE issue price and well off the C$0.40 Intermountain peak; the only market signal is US OTC short interest collapsing 97.5% in late August, i.e. bears covered rather than bulls arriving. The thesis is unchanged but slower: Claire is the only FDA PMA-approved AI breast-margin device and is live at two Intermountain hospitals, yet both are S-Series conversions on a flat 22-site base, Q2 revenue of US$503K was all legacy, and cash of US$6.4M covers roughly 12 months. Note that CMS's biannual schedule puts a June HCPCS filing on track for a December public meeting and an April 2027 effective date - a quarter behind management's Q1 2027 claims guidance - so the near-term swing factors are a first net-new hospital signing and the November Q3 print, with a dilutive raise likely in H1 2027."
+  "pulse": "Around US$0.169 on the OTC line (Parqet, Oct 16), roughly C$0.23-0.24, PINK has slid further from the ~US$0.19 level of early October and sits near the bottom of its 52-week range, well below the C$0.35 LIFE issue price. The only fresh items are soft: the October 2 board appointment of A10 Networks CFO Michelle Caron and an October 15 TIME Best Inventions special mention for Claire - good for credibility, but still no net-new hospital, no Intermountain expansion beyond two sites and no reimbursement update. With US$6.4M of cash (about a year of runway) and a likely dilutive raise ahead, the real swing factors are the mid-November Q3 print and the December CMS public meeting on the HCPCS code (effective date likely April 2027)."
 }

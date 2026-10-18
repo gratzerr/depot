@@ -10,10 +10,10 @@
     },
     {
       "date": "2026-10-08",
-      "headline": "CEO Brian Carrico and CRO Thomas Carrico Buy Shares in the Open Market at $4.84",
+      "headline": "CEO, CFO and CRO Buy Shares in the Open Market at $4.84",
       "source": "Investing.com / SEC Form 4",
       "url": "https://www.investing.com/news/insider-trading-news/neuraxis-ceo-brian-carrico-buys-1297-in-company-stock-93CH-4939916",
-      "summary": "CEO Brian Carrico bought 268 shares and CRO Thomas Carrico bought 328 shares at $4.84 on October 8, near the stock's recent low. The purchases are tiny in dollar terms (about $2.9K combined) and mostly symbolic, but came a week before the Aetna-sized coverage win."
+      "summary": "On October 8, CFO Timothy Henrichs bought 1,937 shares (about $9.4K, lifting his direct stake to 9,530 shares), while CEO Brian Carrico and CRO Thomas Carrico added 268 and 328 shares at the same $4.84 price. The combined ~$12K is small but marks a coordinated management buy near the low, a week before the ~26M-life coverage win."
     },
     {
       "date": "2026-09-29",
@@ -88,5 +88,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "NRXS slid to about $4.84 in early October (where the CEO and CRO made token open-market buys) before the October 15 Aetna policy for ~26 million members sparked a ~19% jump on 43x volume; Parqet shows about $7.78 on October 15, roughly $106M market cap on 13.6M shares (about $159M on 20.4M fully diluted). Two national payer wins in five weeks lift coverage above 147 million lives and a new CCO is building out the sales force, so the story now shifts from coverage to utilization. The main overhang is funding: just $4M of cash on September 21 with going-concern language makes a raise likely around the November Q3 report, alongside the 3.7M Series B shares expected to convert after December 31."
+  "pulse": "NRXS slid to about $4.84 in early October, where the CFO, CEO and CRO made small coordinated open-market buys, before the October 15 national payer policy for ~26 million members (Aetna per its policy bulletin) sparked a ~19% jump on 43x volume; shares traded around $7.50 on October 16, roughly $100M market cap on 13.6M shares (about $150M on 20.4M fully diluted). Two national payer wins in five weeks lift coverage above 147 million lives and a new CCO is building out the sales force, so the focus shifts from coverage to utilization in the November Q3 report (date not yet announced). The main overhang is funding: just $4M of cash on September 21 with going-concern language makes a raise likely around that report, alongside the 3.7M Series B shares expected to convert after December 31."
 }

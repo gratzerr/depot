@@ -9,6 +9,13 @@
       "summary": "Leerink began coverage at Outperform with a $130 target, calling Nektar a top emerging name in immunology. UBS initiated the same day at Neutral with a $53 target, citing the long wait until the mid-2028 ZENITH AD Phase 3 readout."
     },
     {
+      "date": "2026-10-09",
+      "headline": "BTIG Reiterates Buy on Nektar Therapeutics With $178 Price Target",
+      "source": "TradingView / MarketBeat",
+      "url": "https://www.tradingview.com/news/tradingview:4d4e59f0110d9:0-btig-reiterates-buy-rating-on-nektar-therapeutics-178-price-target/",
+      "summary": "BTIG kept its Buy rating and $178 target after the EADV sell-off, citing physician market research that sees safety as rezpeg's key differentiator in atopic dermatitis and alopecia. The firm expects the Lilly award to come to roughly $130-140 million once interest is included."
+    },
+    {
       "date": "2026-10-01",
       "headline": "Nektar Therapeutics Shares Drop After Rezpegaldesleukin Trial Results on Alopecia Areata",
       "source": "GuruFocus / Investor's Business Daily",
@@ -35,26 +42,19 @@
       "source": "Law360",
       "url": "https://www.law360.com/trials/articles/2523817",
       "summary": "Nektar's damages expert told the jury that Eli Lilly could owe nearly $1 billion if it breached the rezpeg license and co-development agreement. That framing set expectations far above the $90 million the jury eventually awarded."
-    },
-    {
-      "date": "2026-09-08",
-      "headline": "Eli Lilly 'Sabotaged' Rezpeg's Development, Nektar Tells Jury",
-      "source": "Law360",
-      "url": "https://www.law360.com/trials/articles/2522664",
-      "summary": "The Nektar v. Eli Lilly breach-of-contract trial opened in N.D. Cal., with Nektar arguing Lilly sabotaged rezpeg in favour of a competing in-house drug. Lilly countered that Nektar was not harmed by the collaboration's termination."
     }
   ],
   "catalysts": [
     {
       "when": "2026-Q4",
       "label": "Post-trial rulings in Nektar v. Eli Lilly (judgment, interest, appeals)",
-      "detail": "The jury awarded $90 million plus interest on September 24, with the court still to set interest and enter judgment. Post-trial motions from either side and a possible appeal could change or delay the payment, and a settlement is also possible. At about 9% of the requested damages it is a modest cash add of roughly 9% to the ~$1 billion balance, not a valuation driver.",
+      "detail": "The jury awarded $90 million plus interest on September 24; with simple interest the gross amount is estimated at about $115 million (BTIG sees $130-140 million), but the court still has to set interest and enter judgment. Post-trial motions from either side and a possible appeal could change or delay the payment, and a settlement is also possible. It is a modest cash add to the ~$1 billion balance, not a valuation driver.",
       "confirmed": false
     },
     {
       "when": "2026-11",
       "label": "Q3 2026 earnings report",
-      "detail": "The first report after the Lilly verdict and EADV data should update cash against the ~$1.02 billion June balance and full-year R&D guidance of $210-230 million. It should also give enrollment updates for all three ZENITH AD Phase 3 studies and explain how the $90 million award will be accounted for. The date has not been announced; Nektar reported Q3 2025 on November 6.",
+      "detail": "The first report after the Lilly verdict and EADV data should update cash against the ~$1.02 billion June balance and full-year R&D guidance of $210-230 million. It should also give enrollment updates for all three ZENITH AD Phase 3 studies and explain how the Lilly award will be accounted for. Data aggregators estimate Thursday, November 5 after the close, but Nektar has not yet announced the date.",
       "confirmed": false
     },
     {
@@ -100,5 +100,5 @@
       "confirmed": true
     }
   ],
-  "pulse": "At ~$35.85 (Oct 16) NKTR has roughly halved from ~$66 in mid-September. The jury awarded only $90 million against Eli Lilly versus the ~$1 billion sought, and the stock fell 22% on October 1 when the alopecia data showed responses fading off drug (63% still responding at six months). The fundamentals have not broken: all three ZENITH AD Phase 3s are now running, the AD maintenance data deepened, and ~$1 billion of cash covers runway past the mid-2028 readout, so cash is now a large share of the market cap. The Street is split, with Leerink starting at Outperform ($130) and UBS at Neutral ($53), and the next hard data is not until Q1 2027."
+  "pulse": "At ~$36 (Oct 16) NKTR has roughly halved since mid-September: the jury awarded only $90 million (about $115 million with interest) against Eli Lilly versus the ~$1 billion sought, and the stock fell 22% on October 1 when alopecia responses faded off drug. The fundamentals have not broken, since all three ZENITH AD Phase 3s are running, AD maintenance responses deepened and ~$1 billion of cash funds the company past the mid-2028 readout, so cash now makes up a large share of the market cap. The Street remains split (BTIG $178 and Leerink $130 versus UBS Neutral at $53), and the next checkpoints are Q3 results in early November and 52-week off-treatment AD data in Q1 2027."
 }

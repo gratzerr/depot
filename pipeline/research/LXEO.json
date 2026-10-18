@@ -42,26 +42,19 @@
       "source": "GlobeNewswire via Yahoo Finance",
       "url": "https://finance.yahoo.com/healthcare/articles/lexeo-therapeutics-enters-agreement-acquire-110000845.html",
       "summary": "For $8.3 million upfront and up to $13 million in milestones, Lexeo adds four FA assets, led by the oral combo LX3010 (about 6-point mFARS improvement at 16 weeks), plus an HDAC inhibitor, a brain-penetrant frataxin protein and an ASO-Fab conjugate. It also struck deals with Weill Cornell, Vivet (immune-suppression enzyme for AAV redosing) and Apertura (CNS capsid) to test brain-targeted dosing after systemic LX2006. Runway into 2028 and the 2H 2027 SUNRISE-FA 2 timeline were unchanged, but investors read the move beyond gene therapy as a distraction and the stock fell."
-    },
-    {
-      "date": "2026-09-09",
-      "headline": "Lexeo at Cantor: LX2006 effect well above pivotal powering, PKP2 registrational design still open with FDA",
-      "source": "Investing.com (Cantor conference transcript)",
-      "url": "https://www.investing.com/news/transcripts/lexeo-therapeutics-at-cantor-conference-gene-therapy-push-gains-traction-93CH-4894898",
-      "summary": "Management stressed that LX2006's 28% six-month LVMI reduction far exceeds the 15% effect size powering SUNRISE-FA 2 and outlined an early commercial build. For LX2020, it conceded the FDA debate on a clinically meaningful NSVT reduction and a possible control arm is unresolved, pushing the registrational-study start to a 2027 goal; shares fell 5.9% to $4.48."
     }
   ],
   "catalysts": [
     {
       "when": "2026-10-20",
       "label": "Chardan Healthcare Conference",
-      "detail": "Management participates in the Chardan Healthcare Conference on October 20. After the stock's slide below $3, investors will watch for firmer timing on the year-end LX2020 12-month data and any early read on how the new Mantle FA programs will be prioritized. No new data is expected.",
+      "detail": "Fireside chat at 9:30 a.m. ET on October 20, webcast live with a replay on Lexeo's website. After the stock's slide to around $3, investors will watch for firmer timing on the year-end LX2020 12-month data, FDA feedback on the PKP2 registrational path and how the new Mantle FA programs will be prioritized. No new data is expected.",
       "confirmed": true
     },
     {
       "when": "2026-11",
       "label": "Q3 2026 earnings report",
-      "detail": "First quarterly results including the Mantle acquisition, with SUNRISE-FA 2 enrollment progress and runway commentary against the $234.2 million June cash balance. Based on the August 12 Q2 cadence the print should land in early-to-mid November; the date is not yet confirmed. With the market cap now around or below cash, any change to the into-2028 runway or a financing would be the key signal.",
+      "detail": "First quarterly results including the Mantle acquisition, with SUNRISE-FA 2 enrollment progress and runway commentary against the $234.2 million June cash balance. Data providers estimate November 4 based on the August 12 Q2 cadence; the company has not yet confirmed a date. With the market cap near or below cash, any change to the into-2028 runway or a financing would be the key signal.",
       "confirmed": false
     },
     {
@@ -95,5 +88,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "Lexeo has fallen to about $2.76 (Oct 15), down from $4.22 in mid-September, leaving a market cap of roughly $225 million that is at or below its June cash of $234.2 million, so the market gives the pipeline little or no value. The slide came after the Cantor admission that LX2020's registrational design is unresolved and the September 22 Mantle deal, which investors saw as a move away from the core gene-therapy focus. Analysts (Stifel $17, Baird $28) and new holders such as JPMorgan (5.5%) are still backing the story. The real test is the year-end 12-month high-dose PKP2 data plus FDA feedback on LX2020, before the thesis shifts to the 2H 2027 SUNRISE-FA 2 readout."
+  "pulse": "Lexeo trades around $3.10, down roughly 68% year to date and from $4.22 in mid-September, leaving a market cap near or below its June cash of $234.2 million, so the market assigns the pipeline little value after the unresolved LX2020 registrational design and the diversifying Mantle deal. No new company news has emerged since the MDS presentation; analysts (Stifel $17, Baird $28) and new 5%+ holders such as JPMorgan remain supportive. Near-term focus is the October 20 Chardan fireside chat and early-November Q3 results, with the year-end 12-month high-dose PKP2 data and FDA feedback the real test before the 2H 2027 SUNRISE-FA 2 readout."
 }

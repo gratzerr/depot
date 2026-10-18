@@ -46,15 +46,15 @@
   ],
   "catalysts": [
     {
-      "when": "2026-11",
-      "label": "FDA 60-day filing review decides acceptance and Priority Review for the AMT-130 BLA",
-      "detail": "uniQure submitted the AMT-130 BLA on September 2, 2026 with a Priority Review request and still guides to an FDA acceptance decision in Q4 2026; the standard 60-day filing review ends around November 1. After the September 29 four-year readout missed statistical significance on the primary cUHDRS comparison, the acceptance call and any FDA comment on the 3-year primary basis are now the decisive checkpoint for the single most important program in ClearPoint's delivery-platform thesis.",
-      "confirmed": true
-    },
-    {
       "when": "2026-10-28",
       "label": "Q3 2026 earnings (Oct 28, after close): biologics back to growth and cash-burn check",
       "detail": "ClearPoint reports Q3 2026 results on October 28 after the close, with a call at 4:30 p.m. ET. Management said the CAL preclinical facility, in its possession since July, should return the biologics and drug delivery segment (down 15% to $4.0M in Q2) to growth in Q3, making this the first test of whether the cut to $48-52M guidance was timing or demand. With cash at $29.4M against a roughly $10M quarterly operating loss, investors will also want commentary on funding needs and on how the AMT-130 four-year miss changes management's view of uniQure-related revenue timing.",
+      "confirmed": true
+    },
+    {
+      "when": "2026-11",
+      "label": "FDA 60-day filing review decides acceptance and Priority Review for the AMT-130 BLA",
+      "detail": "uniQure submitted the AMT-130 BLA on September 2, 2026 with a Priority Review request and still guides to an FDA acceptance decision in Q4 2026; the standard 60-day filing review ends around November 1. After the September 29 four-year readout missed statistical significance on the primary cUHDRS comparison, the acceptance call and any FDA comment on the 3-year primary basis are now the decisive checkpoint for the single most important program in ClearPoint's delivery-platform thesis.",
       "confirmed": true
     },
     {
@@ -106,5 +106,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "CLPT sits around $9.07 (Oct 16), down roughly 30% from $13.15 in mid-September and about 70% below its $30.10 52-week high, after a 24% one-day drop on September 29 when partner uniQure's AMT-130 four-year data missed statistical significance on the primary cUHDRS comparison (44% slowing vs Enroll-HD), even though functional capacity and 36-month results stayed positive. With no ClearPoint business news since then other than the October 14 earnings-date notice, the stock now hinges on two near-term checkpoints: the October 28 Q3 print, where biologics must reaccelerate via CAL and the $29.4M cash balance against a roughly $10M quarterly operating loss makes funding a live question, and the FDA's Q4 acceptance decision on the AMT-130 BLA."
+  "pulse": "CLPT trades around $9.64 (Oct 15 close), roughly 70% below its $30.10 52-week high, after a 24% one-day drop on September 29 when partner uniQure's AMT-130 four-year data missed statistical significance on the primary cUHDRS comparison, even though functional capacity and 36-month results stayed positive. There has been no new ClearPoint business news since the October 14 earnings-date notice, so the setup now rests on the October 28 Q3 print, where biologics must reaccelerate via CAL and the $29.4M cash balance against a roughly $10M quarterly operating loss makes funding a live question, and on the FDA's filing-acceptance decision for the AMT-130 BLA due around early November."
 }

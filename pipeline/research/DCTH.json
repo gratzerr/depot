@@ -2,6 +2,13 @@
   "ticker": "DCTH",
   "news": [
     {
+      "date": "2026-10-19",
+      "headline": "Delcath Highlights ESMO 2026 Presentations (DELUMA, mCRC Update) and Independent Uveal Melanoma Data",
+      "source": "Business Wire / StockTitan",
+      "url": "https://www.stocktitan.net/news/DCTH/delcath-systems-highlights-clinical-program-presentations-at-esmo-yiulijcg6472.html",
+      "summary": "Delcath will show a DELUMA breast cancer Phase 2 trial-in-progress poster and host a 'Meet the Investigators' session on the Del-Liver mCRC and DELUMA trials at ESMO in Madrid on October 24, alongside an independent Dutch registry poster comparing PHP plus ipilimumab/nivolumab with tebentafusp. A separate independent Southampton/Dublin CHEMOSAT cohort (n=12) in uveal melanoma reported a 66.7% response rate, 18.4-month median hepatic PFS and 28-month median OS."
+    },
+    {
       "date": "2026-10-13",
       "headline": "Rosalind Advisors Converts Series E Preferred and Distributes Shares In Kind to Fund LPs",
       "source": "SEC Form 4 / StockTitan",
@@ -23,13 +30,6 @@
       "summary": "H.C. Wainwright's Swayampakula Ramakanth reaffirmed Buy with a $32 target after the firm's September investor conference. All brokers covering Delcath rate it Strong Buy, with Zacks' short-term consensus near $21.80 and broader averages around $22.50-$24.50."
     },
     {
-      "date": "2026-09-11",
-      "headline": "Delcath Grants Inducement RSUs to Four New Hires as Commercial Build-Out Continues",
-      "source": "Business Wire / BioSpace",
-      "url": "https://www.biospace.com/press-releases/delcath-systems-inc-announces-inducement-grants-under-nasdaq-listing-rule-5635c4-september-11-2026",
-      "summary": "Delcath granted a total of 34,000 restricted stock units (grant date September 1) to four employees who joined in July or August 2026, vesting over three years. The dilution is immaterial, but it signals continued hiring to support center activations; it remains the company's most recent press release."
-    },
-    {
       "date": "2026-09-09",
       "headline": "Analysis: HEPZATO Growth Is Real, But 340B Pricing, Slow Hospital Onboarding and Heavy Spend Cap the Margin Story",
       "source": "Insider Monkey / Yahoo Finance",
@@ -48,8 +48,14 @@
     {
       "when": "2026-10/11 (Q3 report est. ~Nov 3)",
       "label": "Q3 2026 results, with a possible October preliminary revenue pre-release",
-      "detail": "No date has been announced yet; data providers estimate the Q3 report around November 3, 2026. Last year Delcath pre-released preliminary Q3 revenue around October 20, 2025, so a pre-release in the coming days is plausible but had not appeared as of October 19 (no Q3 call-date announcement yet either). This is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
+      "detail": "No date has been announced yet; data providers estimate the Q3 report around November 3, 2026. Last year Delcath pre-released preliminary Q3 revenue around October 20, 2025, so a pre-release in the coming days is plausible but had not appeared as of the evening of October 19 (the only release that day was the ESMO presentation notice, and no Q3 call date has been announced). This is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
       "confirmed": false
+    },
+    {
+      "when": "2026-10-24",
+      "label": "ESMO Congress 2026 (Madrid): DELUMA poster and Meet the Investigators session",
+      "detail": "Abstract 58TiP (DELUMA trial-in-progress, presented by global PI Heather McArthur of UT Southwestern) and an independent poster comparing PHP plus ipilimumab/nivolumab with tebentafusp (Abstract 2135P) go up at 12:00 CEST, followed by a 16:30 CEST investigator session with enrollment updates on the Del-Liver mCRC Phase 2 (Marwan Fakih, City of Hope) and DELUMA. Enrollment commentary on the mCRC trial is the most market-relevant piece, as it is the largest pipeline indication.",
+      "confirmed": true
     },
     {
       "when": "2026-Q4",
@@ -76,5 +82,5 @@
       "confirmed": true
     }
   ],
-  "pulse": "Delcath closed at $14.08 on Friday, October 16, down about 4.9% on the day, roughly 10% below late September and about 19% under the $17.42 August high (52-week range $8.12-$17.42). There has been no new company press release since the September 11 inducement grants; October news is limited to a BTIG Buy reiteration and a Rosalind in-kind share distribution, while coverage stays unanimously Buy with $21-$32 targets. The next test is imminent: a possible preliminary Q3 revenue release (it came around October 18-20 in prior years) and the full Q3 report expected around November 3, measured against the $104M-$108M guidance and the push toward about 37 active centers."
+  "pulse": "Delcath's last confirmed close is $14.08 (Friday, October 16), about 19% below the $17.42 August high (52-week range $8.12-$17.42); a verified Monday close was not yet available. After the bell on October 19 the company issued its first press release since September, previewing ESMO presentations on October 24 (DELUMA poster, investigator update on the mCRC and breast trials) plus independent uveal melanoma data showing a 66.7% response rate with CHEMOSAT, while coverage remains unanimously Buy with $21-$32 targets. There is still no preliminary Q3 revenue release (last year's came October 18), so the near-term focus is a pre-release or the full Q3 report expected around November 3, measured against $104M-$108M guidance and the push toward about 37 active centers."
 }

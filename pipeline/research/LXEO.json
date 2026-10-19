@@ -2,6 +2,13 @@
   "ticker": "LXEO",
   "news": [
     {
+      "date": "2026-10-19",
+      "headline": "Lexeo to host educational event on clinically meaningful arrhythmia measures in PKP2-ACM",
+      "source": "GlobeNewswire via StockTitan",
+      "url": "https://www.stocktitan.net/news/LXEO/lexeo-therapeutics-to-host-educational-event-focused-on-clinical-c4kos4myh24g.html",
+      "summary": "Lexeo will webcast an investor event on October 21 at 1:00 p.m. ET where CMO Narinder Bhalla and Cleveland Clinic arrhythmia specialist Alessio Gasperetti will discuss which assessments capture disease burden and treatment response in PKP2 arrhythmogenic cardiomyopathy. The timing looks aimed at framing the endpoint debate (e.g. NSVT) ahead of LX2020's year-end 12-month data and FDA feedback, though the release itself names no data or regulatory update."
+    },
+    {
       "date": "2026-10-16",
       "headline": "JPMorgan discloses 5.5% passive stake in Lexeo",
       "source": "StockTitan (SEC Schedule 13G)",
@@ -30,13 +37,6 @@
       "summary": "CEO Nolan Townsend said HEROIC-PKP2 has 10 patients, seven at the high dose, and that most if not all should have 12-month follow-up in the year-end LX2020 update, which management believes will be sufficient to judge the drug. He also walked through the rationale for the Mantle deal and LX2006's pivotal path."
     },
     {
-      "date": "2026-09-29",
-      "headline": "Lexeo closes Mantle Therapeutics acquisition",
-      "source": "Investing.com (SEC 8-K)",
-      "url": "https://www.investing.com/news/sec-filings/lexeo-therapeutics-completes-acquisition-of-mantle-therapeutics-93CH-4923537",
-      "summary": "The merger closed with Mantle becoming a wholly owned subsidiary, for $5.3 million in cash plus $3.0 million in Lexeo stock upfront. Shares closed at $3.42 that day, down 23% over the week and near the then 52-week low of $3.14."
-    },
-    {
       "date": "2026-09-22",
       "headline": "Lexeo to acquire Mantle Therapeutics and signs three CNS collaborations to broaden its Friedreich ataxia franchise",
       "source": "GlobeNewswire via Yahoo Finance",
@@ -49,6 +49,12 @@
       "when": "2026-10-20",
       "label": "Chardan Healthcare Conference",
       "detail": "Fireside chat at 9:30 a.m. ET on October 20, webcast live with a replay on Lexeo's website. After the stock's slide to around $3, investors will watch for firmer timing on the year-end LX2020 12-month data, FDA feedback on the PKP2 registrational path and how the new Mantle FA programs will be prioritized. No new data is expected.",
+      "confirmed": true
+    },
+    {
+      "when": "2026-10-21",
+      "label": "PKP2-ACM clinical endpoints educational event",
+      "detail": "Webcast investor event at 1:00 p.m. ET with CMO Narinder Bhalla and Cleveland Clinic's Dr. Alessio Gasperetti on assessing clinically meaningful arrhythmias, guideline-based measurement and natural-history data in PKP2-ACM. No new LX2020 data is announced, but it is the company's chance to argue that arrhythmia reductions such as NSVT are a meaningful endpoint ahead of FDA feedback on the registrational path.",
       "confirmed": true
     },
     {
@@ -88,5 +94,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "Lexeo closed around $2.63 on October 16, down more than 70% year to date and from $4.22 in mid-September, putting its market cap well below the $234.2 million June cash balance, so the market assigns the pipeline negative value after the unresolved LX2020 registrational design and the diversifying Mantle deal. No new company news has emerged since the MDS presentation and JPMorgan's 5.5% stake filing, while analysts (Stifel $17, Baird $28) stay supportive. Near-term focus is the October 20 Chardan fireside chat and the November Q3 results, with the year-end 12-month high-dose PKP2 data and FDA feedback the real test before the 2H 2027 SUNRISE-FA 2 readout."
+  "pulse": "Lexeo rose 4.9% to $2.77 on October 19 (market cap about $227 million, near its 52-week low of $2.55 and still below the June cash balance of $234.2 million) after announcing an October 21 educational event on clinically meaningful arrhythmia endpoints in PKP2-ACM. The stock remains down more than 70% this year on doubts over LX2020's registrational design and the diversifying Mantle deal, while analysts (Stifel $17, Baird $28) stay supportive. Near-term focus is tomorrow's Chardan fireside chat, Wednesday's PKP2 endpoint event and November Q3 results, with the year-end 12-month high-dose PKP2 data and FDA feedback the real test."
 }

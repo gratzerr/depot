@@ -47,8 +47,8 @@
   "catalysts": [
     {
       "when": "2026-10-19",
-      "label": "UEG Week 2026 (Barcelona) - ABTECT maintenance oral presented Oct 19; release pending",
-      "detail": "The Phase 3 ABTECT 44-week maintenance efficacy and safety oral was scheduled for October 19 (10:50-11:00, Hot Topics in Clinical GI Research), followed by the three-year Phase 2 25 mg de-escalation follow-up (12:00-12:10); a maintenance outcomes oral in treatment-experienced patients follows on October 20. As of the morning of October 19 Abivax had issued no press release with the presented data and there was no reported market reaction yet. How investigators read the detailed malignancy/safety database is the key swing factor before the year-end NDA filing.",
+      "label": "UEG Week 2026 (Barcelona) - ABTECT maintenance oral presented Oct 19 (done); final oral Oct 20",
+      "detail": "The Phase 3 ABTECT 44-week maintenance efficacy and safety oral (OP097) and the three-year Phase 2 25 mg de-escalation follow-up (OP107) were presented on October 19; the final oral on maintenance outcomes in treatment-experienced patients (OP260) follows on October 20. Abivax issued no press release with the presented data by the US close on October 19, and the stock barely reacted (-0.7%), suggesting the meeting was read as confirmatory rather than a new swing factor before the year-end NDA filing.",
       "confirmed": true
     },
     {
@@ -82,5 +82,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "ABVX last closed at $88.13 on October 16 (market cap about $7.7bn), down from about $118 in mid-September after H1-driven target cuts and fading takeover hopes, and below the July offering price of $125 despite a consensus target near $159. The decisive ABTECT maintenance and safety oral is being presented at UEG Week on October 19, but no Abivax data release or market reaction had appeared yet; the next hard catalysts are the planned end-2026 NDA submission and Q3 results on December 14. The March-2027 $120 call is about 27% out of the money and needs roughly +36% in five months, so a well-received UEG read-through, an on-time NDA filing or a revived M&A story are the realistic paths to the strike."
+  "pulse": "ABVX closed at $87.48 on October 19 (-0.7%, market cap about $7.6bn), still near its lows after sliding from about $118 in mid-September and well below the July offering price of $125, against a consensus target near $159. The ABTECT maintenance and safety orals at UEG Week passed without an Abivax data release or a meaningful stock reaction, so attention shifts to the planned end-2026 NDA submission and Q3 results on December 14. The March-2027 $120 call is about 27% out of the money and needs roughly +37% in five months, leaving an on-time NDA filing, FDA acceptance chatter or a revived M&A story as the realistic paths to the strike."
 }

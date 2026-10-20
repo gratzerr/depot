@@ -46,21 +46,21 @@
   ],
   "catalysts": [
     {
-      "when": "2026-10-19",
-      "label": "UEG Week 2026 (Barcelona) - ABTECT maintenance oral presented Oct 19 (done); final oral Oct 20",
-      "detail": "The Phase 3 ABTECT 44-week maintenance efficacy and safety oral (OP097) and the three-year Phase 2 25 mg de-escalation follow-up (OP107) were presented on October 19; the final oral on maintenance outcomes in treatment-experienced patients (OP260) follows on October 20. Abivax issued no press release with the presented data by the US close on October 19, and the stock barely reacted (-0.7%), suggesting the meeting was read as confirmatory rather than a new swing factor before the year-end NDA filing.",
-      "confirmed": true
-    },
-    {
-      "when": "2026-Q4",
-      "label": "NDA submission to FDA for obefazimod in ulcerative colitis",
-      "detail": "After positive ABTECT induction and Week-44 maintenance data and the constructive pre-NDA meeting on July 30, Abivax reiterated in its September 21 H1 report that it plans to submit the obefazimod NDA in moderately-to-severely active UC by end-2026. This is the biggest near-term de-risking event and starts the FDA review clock; FDA acceptance (about 60 days after submission) would likely follow in Q1 2027, before the March-2027 option expiry.",
+      "when": "2026-10-20",
+      "label": "UEG Week 2026 (Barcelona), all obefazimod presentations completed Oct 17-20 (done)",
+      "detail": "The Phase 3 ABTECT 44-week maintenance efficacy and safety oral (OP097) and the three-year Phase 2 25 mg de-escalation follow-up (OP107) were presented on October 19, and the final oral on maintenance outcomes in treatment-experienced patients (OP260) followed on October 20. Abivax issued no press release with the presented data (its last release is still the September 30 UEG preview), and the stock barely moved (-0.7% on October 19). The meeting therefore read as confirmatory rather than a new swing factor ahead of the year-end NDA filing.",
       "confirmed": true
     },
     {
       "when": "2026-12-14",
       "label": "Q3 2026 financial results",
       "detail": "Abivax's financial calendar lists Q3 2026 results for December 14, 2026. By then the NDA should have been submitted or be days away, making the release the natural venue to confirm the filing and give guidance on review type and expected PDUFA timing. It is the last scheduled financial update before the March-2027 option expiry.",
+      "confirmed": true
+    },
+    {
+      "when": "2026-Q4",
+      "label": "NDA submission to FDA for obefazimod in ulcerative colitis",
+      "detail": "After positive ABTECT induction and Week-44 maintenance data and the constructive pre-NDA meeting on July 30, Abivax reiterated in its September 21 H1 report that it plans to submit the obefazimod NDA in moderately-to-severely active UC by end-2026. This is the biggest near-term de-risking event and starts the FDA review clock; FDA acceptance (about 60 days after submission) would likely follow in Q1 2027, before the March-2027 option expiry.",
       "confirmed": true
     },
     {
@@ -82,5 +82,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "ABVX closed at $87.48 on October 19 (-0.7%, market cap about $7.6bn), still near its lows after sliding from about $118 in mid-September and well below the July offering price of $125, against a consensus target near $159. The ABTECT maintenance and safety orals at UEG Week passed without an Abivax data release or a meaningful stock reaction, so attention shifts to the planned end-2026 NDA submission and Q3 results on December 14. The March-2027 $120 call is about 27% out of the money and needs roughly +37% in five months, leaving an on-time NDA filing, FDA acceptance chatter or a revived M&A story as the realistic paths to the strike."
+  "pulse": "ABVX closed at $87.49 on October 19 (-0.7%, market cap about $7.6bn), still near its lows after sliding from about $118 in mid-September and well below the July offering price of $125, against a consensus target near $159. UEG Week ended on October 20 with the final treatment-experienced maintenance oral, and Abivax issued no data press release, so the meeting passed as confirmatory. Attention now shifts to the planned end-2026 NDA submission and Q3 results on December 14. The March-2027 $120 call is about 27% out of the money and needs roughly +37% in five months. The realistic paths to the strike are an on-time NDA filing, FDA acceptance chatter or a revived M&A story."
 }

@@ -47,8 +47,8 @@
   "catalysts": [
     {
       "when": "2026-10-20",
-      "label": "Chardan Healthcare Conference",
-      "detail": "Fireside chat at 9:30 a.m. ET on October 20, webcast live with a replay on Lexeo's website. After the stock's slide to around $3, investors will watch for firmer timing on the year-end LX2020 12-month data, FDA feedback on the PKP2 registrational path and how the new Mantle FA programs will be prioritized. No new data is expected.",
+      "label": "Chardan Healthcare Conference fireside chat (held Oct 20, done)",
+      "detail": "Fireside chat held at 9:30 a.m. ET on October 20, with a webcast replay on Lexeo's website. No press release or new data accompanied it. Investors were looking for firmer timing on the year-end LX2020 12-month data, FDA feedback on the PKP2 registrational path and how the Mantle FA programs will be prioritized.",
       "confirmed": true
     },
     {
@@ -94,5 +94,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "Lexeo rose 4.9% to $2.77 on October 19 (market cap about $227 million, near its 52-week low of $2.55 and still below the June cash balance of $234.2 million) after announcing an October 21 educational event on clinically meaningful arrhythmia endpoints in PKP2-ACM. The stock remains down more than 70% this year on doubts over LX2020's registrational design and the diversifying Mantle deal, while analysts (Stifel $17, Baird $28) stay supportive. Near-term focus is tomorrow's Chardan fireside chat, Wednesday's PKP2 endpoint event and November Q3 results, with the year-end 12-month high-dose PKP2 data and FDA feedback the real test."
+  "pulse": "Lexeo rose 4.6% to $2.76 on October 19 (market cap about $227 million, near its 52-week low of $2.55 and below the June cash balance of $234.2 million) after announcing an October 21 educational event on clinically meaningful arrhythmia endpoints in PKP2-ACM. No new release accompanied the October 20 Chardan fireside chat. The stock is still down more than 70% this year on doubts over LX2020's registrational design and the diversifying Mantle deal, while analysts (Stifel $17, Baird $28) stay supportive. Near-term focus is Wednesday's PKP2 endpoint event and Q3 results in November (date not yet confirmed), but the real test is the year-end 12-month high-dose PKP2 data and FDA feedback."
 }

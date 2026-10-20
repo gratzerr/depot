@@ -13,7 +13,7 @@
       "headline": "Rosalind Advisors Converts Series E Preferred and Distributes Shares In Kind to Fund LPs",
       "source": "SEC Form 4 / StockTitan",
       "url": "https://www.stocktitan.net/sec-filings/DCTH/form-4-delcath-systems-inc-insider-trading-activity-5d17f782a25c.html",
-      "summary": "Director-affiliated Rosalind Opportunities Fund I converted 36.27 Series E preferred shares into 3,627 common shares and distributed 27,502 common shares in kind to limited partners to meet redemption requests. It is a fund-level distribution rather than an open-market sale, but it adds a little freely tradable supply while the stock drifts lower."
+      "summary": "Director-affiliated Rosalind Opportunities Fund I converted 36.27 Series E preferred shares into 3,627 common shares and distributed 27,502 common shares in kind to limited partners to meet redemption requests. It is a fund-level distribution rather than an open-market sale; a follow-up filing on October 19 showed ownership caps currently block Rosalind from exercising any of its warrants."
     },
     {
       "date": "2026-10-09",
@@ -48,7 +48,7 @@
     {
       "when": "2026-10/11 (Q3 report est. ~Nov 3)",
       "label": "Q3 2026 results, with a possible October preliminary revenue pre-release",
-      "detail": "No date has been announced yet; data providers estimate the Q3 report around November 3, 2026. Last year Delcath pre-released preliminary Q3 revenue around October 20, 2025, so a pre-release in the coming days is plausible but had not appeared as of the evening of October 19 (the only release that day was the ESMO presentation notice, and no Q3 call date has been announced). This is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
+      "detail": "No date has been announced yet; data providers estimate the Q3 report around November 3, 2026, with consensus revenue near $25.8M (Benzinga) and options pricing a move of roughly +/-17%. Last year Delcath pre-released preliminary Q3 revenue on October 18, 2025, but no 2026 pre-release or Q3 call date had appeared as of October 20 (the only release since September was the October 19 ESMO notice). This is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
       "confirmed": false
     },
     {
@@ -82,5 +82,5 @@
       "confirmed": true
     }
   ],
-  "pulse": "Delcath's last confirmed close is $14.08 (Friday, October 16), about 19% below the $17.42 August high (52-week range $8.12-$17.42); a verified Monday close was not yet available. After the bell on October 19 the company issued its first press release since September, previewing ESMO presentations on October 24 (DELUMA poster, investigator update on the mCRC and breast trials) plus independent uveal melanoma data showing a 66.7% response rate with CHEMOSAT, while coverage remains unanimously Buy with $21-$32 targets. There is still no preliminary Q3 revenue release (last year's came October 18), so the near-term focus is a pre-release or the full Q3 report expected around November 3, measured against $104M-$108M guidance and the push toward about 37 active centers."
+  "pulse": "Delcath closed October 19 at $14.37 (+2.1%), rebounding slightly from $14.08 on October 16 but still about 18% below the $17.42 August high (52-week range $8.12-$17.42). After the bell on October 19 the company issued its first press release since September, previewing ESMO presentations on October 24 (DELUMA poster, investigator update on the mCRC and breast trials) plus independent uveal melanoma data showing a 66.7% response rate with CHEMOSAT, while coverage remains unanimously Buy with $21-$32 targets. There is still no preliminary Q3 revenue release (last year's came October 18), so the near-term focus is a pre-release or the full Q3 report expected around November 3, measured against roughly $25.8M consensus, $104M-$108M FY guidance and the push toward about 37 active centers."
 }

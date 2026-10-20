@@ -360,6 +360,22 @@ def us_eff_date():
 
 PREV={}   # si -> Vortagesschluss desselben Kursanbieters wie der Live-Kurs
 
+def _bs(S,K,T,r,v,call=True):
+    """Black-Scholes-Preis einer europaeischen Option (ohne Dividende)."""
+    from math import log,sqrt,exp,erf
+    N=lambda x:0.5*(1+erf(x/sqrt(2)))
+    if T<=0 or v<=0: return max(0.0,(S-K) if call else (K-S))
+    d1=(log(S/K)+(r+v*v/2)*T)/(v*sqrt(T)); d2=d1-v*sqrt(T)
+    return S*N(d1)-K*exp(-r*T)*N(d2) if call else K*exp(-r*T)*N(-d2)-S*N(-d1)
+def _bs_iv(px,S,K,T,r,call=True):
+    """Implizite Volatilitaet per Bisektion; None, wenn px ausserhalb der Grenzen."""
+    lo,hi=0.01,5.0
+    if not (_bs(S,K,T,r,lo,call)<px<_bs(S,K,T,r,hi,call)): return None
+    for _ in range(80):
+        m=(lo+hi)/2
+        if _bs(S,K,T,r,m,call)<px: lo=m
+        else: hi=m
+    return (lo+hi)/2
 def live_overlay():
     net=defaultdict(float)
     for t in txs.values():
@@ -398,7 +414,7 @@ def live_overlay():
                 # und funktioniert dort. Kurs = Geld/Brief-Mitte wie beim Broker.
                 m2=re.match(r"^([A-Z.]{1,6})(\d{2})(\d{2})(\d{2})([CP])(\d{8})$", tk)
                 und,yy,mm,dd,cp,kk=m2.groups()
-                px=0.0; qual=0   # 2 = Geld/Brief-Mitte, 1 = Last-Trade VON HEUTE, 0 = nichts
+                px=0.0; qual=0; bid=ask=0.0   # 3 = Modell (BS), 2 = Geld/Brief-Mitte, 1 = Last-Trade VON HEUTE, 0 = nichts
                 for _try in range(3):
                     try:
                         oc=yf.Ticker(und).option_chain(f"20{yy}-{mm}-{dd}")
@@ -424,6 +440,27 @@ def live_overlay():
                         pass
                     time.sleep(1.5)
                 c0=oq.get(tk) or {}
+                # Modellkurs aus dem Basiswert (Wunsch des Owners, 2026-10-20): Geld/Brief
+                # der illiquiden Calls springt (5.00/6.70 ohne Umsatz), der Wert soll mit
+                # dem Basiswert laufen. IV = Median der letzten 10 Tages-IVs aus brauchbaren
+                # Mitten (Spread < 50 % der Mitte); Kurs = Black-Scholes mit aktuellem Spot.
+                ivh={k:float(v) for k,v in (c0.get("ivh") or {}).items() if v}
+                try:
+                    K=int(kk)/1000.0; isc=(cp=="C")
+                    T=(datetime.date(2000+int(yy),int(mm),int(dd))-datetime.date.fromisoformat(eff)).days/365.0
+                    sp=yf.Ticker(und).history(period="5d")["Close"].dropna()
+                    S=float(sp.iloc[-1]) if len(sp) else 0.0
+                    if S>0 and T>0:
+                        if qual==2 and (ask-bid)<0.5*px:
+                            iv=_bs_iv(px,S,K,T,0.04,isc)
+                            if iv: ivh[eff]=round(iv,4)
+                        ivs=sorted(ivh[k] for k in sorted(ivh)[-10:])
+                        if ivs:
+                            ivm=ivs[len(ivs)//2] if len(ivs)%2 else (ivs[len(ivs)//2-1]+ivs[len(ivs)//2])/2
+                            px,qual=_bs(S,K,T,0.04,ivm,isc),3
+                except Exception:
+                    pass
+                ivh={k:ivh[k] for k in sorted(ivh)[-30:]}
                 # Tagesschlusskurse TAGEWEISE merken (hist: Datum -> Kurs). Optionskurse
                 # kommen anders als Aktienkurse nur fuer HEUTE aus der Kette; ohne hist
                 # kannte die Wertreihe fuer alle Tage seit dem letzten PP-Refresh nur den
@@ -447,7 +484,7 @@ def live_overlay():
                 elif c0.get("prev"): PREV[si]=float(c0["prev"])
                 hist={k:hist[k] for k in sorted(hist)[-60:]}   # begrenzt halten
                 oq[tk]={"d":max(hist),"px":hist[max(hist)],"q":qual,
-                        "prev":PREV.get(si) or c0.get("prev"),"hist":hist}; oq_dirty=True
+                        "prev":PREV.get(si) or c0.get("prev"),"hist":hist,"ivh":ivh}; oq_dirty=True
                 pairs=sorted(hist.items())   # ALLE Tage -> die Wertreihe bekommt echte Schlusskurse
             else:
                 h2=yf.Ticker(tk).history(period="10d")["Close"]

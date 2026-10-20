@@ -2,6 +2,13 @@
   "ticker": "ABVX",
   "news": [
     {
+      "date": "2026-10-20",
+      "headline": "Guggenheim Reiterates Buy Rating on Abivax",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRTFZcnFyNHU0YnhlUDlQcXlSWHJxVTlqZzhEZ3R6c0xYTjZwTnM2ZmNsYnNzQmRfZUFoOWR2eDc1MTIwZjlmbXVUbF9GRzdYdXNMTmpVVnpoYWdWV1ZIbG1JcnhCNHB5LU9yMl9TVjVXaTRDQ3B1SDVFajlWOTJrMklwWmFXV21XMWJ6bFRFTVVhTGdNWDZKbi1HUXdZYmJNa0VhYnlIT1ROTmZFVzdaTA?oc=5",
+      "summary": "Guggenheim reaffirmed its Buy rating on Abivax after UEG Week. Abivax had featured among the bank's top biotech picks the week before. Sell-side consensus remains a 'Moderate Buy' even though the shares lost about a third of their value over the quarter."
+    },
+    {
       "date": "2026-10-13",
       "headline": "TCG Crossover and Chen Yu Report 7.0% ADS Stake in Abivax",
       "source": "Stock Titan (SEC Schedule 13G/A)",
@@ -35,13 +42,6 @@
       "source": "Investing.com",
       "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-initiates-abivax-stock-coverage-with-buy-rating-93CH-4895453",
       "summary": "Goldman Sachs started coverage at Buy with a $155 target, modelling peak obefazimod sales of about EUR 4bn in ulcerative colitis plus EUR 3.5bn potential in Crohn's disease, and said the maintenance-trial cancer signal should not impede approval or long-term uptake. The bank also flagged Abivax as a potential acquisition target while calling a solo launch viable after the July financing."
-    },
-    {
-      "date": "2026-09-03",
-      "headline": "STAT: The Drugmaker Abivax Has Still Not Been Acquired. What's Going On?",
-      "source": "STAT News",
-      "url": "https://www.statnews.com/2026/09/03/abivax-acquisition-target-replimune-fda/",
-      "summary": "STAT's Adam Feuerstein dissected why, nine months into a record biotech M&A year in which a roughly $20bn takeout of Abivax was widely treated as imminent, no deal has materialised - to the visible frustration of the shareholder base. The piece frames the delay as timing and process rather than a broken thesis, noting obefazimod's blockbuster commercial potential in ulcerative colitis remains intact."
     }
   ],
   "catalysts": [
@@ -82,5 +82,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "ABVX closed at $87.49 on October 19 (-0.7%, market cap about $7.6bn), still near its lows after sliding from about $118 in mid-September and well below the July offering price of $125, against a consensus target near $159. UEG Week ended on October 20 with the final treatment-experienced maintenance oral, and Abivax issued no data press release, so the meeting passed as confirmatory. Attention now shifts to the planned end-2026 NDA submission and Q3 results on December 14. The March-2027 $120 call is about 27% out of the money and needs roughly +37% in five months. The realistic paths to the strike are an on-time NDA filing, FDA acceptance chatter or a revived M&A story."
+  "pulse": "ABVX rebounded 5.8% to $92.59 on October 20 as UEG Week closed with the final treatment-experienced maintenance oral and Guggenheim reiterated its Buy. The stock is still about a third lower over the quarter and well below the July $125 offering price, against a consensus target near $159. Abivax issued no data press release from UEG, so the meeting read as confirmatory, and attention shifts to the planned end-2026 NDA submission and Q3 results on December 14. The March-2027 $120 call is about 23% out of the money and needs roughly +30% in five months. The realistic paths to the strike are an on-time NDA filing, FDA acceptance chatter or a revived M&A story."
 }

@@ -2,6 +2,13 @@
   "ticker": "ABVX",
   "news": [
     {
+      "date": "2026-10-21",
+      "headline": "Wedbush Cuts Abivax Price Target to $96 From $118, Keeps Neutral; Piper Sandler Reiterates After Trial Data",
+      "source": "TradingView / MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY3NramJoOXp3YzRrS3FPbW5ENk1Ub2dMVFVUV2RUbXZ6cjRvSDlzMVV1OHAtLXljdHk5Q20zZmpaemV2TU5KaUtKbVhEeWFoWGJDNTNhQTJrOVBQblEtdS0yblRscVBOMnRaLTVmRVYzM21MZnY5clNoRW0tZVEyai1LajNYalctVVktYlNzZmF1LWxlV1h0ZFNYNmdEd2dScl9FR0lFdkQ3LTVkQmRRUkNOZVIwSFF1TXpWTA?oc=5",
+      "summary": "Following the UEG Week presentations, Wedbush (David Nierengarten) lowered its target to $96 from $118 and kept a Neutral rating, now essentially at the share price, while Piper Sandler reiterated its positive rating on the trial data. Barclays (Overweight, $148) and Guggenheim (Buy, $175) also reaffirmed on October 20, so the bulls still dominate the target range."
+    },
+    {
       "date": "2026-10-20",
       "headline": "Guggenheim Reiterates Buy Rating on Abivax",
       "source": "MarketBeat",
@@ -35,13 +42,6 @@
       "source": "Abivax Investor Relations",
       "url": "https://ir.abivax.com/news-releases/news-release-details/abivax-presents-business-updates-and-first-half-2026-financial",
       "summary": "Pro-forma cash is about EUR 1.17bn (EUR 402.4m at June 30 plus EUR 767.1m from the July offering), extending runway into Q4 2029, and the NDA for obefazimod in UC remains planned by end-2026, with Crohn's ENHANCE-CD topline in mid-2027. Abivax also completed a EUR 76.5m royalty-certificate buy-back and named Chris Rabbat CMO (succeeding Fabio Cataldi) and Tim Kelly CTO; R&D spend rose 38% to EUR 107.9m."
-    },
-    {
-      "date": "2026-09-10",
-      "headline": "Goldman Sachs Initiates Coverage of Abivax with Buy Rating and $155 Price Target",
-      "source": "Investing.com",
-      "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-initiates-abivax-stock-coverage-with-buy-rating-93CH-4895453",
-      "summary": "Goldman Sachs started coverage at Buy with a $155 target, modelling peak obefazimod sales of about EUR 4bn in ulcerative colitis plus EUR 3.5bn potential in Crohn's disease, and said the maintenance-trial cancer signal should not impede approval or long-term uptake. The bank also flagged Abivax as a potential acquisition target while calling a solo launch viable after the July financing."
     }
   ],
   "catalysts": [
@@ -82,5 +82,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "ABVX closed at $92.59 on October 20 (+5.8%), its best level since mid-October, after UEG Week wrapped up and Guggenheim reiterated its Buy; no new company news or filings have appeared since. Shares remain about a third lower over the quarter and well below the July $125 offering price, versus a consensus target near $159, so the UEG data read as confirmatory and the stock is now in a catalyst gap until the planned end-2026 NDA submission and Q3 results on December 14. The March-2027 $120 call is about 23% out of the money and needs roughly +30% in five months; the realistic paths to the strike are an on-time NDA filing, FDA acceptance in Q1 2027 or a revived M&A story."
+  "pulse": "ABVX closed at about $93.42 on October 21 (+0.9%), extending the prior day's +5.8% rebound despite Wedbush cutting its target to $96 from $118 (Neutral); Piper Sandler, Barclays ($148) and Guggenheim ($175) all reaffirmed after UEG Week, and Abivax itself issued no new news or filings. The stock is still about a third lower over the quarter and well below the July $125 offering price, and with UEG done it now sits in a catalyst gap until the planned end-2026 NDA submission and Q3 results on December 14. The March-2027 $120 call is about 22% out of the money and needs roughly +28% in five months; the realistic paths to the strike remain an on-time NDA filing, FDA acceptance in Q1 2027 or a revived M&A story."
 }

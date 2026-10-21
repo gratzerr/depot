@@ -2,6 +2,13 @@
   "ticker": "LXEO",
   "news": [
     {
+      "date": "2026-10-20",
+      "headline": "Lexeo at Chardan conference: Q4 LX2020 update to pair 12-month data with regulatory feedback",
+      "source": "Investing.com (Chardan conference transcript)",
+      "url": "https://www.investing.com/news/transcripts/lexeo-at-chardan-healthcare-conference-pipeline-advances-cash-runway-93CH-4960418",
+      "summary": "Management said the Q4 LX2020 update will combine 12-month follow-up on most high-dose patients with a regulatory update, though the FDA has not yet accepted NSVT as a pivotal endpoint. Lexeo regards a 35-40% NSVT reduction as clinically meaningful, versus 20-30% for standard-of-care drugs. It reiterated that SUNRISE-FA 2 (13 treated vs. 13 controls) remains on track for 2H 2027, with the BLA in 1H 2028, and that quarterly burn in the mid-to-high $20 million range funds operations into 2028."
+    },
+    {
       "date": "2026-10-19",
       "headline": "Lexeo to host educational event on clinically meaningful arrhythmia measures in PKP2-ACM",
       "source": "GlobeNewswire via StockTitan",
@@ -46,12 +53,6 @@
   ],
   "catalysts": [
     {
-      "when": "2026-10-20",
-      "label": "Chardan Healthcare Conference fireside chat (held Oct 20, done)",
-      "detail": "Fireside chat held at 9:30 a.m. ET on October 20, with a webcast replay on Lexeo's website. No press release or new data accompanied it. Investors were looking for firmer timing on the year-end LX2020 12-month data, FDA feedback on the PKP2 registrational path and how the Mantle FA programs will be prioritized.",
-      "confirmed": true
-    },
-    {
       "when": "2026-10-21",
       "label": "PKP2-ACM clinical endpoints educational event (today, 1:00 p.m. ET)",
       "detail": "Webcast investor event today at 1:00 p.m. ET with CMO Narinder Bhalla and Cleveland Clinic arrhythmia specialist Dr. Alessio Gasperetti on clinically meaningful arrhythmia measures, guideline-based assessment and natural-history data in PKP2-ACM. As of the morning of October 21 nothing had been released, and no new LX2020 patient data is announced. It is the company's chance to argue that NSVT reductions are a meaningful endpoint ahead of the year-end 12-month data and FDA feedback on the registrational path.",
@@ -66,13 +67,13 @@
     {
       "when": "2026-Q4",
       "label": "LX2020 12-month high-dose HEROIC-PKP2 data",
-      "detail": "Twelve-month efficacy and safety update for all high-dose participants in the Phase I/II HEROIC-PKP2 trial in PKP2 arrhythmogenic cardiomyopathy, guided for Q4 / year-end 2026. At the September 30 Stifel forum the CEO said seven of 10 patients are on the high dose and most, if not all, should have 12-month follow-up, which management thinks is enough to evaluate the drug; two nine-month patients previously showed ~65% NSVT improvement. This is the nearest hard datapoint for the stock.",
+      "detail": "Twelve-month efficacy and safety update for high-dose participants in the Phase I/II HEROIC-PKP2 trial in PKP2 arrhythmogenic cardiomyopathy, guided for Q4 2026 and, per the October 20 Chardan chat, paired with a regulatory update. Seven of 10 patients are on the high dose, and most should have 12-month follow-up. One nine-month patient previously showed a 65% NSVT reduction, and management views 35-40% as clinically meaningful. Liver enzyme elevations at the high dose were managed under protocol. This is the nearest hard datapoint for the stock.",
       "confirmed": true
     },
     {
-      "when": "2026-H2",
+      "when": "2026-Q4",
       "label": "FDA feedback on LX2020 registrational path",
-      "detail": "With RMAT in hand since August 5, Lexeo is in FDA discussions on what NSVT reduction is clinically meaningful, whether NSVT can serve as a surrogate endpoint and whether a control arm is needed. Management promised clinical and regulatory updates before year-end, while finalizing the design and starting the study are 2027 goals. A single-arm, NSVT-based path would be a major de-risking; a required control arm would lengthen timelines and raise costs.",
+      "detail": "With RMAT in hand since August 5, Lexeo is still discussing with the FDA whether NSVT can serve as the primary pivotal endpoint; it was not yet accepted as of October 20, and whether a control arm is needed is also open. Management expects the regulatory update to come alongside the Q4 12-month data, and finalizing the design and starting the study are 2027 goals. A single-arm path based on NSVT would substantially de-risk the program, while a required control arm would lengthen timelines.",
       "confirmed": false
     },
     {
@@ -94,5 +95,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "Lexeo closed at $3.02 on October 20, up 9.4% on the day and about 15% above its October 14 low of $2.63. That leaves a market cap of roughly $250 million, close to its June cash of $234.2 million. Today (October 21, 1:00 p.m. ET) the company hosts its PKP2-ACM endpoints webcast with a Cleveland Clinic arrhythmia expert. No results had been published by this morning, and no new patient data is expected; the event is meant to frame NSVT as a clinically meaningful endpoint. The stock is still down more than 70% this year on doubts over LX2020's registrational design and the diversifying Mantle deal, while analysts (Stifel $17, Baird $28) remain supportive and JPMorgan holds 5.5%. What really matters next is the year-end 12-month high-dose HEROIC-PKP2 data and FDA feedback on the registrational path, with Q3 results due in November (date not yet confirmed)."
+  "pulse": "Lexeo closed around $3.02 on October 20 after the Chardan fireside chat, a rise of roughly 15% from its October 14 low of $2.63, for a market cap of about $250 million, close to its more than $230 million in cash. At Chardan, management confirmed that the Q4 LX2020 12-month data will come with a regulatory update, but said the FDA has not yet signed off on NSVT as a pivotal endpoint. Today's 1:00 p.m. ET PKP2-ACM endpoints webcast with a Cleveland Clinic expert is meant to build that case. The stock is still down more than 70% this year on doubts over the registrational design and the Mantle diversification, while analysts (Stifel $17, Baird $28) stay supportive. Q3 results are expected in early-to-mid November, but the date is not confirmed."
 }

@@ -35,13 +35,6 @@
       "source": "BioPharm International",
       "url": "https://www.biopharminternational.com/view/uniqure-submits-bla-and-maa-for-amt-130-gene-therapy-in-huntington-s-disease",
       "summary": "uniQure submitted a Biologics License Application to the FDA seeking accelerated approval of AMT-130 (ifezuntirgene inilparvovec) with a Priority Review request, plus a parallel Marketing Authorisation Application to the UK MHRA, based on three-year Phase I/II data showing a statistically significant 75% slowing of progression on cUHDRS versus an external control (p=0.003). Every patient in those studies was dosed through the ClearPoint Neuro Navigation System and SmartFlow cannula, making this the first BLA built on ClearPoint's delivery platform in a large chronic indication."
-    },
-    {
-      "date": "2026-08-03",
-      "headline": "ClearPoint Neuro reports Q2 2026 revenue of $10.9M (+18%), misses estimates and cuts FY guidance to $48-52M",
-      "source": "ClearPoint Neuro IR / ACCESS Newswire",
-      "url": "https://ir.clearpointneuro.com/news-events/press-releases/detail/1156/clearpoint-neuro-reports-second-quarter-2026-results",
-      "summary": "Q2 revenue rose 18% to $10.88M but landed roughly $1.8M below the $12.73M consensus, with neurosurgery navigation and therapy up 62% to $5.6M (including IRRAflow disposables) while biologics and drug delivery fell 15% to $4.0M on fewer products shipped for new trial starts. Opex rose 51% to $17.0M, the operating loss widened to $10.2M, cash fell to $29.4M from $45.9M at year-end, and FY2026 guidance was cut from $52-56M to $48-52M."
     }
   ],
   "catalysts": [
@@ -106,5 +99,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "CLPT last closed at $9.45 on October 20 (+3.1%), near the bottom of its $8.27-$30.10 52-week range and well below the ~$11.77 level it fell to after partner uniQure's AMT-130 four-year data missed statistical significance on September 29. An October 21 check found no new ClearPoint business news since the October 14 earnings-date notice (fresh items are law-firm solicitations only); the one partner-side signal is UBS's Buy initiation on uniQure with a $48 target on October 15, which lifted QURE about 20% but did little for CLPT. With one week to go, the setup rests on the October 28 Q3 print, where biologics must reaccelerate via CAL and $29.4M of cash against a roughly $10M quarterly operating loss makes funding a live question, followed by the FDA's filing-acceptance decision on the AMT-130 BLA due around early November."
+  "pulse": "CLPT last traded around $9.45 (October 20 close), near the bottom of its $8.27-$30.10 52-week range and below the ~$11.77 level it fell to after partner uniQure's AMT-130 four-year data missed statistical significance on September 29. An October 22 check of company IR and news feeds found no new ClearPoint business news since the October 14 earnings-date notice (the rest is law-firm solicitations and quant-signal filler), while partner-side sentiment improved after UBS raised its uniQure target to $48 in mid-October. Next week's October 28 Q3 print is the key test: biologics must reaccelerate via the CAL facility and $29.4M of cash against a roughly $10M quarterly operating loss makes funding a live question, followed by the FDA's filing-acceptance decision on the AMT-130 BLA around early November."
 }

@@ -13,7 +13,7 @@
       "headline": "Rosalind Advisors Converts Series E Preferred and Distributes Shares In Kind to Fund LPs",
       "source": "SEC Form 4 / StockTitan",
       "url": "https://www.stocktitan.net/sec-filings/DCTH/form-4-delcath-systems-inc-insider-trading-activity-5d17f782a25c.html",
-      "summary": "Director-affiliated Rosalind Opportunities Fund I converted 36.27 Series E preferred shares into 3,627 common shares and distributed 27,502 common shares in kind to limited partners to meet redemption requests. It is a fund-level distribution rather than an open-market sale; a follow-up filing on October 19 showed ownership caps currently block Rosalind from exercising any of its warrants."
+      "summary": "Director-affiliated Rosalind Opportunities Fund I converted 36.27 Series E preferred shares into 3,627 common shares and distributed 27,502 common shares in kind to limited partners to meet redemption requests. It is a fund-level distribution rather than an open-market sale; follow-up filings (Form 4 on October 19, Schedule 13D/A on October 20) show ownership caps currently block Rosalind from exercising any of its warrants."
     },
     {
       "date": "2026-10-09",
@@ -30,18 +30,18 @@
       "summary": "H.C. Wainwright's Swayampakula Ramakanth reaffirmed Buy with a $32 target after the firm's September investor conference. All brokers covering Delcath rate it Strong Buy, with Zacks' short-term consensus near $21.80 and broader averages around $22.50-$24.50."
     },
     {
-      "date": "2026-09-09",
-      "headline": "Analysis: HEPZATO Growth Is Real, But 340B Pricing, Slow Hospital Onboarding and Heavy Spend Cap the Margin Story",
-      "source": "Insider Monkey / Yahoo Finance",
-      "url": "https://finance.yahoo.com/healthcare/articles/delcath-dcth-liver-cancer-device-062417595.html",
-      "summary": "A widely circulated sell-side-style review argued that HEPZATO volume growth of roughly 30% and the raised $104M-$108M guidance are solid, but flagged 340B/NDRA pricing pressure, slow hospital onboarding timelines and rising R&D and SG&A as the reasons profitability is advancing more slowly than the top line. It framed the stock as a growth story that has to prove operating leverage in Q3 and Q4."
-    },
-    {
       "date": "2026-09-11",
       "headline": "Delcath Grants Inducement RSUs to Four New Employees",
       "source": "Business Wire / StockTitan",
       "url": "https://www.stocktitan.net/news/DCTH/",
       "summary": "Delcath granted 34,000 restricted stock units to four newly hired employees under Nasdaq Rule 5635(c)(4), its third such grant since May. The steady hiring points to a continued commercial and clinical build-out behind HEPZATO center activations and the mCRC and DELUMA trials."
+    },
+    {
+      "date": "2026-09-09",
+      "headline": "Analysis: HEPZATO Growth Is Real, But 340B Pricing, Slow Hospital Onboarding and Heavy Spend Cap the Margin Story",
+      "source": "Insider Monkey / Yahoo Finance",
+      "url": "https://finance.yahoo.com/healthcare/articles/delcath-dcth-liver-cancer-device-062417595.html",
+      "summary": "A widely circulated sell-side-style review argued that HEPZATO volume growth of roughly 30% and the raised $104M-$108M guidance are solid, but flagged 340B/NDRA pricing pressure, slow hospital onboarding timelines and rising R&D and SG&A as the reasons profitability is advancing more slowly than the top line. It framed the stock as a growth story that has to prove operating leverage in Q3 and Q4."
     }
   ],
   "catalysts": [
@@ -82,5 +82,5 @@
       "confirmed": true
     }
   ],
-  "pulse": "Delcath last closed around $14.70 on October 21, roughly flat after two up days off the $14.08 October 16 low and still about 15% below the $17.42 August high (52-week range $8.12-$17.42); no new company release or SEC filing has appeared since the October 19 ESMO notice. Coverage remains unanimously Buy with $21-$32 targets, and the Rosalind Form 4/13D/A activity reflects only a fund-level in-kind distribution. The next tests are the ESMO investigator session on October 24 (mCRC and DELUMA enrollment commentary) and the Q3 report expected November 3-5, with the call-date notice, which came on October 21 last year, now overdue; the bar is roughly $25.8M in Q3 revenue, $104M-$108M FY guidance and the push toward about 37 active centers."
+  "pulse": "Delcath last traded around $14.70, little changed after rebounding off the $14.08 October 16 low and still about 15% below the $17.42 August high (52-week range $8.12-$17.42); since the October 19 ESMO notice the only new item is Rosalind's October 20 Schedule 13D/A tied to its fund-level in-kind distribution. Coverage remains unanimously Buy with $21-$32 targets. Next up are the ESMO investigator session on October 24 (mCRC and DELUMA enrollment commentary) and the Q3 report expected November 3-5, whose call-date notice (issued October 21 last year) still had not appeared as of October 22; the bar is about $25.8M in Q3 revenue, the $104M-$108M FY guidance and progress toward about 37 active centers."
 }

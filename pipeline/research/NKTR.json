@@ -1,104 +1,104 @@
 {
-  "ticker": "NKTR",
-  "news": [
-    {
-      "date": "2026-10-12",
-      "headline": "Leerink Partners Initiates Nektar Therapeutics at Outperform With $130 Target; UBS Starts at Neutral",
-      "source": "MarketBeat",
-      "url": "https://www.marketbeat.com/instant-alerts/analyst-nektar-therapeutics-nasdaq-nktr-now-covered-by-leerink-partners-2026-10-12/",
-      "summary": "Leerink began coverage at Outperform with a $130 target, calling Nektar a top emerging name in immunology. UBS initiated the same day at Neutral with a $53 target, citing the long wait until the mid-2028 ZENITH AD Phase 3 readout."
-    },
-    {
-      "date": "2026-10-09",
-      "headline": "BTIG Reiterates Buy on Nektar Therapeutics With $178 Price Target",
-      "source": "TradingView / MarketBeat",
-      "url": "https://www.tradingview.com/news/tradingview:4d4e59f0110d9:0-btig-reiterates-buy-rating-on-nektar-therapeutics-178-price-target/",
-      "summary": "BTIG kept its Buy rating and $178 target after the EADV sell-off, citing physician market research that sees safety as rezpeg's key differentiator in atopic dermatitis and alopecia. The firm expects the Lilly award to come to roughly $130-140 million once interest is included."
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "Nektar Therapeutics Shares Drop After Rezpegaldesleukin Trial Results on Alopecia Areata",
-      "source": "GuruFocus / Investor's Business Daily",
-      "url": "https://www.gurufocus.com/news/9106205/nektar-therapeutics-nktr-shares-drop-after-rezpegaldesleukin-trial-results-on-alopecia-areata",
-      "summary": "NKTR fell about 22% to an eight-month low on the EADV data day. Investors focused on the fade in alopecia response off drug, from 75% at four months to 63% at six months, rather than the deepening hair regrowth."
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "New Rezpegaldesleukin Data Supporting Long-term Durability and Disease Improvement in Patients with Alopecia Areata and Atopic Dermatitis at EADV Congress 2026",
-      "source": "Nektar IR",
-      "url": "https://ir.nektar.com/news-releases/news-release-details/update-nektar-therapeutics",
-      "summary": "In REZOLVE-AA, SALT<=20 responses held in 75% of responders at four months and 63% at six months off treatment, and SALT<=10 rose from 7% at week 52 to 19%. In AD maintenance, complete clearance (EASI-100) rose to 22% with monthly and 18% with quarterly dosing by week 52. Nektar also said the third Phase 3 study, ZENITH AD-3 in treatment-experienced patients, has started."
-    },
-    {
-      "date": "2026-09-25",
-      "headline": "Nektar Wins $90 Million Jury Verdict Against Eli Lilly in Rezpeg Dispute",
-      "source": "TipRanks / Reuters",
-      "url": "https://www.tipranks.com/news/company-announcements/nektar-wins-90-million-verdict-in-lilly-dispute",
-      "summary": "After five days of deliberation, the N.D. Cal. jury found on September 24 that Lilly breached the implied covenant of good faith and fair dealing and awarded $90 million plus interest. It rejected the claim that Lilly breached its express commercially reasonable efforts obligation, so the award is only about 9% of the nearly $1 billion Nektar sought, and post-trial motions and appeals remain possible."
-    },
-    {
-      "date": "2026-09-10",
-      "headline": "Lilly Owes Nektar $1B If It Breached Rezpeg Deal, Jury Told",
-      "source": "Law360",
-      "url": "https://www.law360.com/trials/articles/2523817",
-      "summary": "Nektar's damages expert told the jury that Eli Lilly could owe nearly $1 billion if it breached the rezpeg license and co-development agreement. That framing set expectations far above the $90 million the jury eventually awarded."
-    }
-  ],
-  "catalysts": [
-    {
-      "when": "2026-Q4",
-      "label": "Post-trial rulings in Nektar v. Eli Lilly (judgment, interest, appeals)",
-      "detail": "The jury awarded $90 million plus interest on September 24; with simple interest the gross amount is estimated at about $115 million (BTIG sees $130-140 million), but the court still has to set interest and enter judgment. Post-trial motions from either side and a possible appeal could change or delay the payment, and a settlement is also possible. It is a modest cash add to the ~$1 billion balance, not a valuation driver.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-11",
-      "label": "Q3 2026 earnings report",
-      "detail": "Nektar reported Q3 2025 on November 6 after a date notice on October 28, so Q3 2026 results are expected in the first half of November (date not yet announced as of October 22). Focus: cash runway, ZENITH Phase 3 start timing and any update on post-trial motions in the Lilly case.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-Q4",
-      "label": "Start of a clinical study in an additional autoimmune indication",
-      "detail": "Management committed to starting a clinical study in a further autoimmune indication before the end of 2026, to broaden the Treg mechanism beyond atopic dermatitis, alopecia areata and type 1 diabetes. The indication has not been disclosed. The February 2026 UCSF multiple sclerosis research collaboration is the most-cited guess. This adds pipeline optionality rather than driving valuation.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-H2",
-      "label": "First NKTR-0165 (TNFR2 agonist) preclinical data at a scientific conference",
-      "detail": "Management guided to presenting preclinical data for NKTR-0165, its bivalent TNFR2 agonist antibody, at a scientific conference in the second half of 2026. It is the only meaningful pipeline asset behind rezpeg. No venue or date has been named, so it could slip into 2027.",
-      "confirmed": true
-    },
-    {
-      "when": "2027-Q1",
-      "label": "52-week off-treatment atopic dermatitis data",
-      "detail": "Management guided to 52-week off-treatment atopic dermatitis data in Q1 2027 to inform long-term maintenance dosing while the ZENITH AD Phase 3s enroll. After the market punished the fading alopecia off-drug responses, this dataset is the next test of whether rezpeg can be dosed far less often than incumbent biologics.",
-      "confirmed": true
-    },
-    {
-      "when": "2027-H1",
-      "label": "ZENITH AA Phase 3 alopecia areata study start (~850 patients)",
-      "detail": "Nektar confirmed at EADV that the single registrational ZENITH AA study, about 850 patients, starts in early 2027, with SALT<=20 at week 52 as the primary endpoint. It builds on REZOLVE-AA, where 63% of responders kept SALT<=20 six months off drug. Rezpeg has FDA Fast Track in this indication, and the readout is guided to the second half of 2029.",
-      "confirmed": true
-    },
-    {
-      "when": "2027-H2",
-      "label": "Initial Phase 2 type 1 diabetes data (TrialNet collaboration)",
-      "detail": "Initial data are expected in 2027 from the TrialNet-run Phase 2 placebo-controlled study of rezpegaldesleukin in about 70 adults and children with new-onset stage 3 type 1 diabetes. Nektar supplies drug while TrialNet funds and runs the trial, so the cost is minimal while the upside is large. A positive C-peptide preservation signal would extend the Treg thesis well beyond dermatology.",
-      "confirmed": false
-    },
-    {
-      "when": "2028-H1",
-      "label": "First ZENITH AD Phase 3 topline readout (mid-2028)",
-      "detail": "Initial registrational efficacy data for rezpeg in moderate-to-severe atopic dermatitis is the decisive binary event for the stock. All three studies (AD-1, AD-2 and, since about October 1, AD-3 in treatment-experienced patients) are now running, roughly 1,530 patients in total. Cash runway extends into Q3 2028, so Nektar reaches this readout without another raise.",
-      "confirmed": true
-    },
-    {
-      "when": "2029",
-      "label": "First rezpegaldesleukin BLA submission (atopic dermatitis)",
-      "detail": "Nektar has guided to a first BLA for rezpegaldesleukin in atopic dermatitis in 2029, after the mid-2028 ZENITH AD topline. The Phase 3 program was designed with EMA scientific advice in parallel, so a European marketing application is planned from the same dataset.",
-      "confirmed": true
-    }
-  ],
-  "pulse": "No company news since the October 20 S-8; the only flow is analyst coverage (Leerink $130 Outperform, BTIG $178 Buy, UBS $53 Neutral, Raymond James Market Perform). NKTR closed at $38.27 on October 21 (-2.4%), giving back part of the prior day's +7% bounce but holding well above the post-EADV low near $35.8. About $1 billion of cash funds Nektar past the mid-2028 ZENITH AD readout, and the $90 million Lilly verdict is a modest cash add. Next up are Q3 results in early-to-mid November (date still unannounced) and the 52-week off-treatment AD data in Q1 2027."
+ "ticker": "NKTR",
+ "news": [
+  {
+   "date": "2026-10-12",
+   "headline": "Leerink Partners Initiates Nektar Therapeutics at Outperform With $130 Target; UBS Starts at Neutral",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-nektar-therapeutics-nasdaq-nktr-now-covered-by-leerink-partners-2026-10-12/",
+   "summary": "Leerink began coverage at Outperform with a $130 target, calling Nektar a top emerging name in immunology. UBS initiated the same day at Neutral with a $53 target, citing the long wait until the mid-2028 ZENITH AD Phase 3 readout."
+  },
+  {
+   "date": "2026-10-09",
+   "headline": "BTIG Reiterates Buy on Nektar Therapeutics With $178 Price Target",
+   "source": "TradingView / MarketBeat",
+   "url": "https://www.tradingview.com/news/tradingview:4d4e59f0110d9:0-btig-reiterates-buy-rating-on-nektar-therapeutics-178-price-target/",
+   "summary": "BTIG kept its Buy rating and $178 target after the EADV sell-off, citing physician market research that sees safety as rezpeg's key differentiator in atopic dermatitis and alopecia. The firm expects the Lilly award to come to roughly $130-140 million once interest is included."
+  },
+  {
+   "date": "2026-10-01",
+   "headline": "Nektar Therapeutics Shares Drop After Rezpegaldesleukin Trial Results on Alopecia Areata",
+   "source": "GuruFocus / Investor's Business Daily",
+   "url": "https://www.gurufocus.com/news/9106205/nektar-therapeutics-nktr-shares-drop-after-rezpegaldesleukin-trial-results-on-alopecia-areata",
+   "summary": "NKTR fell about 22% to an eight-month low on the EADV data day. Investors focused on the fade in alopecia response off drug, from 75% at four months to 63% at six months, rather than the deepening hair regrowth."
+  },
+  {
+   "date": "2026-10-01",
+   "headline": "New Rezpegaldesleukin Data Supporting Long-term Durability and Disease Improvement in Patients with Alopecia Areata and Atopic Dermatitis at EADV Congress 2026",
+   "source": "Nektar IR",
+   "url": "https://ir.nektar.com/news-releases/news-release-details/update-nektar-therapeutics",
+   "summary": "In REZOLVE-AA, SALT<=20 responses held in 75% of responders at four months and 63% at six months off treatment, and SALT<=10 rose from 7% at week 52 to 19%. In AD maintenance, complete clearance (EASI-100) rose to 22% with monthly and 18% with quarterly dosing by week 52. Nektar also said the third Phase 3 study, ZENITH AD-3 in treatment-experienced patients, has started."
+  },
+  {
+   "date": "2026-09-25",
+   "headline": "Nektar Wins $90 Million Jury Verdict Against Eli Lilly in Rezpeg Dispute",
+   "source": "TipRanks / Reuters",
+   "url": "https://www.tipranks.com/news/company-announcements/nektar-wins-90-million-verdict-in-lilly-dispute",
+   "summary": "After five days of deliberation, the N.D. Cal. jury found on September 24 that Lilly breached the implied covenant of good faith and fair dealing and awarded $90 million plus interest. It rejected the claim that Lilly breached its express commercially reasonable efforts obligation, so the award is only about 9% of the nearly $1 billion Nektar sought, and post-trial motions and appeals remain possible."
+  },
+  {
+   "date": "2026-09-10",
+   "headline": "Lilly Owes Nektar $1B If It Breached Rezpeg Deal, Jury Told",
+   "source": "Law360",
+   "url": "https://www.law360.com/trials/articles/2523817",
+   "summary": "Nektar's damages expert told the jury that Eli Lilly could owe nearly $1 billion if it breached the rezpeg license and co-development agreement. That framing set expectations far above the $90 million the jury eventually awarded."
+  }
+ ],
+ "catalysts": [
+  {
+   "when": "2026-Q4",
+   "label": "Post-trial rulings in Nektar v. Eli Lilly (judgment, interest, appeals)",
+   "detail": "The jury awarded $90 million plus interest on September 24; with simple interest the gross amount is estimated at about $115 million (BTIG sees $130-140 million), but the court still has to set interest and enter judgment. Post-trial motions from either side and a possible appeal could change or delay the payment, and a settlement is also possible. It is a modest cash add to the ~$1 billion balance, not a valuation driver.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-11",
+   "label": "Q3 2026 earnings report",
+   "detail": "Nektar reported Q3 2025 on November 6 after a date notice on October 28, so Q3 2026 results are expected in the first half of November (date not yet announced as of October 22). Focus: cash runway, ZENITH Phase 3 start timing and any update on post-trial motions in the Lilly case.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-Q4",
+   "label": "Start of a clinical study in an additional autoimmune indication",
+   "detail": "Management committed to starting a clinical study in a further autoimmune indication before the end of 2026, to broaden the Treg mechanism beyond atopic dermatitis, alopecia areata and type 1 diabetes. The indication has not been disclosed. The February 2026 UCSF multiple sclerosis research collaboration is the most-cited guess. This adds pipeline optionality rather than driving valuation.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-H2",
+   "label": "First NKTR-0165 (TNFR2 agonist) preclinical data at a scientific conference",
+   "detail": "Management guided to presenting preclinical data for NKTR-0165, its bivalent TNFR2 agonist antibody, at a scientific conference in the second half of 2026. It is the only meaningful pipeline asset behind rezpeg. No venue or date has been named, so it could slip into 2027.",
+   "confirmed": true
+  },
+  {
+   "when": "2027-Q1",
+   "label": "52-week off-treatment atopic dermatitis data",
+   "detail": "Management guided to 52-week off-treatment atopic dermatitis data in Q1 2027 to inform long-term maintenance dosing while the ZENITH AD Phase 3s enroll. After the market punished the fading alopecia off-drug responses, this dataset is the next test of whether rezpeg can be dosed far less often than incumbent biologics.",
+   "confirmed": true
+  },
+  {
+   "when": "2027-H1",
+   "label": "ZENITH AA Phase 3 alopecia areata study start (~850 patients)",
+   "detail": "Nektar confirmed at EADV that the single registrational ZENITH AA study, about 850 patients, starts in early 2027, with SALT<=20 at week 52 as the primary endpoint. It builds on REZOLVE-AA, where 63% of responders kept SALT<=20 six months off drug. Rezpeg has FDA Fast Track in this indication, and the readout is guided to the second half of 2029.",
+   "confirmed": true
+  },
+  {
+   "when": "2027-H2",
+   "label": "Initial Phase 2 type 1 diabetes data (TrialNet collaboration)",
+   "detail": "Initial data are expected in 2027 from the TrialNet-run Phase 2 placebo-controlled study of rezpegaldesleukin in about 70 adults and children with new-onset stage 3 type 1 diabetes. Nektar supplies drug while TrialNet funds and runs the trial, so the cost is minimal while the upside is large. A positive C-peptide preservation signal would extend the Treg thesis well beyond dermatology.",
+   "confirmed": false
+  },
+  {
+   "when": "2028-H1",
+   "label": "First ZENITH AD Phase 3 topline readout (mid-2028)",
+   "detail": "Initial registrational efficacy data for rezpeg in moderate-to-severe atopic dermatitis is the decisive binary event for the stock. All three studies (AD-1, AD-2 and, since about October 1, AD-3 in treatment-experienced patients) are now running, roughly 1,530 patients in total. Cash runway extends into Q3 2028, so Nektar reaches this readout without another raise.",
+   "confirmed": true
+  },
+  {
+   "when": "2029",
+   "label": "First rezpegaldesleukin BLA submission (atopic dermatitis)",
+   "detail": "Nektar has guided to a first BLA for rezpegaldesleukin in atopic dermatitis in 2029, after the mid-2028 ZENITH AD topline. The Phase 3 program was designed with EMA scientific advice in parallel, so a European marketing application is planned from the same dataset.",
+   "confirmed": true
+  }
+ ],
+ "pulse": "No company news since the October 20 S-8 registering 250,000 more inducement-plan shares; the only flow is analyst coverage (Leerink $130 Outperform, BTIG $178 Buy, UBS $53 Neutral, Raymond James Market Perform). NKTR closed at $38.65 on October 22 (+1.0%), holding well above the post-EADV low near $35.8, while the ZENITH AD Phase 3 program that began in July keeps enrolling toward a mid-2028 readout. About $1 billion of cash funds Nektar past that readout, and the $90 million Lilly verdict is a modest cash add; next up are Q3 results in early-to-mid November (date still unannounced) and the 52-week off-treatment AD data in Q1 2027."
 }

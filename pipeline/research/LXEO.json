@@ -54,8 +54,8 @@
   "catalysts": [
     {
       "when": "2026-10-21",
-      "label": "PKP2-ACM clinical endpoints educational event (today, 1:00 p.m. ET)",
-      "detail": "Webcast investor event today at 1:00 p.m. ET with CMO Narinder Bhalla and Cleveland Clinic arrhythmia specialist Dr. Alessio Gasperetti on clinically meaningful arrhythmia measures, guideline-based assessment and natural-history data in PKP2-ACM. As of the morning of October 21 nothing had been released, and no new LX2020 patient data is announced. It is the company's chance to argue that NSVT reductions are a meaningful endpoint ahead of the year-end 12-month data and FDA feedback on the registrational path.",
+      "label": "PKP2-ACM clinical endpoints educational event (done Oct 21)",
+      "detail": "CMO Narinder Bhalla and cardiologist Alessio Gasperetti walked through guideline-based arrhythmia measures (NSVT, PVC burden, ICD events) in PKP2-ACM, building the case for the endpoints Lexeo wants for LX2020. No new clinical data or FDA feedback was disclosed, and the stock was flat (-0.7% to $3.00). A replay is on Lexeo's IR site.",
       "confirmed": true
     },
     {
@@ -95,5 +95,5 @@
       "confirmed": false
     }
   ],
-  "pulse": "Lexeo closed around $3.02 on October 20 after the Chardan fireside chat, a rise of roughly 15% from its October 14 low of $2.63, for a market cap of about $250 million, close to its more than $230 million in cash. At Chardan, management confirmed that the Q4 LX2020 12-month data will come with a regulatory update, but said the FDA has not yet signed off on NSVT as a pivotal endpoint. Today's 1:00 p.m. ET PKP2-ACM endpoints webcast with a Cleveland Clinic expert is meant to build that case. The stock is still down more than 70% this year on doubts over the registrational design and the Mantle diversification, while analysts (Stifel $17, Baird $28) stay supportive. Q3 results are expected in early-to-mid November, but the date is not confirmed."
+  "pulse": "Lexeo closed at $3.00 on October 21 (market cap about $250 million, close to its more than $230 million cash), flat after the PKP2-ACM endpoints webcast, which made the medical case for arrhythmia endpoints but disclosed no new data or FDA feedback. The decisive event is the Q4 LX2020 12-month high-dose HEROIC-PKP2 readout, which management says will come together with a regulatory update on the registrational path. Q3 results are expected in early-to-mid November (date not confirmed); analysts remain supportive (Stifel $17, Baird $28) despite the stock being down more than 70% this year."
 }

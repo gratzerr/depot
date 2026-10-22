@@ -37,18 +37,18 @@
       "summary": "A widely circulated sell-side-style review argued that HEPZATO volume growth of roughly 30% and the raised $104M-$108M guidance are solid, but flagged 340B/NDRA pricing pressure, slow hospital onboarding timelines and rising R&D and SG&A as the reasons profitability is advancing more slowly than the top line. It framed the stock as a growth story that has to prove operating leverage in Q3 and Q4."
     },
     {
-      "date": "2026-08-06",
-      "headline": "Delcath Reports Q2 2026: $29.1M Revenue Beats Estimates, FY Guidance Raised to $104M-$108M, DELUMA Doses First Patient",
-      "source": "Delcath Investor Relations / Business Wire",
-      "url": "https://investors.delcath.com/news-releases/news-release-details/delcath-systems-reports-second-quarter-2026-results-and-business",
-      "summary": "Revenue rose to $29.1M from $24.2M (HEPZATO KIT $27.1M, CHEMOSAT $2.0M) on roughly 30% HEPZATO volume growth, with gross margin at 90%, net income of $2.7M and EPS of $0.07 versus an expected loss; FY2026 guidance was raised to $104M-$108M with positive adjusted EBITDA and cash stood at $95.9M with no debt. On the call management reported 31 active centers heading to about 37 by year-end (MD Anderson, Mayo Clinic Scottsdale, UT Southwestern, OHSU Knight, Columbia), first patient dosed in the Phase 2 DELUMA breast cancer trial and 13 centers screening for the mCRC Phase 2."
+      "date": "2026-09-11",
+      "headline": "Delcath Grants Inducement RSUs to Four New Employees",
+      "source": "Business Wire / StockTitan",
+      "url": "https://www.stocktitan.net/news/DCTH/",
+      "summary": "Delcath granted 34,000 restricted stock units to four newly hired employees under Nasdaq Rule 5635(c)(4), its third such grant since May. The steady hiring points to a continued commercial and clinical build-out behind HEPZATO center activations and the mCRC and DELUMA trials."
     }
   ],
   "catalysts": [
     {
       "when": "2026-Q4",
-      "label": "Q3 2026 results (expected ~Nov 3; date not yet announced)",
-      "detail": "No date has been announced yet; data providers estimate the Q3 report around November 3, 2026, with consensus revenue near $25.8M (Benzinga) and options pricing a move of roughly +/-17%. Last year Delcath pre-released preliminary Q3 revenue on October 18, 2025, but no 2026 pre-release or Q3 call date had appeared as of October 21 (the only release since September was the October 19 ESMO notice, and SEC filings since then are limited to Rosalind's Form 4 and 13D/A). This is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
+      "label": "Q3 2026 results (expected ~Nov 3-5; date not yet announced)",
+      "detail": "No date has been announced yet; data providers estimate the Q3 report between November 3 (Digrin) and November 5 before market open (Earnings Whispers), with consensus revenue near $25.8M (Benzinga) and options pricing a move of roughly +/-17%. Last year Delcath announced its Q3 call date on October 21, 2025 (call on November 4), but no 2026 call notice or preliminary revenue release had appeared as of October 22. This is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
       "confirmed": false
     },
     {
@@ -82,5 +82,5 @@
       "confirmed": true
     }
   ],
-  "pulse": "Delcath closed October 20 at $14.76 (+2.7%), its second straight gain off the $14.08 October 16 low, but still about 15% below the $17.42 August high (52-week range $8.12-$17.42); no new company release or business news has appeared on October 21. The October 19 ESMO preview (DELUMA poster and an investigator update on the mCRC and breast trials in Madrid on October 24, plus independent CHEMOSAT uveal melanoma data with a 66.7% response rate) supports sentiment, the Rosalind 13D/A only reflects a fund-level in-kind distribution, and coverage remains unanimously Buy with $21-$32 targets. Unlike last year, there is still no preliminary Q3 revenue pre-release or Q3 call date, so the next tests are ESMO enrollment commentary on October 24 and the Q3 report expected around November 3, against roughly $25.8M consensus, $104M-$108M FY guidance and the push toward about 37 active centers."
+  "pulse": "Delcath last closed around $14.70 on October 21, roughly flat after two up days off the $14.08 October 16 low and still about 15% below the $17.42 August high (52-week range $8.12-$17.42); no new company release or SEC filing has appeared since the October 19 ESMO notice. Coverage remains unanimously Buy with $21-$32 targets, and the Rosalind Form 4/13D/A activity reflects only a fund-level in-kind distribution. The next tests are the ESMO investigator session on October 24 (mCRC and DELUMA enrollment commentary) and the Q3 report expected November 3-5, with the call-date notice, which came on October 21 last year, now overdue; the bar is roughly $25.8M in Q3 revenue, $104M-$108M FY guidance and the push toward about 37 active centers."
 }

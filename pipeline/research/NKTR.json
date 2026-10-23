@@ -2,6 +2,13 @@
  "ticker": "NKTR",
  "news": [
   {
+   "date": "2026-10-22",
+   "headline": "Piper Sandler Maintains Buy on Nektar Therapeutics With $192 Price Target",
+   "source": "Moomoo",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNTktT0M4QWloUkUxUE9Sa21UbFpZUE1LM0gzeHdrX2ZZY1FWYTZmak9GMm1YSnIwTXltUm5YaHRrZS1RVzNzTnZLX192SjNfSEJPeWs2bWFtWE5ldmMzSjduc3F6UEtkb0ZMRmhmV3RHdkgycGlHYlNMLWtkODBBdS16RWRNb1FrXzdNTm1ZQlBRWWVzYTMydzRWUDNXaWw2MTRaa21XUUdUOXotaVNUTjNZejBBZGI5VVYxTg?oc=5",
+   "summary": "Piper Sandler reiterated its Buy (Overweight) rating and kept the Street-high $192 target, unchanged since May. Together with BTIG and Leerink, it shows the sell side largely looking past the post-EADV sell-off."
+  },
+  {
    "date": "2026-10-12",
    "headline": "Leerink Partners Initiates Nektar Therapeutics at Outperform With $130 Target; UBS Starts at Neutral",
    "source": "MarketBeat",
@@ -35,13 +42,6 @@
    "source": "TipRanks / Reuters",
    "url": "https://www.tipranks.com/news/company-announcements/nektar-wins-90-million-verdict-in-lilly-dispute",
    "summary": "After five days of deliberation, the N.D. Cal. jury found on September 24 that Lilly breached the implied covenant of good faith and fair dealing and awarded $90 million plus interest. It rejected the claim that Lilly breached its express commercially reasonable efforts obligation, so the award is only about 9% of the nearly $1 billion Nektar sought, and post-trial motions and appeals remain possible."
-  },
-  {
-   "date": "2026-09-10",
-   "headline": "Lilly Owes Nektar $1B If It Breached Rezpeg Deal, Jury Told",
-   "source": "Law360",
-   "url": "https://www.law360.com/trials/articles/2523817",
-   "summary": "Nektar's damages expert told the jury that Eli Lilly could owe nearly $1 billion if it breached the rezpeg license and co-development agreement. That framing set expectations far above the $90 million the jury eventually awarded."
   }
  ],
  "catalysts": [
@@ -100,5 +100,5 @@
    "confirmed": true
   }
  ],
- "pulse": "No company news since the October 20 S-8 registering 250,000 more inducement-plan shares; the only flow is analyst coverage (Leerink $130 Outperform, BTIG $178 Buy, UBS $53 Neutral, Raymond James Market Perform). NKTR closed at $38.65 on October 22 (+1.0%), holding well above the post-EADV low near $35.8, while the ZENITH AD Phase 3 program that began in July keeps enrolling toward a mid-2028 readout. About $1 billion of cash funds Nektar past that readout, and the $90 million Lilly verdict is a modest cash add; next up are Q3 results in early-to-mid November (date still unannounced) and the 52-week off-treatment AD data in Q1 2027."
+ "pulse": "Still no new company press release since the October 20 S-8; news flow is analyst support, with Piper Sandler reiterating Buy and its Street-high $192 target on October 22, alongside BTIG ($178 Buy), Leerink ($130 Outperform) and UBS ($53 Neutral). The stock is consolidating in the high $30s, above the post-EADV low near $35.8, as the three ZENITH AD Phase 3 studies enroll toward a mid-2028 readout with about $1 billion of cash. Next up are the Q3 results in early-to-mid November (date not yet announced), post-trial rulings on the $90 million Lilly verdict, and the 52-week off-treatment AD data in Q1 2027."
 }

@@ -1,104 +1,104 @@
 {
-  "ticker": "QURE",
-  "news": [
-    {
-      "date": "2026-10-16",
-      "headline": "JPMorgan Chase discloses a passive stake in uniQure through four subsidiaries",
-      "source": "StockTitan (SEC filings)",
-      "url": "https://www.stocktitan.net/news/QURE/",
-      "summary": "JPMorgan Chase filed a Schedule 13G reporting a passive beneficial position in uniQure held via four subsidiaries. It is the latest institutional disclosure after RTW and Susquehanna in August, and the first since the post-readout selloff."
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "UBS assumes coverage at Buy and lifts its price target to $48 from $27",
-      "source": "ad-hoc-news",
-      "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/ubs-sets-usd-48-target-for-uniqure-stock-as-it-trades-1-60-percent-lower/70328907",
-      "summary": "UBS took over coverage with a Buy rating and a $48 target, arguing the filing rests on the stronger 36-month data that the FDA had agreed to as the basis for accelerated approval. Together with other bullish notes it helped the stock rebound from the post-readout lows, with shares up about 7% to $22.52 on October 15."
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Barclays downgrades uniQure to Equal-Weight and cuts its target to $28 from $60",
-      "source": "MarketScreener",
-      "url": "https://www.marketscreener.com/news/uniqure-shares-fall-after-barclays-downgrade-ce785dd8da8cfe26",
-      "summary": "Barclays analyst Eliana Merle downgraded the stock, citing greater uncertainty around AMT-130 after the four-year data, sending shares down about 5.5%. Goldman Sachs (Neutral, $46 to $31) and RBC ($65 to $48) also cut their targets after the readout."
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "Four-year AMT-130 data: 44% cUHDRS slowing at high dose, not statistically significant",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-29/uniqure-huntington-s-treatment-benefit-is-less-after-four-years-than-three-years",
-      "summary": "In 12 high-dose patients at 48 months, AMT-130 slowed cUHDRS decline by 44% versus the Enroll-HD external control (p=0.144), while Total Functional Capacity held up at 61% slowing (p=0.008). uniQure stressed that the BLA rests on the 36-month analysis, which it restated as 80% cUHDRS slowing (p=0.005) and 67% TFC slowing; critics pointed to missing data and possible survivor bias in the control group."
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "uniQure shares plunge ~39% in worst day in over ten months after the four-year readout",
-      "source": "MarketBeat",
-      "url": "https://www.marketbeat.com/instant-alerts/price-uniqure-nasdaq-qure-shares-gap-down-heres-what-happened-2026-09-29/",
-      "summary": "The stock gapped down from a $39.11 prior close to open at $23.85 as investors questioned whether the treatment benefit lasts, wiping out the post-filing and June-offering levels. The selloff left shares well below the $45.50 price of the June equity raise."
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "uniQure submits US BLA and UK MAA for AMT-130 in Huntington's disease",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/09/02/3354993/0/en/uniqure-announces-submission-of-biologics-license-application-for-ifezuntirgene-inilparvovec-amt-130-in-huntington-s-disease.html",
-      "summary": "uniQure filed a Biologics License Application with the FDA seeking accelerated approval for ifezuntirgene inilparvovec (AMT-130) and, in parallel, a Marketing Authorisation Application with the UK MHRA, both supported by the three-year Phase I/II analysis versus a propensity-score-matched Enroll-HD external control. The company requested priority review, which would compress the FDA review to six months after the 60-day filing review."
-    }
-  ],
-  "catalysts": [
-    {
-      "when": "2026-11",
-      "label": "FDA filing decision and priority review determination",
-      "detail": "The FDA's 60-day filing review on the BLA submitted September 2 ends around November 1, 2026, so acceptance for review should be communicated in early November. The decision will show whether priority review was granted (six-month vs ten-month clock, i.e. roughly Q2 vs Q4 2027 action) and normally sets the PDUFA date. After the weaker four-year data, a clean acceptance on the 36-month package is the key test of whether the FDA still stands behind the agreed filing basis.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-11-10",
-      "label": "Q3 2026 results and regulatory update",
-      "detail": "uniQure's Q3 2026 results are projected for around November 9-10, 2026 per earnings calendars (AJ Bell lists November 10 with an 8:30 a.m. ET call), not yet formally confirmed by the company; the notice usually comes about a week ahead. Expect updates on BLA acceptance, review designation and PDUFA date, the UK MAA, the FDA's view of the four-year data, confirmatory-trial start-up, AMT-260 second-cohort enrollment (guided for Q3 but not yet confirmed) and cash burn against the $810.3M June 30 cash position.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-H2",
-      "label": "FDA advisory committee (AdCom) decision",
-      "detail": "Management said in July it considers an advisory committee for the first Huntington's gene therapy probable and is preparing for one. The four-year data, with missing-data and control-group questions, make a public AdCom more likely; any announcement would most likely come with or after the filing decision in early November.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-H2",
-      "label": "Confirmatory trial initiation",
-      "detail": "uniQure and the FDA have aligned on a roughly 200-patient confirmatory study randomized 2:1 to AMT-130 versus standard of care, with Total Functional Capacity at 36 months as the primary endpoint. The company expects enrollment underway before the accelerated-approval decision; notably, TFC was the endpoint that stayed statistically significant at four years.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-H2",
-      "label": "Additional international regulatory pathways",
-      "detail": "uniQure has said it is pursuing registration routes for AMT-130 beyond the US and UK, including EU options, with an update guided for the second half of 2026. No EMA or other-jurisdiction filing plan has been disclosed yet.",
-      "confirmed": false
-    },
-    {
-      "when": "2027-H1",
-      "label": "AMT-260 higher-dose epilepsy data and AMT-191 Fabry update",
-      "detail": "Updated Phase I/IIa data in refractory mesial temporal lobe epilepsy, including the second, higher-dose cohort, are planned for H1 2027 after first-cohort data in June 2026 showed 79-100% disabling-seizure reductions in three of six patients. A Fabry (AMT-191) update is guided to the same window, but dosing there is paused pending evaluation of liver enzyme elevations in two mid-dose patients. With AMT-130 sentiment damaged, these pipeline readouts carry more weight.",
-      "confirmed": false
-    },
-    {
-      "when": "2027-H1",
-      "label": "ICER evidence report and CEPAC verdict",
-      "detail": "ICER's draft evidence report on AMT-130 is due in January 2027, followed by a Midwest CEPAC public meeting and vote in March 2027 and a final report in April 2027 - close to a potential FDA action date. The four-year durability data will feed directly into its cost-effectiveness modeling for a one-time gene therapy.",
-      "confirmed": true
-    },
-    {
-      "when": "2027-Q2",
-      "label": "Potential FDA accelerated approval decision for AMT-130",
-      "detail": "If priority review is granted, the FDA action date would land around late April or early May 2027, potentially making AMT-130 the first approved disease-modifying therapy for Huntington's disease. Without priority review the decision slips toward late 2027.",
-      "confirmed": false
-    },
-    {
-      "when": "2027",
-      "label": "UK MHRA marketing authorisation decision",
-      "detail": "The MAA filed with the MHRA on September 2 runs on its own clock, independent of the FDA, offering a second potential approval route. uniQure has not disclosed an expected MHRA decision timeline.",
-      "confirmed": false
-    }
-  ],
-  "pulse": "QURE last closed at $22.69 on October 21, still stuck in the $21-23 band it has held since early October; a fresh October 22 sweep of press releases, SEC filings and news found nothing new since JPMorgan's October 16 passive 13G - no BLA acceptance, no Q3 date notice and no new analyst action beyond opinion pieces. The stock is roughly half its early-September level after the September 29 four-year AMT-130 data showed only a non-significant 44% cUHDRS slowing and triggered a ~39% one-day drop, with UBS's Buy ($48) set against Barclays' downgrade to Equal-Weight ($28) and target cuts from Goldman and RBC. The next binary moment is the FDA's filing and priority-review decision on the 36-month-based BLA around early November (60-day review ends ~November 1), followed by Q3 results (calendars point to around November 10, not yet confirmed) and a likely advisory committee."
+ "ticker": "QURE",
+ "news": [
+  {
+   "date": "2026-10-16",
+   "headline": "JPMorgan Chase discloses a passive stake in uniQure through four subsidiaries",
+   "source": "StockTitan (SEC filings)",
+   "url": "https://www.stocktitan.net/news/QURE/",
+   "summary": "JPMorgan Chase filed a Schedule 13G reporting a passive beneficial position in uniQure held via four subsidiaries. It is the latest institutional disclosure after RTW and Susquehanna in August, and the first since the post-readout selloff."
+  },
+  {
+   "date": "2026-10-14",
+   "headline": "UBS assumes coverage at Buy and lifts its price target to $48 from $27",
+   "source": "ad-hoc-news",
+   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/ubs-sets-usd-48-target-for-uniqure-stock-as-it-trades-1-60-percent-lower/70328907",
+   "summary": "UBS took over coverage with a Buy rating and a $48 target, arguing the filing rests on the stronger 36-month data that the FDA had agreed to as the basis for accelerated approval. Together with other bullish notes it helped the stock rebound from the post-readout lows, with shares up about 7% to $22.52 on October 15."
+  },
+  {
+   "date": "2026-10-05",
+   "headline": "Barclays downgrades uniQure to Equal-Weight and cuts its target to $28 from $60",
+   "source": "MarketScreener",
+   "url": "https://www.marketscreener.com/news/uniqure-shares-fall-after-barclays-downgrade-ce785dd8da8cfe26",
+   "summary": "Barclays analyst Eliana Merle downgraded the stock, citing greater uncertainty around AMT-130 after the four-year data, sending shares down about 5.5%. Goldman Sachs (Neutral, $46 to $31) and RBC ($65 to $48) also cut their targets after the readout."
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "Four-year AMT-130 data: 44% cUHDRS slowing at high dose, not statistically significant",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-29/uniqure-huntington-s-treatment-benefit-is-less-after-four-years-than-three-years",
+   "summary": "In 12 high-dose patients at 48 months, AMT-130 slowed cUHDRS decline by 44% versus the Enroll-HD external control (p=0.144), while Total Functional Capacity held up at 61% slowing (p=0.008). uniQure stressed that the BLA rests on the 36-month analysis, which it restated as 80% cUHDRS slowing (p=0.005) and 67% TFC slowing; critics pointed to missing data and possible survivor bias in the control group."
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "uniQure shares plunge ~39% in worst day in over ten months after the four-year readout",
+   "source": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/price-uniqure-nasdaq-qure-shares-gap-down-heres-what-happened-2026-09-29/",
+   "summary": "The stock gapped down from a $39.11 prior close to open at $23.85 as investors questioned whether the treatment benefit lasts, wiping out the post-filing and June-offering levels. The selloff left shares well below the $45.50 price of the June equity raise."
+  },
+  {
+   "date": "2026-09-02",
+   "headline": "uniQure submits US BLA and UK MAA for AMT-130 in Huntington's disease",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/09/02/3354993/0/en/uniqure-announces-submission-of-biologics-license-application-for-ifezuntirgene-inilparvovec-amt-130-in-huntington-s-disease.html",
+   "summary": "uniQure filed a Biologics License Application with the FDA seeking accelerated approval for ifezuntirgene inilparvovec (AMT-130) and, in parallel, a Marketing Authorisation Application with the UK MHRA, both supported by the three-year Phase I/II analysis versus a propensity-score-matched Enroll-HD external control. The company requested priority review, which would compress the FDA review to six months after the 60-day filing review."
+  }
+ ],
+ "catalysts": [
+  {
+   "when": "2026-11",
+   "label": "FDA filing decision and priority review determination",
+   "detail": "The FDA's 60-day filing review on the BLA submitted September 2 ends around November 1, 2026, so acceptance for review should be communicated in early November. The decision will show whether priority review was granted (six-month vs ten-month clock, i.e. roughly Q2 vs Q4 2027 action) and normally sets the PDUFA date. After the weaker four-year data, a clean acceptance on the 36-month package is the key test of whether the FDA still stands behind the agreed filing basis.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-11-10",
+   "label": "Q3 2026 results and regulatory update",
+   "detail": "uniQure's Q3 2026 results are projected for around November 9-10, 2026 per earnings calendars (AJ Bell lists November 10 with an 8:30 a.m. ET call), not yet formally confirmed by the company; the notice usually comes about a week ahead. Expect updates on BLA acceptance, review designation and PDUFA date, the UK MAA, the FDA's view of the four-year data, confirmatory-trial start-up, AMT-260 second-cohort enrollment (guided for Q3 but not yet confirmed) and cash burn against the $810.3M June 30 cash position.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-H2",
+   "label": "FDA advisory committee (AdCom) decision",
+   "detail": "Management said in July it considers an advisory committee for the first Huntington's gene therapy probable and is preparing for one. The four-year data, with missing-data and control-group questions, make a public AdCom more likely; any announcement would most likely come with or after the filing decision in early November.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-H2",
+   "label": "Confirmatory trial initiation",
+   "detail": "uniQure and the FDA have aligned on a roughly 200-patient confirmatory study randomized 2:1 to AMT-130 versus standard of care, with Total Functional Capacity at 36 months as the primary endpoint. The company expects enrollment underway before the accelerated-approval decision; notably, TFC was the endpoint that stayed statistically significant at four years.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-H2",
+   "label": "Additional international regulatory pathways",
+   "detail": "uniQure has said it is pursuing registration routes for AMT-130 beyond the US and UK, including EU options, with an update guided for the second half of 2026. No EMA or other-jurisdiction filing plan has been disclosed yet.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-H1",
+   "label": "AMT-260 higher-dose epilepsy data and AMT-191 Fabry update",
+   "detail": "Updated Phase I/IIa data in refractory mesial temporal lobe epilepsy, including the second, higher-dose cohort, are planned for H1 2027 after first-cohort data in June 2026 showed 79-100% disabling-seizure reductions in three of six patients. A Fabry (AMT-191) update is guided to the same window, but dosing there is paused pending evaluation of liver enzyme elevations in two mid-dose patients. With AMT-130 sentiment damaged, these pipeline readouts carry more weight.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-H1",
+   "label": "ICER evidence report and CEPAC verdict",
+   "detail": "ICER's draft evidence report on AMT-130 is due in January 2027, followed by a Midwest CEPAC public meeting and vote in March 2027 and a final report in April 2027 - close to a potential FDA action date. The four-year durability data will feed directly into its cost-effectiveness modeling for a one-time gene therapy.",
+   "confirmed": true
+  },
+  {
+   "when": "2027-Q2",
+   "label": "Potential FDA accelerated approval decision for AMT-130",
+   "detail": "If priority review is granted, the FDA action date would land around late April or early May 2027, potentially making AMT-130 the first approved disease-modifying therapy for Huntington's disease. Without priority review the decision slips toward late 2027.",
+   "confirmed": false
+  },
+  {
+   "when": "2027",
+   "label": "UK MHRA marketing authorisation decision",
+   "detail": "The MAA filed with the MHRA on September 2 runs on its own clock, independent of the FDA, offering a second potential approval route. uniQure has not disclosed an expected MHRA decision timeline.",
+   "confirmed": false
+  }
+ ],
+ "pulse": "QURE trades around $23.10 on October 23, edging toward the top of the $21-23 band it has held since early October; an October 23 sweep of press releases, SEC filings and news found nothing material since JPMorgan's October 16 passive 13G - no BLA acceptance, no Q3 date notice and no new analyst action. The stock remains roughly half its early-September level after the September 29 four-year AMT-130 data showed only a non-significant 44% cUHDRS slowing and triggered a ~39% one-day drop, with UBS's Buy ($48) set against Barclays' downgrade to Equal-Weight ($28) and target cuts from Goldman and RBC. The next binary moment is the FDA's filing and priority-review decision on the 36-month-based BLA around early November (60-day review ends ~November 1), followed by Q3 results (calendars point to around November 10, not yet confirmed) and a likely advisory committee."
 }

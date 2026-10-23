@@ -1,92 +1,92 @@
 {
-  "ticker": "NRXS",
-  "news": [
-    {
-      "date": "2026-10-15",
-      "headline": "NeurAxis Announces Medical Policy Coverage Milestone, Expanding Access to 26 Million Additional Covered Lives",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/10/15/3381751/0/en/neuraxis-announces-medical-policy-coverage-milestone-expanding-access-to-26-million-additional-covered-lives.html",
-      "summary": "A major national insurer issued a written PENFS medical policy covering about 26 million members across multiple states, taking IB-Stim's footprint past 147 million covered lives. The release does not name the payer, but Aetna's Clinical Policy Bulletin 0011 now lists IB-Stim as medically necessary; shares closed up about 19% on roughly 43x normal volume."
-    },
-    {
-      "date": "2026-10-08",
-      "headline": "CEO, CFO and CRO Buy Shares in the Open Market at $4.84",
-      "source": "Investing.com / SEC Form 4",
-      "url": "https://www.investing.com/news/insider-trading-news/neuraxis-ceo-brian-carrico-buys-1297-in-company-stock-93CH-4939916",
-      "summary": "On October 8, CFO Timothy Henrichs bought 1,937 shares (about $9.4K, lifting his direct stake to 9,530 shares), while CEO Brian Carrico and CRO Thomas Carrico added 268 and 328 shares at the same $4.84 price. The combined ~$12K is small but marks a coordinated management buy near the low, a week before the ~26M-life coverage win."
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "NeurAxis Appoints Craig Blanchard as Chief Commercial Officer",
-      "source": "GlobeNewswire",
-      "url": "https://www.stocktitan.net/news/NRXS/neur-axis-positions-for-next-phase-of-commercial-growth-with-ob3at8k8vwi8.html",
-      "summary": "Craig Blanchard, a former commercial leader at Guidant, Boston Scientific and NICO (acquired by Stryker in 2024), started as CCO on September 21 and will run sales and marketing. The hire is meant to lead a significant W-2 sales-force build-out in regions where payer coverage is already in place."
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "NeurAxis at Lytham Partners Fall 2026 Conference: Coverage Gains, $4M Cash and Sales Force Expansion",
-      "source": "Investing.com",
-      "url": "https://www.investing.com/news/transcripts/neuraxis-at-lytham-partners-fall-2026-investor-conference-coverage-gains-93CH-4923534",
-      "summary": "Management cited H1 2026 revenue of $3.5M (+94%), 86% gross margin, about $4,800 revenue per four-device patient course and more than 30 medical policies, with the recent mid-September payer adding roughly 18 million lives (identified in the recap as Cigna). Cash was $4M with no debt as of September 21 on 13.6M shares, and a 350-400 patient adult RCT is expected to read out in late 2027."
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "NeurAxis Secures Major National Insurer Coverage for IB-Stim Covering About 18 Million Members",
-      "source": "Investing.com",
-      "url": "https://www.investing.com/news/company-news/neuraxis-secures-major-insurer-coverage-for-ibstim-device-93CH-4903809",
-      "summary": "An unnamed major national health insurer established a PENFS medical policy spanning multiple states and about 18 million members, the first national-scale win of the H2 payer push. Craig-Hallum reiterated its Buy rating and $13 target the next day."
-    },
-    {
-      "date": "2026-09-15",
-      "headline": "NeurAxis at iAccess Alpha Conference: VA Reps Hired, Nearly 30 Payer Policies, 2026 Revenue Pace of $7-8M",
-      "source": "Investing.com",
-      "url": "https://za.investing.com/news/stock-market-news/neuraxis-at-iaccess-alpha-conference-payer-wins-drive-growth-93CH-4465462",
-      "summary": "CEO Brian Carrico said 10-12 commission-only reps were hired for the VA Federal Supply Schedule channel and guided to a $7-8M 2026 revenue pace even without new policy wins, with cash-flow breakeven seen at roughly $13-14M annual revenue. He put shares at 13.6M (20.4M fully diluted incl. 3.7M Series B preferred expected to convert after December 31) and said 2-3 more major payers could lift revenue up to 10x."
-    }
-  ],
-  "catalysts": [
-    {
-      "when": "2026-11",
-      "label": "Q3 2026 earnings",
-      "detail": "Not yet announced; Earnings Whispers estimates November 10 before the open, and the company usually announces the date about two weeks ahead (expect a notice in late October). Key tests: revenue against the $7-8M full-year pace (implying $3.5-4.5M in H2 vs $3.5M in H1), ASP progress, first VA rep orders, early utilization from the September (~18M) and October (~26M, Aetna) policies, and how management addresses only $4M of cash as of September 21 alongside the going-concern language.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-Q4",
-      "label": "Financing to fund sales-force build-out",
-      "detail": "With $4M of cash and no debt as of September 21, a Q2 opex run-rate near $3.8M per quarter and a planned W-2 sales expansion under new CCO Craig Blanchard, a capital raise or ATM usage looks likely around or after the Q3 report; the post-Aetna rally to the high $7s gives a better window than the $4.84 early-October low.",
-      "confirmed": false
-    },
-    {
-      "when": "2027-H1",
-      "label": "Further national payer policies (UnitedHealthcare and others)",
-      "detail": "After two national-scale wins in five weeks (about 18M lives on September 16 and about 26M from Aetna on October 15) coverage stands above 147 million lives. Management keeps pursuing additional major national insurers; hospitals generally want roughly 70% of their population covered before broad adoption, so a remaining top-five payer would be the next step change.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-12-31",
-      "label": "Series B preferred coupon ends, conversion expected",
-      "detail": "The 8.5% Series B coupon expires December 31, 2026; the Q3 dividend was declared on October 14 as about 81,339 common shares payable October 30. Management expects the roughly 3.7 million preferred shares to convert afterward, removing the dividend drag but lifting common shares from 13.6M toward the 20.4M fully diluted count.",
-      "confirmed": true
-    },
-    {
-      "when": "2027-Q1",
-      "label": "Broader VA expansion decision",
-      "detail": "The first 10-12 commission-only VA reps were hired in mid-September, each covering one to three of the roughly 180-200 VA hospitals and community care centers reachable under the Federal Supply Schedule contract. Results from this cohort will decide whether to expand the VA effort in early 2027, making Q4 2026 VA orders the key data point.",
-      "confirmed": false
-    },
-    {
-      "when": "2027-H1",
-      "label": "State Medicaid adoption of CPT 64567",
-      "detail": "Around 25-30 states have loaded CPT code 64567 onto Medicaid fee schedules under EPSDT, while 20-25 states still lack a payment methodology even though the Category I code took effect January 1, 2026. Each additional state unlocks a reimbursed pediatric patient pool, with the 2027 fee-schedule cycle the next broad opportunity.",
-      "confirmed": false
-    },
-    {
-      "when": "2027-Q4",
-      "label": "Covered lives above 200 million and adult RCT readout",
-      "detail": "Management targets more than 200 million covered lives by end-2027, up from over 147 million after the Aetna policy, and expects its 350-400 patient multi-site adult randomized trial to read out in late 2027 to support broader adult insurance coverage.",
-      "confirmed": false
-    }
-  ],
-  "pulse": "As of October 22 there is still no new company news since the October 15 Aetna policy that pushed IB-Stim coverage above 147 million lives; NRXS is holding the post-Aetna gains near the high $7s (closed $7.92 on October 21, about $108M market cap on 13.6M shares) on light volume. The Q3 report date has not been announced yet (Earnings Whispers estimates November 10; a notice usually comes about two weeks ahead, so it is due any day), and investors will look for utilization, VA orders and early sales-force traction. Funding remains the overhang: only about $4M cash on September 21 with going-concern language makes a raise around that report likely, and the 3.7M Series B shares are expected to convert after December 31."
+ "ticker": "NRXS",
+ "news": [
+  {
+   "date": "2026-10-15",
+   "headline": "NeurAxis Announces Medical Policy Coverage Milestone, Expanding Access to 26 Million Additional Covered Lives",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/10/15/3381751/0/en/neuraxis-announces-medical-policy-coverage-milestone-expanding-access-to-26-million-additional-covered-lives.html",
+   "summary": "A major national insurer issued a written PENFS medical policy covering about 26 million members across multiple states, taking IB-Stim's footprint past 147 million covered lives. The release does not name the payer, but Aetna's Clinical Policy Bulletin 0011 now lists IB-Stim as medically necessary; shares closed up about 19% on roughly 43x normal volume."
+  },
+  {
+   "date": "2026-10-08",
+   "headline": "CEO, CFO and CRO Buy Shares in the Open Market at $4.84",
+   "source": "Investing.com / SEC Form 4",
+   "url": "https://www.investing.com/news/insider-trading-news/neuraxis-ceo-brian-carrico-buys-1297-in-company-stock-93CH-4939916",
+   "summary": "On October 8, CFO Timothy Henrichs bought 1,937 shares (about $9.4K, lifting his direct stake to 9,530 shares), while CEO Brian Carrico and CRO Thomas Carrico added 268 and 328 shares at the same $4.84 price. The combined ~$12K is small but marks a coordinated management buy near the low, a week before the ~26M-life coverage win."
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "NeurAxis Appoints Craig Blanchard as Chief Commercial Officer",
+   "source": "GlobeNewswire",
+   "url": "https://www.stocktitan.net/news/NRXS/neur-axis-positions-for-next-phase-of-commercial-growth-with-ob3at8k8vwi8.html",
+   "summary": "Craig Blanchard, a former commercial leader at Guidant, Boston Scientific and NICO (acquired by Stryker in 2024), started as CCO on September 21 and will run sales and marketing. The hire is meant to lead a significant W-2 sales-force build-out in regions where payer coverage is already in place."
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "NeurAxis at Lytham Partners Fall 2026 Conference: Coverage Gains, $4M Cash and Sales Force Expansion",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/transcripts/neuraxis-at-lytham-partners-fall-2026-investor-conference-coverage-gains-93CH-4923534",
+   "summary": "Management cited H1 2026 revenue of $3.5M (+94%), 86% gross margin, about $4,800 revenue per four-device patient course and more than 30 medical policies, with the recent mid-September payer adding roughly 18 million lives (identified in the recap as Cigna). Cash was $4M with no debt as of September 21 on 13.6M shares, and a 350-400 patient adult RCT is expected to read out in late 2027."
+  },
+  {
+   "date": "2026-09-16",
+   "headline": "NeurAxis Secures Major National Insurer Coverage for IB-Stim Covering About 18 Million Members",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/company-news/neuraxis-secures-major-insurer-coverage-for-ibstim-device-93CH-4903809",
+   "summary": "An unnamed major national health insurer established a PENFS medical policy spanning multiple states and about 18 million members, the first national-scale win of the H2 payer push. Craig-Hallum reiterated its Buy rating and $13 target the next day."
+  },
+  {
+   "date": "2026-09-15",
+   "headline": "NeurAxis at iAccess Alpha Conference: VA Reps Hired, Nearly 30 Payer Policies, 2026 Revenue Pace of $7-8M",
+   "source": "Investing.com",
+   "url": "https://za.investing.com/news/stock-market-news/neuraxis-at-iaccess-alpha-conference-payer-wins-drive-growth-93CH-4465462",
+   "summary": "CEO Brian Carrico said 10-12 commission-only reps were hired for the VA Federal Supply Schedule channel and guided to a $7-8M 2026 revenue pace even without new policy wins, with cash-flow breakeven seen at roughly $13-14M annual revenue. He put shares at 13.6M (20.4M fully diluted incl. 3.7M Series B preferred expected to convert after December 31) and said 2-3 more major payers could lift revenue up to 10x."
+  }
+ ],
+ "catalysts": [
+  {
+   "when": "2026-11",
+   "label": "Q3 2026 earnings",
+   "detail": "Not yet announced; Earnings Whispers estimates November 10 before the open. Last year the Q3 date notice came on November 4 for a November 11 call, so a notice in late October or early November is likely. Key tests: revenue against the $7-8M full-year pace (implying $3.5-4.5M in H2 vs $3.5M in H1), ASP progress, first VA rep orders, early utilization from the September (~18M) and October (~26M, Aetna) policies, and how management addresses only $4M of cash as of September 21 alongside the going-concern language.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-Q4",
+   "label": "Financing to fund sales-force build-out",
+   "detail": "With $4M of cash and no debt as of September 21, a Q2 opex run-rate near $3.8M per quarter and a planned W-2 sales expansion under new CCO Craig Blanchard, a capital raise or ATM usage looks likely around or after the Q3 report; the post-Aetna rally to the high $7s gives a better window than the $4.84 early-October low.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-H1",
+   "label": "Further national payer policies (UnitedHealthcare and others)",
+   "detail": "After two national-scale wins in five weeks (about 18M lives on September 16 and about 26M from Aetna on October 15) coverage stands above 147 million lives. Management keeps pursuing additional major national insurers; hospitals generally want roughly 70% of their population covered before broad adoption, so a remaining top-five payer would be the next step change.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-12-31",
+   "label": "Series B preferred coupon ends, conversion expected",
+   "detail": "The 8.5% Series B coupon expires December 31, 2026; the Q3 dividend was declared on October 14 as about 81,339 common shares payable October 30. Management expects the roughly 3.7 million preferred shares to convert afterward, removing the dividend drag but lifting common shares from 13.6M toward the 20.4M fully diluted count.",
+   "confirmed": true
+  },
+  {
+   "when": "2027-Q1",
+   "label": "Broader VA expansion decision",
+   "detail": "The first 10-12 commission-only VA reps were hired in mid-September, each covering one to three of the roughly 180-200 VA hospitals and community care centers reachable under the Federal Supply Schedule contract. Results from this cohort will decide whether to expand the VA effort in early 2027, making Q4 2026 VA orders the key data point.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-H1",
+   "label": "State Medicaid adoption of CPT 64567",
+   "detail": "Around 25-30 states have loaded CPT code 64567 onto Medicaid fee schedules under EPSDT, while 20-25 states still lack a payment methodology even though the Category I code took effect January 1, 2026. Each additional state unlocks a reimbursed pediatric patient pool, with the 2027 fee-schedule cycle the next broad opportunity.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-Q4",
+   "label": "Covered lives above 200 million and adult RCT readout",
+   "detail": "Management targets more than 200 million covered lives by end-2027, up from over 147 million after the Aetna policy, and expects its 350-400 patient multi-site adult randomized trial to read out in late 2027 to support broader adult insurance coverage.",
+   "confirmed": false
+  }
+ ],
+ "pulse": "As of October 23 there is still no new company news since the October 15 Aetna policy that pushed IB-Stim coverage above 147 million lives; NRXS is consolidating the post-Aetna jump in the mid-to-high $7s (closed about $7.66 on October 22, roughly $104M market cap on 13.6M shares) on fading volume. The Q3 report date is still unannounced (Earnings Whispers estimates November 10; last year's notice came one week ahead), and investors will look for utilization, VA orders and early sales-force traction. Funding remains the overhang: only about $4M cash on September 21 with going-concern language makes a raise around that report likely, and the 3.7M Series B shares are expected to convert after December 31."
 }

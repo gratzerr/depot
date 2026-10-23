@@ -1,86 +1,86 @@
 {
-  "ticker": "DCTH",
-  "news": [
-    {
-      "date": "2026-10-19",
-      "headline": "Delcath Highlights ESMO 2026 Presentations (DELUMA, mCRC Update) and Independent Uveal Melanoma Data",
-      "source": "Business Wire / StockTitan",
-      "url": "https://www.stocktitan.net/news/DCTH/delcath-systems-highlights-clinical-program-presentations-at-esmo-yiulijcg6472.html",
-      "summary": "Delcath will show a DELUMA breast cancer Phase 2 trial-in-progress poster and host a 'Meet the Investigators' session on the Del-Liver mCRC and DELUMA trials at ESMO in Madrid on October 24, alongside an independent Dutch registry poster comparing PHP plus ipilimumab/nivolumab with tebentafusp. A separate independent Southampton/Dublin CHEMOSAT cohort (n=12) in uveal melanoma reported a 66.7% response rate, 18.4-month median hepatic PFS and 28-month median OS."
-    },
-    {
-      "date": "2026-10-13",
-      "headline": "Rosalind Advisors Converts Series E Preferred and Distributes Shares In Kind to Fund LPs",
-      "source": "SEC Form 4 / StockTitan",
-      "url": "https://www.stocktitan.net/sec-filings/DCTH/form-4-delcath-systems-inc-insider-trading-activity-5d17f782a25c.html",
-      "summary": "Director-affiliated Rosalind Opportunities Fund I converted 36.27 Series E preferred shares into 3,627 common shares and distributed 27,502 common shares in kind to limited partners to meet redemption requests. It is a fund-level distribution rather than an open-market sale; follow-up filings (Form 4 on October 19, Schedule 13D/A on October 20) show ownership caps currently block Rosalind from exercising any of its warrants."
-    },
-    {
-      "date": "2026-10-09",
-      "headline": "BTIG Reiterates Buy and $21 Target on Delcath Ahead of Q3",
-      "source": "TipRanks",
-      "url": "https://www.tipranks.com/stocks/dcth/forecast",
-      "summary": "BTIG's Ryan Zimmerman reiterated his Buy rating and $21 target in the run-up to Q3 results, the latest in an unbroken string of Buy ratings. TipRanks shows all covering analysts at Buy with an average target of about $24.50 (range $21-$32)."
-    },
-    {
-      "date": "2026-09-21",
-      "headline": "H.C. Wainwright Reiterates Buy, Street-High $32 Target; Consensus Stays Unanimously Bullish",
-      "source": "TipRanks / Zacks Investment Research",
-      "url": "https://www.zacks.com/stock/research/DCTH/price-target-stock-forecast",
-      "summary": "H.C. Wainwright's Swayampakula Ramakanth reaffirmed Buy with a $32 target after the firm's September investor conference. All brokers covering Delcath rate it Strong Buy, with Zacks' short-term consensus near $21.80 and broader averages around $22.50-$24.50."
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Delcath Grants Inducement RSUs to Four New Employees",
-      "source": "Business Wire / StockTitan",
-      "url": "https://www.stocktitan.net/news/DCTH/",
-      "summary": "Delcath granted 34,000 restricted stock units to four newly hired employees under Nasdaq Rule 5635(c)(4), its third such grant since May. The steady hiring points to a continued commercial and clinical build-out behind HEPZATO center activations and the mCRC and DELUMA trials."
-    },
-    {
-      "date": "2026-09-09",
-      "headline": "Analysis: HEPZATO Growth Is Real, But 340B Pricing, Slow Hospital Onboarding and Heavy Spend Cap the Margin Story",
-      "source": "Insider Monkey / Yahoo Finance",
-      "url": "https://finance.yahoo.com/healthcare/articles/delcath-dcth-liver-cancer-device-062417595.html",
-      "summary": "A widely circulated sell-side-style review argued that HEPZATO volume growth of roughly 30% and the raised $104M-$108M guidance are solid, but flagged 340B/NDRA pricing pressure, slow hospital onboarding timelines and rising R&D and SG&A as the reasons profitability is advancing more slowly than the top line. It framed the stock as a growth story that has to prove operating leverage in Q3 and Q4."
-    }
-  ],
-  "catalysts": [
-    {
-      "when": "2026-Q4",
-      "label": "Q3 2026 results (expected ~Nov 3-5; date not yet announced)",
-      "detail": "No date has been announced yet; data providers estimate the Q3 report between November 3 (Digrin) and November 5 before market open (Earnings Whispers), with consensus revenue near $25.8M (Benzinga) and options pricing a move of roughly +/-17%. Last year Delcath announced its Q3 call date on October 21, 2025 (call on November 4), but no 2026 call notice or preliminary revenue release had appeared as of October 22. This is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
-      "confirmed": false
-    },
-    {
-      "when": "2026-10-24",
-      "label": "ESMO Congress 2026 (Madrid): DELUMA poster and Meet the Investigators session",
-      "detail": "Abstract 58TiP (DELUMA trial-in-progress, presented by global PI Heather McArthur of UT Southwestern) and an independent poster comparing PHP plus ipilimumab/nivolumab with tebentafusp (Abstract 2135P) go up at 12:00 CEST, followed by a 16:30 CEST investigator session with enrollment updates on the Del-Liver mCRC Phase 2 (Marwan Fakih, City of Hope) and DELUMA. Enrollment commentary on the mCRC trial is the most market-relevant piece, as it is the largest pipeline indication.",
-      "confirmed": true
-    },
-    {
-      "when": "2026-Q4",
-      "label": "~37 active HEPZATO treatment centers, incl. MD Anderson and Mayo Clinic Scottsdale",
-      "detail": "Delcath exited Q2 with 31 active HEPZATO KIT centers and guided to roughly six additional activations by year-end for about 37. Named additions include MD Anderson, Mayo Clinic Scottsdale, UT Southwestern, OHSU Knight Cancer Institute and Columbia's Herbert Irving Comprehensive Cancer Center; UVA Health came online in July. Center count is the most direct driver of near-term revenue, and the September inducement grants for four new hires point to continued commercial staffing behind the build-out.",
-      "confirmed": true
-    },
-    {
-      "when": "2027-Q1",
-      "label": "FY2026 revenue $104M-$108M and positive adjusted EBITDA",
-      "detail": "Raised guidance implies at least 28% HEPZATO volume growth over 2025, with FY gross margin guided to 86%-89% after Q2 printed 90%. Positive full-year adjusted EBITDA would confirm a self-funding commercial model and, with $95.9M of cash and no debt, remove the dilution overhang that has historically capped the multiple.",
-      "confirmed": true
-    },
-    {
-      "when": "2027-H1",
-      "label": "mCRC Phase 2 enrollment progress",
-      "detail": "The company-sponsored Phase 2 of HEPZATO plus trifluridine-tipiracil and bevacizumab versus that regimen alone in third-line liver-dominant metastatic colorectal cancer had 13 centers actively screening as of the Q2 call, with recruitment improving. Enrollment milestones and eventual data would open by far the largest indication in the pipeline, since liver-dominant mCRC dwarfs uveal melanoma in patient numbers.",
-      "confirmed": true
-    },
-    {
-      "when": "2027-H2",
-      "label": "DELUMA breast cancer Phase 2 enrollment and data",
-      "detail": "The roughly 90-patient randomized Phase 2 in HER2-negative liver-dominant metastatic breast cancer (PHP-MBC-202, NCT06875128) dosed its first patient in July 2026 at the European Institute of Oncology in Milan and is enrolling across more than 20 US and European sites. Investigator-led retrospective data presented at ESMO Breast Cancer 2026 showed a 60% hepatic partial response rate in heavily pretreated patients, which underpins the trial's thesis. The primary endpoint is hepatic progression-free survival; full enrollment and first efficacy readouts are the next major pipeline catalysts beyond uveal melanoma.",
-      "confirmed": true
-    }
-  ],
-  "pulse": "Delcath last traded around $14.70, little changed after rebounding off the $14.08 October 16 low and still about 15% below the $17.42 August high (52-week range $8.12-$17.42); since the October 19 ESMO notice the only new item is Rosalind's October 20 Schedule 13D/A tied to its fund-level in-kind distribution. Coverage remains unanimously Buy with $21-$32 targets. Next up are the ESMO investigator session on October 24 (mCRC and DELUMA enrollment commentary) and the Q3 report expected November 3-5, whose call-date notice (issued October 21 last year) still had not appeared as of October 22; the bar is about $25.8M in Q3 revenue, the $104M-$108M FY guidance and progress toward about 37 active centers."
+ "ticker": "DCTH",
+ "news": [
+  {
+   "date": "2026-10-19",
+   "headline": "Delcath Highlights ESMO 2026 Presentations (DELUMA, mCRC Update) and Independent Uveal Melanoma Data",
+   "source": "Business Wire / StockTitan",
+   "url": "https://www.stocktitan.net/news/DCTH/delcath-systems-highlights-clinical-program-presentations-at-esmo-yiulijcg6472.html",
+   "summary": "Delcath will show a DELUMA breast cancer Phase 2 trial-in-progress poster and host a 'Meet the Investigators' session on the Del-Liver mCRC and DELUMA trials at ESMO in Madrid on October 24, alongside an independent Dutch registry poster comparing PHP plus ipilimumab/nivolumab with tebentafusp. A separate independent Southampton/Dublin CHEMOSAT cohort (n=12) in uveal melanoma reported a 66.7% response rate, 18.4-month median hepatic PFS and 28-month median OS."
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "Rosalind Advisors Converts Series E Preferred and Distributes Shares In Kind to Fund LPs",
+   "source": "SEC Form 4 / StockTitan",
+   "url": "https://www.stocktitan.net/sec-filings/DCTH/form-4-delcath-systems-inc-insider-trading-activity-5d17f782a25c.html",
+   "summary": "Director-affiliated Rosalind Opportunities Fund I converted 36.27 Series E preferred shares into 3,627 common shares and distributed 27,502 common shares in kind to limited partners to meet redemption requests. It is a fund-level distribution rather than an open-market sale; follow-up filings (Form 4 on October 19, Schedule 13D/A on October 20) show ownership caps currently block Rosalind from exercising any of its warrants."
+  },
+  {
+   "date": "2026-10-09",
+   "headline": "BTIG Reiterates Buy and $21 Target on Delcath Ahead of Q3",
+   "source": "TipRanks",
+   "url": "https://www.tipranks.com/stocks/dcth/forecast",
+   "summary": "BTIG's Ryan Zimmerman reiterated his Buy rating and $21 target in the run-up to Q3 results, the latest in an unbroken string of Buy ratings. TipRanks shows all covering analysts at Buy with an average target of about $24.50 (range $21-$32)."
+  },
+  {
+   "date": "2026-09-21",
+   "headline": "H.C. Wainwright Reiterates Buy, Street-High $32 Target; Consensus Stays Unanimously Bullish",
+   "source": "TipRanks / Zacks Investment Research",
+   "url": "https://www.zacks.com/stock/research/DCTH/price-target-stock-forecast",
+   "summary": "H.C. Wainwright's Swayampakula Ramakanth reaffirmed Buy with a $32 target after the firm's September investor conference. All brokers covering Delcath rate it Strong Buy, with Zacks' short-term consensus near $21.80 and broader averages around $22.50-$24.50."
+  },
+  {
+   "date": "2026-09-11",
+   "headline": "Delcath Grants Inducement RSUs to Four New Employees",
+   "source": "Business Wire / StockTitan",
+   "url": "https://www.stocktitan.net/news/DCTH/delcath-systems-inc-announces-inducement-grants-under-nasdaq-listing-3hmymjqean0n.html",
+   "summary": "Delcath granted 34,000 restricted stock units to four newly hired employees under Nasdaq Rule 5635(c)(4), its third such grant since May. The steady hiring points to a continued commercial and clinical build-out behind HEPZATO center activations and the mCRC and DELUMA trials."
+  },
+  {
+   "date": "2026-09-09",
+   "headline": "Analysis: HEPZATO Growth Is Real, But 340B Pricing, Slow Hospital Onboarding and Heavy Spend Cap the Margin Story",
+   "source": "Insider Monkey / Yahoo Finance",
+   "url": "https://finance.yahoo.com/healthcare/articles/delcath-dcth-liver-cancer-device-062417595.html",
+   "summary": "A widely circulated sell-side-style review argued that HEPZATO volume growth of roughly 30% and the raised $104M-$108M guidance are solid, but flagged 340B/NDRA pricing pressure, slow hospital onboarding timelines and rising R&D and SG&A as the reasons profitability is advancing more slowly than the top line. It framed the stock as a growth story that has to prove operating leverage in Q3 and Q4."
+  }
+ ],
+ "catalysts": [
+  {
+   "when": "2026-Q4",
+   "label": "Q3 2026 results (expected ~Nov 3-5; date not yet announced)",
+   "detail": "No date has been announced yet; data providers estimate the Q3 report between November 3 (Digrin) and November 5 before market open (Earnings Whispers), with consensus revenue near $25.8M (Benzinga) and options pricing a move of roughly +/-17%. Last year Delcath announced its Q3 call date on October 21, 2025 (call on November 4), but no 2026 call notice or preliminary revenue release had appeared as of October 23. This is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-10-24",
+   "label": "ESMO Congress 2026 (Madrid): DELUMA poster and Meet the Investigators session",
+   "detail": "Abstract 58TiP (DELUMA trial-in-progress, presented by global PI Heather McArthur of UT Southwestern) and an independent poster comparing PHP plus ipilimumab/nivolumab with tebentafusp (Abstract 2135P) go up at 12:00 CEST, followed by a 16:30 CEST investigator session with enrollment updates on the Del-Liver mCRC Phase 2 (Marwan Fakih, City of Hope) and DELUMA. Enrollment commentary on the mCRC trial is the most market-relevant piece, as it is the largest pipeline indication.",
+   "confirmed": true
+  },
+  {
+   "when": "2026-Q4",
+   "label": "~37 active HEPZATO treatment centers, incl. MD Anderson and Mayo Clinic Scottsdale",
+   "detail": "Delcath exited Q2 with 31 active HEPZATO KIT centers and guided to roughly six additional activations by year-end for about 37. Named additions include MD Anderson, Mayo Clinic Scottsdale, UT Southwestern, OHSU Knight Cancer Institute and Columbia's Herbert Irving Comprehensive Cancer Center; UVA Health came online in July. Center count is the most direct driver of near-term revenue, and the September inducement grants for four new hires point to continued commercial staffing behind the build-out.",
+   "confirmed": true
+  },
+  {
+   "when": "2027-Q1",
+   "label": "FY2026 revenue $104M-$108M and positive adjusted EBITDA",
+   "detail": "Raised guidance implies at least 28% HEPZATO volume growth over 2025, with FY gross margin guided to 86%-89% after Q2 printed 90%. Positive full-year adjusted EBITDA would confirm a self-funding commercial model and, with $95.9M of cash and no debt, remove the dilution overhang that has historically capped the multiple.",
+   "confirmed": true
+  },
+  {
+   "when": "2027-H1",
+   "label": "mCRC Phase 2 enrollment progress",
+   "detail": "The company-sponsored Phase 2 of HEPZATO plus trifluridine-tipiracil and bevacizumab versus that regimen alone in third-line liver-dominant metastatic colorectal cancer had 13 centers actively screening as of the Q2 call, with recruitment improving. Enrollment milestones and eventual data would open by far the largest indication in the pipeline, since liver-dominant mCRC dwarfs uveal melanoma in patient numbers.",
+   "confirmed": true
+  },
+  {
+   "when": "2027-H2",
+   "label": "DELUMA breast cancer Phase 2 enrollment and data",
+   "detail": "The roughly 90-patient randomized Phase 2 in HER2-negative liver-dominant metastatic breast cancer (PHP-MBC-202, NCT06875128) dosed its first patient in July 2026 at the European Institute of Oncology in Milan and is enrolling across more than 20 US and European sites. Investigator-led retrospective data presented at ESMO Breast Cancer 2026 showed a 60% hepatic partial response rate in heavily pretreated patients, which underpins the trial's thesis. The primary endpoint is hepatic progression-free survival; full enrollment and first efficacy readouts are the next major pipeline catalysts beyond uveal melanoma.",
+   "confirmed": true
+  }
+ ],
+ "pulse": "Delcath closed around $14.75 on October 22, holding its rebound off the $14.08 October 16 low but still about 15% below the $17.42 August high (52-week range $8.12-$17.42); no new company releases have appeared since the October 19 ESMO notice. Coverage remains unanimously Buy with $21-$32 targets. Next up are the ESMO investigator session on October 24 (mCRC and DELUMA enrollment commentary) and the Q3 report expected November 3-5, whose call-date notice (issued October 21 last year) was still missing as of October 23; the bar is about $25.8M in Q3 revenue, the $104M-$108M FY guidance and progress toward about 37 active centers."
 }

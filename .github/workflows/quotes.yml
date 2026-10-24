@@ -8,7 +8,7 @@ on:
         description: 'Kommagetrennte Ticker (Yahoo-Format, OCC fuer Optionen)'
         required: true
       date:
-        description: 'Optional YYYY-MM-DD: Schlusskurse bis zu diesem Datum statt der letzten Tage'
+        description: 'Optional YYYY-MM-DD (Schlusskurse bis dahin) oder since:YYYY-MM-DD (ganze Reihe, dividendenbereinigt)'
         required: false
         default: ''
 permissions:
@@ -42,6 +42,10 @@ jobs:
                       r = df[abs(df["strike"] - int(k) / 1000) < 1e-6].iloc[0]
                       print(f"QUOTE {tk} bid={r['bid']} ask={r['ask']} last={r['lastPrice']} lastTrade={r['lastTradeDate']}")
                   else:
+                      if qd.startswith("since:"):
+                          h = yf.Ticker(tk).history(start=qd[6:], auto_adjust=True)
+                          print(f"HIST {tk} " + " ".join(f"{d.date()}={c:.4f}" for d, c in zip(h.index, h['Close'])))
+                          continue
                       if qd:
                           e = dt.date.fromisoformat(qd)
                           h = yf.Ticker(tk).history(start=e - dt.timedelta(days=8), end=e + dt.timedelta(days=1), auto_adjust=False)

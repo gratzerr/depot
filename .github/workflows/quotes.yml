@@ -43,8 +43,11 @@ jobs:
                       print(f"QUOTE {tk} bid={r['bid']} ask={r['ask']} last={r['lastPrice']} lastTrade={r['lastTradeDate']}")
                   else:
                       if qd.startswith("since:"):
-                          h = yf.Ticker(tk).history(start=qd[6:], auto_adjust=True)
-                          print(f"HIST {tk} " + " ".join(f"{d.date()}={c:.4f}" for d, c in zip(h.index, h['Close'])))
+                          start, _, freq = qd[6:].partition(":")
+                          h = yf.Ticker(tk).history(start=start, auto_adjust=True)["Close"]
+                          if freq == "W":
+                              h = h.resample("W-FRI").last().dropna()
+                          print(f"HIST {tk} " + " ".join(f"{d.date()}={c:.4f}" for d, c in h.items()))
                           continue
                       if qd:
                           e = dt.date.fromisoformat(qd)

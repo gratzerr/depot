@@ -1,74 +1,68 @@
 {
-  "ticker": "HROW",
-  "news": [
-    {
-      "date": "2026-10-08",
-      "headline": "Harrow has lost 32% in 3 months: why BTIG sees 106% upside from here",
-      "source": "TIKR",
-      "url": "https://www.tikr.com/de/blog/harrow-has-lost-32-in-3-months-heres-why-btig-sees-106-upside-from-here",
-      "summary": "BTIG reaffirmed its Buy rating with a $63 price target after the stock fell about 32% in three months. First-half revenue of $115M trails the plan, so Harrow needs $235-250M in 2H to hit its 2026 guidance."
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Harrow Closes Acquisition of TYRVAYA®",
-      "source": "Harrow (GlobeNewswire)",
-      "url": "https://investors.harrow.com/news-releases/news-release-details/harrow-closes-acquisition-tyrvayar",
-      "summary": "Harrow closed its purchase of TYRVAYA (varenicline nasal spray for dry eye) from Viatris outside Japan for $30M cash plus up to $70M in sales milestones. The product is expected to contribute over $30M of revenue in 2027."
-    },
-    {
-      "date": "2026-09-30",
-      "headline": "Harrow Ophthalmic Portfolio Highlighted in 15 Scientific Presentations at AAOpt and AAO",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/09/30/3371749/0/en/harrow-ophthalmic-portfolio-highlighted-in-15-scientific-presentations-at-aaopt-and-aao.html",
-      "summary": "Harrow will present 15 abstracts (13 at AAOpt, Sept 30-Oct 3; 2 at AAO, Oct 9-12) covering VEVYE, VERKAZIA, FLAREX and BYQLOVI, including Phase 3 and 52-week long-term safety data."
-    },
-    {
-      "date": "2026-08-20",
-      "headline": "Harrow announces IHEEZO data on patient-reported discomfort after intravitreal injections",
-      "source": "Harrow",
-      "url": "https://au.marketscreener.com/news/harrow-highlights-growing-clinical-evidence-supporting-iheezo-and-byooviz-at-asrs-2026-annual-meet-ce7f51dbd981fe26",
-      "summary": "Harrow highlighted clinical evidence for IHEEZO and BYOOVIZ at the ASRS 2026 annual meeting, including data on patient-reported discomfort around intravitreal injections."
-    },
-    {
-      "date": "2026-08-17",
-      "headline": "Harrow Q2 2026 earnings call: VEVYE record revenue, G-MELT pre-NDA planned for early Q4",
-      "source": "Motley Fool (transcript)",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/17/harrow-hrow-q2-2026-earnings-call-transcript/",
-      "summary": "Management reiterated 2026 guidance of $350-365M revenue and $80-100M adjusted EBITDA, implying a strong second half. A pre-NDA meeting for G-MELT is planned for early Q4 2026 with NDA submission targeted for 1H 2027."
-    },
-    {
-      "date": "2026-08-10",
-      "headline": "Harrow Announces Second Quarter 2026 Financial Results",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/08/10/3342205/0/en/harrow-announces-second-quarter-2026-financial-results.html",
-      "summary": "Revenue was $70.7M, up 11% year over year and 60% sequentially, with VEVYE at $29.4M (+58% YoY). The net loss was $17.3M ($0.46 per share), wider than analysts expected."
-    }
-  ],
-  "catalysts": [
-    {
-      "when": "Oct 9-12, 2026",
-      "label": "AAO presentations (New Orleans)",
-      "detail": "Two of the 15 abstracts will be presented at the AAO annual meeting.",
-      "confirmed": true
-    },
-    {
-      "when": "Early Q4 2026",
-      "label": "G-MELT (MELT-300) pre-NDA meeting with FDA",
-      "detail": "Pre-NDA meeting scheduled early in Q4 2026; NDA submission targeted for 1H 2027.",
-      "confirmed": true
-    },
-    {
-      "when": "Nov 2026",
-      "label": "Q3 2026 earnings report",
-      "detail": "Next quarterly results; the guidance of $350-365M revenue implies roughly $235-250M in 2H, so Q3 delivery is the key test. Date not yet confirmed.",
-      "confirmed": false
-    },
-    {
-      "when": "2028",
-      "label": "Launch of late-stage assets (G-MELT, YOCHIL)",
-      "detail": "Harrow intends to launch G-MELT and YOCHIL (formerly MELT-210) beginning in 2028.",
-      "confirmed": false
-    }
-  ],
-  "pulse": "Harrow reported Q2 revenue of $70.7M (+11% YoY) with VEVYE at a record $29.4M, but a wider-than-expected loss, and reiterated 2026 guidance of $350-365M revenue and $80-100M adjusted EBITDA, which leans heavily on 2H. Near-term focus is the G-MELT pre-NDA meeting in early Q4, the AAOpt/AAO data flow; the TYRVAYA acquisition closed Oct 5."
+ "ticker": "HROW",
+ "news": [
+  {
+   "date": "2026-10-09",
+   "headline": "Harrow Stock Hits 52-Week Low at $28.51",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/company-news/harrow-stock-hits-52week-low-at-2851-usd-93CH-4941307",
+   "summary": "Harrow shares touched a 52-week low of $28.51, down about 38% year to date, as the Q2 earnings miss (adjusted loss of $0.46 vs. about $0.11 expected) weighs on sentiment. BTIG reiterated its Buy rating with a $63 target on October 7."
+  },
+  {
+   "date": "2026-10-08",
+   "headline": "Harrow has lost 32% in 3 months: why BTIG sees 106% upside from here",
+   "source": "TIKR",
+   "url": "https://www.tikr.com/de/blog/harrow-has-lost-32-in-3-months-heres-why-btig-sees-106-upside-from-here",
+   "summary": "BTIG reaffirmed its Buy rating with a $63 price target after the stock fell about 32% in three months. First-half revenue of $115M trails the plan, so Harrow needs $235-250M in 2H to hit its 2026 guidance."
+  },
+  {
+   "date": "2026-10-05",
+   "headline": "Harrow Closes Acquisition of TYRVAYA®",
+   "source": "Harrow (GlobeNewswire)",
+   "url": "https://investors.harrow.com/news-releases/news-release-details/harrow-closes-acquisition-tyrvayar",
+   "summary": "Harrow closed its purchase of TYRVAYA (varenicline nasal spray for dry eye) from Viatris outside Japan for $30M cash plus up to $70M in sales milestones. The product is expected to contribute over $30M of revenue in 2027."
+  },
+  {
+   "date": "2026-09-30",
+   "headline": "Harrow Ophthalmic Portfolio Highlighted in 15 Scientific Presentations at AAOpt and AAO",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/09/30/3371749/0/en/harrow-ophthalmic-portfolio-highlighted-in-15-scientific-presentations-at-aaopt-and-aao.html",
+   "summary": "Harrow will present 15 abstracts (13 at AAOpt, Sept 30-Oct 3; 2 at AAO, Oct 9-12) covering VEVYE, VERKAZIA, FLAREX and BYQLOVI, including Phase 3 and 52-week long-term safety data."
+  },
+  {
+   "date": "2026-08-20",
+   "headline": "Harrow announces IHEEZO data on patient-reported discomfort after intravitreal injections",
+   "source": "Harrow",
+   "url": "https://au.marketscreener.com/news/harrow-highlights-growing-clinical-evidence-supporting-iheezo-and-byooviz-at-asrs-2026-annual-meet-ce7f51dbd981fe26",
+   "summary": "Harrow highlighted clinical evidence for IHEEZO and BYOOVIZ at the ASRS 2026 annual meeting, including data on patient-reported discomfort around intravitreal injections."
+  },
+  {
+   "date": "2026-08-17",
+   "headline": "Harrow Q2 2026 earnings call: VEVYE record revenue, G-MELT pre-NDA planned for early Q4",
+   "source": "Motley Fool (transcript)",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/08/17/harrow-hrow-q2-2026-earnings-call-transcript/",
+   "summary": "Management reiterated 2026 guidance of $350-365M revenue and $80-100M adjusted EBITDA, implying a strong second half. A pre-NDA meeting for G-MELT is planned for early Q4 2026 with NDA submission targeted for 1H 2027."
+  }
+ ],
+ "catalysts": [
+  {
+   "when": "2026-Q4",
+   "label": "G-MELT (MELT-300) pre-NDA meeting with FDA",
+   "detail": "Pre-NDA meeting guided for early Q4 2026 on the Q2 call; no outcome disclosed yet. NDA submission targeted for 1H 2027.",
+   "confirmed": true
+  },
+  {
+   "when": "2026-11",
+   "label": "Q3 2026 earnings report",
+   "detail": "Next quarterly results, likely around November 9-10 (last year's Q3 was reported November 10; Harrow usually announces the date about two weeks ahead). Full-year guidance of $350-365M revenue implies roughly $235-250M in 2H, so Q3 needs record revenue and positive EBITDA; first quarter with TYRVAYA contribution.",
+   "confirmed": false
+  },
+  {
+   "when": "2028",
+   "label": "Launch of late-stage assets (G-MELT, YOCHIL)",
+   "detail": "Harrow intends to launch G-MELT and YOCHIL (formerly MELT-210) beginning in 2028.",
+   "confirmed": false
+  }
+ ],
+ "pulse": "Harrow trades near $29-30 after hitting a 52-week low of $28.51 on October 9, about 38% down year to date following the Q2 earnings miss, although BTIG ($63, Buy) and most analysts stay bullish. The TYRVAYA acquisition closed October 5 and adds a dry-eye product expected to bring more than $30M of revenue in 2027. Q3 results in early-to-mid November must show a strong 2H ramp to keep the $350-365M revenue guidance credible; a G-MELT pre-NDA update is also pending."
 }

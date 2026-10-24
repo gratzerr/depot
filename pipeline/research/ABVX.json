@@ -2,6 +2,13 @@
  "ticker": "ABVX",
  "news": [
   {
+   "date": "2026-10-22",
+   "headline": "Obefazimod Effective in UC After Prior Treatment Failures",
+   "source": "Medscape",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV1Vid3doYTExVnVmZGxuVHpTQkZGSFN0Ry1sTmE1RnJRUzZzZ2hZRWJ1R3ltWFBYSi13SERjNjBpQ0liM2R1V2tFRUFCMTQwMF81a3c0VHl0MUJveVVWa0hQYmhjMWNkejNPSWdFM1F6UjU4cngwb3ZNR2tzV1Iwc3RDaENFRGRJajlNT0FCZTN6dUxGMHRDakQ1cHZGVFB1cGJB?oc=5",
+   "summary": "Medscape's coverage of the UEG Week presentations reports that obefazimod worked in ulcerative colitis patients who had previously failed advanced therapies, the subgroup that Abivax's ABTECT Maintenance analysis (abstract OP097) compared with advanced-therapy-naive patients. Efficacy in this hard-to-treat, roughly half of the Phase 3 population is central to obefazimod's commercial positioning against JAKs, S1P modulators and biologics."
+  },
+  {
    "date": "2026-10-21",
    "headline": "Wedbush Cuts Abivax Price Target to $96 From $118, Keeps Neutral; Piper Sandler Reiterates After Trial Data",
    "source": "TradingView / MarketBeat",
@@ -28,13 +35,6 @@
    "source": "Abivax Investor Relations",
    "url": "https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology",
    "summary": "Abivax will present four oral presentations and three posters at UEG Week in Barcelona (October 17-20), led by the Phase 3 ABTECT Maintenance efficacy and safety results, maintenance outcomes in treatment-experienced patients and three-year Phase 2 follow-up with dose de-escalation to 25 mg. This is the first full medical-meeting presentation of the Week-44 data and safety database since the June malignancy debate."
-  },
-  {
-   "date": "2026-09-22",
-   "headline": "Analysts Slash Forecasts on Abivax Following H1 Results; Wedbush Cuts Target to $118",
-   "source": "Benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61919671/these-analysts-slash-their-forecasts-on-abivax-following-h1-results",
-   "summary": "Several analysts lowered price targets after the H1 report, with Wedbush cutting to $118 (Neutral), arguing a 2026 NDA filing and possible 2027 approval are already priced in, and Truist trimming to $151 (Buy). Consensus remains well above the share price, at roughly $155-164 on average."
   },
   {
    "date": "2026-09-21",
@@ -76,5 +76,5 @@
    "confirmed": false
   }
  ],
- "pulse": "ABVX slipped further to $88.01 on October 23, now below Wedbush's new $96 target (Neutral), while Piper Sandler ($175), Barclays ($148) and Guggenheim ($175) all reaffirmed after UEG Week; Abivax itself has issued no new press release or filing since the September 30 UEG preview, and Bank of America and Goldman trimmed stakes in recent filings. The stock is about 30% lower over the quarter and well below the July $125 offering price, and it sits in a catalyst gap until Q3 results on December 14 and the planned end-2026 NDA submission. The March-2027 $120 call needs roughly +36% in five months; the realistic paths to the strike remain an on-time NDA filing, FDA acceptance in Q1 2027 or a revived M&A story."
+ "pulse": "ABVX remains depressed after UEG Week (last ~$88 on October 23), down roughly 30% over the quarter and well below the July $125 offering price, even though the meeting produced supportive clinical coverage (e.g. efficacy in prior advanced-therapy failures) and Piper Sandler, Barclays and Guggenheim reaffirmed bullish ratings while Wedbush cut to $96 Neutral. Abivax has issued no new company news since the September 30 UEG preview, so the stock sits in a catalyst gap until Q3 results on December 14 and the planned end-2026 NDA submission. For the March-2027 $120 call, the stock needs roughly +36% in five months; the realistic paths are an on-time NDA filing, FDA acceptance in Q1 2027 or renewed M&A speculation."
 }

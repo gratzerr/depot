@@ -1,35 +1,35 @@
 {
-  "ticker": "PRCT",
-  "news": [
-    {
-      "date": "2026-10-13",
-      "headline": "PROCEPT BioRobotics to Report Third Quarter 2026 Financial Results on November 4th, 2026",
-      "source": "GlobeNewswire",
-      "url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/globenewswire/procept-biorobotics-to-report-third-quarter-2026-financial-results-on-november-4th-2026/2444100",
-      "summary": "PROCEPT will release Q3 2026 results on November 4, 2026. Investors will look for progress against the reiterated $390-410M full-year revenue guidance."
-    },
-    {
-      "date": "2026-08-17",
-      "headline": "PROCEPT BioRobotics to Attend the Baird 2026 Global Healthcare Conference on September 15, 2026",
-      "source": "PROCEPT BioRobotics (GlobeNewswire)",
-      "url": "https://reportify.cn/news/1286823169491210240",
-      "summary": "Management presented and held investor meetings at Baird's conference in New York on September 15."
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "PROCEPT BioRobotics Reports Second Quarter 2026 Financial Results",
-      "source": "PROCEPT BioRobotics (GlobeNewswire)",
-      "url": "https://www.streetinsider.com/Globe+Newswire/PROCEPT+BioRobotics+Reports+Second+Quarter+2026+Financial+Results/26865998.html",
-      "summary": "Q2 revenue was $94.5M (+19% YoY) with U.S. procedures above 13,100 (about +21%) and 65 U.S. HYDROS systems delivered. Gross margin rose to 66% and full-year revenue guidance of $390-410M was reiterated; WATER IV prostate cancer enrollment was completed."
-    }
-  ],
-  "catalysts": [
-    {
-      "when": "Nov 4, 2026",
-      "label": "Q3 2026 earnings report",
-      "detail": "Company confirmed on Oct 13, 2026 that it will report Q3 results on Nov 4; key test for system placements and procedure growth versus the $390-410M full-year guide.",
-      "confirmed": true
-    }
-  ],
-  "pulse": "PROCEPT's Q2 2026 revenue grew 19% to $94.5M with gross margin expanding to 66%, and full-year guidance of $390-410M was reiterated. Aquablation gained a strengthened recommendation in updated AUA guidelines and WATER IV enrollment is complete. Operating expenses are rising as the company invests in commercial build-out and the prostate cancer trial."
+ "ticker": "PRCT",
+ "news": [
+  {
+   "date": "2026-10-13",
+   "headline": "PROCEPT BioRobotics to Report Third Quarter 2026 Financial Results on November 4th, 2026",
+   "source": "GlobeNewswire",
+   "url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/globenewswire/procept-biorobotics-to-report-third-quarter-2026-financial-results-on-november-4th-2026/2444100",
+   "summary": "PROCEPT will release Q3 2026 results on November 4, 2026. Investors will look for progress against the reiterated $390-410M full-year revenue guidance."
+  },
+  {
+   "date": "2026-08-17",
+   "headline": "PROCEPT BioRobotics to Attend the Baird 2026 Global Healthcare Conference on September 15, 2026",
+   "source": "PROCEPT BioRobotics (GlobeNewswire)",
+   "url": "https://reportify.cn/news/1286823169491210240",
+   "summary": "Management presented and held investor meetings at Baird's conference in New York on September 15."
+  },
+  {
+   "date": "2026-08-04",
+   "headline": "PROCEPT BioRobotics Reports Second Quarter 2026 Financial Results",
+   "source": "PROCEPT BioRobotics (GlobeNewswire)",
+   "url": "https://www.streetinsider.com/Globe+Newswire/PROCEPT+BioRobotics+Reports+Second+Quarter+2026+Financial+Results/26865998.html",
+   "summary": "Q2 revenue was $94.5M (+19% YoY) with U.S. procedures above 13,100 (about +21%) and 65 U.S. HYDROS systems delivered. Gross margin rose to 66% and full-year revenue guidance of $390-410M was reiterated; WATER IV prostate cancer enrollment was completed."
+  }
+ ],
+ "catalysts": [
+  {
+   "when": "2026-11-04",
+   "label": "Q3 2026 earnings report",
+   "detail": "Confirmed on October 12-13 for November 4. Key test for U.S. HYDROS system placements and procedure growth (Q2: 13,100+ U.S. procedures, +21%) against the reiterated $390-410M full-year revenue guide, plus gross-margin trajectory and operating-expense discipline.",
+   "confirmed": true
+  }
+ ],
+ "pulse": "PROCEPT shares have rebounded to around $19-20 in the second half of October, up about 7-8% in single sessions on October 20-22, but remain well below their highs, with Wall Street consensus at Hold. Q2 revenue grew 19% to $94.5M with 66% gross margin, guidance of $390-410M was reiterated, and WATER IV prostate-cancer enrollment is complete. No new company business news since the Q3 date notice; November 4 results are the next catalyst."
 }

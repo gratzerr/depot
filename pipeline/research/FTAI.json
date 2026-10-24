@@ -1,55 +1,62 @@
 {
-  "ticker": "FTAI",
-  "news": [
-    {
-      "date": "2026-10-08",
-      "headline": "Multi-Year Engine Exchange Program Extends from V2500, Replacing Traditional Shop Visits with Serviceable Engines Delivered Ahead of Scheduled Removals",
-      "source": "FTAI Aviation press release",
-      "url": "https://ir.ftaiaviation.com/news-events/press-releases",
-      "summary": "FTAI extended its engine exchange program to the CFM56-7B after launching it on the V2500. Customers receive serviceable engines ahead of scheduled removals instead of going through traditional shop visits."
-    },
-    {
-      "date": "2026-09-28",
-      "headline": "FTAI Aviation acquires 27 Boeing 737-700 aircraft from WestJet",
-      "source": "Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/learn-why-the-bull-case-for-ftai-aviation-stock-could-change",
-      "summary": "FTAI's 2026 SPV bought 17 WestJet-leased aircraft via sale-leaseback, and FTAI acquired the other 10 off lease for its Aerospace Products business."
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "FTAI strengthens collaboration with Garuda Indonesia's GMF on engine maintenance in Asia-Pacific",
-      "source": "FTAI Aviation press release",
-      "url": "https://ir.ftaiaviation.com/news-events/press-releases",
-      "summary": "The expanded partnership with GMF broadens FTAI's engine maintenance reach in Asia-Pacific."
-    },
-    {
-      "date": "2026-09-15",
-      "headline": "FTAI Aviation board authorizes share repurchase program of up to $500 million",
-      "source": "FTAI Aviation press release",
-      "url": "https://ir.ftaiaviation.com/news-events/press-releases",
-      "summary": "The board approved a buyback of up to $500 million."
-    },
-    {
-      "date": "2026-08-15",
-      "headline": "FTAI closes $2.0 billion warehouse facility for 2026 SPV",
-      "source": "FTAI Aviation press release",
-      "url": "https://ir.ftaiaviation.com/news-events/press-releases",
-      "summary": "The facility carries a $1.0 billion accordion that could lift total capacity to $3.0 billion, funding aircraft acquisitions."
-    }
-  ],
-  "catalysts": [
-    {
-      "when": "Oct 29, 2026",
-      "label": "Q3 2026 earnings",
-      "detail": "Results before market open with an 8:00 a.m. ET call.",
-      "confirmed": true
-    },
-    {
-      "when": "Dec 10, 2026",
-      "label": "Investor meeting in New York",
-      "detail": "Scheduled investor meeting.",
-      "confirmed": true
-    }
-  ],
-  "pulse": "FTAI is expanding its engine exchange model (V2500, now CFM56-7B) and scaling aircraft acquisitions via a $2B warehouse facility, while a new $500M buyback and a $0.50 quarterly dividend support capital returns. Q3 results on Oct 29 are the next key test."
+ "ticker": "FTAI",
+ "news": [
+  {
+   "date": "2026-10-21",
+   "headline": "Morgan Stanley Names Howmet Its Top Aerospace Pick, Replacing FTAI; Cuts FTAI Target to $310",
+   "source": "Investing.com / Yahoo Finance",
+   "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-names-top-aerospace-pick-to-replace-ftai-4963477",
+   "summary": "Morgan Stanley swapped FTAI out as its top commercial-aerospace pick in favour of Howmet, arguing the aftermarket selloff is overdone, and lowered its FTAI target to $310 from $360 while keeping an Overweight rating. The bank remains constructive on FTAI, but losing top-pick status removes a prominent sell-side tailwind ahead of Q3."
+  },
+  {
+   "date": "2026-10-16",
+   "headline": "Macquarie Initiates FTAI Aviation at Outperform With $305 Price Target",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/analyst-ratings/macquarie-initiates-ftai-aviation-stock-coverage-with-outperform-rating-93CH-4953707",
+   "summary": "Macquarie analyst Marni Lysaght launched coverage at Outperform with a $305 target, about 80% above the then-price of roughly $169, as part of a six-name aerospace initiation. The shares had fallen about a third over six months."
+  },
+  {
+   "date": "2026-10-08",
+   "headline": "FTAI Aviation Signs Multi-Year Engine Exchange Agreement With United Airlines, Extending the Program to CFM56-7B",
+   "source": "FTAI Aviation press release",
+   "url": "https://ir.ftaiaviation.com/news-events/press-releases",
+   "summary": "United expanded its maintenance, repair and exchange partnership with FTAI from the V2500 to CFM56-7B engines under a multi-year deal, receiving serviceable engines ahead of scheduled removals instead of shop visits. It is a marquee validation of FTAI's exchange model with a major U.S. carrier."
+  },
+  {
+   "date": "2026-10-06",
+   "headline": "FTAI Aviation Announces Timing of Third Quarter 2026 Earnings and Conference Call",
+   "source": "GlobeNewswire",
+   "url": "https://ir.ftaiaviation.com/news-events/press-releases",
+   "summary": "FTAI will report Q3 2026 results on October 29 before market open with an 8:00 a.m. ET call. The stock rose about 8% that day as investors weighed the buyback, the WestJet 737 deal and the earnings setup."
+  },
+  {
+   "date": "2026-09-28",
+   "headline": "FTAI Aviation acquires 27 Boeing 737-700 aircraft from WestJet",
+   "source": "Simply Wall St",
+   "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/learn-why-the-bull-case-for-ftai-aviation-stock-could-change",
+   "summary": "FTAI's 2026 SPV bought 17 WestJet-leased aircraft via sale-leaseback, and FTAI acquired the other 10 off lease for its Aerospace Products business."
+  },
+  {
+   "date": "2026-09-15",
+   "headline": "FTAI Aviation board authorizes share repurchase program of up to $500 million",
+   "source": "FTAI Aviation press release",
+   "url": "https://ir.ftaiaviation.com/news-events/press-releases",
+   "summary": "The board approved a buyback of up to $500 million."
+  }
+ ],
+ "catalysts": [
+  {
+   "when": "2026-10-29",
+   "label": "Q3 2026 earnings",
+   "detail": "Results before market open with an 8:00 a.m. ET call (announced October 6). Key items: Aerospace Products EBITDA and margins, module/engine exchange volumes including the new United CFM56-7B program, SPV deployment, and progress on the $500M buyback.",
+   "confirmed": true
+  },
+  {
+   "when": "2026-12-10",
+   "label": "Investor meeting in New York",
+   "detail": "Scheduled investor meeting; a likely venue for 2027 guidance and an update on the asset-light SPV strategy.",
+   "confirmed": true
+  }
+ ],
+ "pulse": "FTAI has fallen roughly a third over six months, and sell-side views are mixed but still positive: Macquarie initiated at Outperform ($305) on October 16, while Morgan Stanley dropped FTAI as its top aerospace pick for Howmet and cut its target to $310 (still Overweight). On the business side, the multi-year United CFM56-7B exchange deal, the WestJet 737-700 purchase and the $500M buyback support the story. Q3 results on October 29 are the next key test."
 }

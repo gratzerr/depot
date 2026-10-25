@@ -2,6 +2,13 @@
  "ticker": "HROW",
  "news": [
   {
+   "date": "2026-10-23",
+   "headline": "Harrow: The Second Half Has Too Much To Do",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVl91WGE1MU5rYVFhOW95cHF3cWJ6b2J0elJkRy1ma2VyRkxzT2hYbmhKWFVCWUJUWnVZdGZ3ZTdwbGlzVF9FNDlRNVRDZWMweG9kSnliUzZqOEMzRGZNaFF4SVRscm0zVGdrUXRsTGpOTVBDdF9VQkNWVTRzRlZpNzFaUDJxN2E0S1E?oc=5",
+   "summary": "A skeptical Seeking Alpha analysis argues the reiterated $350-365M 2026 revenue guidance leaves too much to deliver in the second half after a roughly $115M first half. It frames Q3 as the test of whether the VEVYE ramp and new products can close the gap."
+  },
+  {
    "date": "2026-10-09",
    "headline": "Harrow Stock Hits 52-Week Low at $28.51",
    "source": "Investing.com",
@@ -35,13 +42,6 @@
    "source": "Harrow",
    "url": "https://au.marketscreener.com/news/harrow-highlights-growing-clinical-evidence-supporting-iheezo-and-byooviz-at-asrs-2026-annual-meet-ce7f51dbd981fe26",
    "summary": "Harrow highlighted clinical evidence for IHEEZO and BYOOVIZ at the ASRS 2026 annual meeting, including data on patient-reported discomfort around intravitreal injections."
-  },
-  {
-   "date": "2026-08-17",
-   "headline": "Harrow Q2 2026 earnings call: VEVYE record revenue, G-MELT pre-NDA planned for early Q4",
-   "source": "Motley Fool (transcript)",
-   "url": "https://www.fool.com/earnings/call-transcripts/2026/08/17/harrow-hrow-q2-2026-earnings-call-transcript/",
-   "summary": "Management reiterated 2026 guidance of $350-365M revenue and $80-100M adjusted EBITDA, implying a strong second half. A pre-NDA meeting for G-MELT is planned for early Q4 2026 with NDA submission targeted for 1H 2027."
   }
  ],
  "catalysts": [
@@ -64,5 +64,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Harrow trades near $29-30 after hitting a 52-week low of $28.51 on October 9, about 38% down year to date following the Q2 earnings miss, although BTIG ($63, Buy) and most analysts stay bullish. The TYRVAYA acquisition closed October 5 and adds a dry-eye product expected to bring more than $30M of revenue in 2027. Q3 results in early-to-mid November must show a strong 2H ramp to keep the $350-365M revenue guidance credible; a G-MELT pre-NDA update is also pending."
+ "pulse": "Harrow trades around $29-30 after a 52-week low of $28.51 on October 9 (about 38% down year to date) and a modest bounce toward $30 in mid-October; sentiment is split between bullish sell-side targets (BTIG $63, Buy) and skeptical commentary that the 2H guide is too back-end loaded. The TYRVAYA acquisition closed October 5. Q3 results, likely around November 9-10 but not yet date-confirmed, must show a strong ramp to keep the $350-365M revenue guidance credible; a G-MELT pre-NDA update is also pending."
 }

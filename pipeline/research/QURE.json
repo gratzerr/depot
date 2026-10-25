@@ -3,10 +3,10 @@
  "news": [
   {
    "date": "2026-10-16",
-   "headline": "JPMorgan Chase discloses a passive stake in uniQure through four subsidiaries",
+   "headline": "JPMorgan Chase lifts its passive uniQure stake to about 8.5% (5.95M shares)",
    "source": "StockTitan (SEC filings)",
-   "url": "https://www.stocktitan.net/news/QURE/",
-   "summary": "JPMorgan Chase filed a Schedule 13G reporting a passive beneficial position in uniQure held via four subsidiaries. It is the latest institutional disclosure after RTW and Susquehanna in August, and the first since the post-readout selloff."
+   "url": "https://www.stocktitan.net/sec-filings/QURE/",
+   "summary": "An amended Schedule 13G/A shows JPMorgan Chase holding 5,951,794 uniQure shares (about 8.5%) through several subsidiaries, up from 4.87M shares (7.0%) reported in July. The increase through the post-readout selloff signals that at least one large holder added rather than exited after the four-year AMT-130 data."
   },
   {
    "date": "2026-10-14",
@@ -100,5 +100,5 @@
    "confirmed": false
   }
  ],
- "pulse": "QURE closed around $22.41 on October 23, slipping back toward the middle of the $21-23 band it has held since early October; an October 25 sweep of Google News, company releases and filings found nothing material since JPMorgan's October 16 passive 13G - no BLA acceptance, no Q3 date notice and no new analyst action. The stock remains roughly half its early-September level after the September 29 four-year AMT-130 data showed only a non-significant 44% cUHDRS slowing and triggered a ~39% one-day drop, with UBS's Buy ($48) set against Barclays' downgrade to Equal-Weight ($28) and target cuts from Goldman and RBC. The next binary moment is the FDA's filing and priority-review decision on the 36-month-based BLA around early November (60-day review ends ~November 1), followed by Q3 results (calendars point to around November 10, not yet confirmed) and a likely advisory committee."
+ "pulse": "QURE closed around $22.41 on Friday October 23, holding the $21-23 band it has traded in since early October; a late October 25 check of Google News, company releases and SEC filings found nothing new beyond JPMorgan's October 16 13G/A (stake raised to about 8.5%) - still no BLA acceptance notice and no Q3 date announcement. Sentiment remains split after the September 29 four-year AMT-130 data (non-significant 44% cUHDRS slowing, ~39% one-day drop), with UBS at Buy ($48) against Barclays' Equal-Weight ($28) and target cuts at Goldman and RBC. The next binary moment is the FDA filing and priority-review decision on the 36-month-based BLA in early November (60-day review ends ~November 1), followed by Q3 results expected around November 10 and a likely advisory committee."
 }

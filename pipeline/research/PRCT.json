@@ -2,6 +2,13 @@
  "ticker": "PRCT",
  "news": [
   {
+   "date": "2026-10-25",
+   "headline": "PROCEPT BioRobotics (PRCT) Stock May Be Fully Priced On Cash Flow Hopes",
+   "source": "Simply Wall St / Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRUo1WmpEOS1JWlFONU8xX3lLUzl2ZE9nWVh5YTNjNEMtT1hEZzA0RDhPbmtCTWNaaVlzZ3VfcmhmQXU2Q1ZjOEhrX3dqV05xMDk3T3pLdlllbDJrWEgzVUZVUF9ISU1KcDc2YndoMG9LcEdUWlFMRk5lSXZlNWFNMWpMNHlqRnQ5eWduc01RaEs2RlQ3UmFlenlqd0s0U0NM?oc=5",
+   "summary": "A valuation note argues that after the late-October rebound the share price may already reflect expectations of future cash-flow improvement. It is a counterweight to bullish takes ahead of the November 4 Q3 report, where cash burn and the path to profitability will be scrutinized."
+  },
+  {
    "date": "2026-10-23",
    "headline": "PROCEPT BioRobotics: Compelling Bet On Aquablation's Growth",
    "source": "Seeking Alpha",
@@ -45,5 +52,5 @@
    "confirmed": true
   }
  ],
- "pulse": "PROCEPT shares have rebounded to around $19-20 in the second half of October, up about 7-8% in single sessions on October 20-22, but remain well below their highs, with Wall Street consensus at Hold. Q2 revenue grew 19% to $94.5M with 66% gross margin, guidance of $390-410M was reiterated, and WATER IV prostate-cancer enrollment is complete. No new company business news since the Q3 date notice; November 4 results are the next catalyst."
+ "pulse": "PROCEPT shares rebounded to around $19-20 in the second half of October, with single-session gains of about 4-8% on October 20-22, but remain well below their highs, with Wall Street consensus at Hold and weekend commentary split between bullish Aquablation-growth takes and valuation caution. Q2 revenue grew 19% to $94.5M with 66% gross margin, guidance of $390-410M was reiterated, and WATER IV prostate-cancer enrollment is complete. No new company business news since the Q3 date notice; November 4 results are the next catalyst."
 }

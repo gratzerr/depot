@@ -17,6 +17,13 @@
   },
   {
    "date": "2026-10-08",
+   "headline": "Harrow: Q3 Needs To Prove The Turnaround Is Real",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTkY4eTR5THdOc1U5QkhvUkpJY3RCRkU0LXZhWm0tSFk3ZmRXZkk4ZU5WWjBPNzRqM2pUM2FTUnZKYkhudFJpeUJiLUtuT3I2dlluOVZkYUI5NzRSbmlEdlVMWkRVMTFqcmdFdUt2c0dpM0p4Vy1Sb3hEUXFkbC1EbVBvZnVpUjhaWEtKM0l0RTdXZw?oc=5",
+   "summary": "Seeking Alpha commentary frames the upcoming Q3 report as the key proof point for Harrow's turnaround after weak first-half results. Investors want to see the VEVYE ramp and margin improvement translate into a clear revenue step-up."
+  },
+  {
+   "date": "2026-10-08",
    "headline": "Harrow has lost 32% in 3 months: why BTIG sees 106% upside from here",
    "source": "TIKR",
    "url": "https://www.tikr.com/de/blog/harrow-has-lost-32-in-3-months-heres-why-btig-sees-106-upside-from-here",
@@ -35,13 +42,6 @@
    "source": "GlobeNewswire",
    "url": "https://www.globenewswire.com/news-release/2026/09/30/3371749/0/en/harrow-ophthalmic-portfolio-highlighted-in-15-scientific-presentations-at-aaopt-and-aao.html",
    "summary": "Harrow will present 15 abstracts (13 at AAOpt, Sept 30-Oct 3; 2 at AAO, Oct 9-12) covering VEVYE, VERKAZIA, FLAREX and BYQLOVI, including Phase 3 and 52-week long-term safety data."
-  },
-  {
-   "date": "2026-08-20",
-   "headline": "Harrow announces IHEEZO data on patient-reported discomfort after intravitreal injections",
-   "source": "Harrow",
-   "url": "https://au.marketscreener.com/news/harrow-highlights-growing-clinical-evidence-supporting-iheezo-and-byooviz-at-asrs-2026-annual-meet-ce7f51dbd981fe26",
-   "summary": "Harrow highlighted clinical evidence for IHEEZO and BYOOVIZ at the ASRS 2026 annual meeting, including data on patient-reported discomfort around intravitreal injections."
   }
  ],
  "catalysts": [
@@ -54,7 +54,7 @@
   {
    "when": "2026-11",
    "label": "Q3 2026 earnings report",
-   "detail": "Next quarterly results, likely around November 9-10 (last year's Q3 was reported November 10; Harrow usually announces the date about two weeks ahead). Full-year guidance of $350-365M revenue implies roughly $235-250M in 2H, so Q3 needs record revenue and positive EBITDA; first quarter with TYRVAYA contribution.",
+   "detail": "Not yet announced by Harrow as of Oct 26; third-party calendars project Monday, November 9 after the close with a call the next morning (last year's date notice came October 27 for a November 10 report). Full-year guidance of $350-365M revenue implies roughly $235-250M in 2H, so Q3 needs record revenue and positive EBITDA; first quarter with TYRVAYA contribution.",
    "confirmed": false
   },
   {
@@ -64,5 +64,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Harrow trades around $29-30 after a 52-week low of $28.51 on October 9 (about 38% down year to date) and a modest bounce toward $30 in mid-October; sentiment is split between bullish sell-side targets (BTIG $63, Buy) and skeptical commentary that the 2H guide is too back-end loaded. The TYRVAYA acquisition closed October 5. Q3 results, likely around November 9-10 but not yet date-confirmed, must show a strong ramp to keep the $350-365M revenue guidance credible; a G-MELT pre-NDA update is also pending."
+ "pulse": "Harrow trades around $29-30, near its October 9 52-week low of $28.51 (about 38% down year to date), with sentiment split between bullish sell-side targets (BTIG $63, Buy) and skeptical commentary that the 2H guide is too back-end loaded. The TYRVAYA acquisition closed October 5, adding a dry-eye product. Q3 results, expected around November 9-10 but not yet date-confirmed, must show a strong ramp to keep the $350-365M revenue guidance credible; a G-MELT pre-NDA update is also pending."
 }

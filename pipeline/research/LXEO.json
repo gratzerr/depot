@@ -2,18 +2,18 @@
  "ticker": "LXEO",
  "news": [
   {
+   "date": "2026-10-24",
+   "headline": "Lexeo PKP2-ACM endpoints webcast frames NSVT reduction as the key test for LX2020",
+   "source": "Yahoo Finance / Seeking Alpha (event slides)",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSlM0ZGZVa0pfZk5JTnNqaW9PSGlZUWluYk9qLXJOcmRqMEY2U3VPbDRvN29iMTFzeERpb1FLbGxYX1I5TU1rRTNUaU9kYTBtWmVXRG00aXZOa3NDX3VNZEt6ZWlqdFhhaVhOZFhDT0I3RGVEc1M5d2ZNbGprWVB3dTVaOUI2NDZZNk5fN3BGUEx0Vko3dG5YRXVR?oc=5",
+   "summary": "At its October 21 educational event, Lexeo and Cleveland Clinic specialist Alessio Gasperetti argued that reductions in non-sustained ventricular tachycardia (NSVT) and arrhythmia burden are clinically meaningful measures in PKP2 arrhythmogenic cardiomyopathy. It sets the bar for the Q4 LX2020 12-month readout, but there were no new patient data or FDA feedback."
+  },
+  {
    "date": "2026-10-20",
    "headline": "Lexeo at Chardan conference: Q4 LX2020 update to pair 12-month data with regulatory feedback",
    "source": "Investing.com (Chardan conference transcript)",
    "url": "https://www.investing.com/news/transcripts/lexeo-at-chardan-healthcare-conference-pipeline-advances-cash-runway-93CH-4960418",
    "summary": "Management said the Q4 LX2020 update will combine 12-month follow-up on most high-dose patients with a regulatory update, though the FDA has not yet accepted NSVT as a pivotal endpoint. Lexeo regards a 35-40% NSVT reduction as clinically meaningful, versus 20-30% for standard-of-care drugs. It reiterated that SUNRISE-FA 2 (13 treated vs. 13 controls) remains on track for 2H 2027, with the BLA in 1H 2028, and that quarterly burn in the mid-to-high $20 million range funds operations into 2028."
-  },
-  {
-   "date": "2026-10-19",
-   "headline": "Lexeo to host educational event on clinically meaningful arrhythmia measures in PKP2-ACM",
-   "source": "GlobeNewswire via StockTitan",
-   "url": "https://www.stocktitan.net/news/LXEO/lexeo-therapeutics-to-host-educational-event-focused-on-clinical-c4kos4myh24g.html",
-   "summary": "Lexeo will webcast an investor event on October 21 at 1:00 p.m. ET where CMO Narinder Bhalla and Cleveland Clinic arrhythmia specialist Alessio Gasperetti will discuss which assessments capture disease burden and treatment response in PKP2 arrhythmogenic cardiomyopathy. The timing looks aimed at framing the endpoint debate (e.g. NSVT) ahead of LX2020's year-end 12-month data and FDA feedback, though the release itself names no data or regulatory update."
   },
   {
    "date": "2026-10-16",
@@ -89,5 +89,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Lexeo closed at $2.80 on October 23 (market cap around $230 million, roughly equal to its more than $230 million cash), near its mid-October lows after a slide of more than 70% this year; the October 21 PKP2-ACM endpoints webcast and follow-up coverage (October 24) framed NSVT reduction as the key test for LX2020 but disclosed no new data or FDA feedback, and an October 25 check found nothing newer. The story now hinges on the Q4 LX2020 12-month high-dose HEROIC-PKP2 readout and the accompanying regulatory update on whether the FDA will accept NSVT as a pivotal endpoint. Q3 results are expected in November (third-party estimate November 11, not confirmed); analysts remain supportive (Stifel $17, Baird $28), and SUNRISE-FA 2 for LX2006 stays on track for 2H 2027."
+ "pulse": "Lexeo closed at $2.80 on Friday, October 23 (market cap around $230 million, roughly equal to its more than $230 million cash). That is near its mid-October lows after a slide of more than 70% this year, and checks through October 26 found no new company press releases. The October 21 PKP2-ACM endpoints webcast framed NSVT reduction as the key test for LX2020, so the story now hinges on the Q4 HEROIC-PKP2 12-month high-dose readout and whether the FDA will accept NSVT as a pivotal endpoint. Q3 results are expected in November (third-party estimate November 11, not confirmed by the company); analysts remain supportive (Stifel $17, Baird $28), and SUNRISE-FA 2 for LX2006 is still on track for 2H 2027."
 }

@@ -2,6 +2,13 @@
  "ticker": "DCTH",
  "news": [
   {
+   "date": "2026-10-26",
+   "headline": "Delcath to Host Q3 2026 Earnings Call on November 9",
+   "source": "Business Wire / Delcath IR",
+   "url": "https://investors.delcath.com/news-releases/news-release-details/delcath-systems-host-third-quarter-2026-earnings-call",
+   "summary": "Delcath will report results for the quarter ended September 30, 2026 and hold a conference call and webcast on Monday, November 9, 2026 at 8:30 a.m. ET. The date is later than the November 3-5 window data providers had estimated, and the notice came without preliminary revenue figures."
+  },
+  {
    "date": "2026-10-19",
    "headline": "Delcath Highlights ESMO 2026 Presentations (DELUMA, mCRC Update) and Independent Uveal Melanoma Data",
    "source": "Business Wire / StockTitan",
@@ -35,21 +42,14 @@
    "source": "Business Wire / StockTitan",
    "url": "https://www.stocktitan.net/news/DCTH/delcath-systems-inc-announces-inducement-grants-under-nasdaq-listing-3hmymjqean0n.html",
    "summary": "Delcath granted 34,000 restricted stock units to four newly hired employees under Nasdaq Rule 5635(c)(4), its third such grant since May. The steady hiring points to a continued commercial and clinical build-out behind HEPZATO center activations and the mCRC and DELUMA trials."
-  },
-  {
-   "date": "2026-09-09",
-   "headline": "Analysis: HEPZATO Growth Is Real, But 340B Pricing, Slow Hospital Onboarding and Heavy Spend Cap the Margin Story",
-   "source": "Insider Monkey / Yahoo Finance",
-   "url": "https://finance.yahoo.com/healthcare/articles/delcath-dcth-liver-cancer-device-062417595.html",
-   "summary": "A widely circulated sell-side-style review argued that HEPZATO volume growth of roughly 30% and the raised $104M-$108M guidance are solid, but flagged 340B/NDRA pricing pressure, slow hospital onboarding timelines and rising R&D and SG&A as the reasons profitability is advancing more slowly than the top line. It framed the stock as a growth story that has to prove operating leverage in Q3 and Q4."
   }
  ],
  "catalysts": [
   {
-   "when": "2026-Q4",
-   "label": "Q3 2026 results (expected ~Nov 3-5; date not yet announced)",
-   "detail": "No date has been announced yet; data providers estimate the Q3 report between November 3 (Digrin) and November 5 before market open (Earnings Whispers), with consensus revenue near $25.8M (Benzinga) and options pricing a move of roughly +/-17%. Last year Delcath announced its Q3 call date on October 21, 2025 (call on November 4), but no 2026 call notice or preliminary revenue release had appeared as of October 26. This is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
-   "confirmed": false
+   "when": "2026-11-09",
+   "label": "Q3 2026 results and call (Nov 9, 8:30 a.m. ET)",
+   "detail": "Delcath announced on October 26 that it will report Q3 2026 results and host a call on Monday, November 9 at 8:30 a.m. ET. Consensus revenue sits near $25.8M (Benzinga), and options were pricing a move of roughly +/-17%. The call is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
+   "confirmed": true
   },
   {
    "when": "2026-Q4",
@@ -76,5 +76,5 @@
    "confirmed": true
   }
  ],
- "pulse": "Delcath closed the week at about $14.41 on October 23, near its $14.08 October 16 low and roughly 17% below the $17.42 August high (52-week range $8.12-$17.42); an October 26 check found no new company release since the October 19 ESMO notice and no public readout yet from the October 24 ESMO investigator session on the mCRC and DELUMA trials. Coverage remains unanimously Buy with $21-$32 targets. Focus now shifts to the Q3 report expected around November 3-5 (no call date announced yet, versus an October 21 notice last year), where the bar is about $25.8M in Q3 revenue, the $104M-$108M FY guidance and progress toward about 37 active centers."
+ "pulse": "Delcath closed the week at about $14.41 on October 23, near its $14.08 October 16 low and roughly 17% below the $17.42 August high (52-week range $8.12-$17.42). On October 26 the company set its Q3 2026 report and call for November 9 at 8:30 a.m. ET, without preliminary revenue numbers; no readout has been published yet from the October 24 ESMO investigator session on the mCRC and DELUMA trials. Coverage remains unanimously Buy with $21-$32 targets, and the November 9 bar is about $25.8M in Q3 revenue, reaffirmation or a raise of the $104M-$108M FY guidance and progress toward about 37 active centers."
 }

@@ -2,6 +2,13 @@
  "ticker": "NRXS",
  "news": [
   {
+   "date": "2026-10-27",
+   "headline": "NeurAxis to Host Third Quarter 2026 Results and Business Update Call on Monday, November 9, 2026",
+   "source": "GlobeNewswire / StockTitan",
+   "url": "https://www.stocktitan.net/news/NRXS/",
+   "summary": "NeurAxis will release summarized Q3 2026 results before the market opens on November 9 and host a call at 9:00 a.m. ET. It will be the first report to include the two national payer wins (about 18M lives in September and about 26M in October) and the start of the sales-force build-out under new CCO Craig Blanchard."
+  },
+  {
    "date": "2026-10-15",
    "headline": "NeurAxis Announces Medical Policy Coverage Milestone, Expanding Access to 26 Million Additional Covered Lives",
    "source": "GlobeNewswire",
@@ -35,21 +42,14 @@
    "source": "Investing.com",
    "url": "https://www.investing.com/news/company-news/neuraxis-secures-major-insurer-coverage-for-ibstim-device-93CH-4903809",
    "summary": "An unnamed major national health insurer established a PENFS medical policy spanning multiple states and about 18 million members, the first national-scale win of the H2 payer push. Craig-Hallum reiterated its Buy rating and $13 target the next day."
-  },
-  {
-   "date": "2026-09-15",
-   "headline": "NeurAxis at iAccess Alpha Conference: VA Reps Hired, Nearly 30 Payer Policies, 2026 Revenue Pace of $7-8M",
-   "source": "Investing.com",
-   "url": "https://za.investing.com/news/stock-market-news/neuraxis-at-iaccess-alpha-conference-payer-wins-drive-growth-93CH-4465462",
-   "summary": "CEO Brian Carrico said 10-12 commission-only reps were hired for the VA Federal Supply Schedule channel and guided to a $7-8M 2026 revenue pace even without new policy wins, with cash-flow breakeven seen at roughly $13-14M annual revenue. He put shares at 13.6M (20.4M fully diluted incl. 3.7M Series B preferred expected to convert after December 31) and said 2-3 more major payers could lift revenue up to 10x."
   }
  ],
  "catalysts": [
   {
-   "when": "2026-11",
-   "label": "Q3 2026 earnings",
-   "detail": "Not yet announced; Earnings Whispers estimates November 10 before the open. Last year the Q3 date notice came on November 4 for a November 11 call, so a notice in late October or early November is likely. Key tests: revenue against the $7-8M full-year pace (implying $3.5-4.5M in H2 vs $3.5M in H1), ASP progress, first VA rep orders, early utilization from the September (~18M) and October (~26M, Aetna) policies, and how management addresses only $4M of cash as of September 21 alongside the going-concern language.",
-   "confirmed": false
+   "when": "2026-11-09",
+   "label": "Q3 2026 results and call (Nov 9, 9:00 a.m. ET)",
+   "detail": "Announced October 27: summarized results before the open on November 9 with a 9:00 a.m. ET call. Key tests: revenue against the $7-8M full-year pace (implying $3.5-4.5M in H2 vs $3.5M in H1), ASP progress, first VA rep orders, early utilization from the September (~18M) and October (~26M, Aetna) policies, and how management addresses only $4M of cash as of September 21 alongside the going-concern language.",
+   "confirmed": true
   },
   {
    "when": "2026-Q4",
@@ -88,5 +88,5 @@
    "confirmed": false
   }
  ],
- "pulse": "An October 27 check of Google News, GlobeNewswire, web search and the company IR site found nothing new from NeurAxis since the October 15 national policy (identified as Aetna) that lifted IB-Stim coverage above 147 million lives; the stock's jump to the high $7s on that news has partly faded. The Q3 2026 report date is still unannounced (last year's notice came November 4 for a November 11 call, and Earnings Whispers estimates November 10), and investors will look for utilization from the two new national policies, first VA orders and early traction from the sales-force build-out under new CCO Craig Blanchard. Funding is the main overhang: only about $4M of cash as of September 21, plus going-concern language, makes a capital raise around that report likely, and the roughly 3.7M Series B preferred shares are expected to convert after December 31."
+ "pulse": "NeurAxis has given back part of its jump to the high $7s after the October 15 national policy (identified as Aetna) that lifted IB-Stim coverage above 147 million lives. On October 27 the company scheduled Q3 2026 results for November 9 before the open (call at 9:00 a.m. ET), where investors will look for utilization from the two new national policies, first VA orders and early traction from the sales build-out under CCO Craig Blanchard. Funding is the main overhang: about $4M of cash as of September 21 plus going-concern language makes a capital raise around that report likely, and roughly 3.7M Series B preferred shares are expected to convert after December 31."
 }

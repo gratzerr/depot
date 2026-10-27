@@ -1,1 +1,62 @@
-{"ticker": "FTAI", "news": [{"date": "2026-10-26", "headline": "A passive investor reports over 5% of FTAI Aviation (FTAI) Series D preferred shares.", "source": "Stock Titan", "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcXpySndjODJ0SExNRm0yckpWd1drMUpyVE9ndC1UcFhZWUhUV1l2aU9IdXZtdEMwbzdYbHdDUTdTeEFfTnNHLXdncFo0MzAxWjN6RXFZYmRRbDRyaURzMEppV3BPUzlUbVgzVDREcmlVM21UU3daR3Bxb3RFTldaYXp3T09oc1dELW1RdF9vOHN3THAxSW11ZXZvMTdTNmtvVFA1TXQxYjZwbkd2ejk4QmljdDYtc1huRWNJZ3dPazVGZw?oc=5", "summary": ""}, {"date": "2026-10-23", "headline": "FTAI Aviation stock hits 52-week low at $149.47", "source": "Investing.com", "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOODVBMDRLaHp0eWU1ME50TVlkeHQtMnlyZ1daZTFkS1hER1dIRGpHc01EVktuSTVlX1VMekRoX0FxUVBJN2kyc2M4M1Zoak1uWWRBbkotb0JoZmR3eG5tMThIZmoybExBenN4YW5idU9IcFZOOWp4eFFVN0dBR01ZTmstbnNtVVlzVUxGM2ZnV2FUcWs1S1F4Ymx1QmJadTRSU3VsYWtidjg5T0tkQ3c?oc=5", "summary": "FTAI shares hit a 52-week low of $149.47 intraday on October 23 and closed at about $154, days before Q3 results, after a 7-8% rebound on October 21 faded. The stock has lost roughly half its value from the $323 high amid aftermarket-sector selling and margin/power-business questions."}, {"date": "2026-10-21", "headline": "Morgan Stanley Names Howmet Its Top Aerospace Pick, Replacing FTAI; Cuts FTAI Target to $310", "source": "Investing.com / Yahoo Finance", "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-names-top-aerospace-pick-to-replace-ftai-4963477", "summary": "Morgan Stanley swapped FTAI out as its top commercial-aerospace pick in favour of Howmet, arguing the aftermarket selloff is overdone, and lowered its FTAI target to $310 from $360 while keeping an Overweight rating. The bank remains constructive on FTAI, but losing top-pick status removes a prominent sell-side tailwind ahead of Q3."}, {"date": "2026-10-16", "headline": "Macquarie Initiates FTAI Aviation at Outperform With $305 Price Target", "source": "Investing.com", "url": "https://www.investing.com/news/analyst-ratings/macquarie-initiates-ftai-aviation-stock-coverage-with-outperform-rating-93CH-4953707", "summary": "Macquarie analyst Marni Lysaght launched coverage at Outperform with a $305 target, about 80% above the then-price of roughly $169, as part of a six-name aerospace initiation. The shares had fallen about a third over six months."}, {"date": "2026-10-08", "headline": "FTAI Aviation Signs Multi-Year Engine Exchange Agreement With United Airlines, Extending the Program to CFM56-7B", "source": "FTAI Aviation press release", "url": "https://ir.ftaiaviation.com/news-events/press-releases", "summary": "United expanded its maintenance, repair and exchange partnership with FTAI from the V2500 to CFM56-7B engines under a multi-year deal, receiving serviceable engines ahead of scheduled removals instead of shop visits. It is a marquee validation of FTAI's exchange model with a major U.S. carrier."}, {"date": "2026-10-06", "headline": "FTAI Aviation Announces Timing of Third Quarter 2026 Earnings and Conference Call", "source": "GlobeNewswire", "url": "https://ir.ftaiaviation.com/news-events/press-releases", "summary": "FTAI will report Q3 2026 results on October 29 before market open with an 8:00 a.m. ET call. The stock rose about 8% that day as investors weighed the buyback, the WestJet 737 deal and the earnings setup."}, {"date": "2026-09-28", "headline": "FTAI Aviation acquires 27 Boeing 737-700 aircraft from WestJet", "source": "Simply Wall St", "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/learn-why-the-bull-case-for-ftai-aviation-stock-could-change", "summary": "FTAI's 2026 SPV bought 17 WestJet-leased aircraft via sale-leaseback, and FTAI acquired the other 10 off lease for its Aerospace Products business."}], "catalysts": [{"when": "2026-10-29", "label": "Q3 2026 earnings", "detail": "Results before market open with an 8:00 a.m. ET call (announced October 6); consensus revenue is roughly $1.0bn. Key items: Aerospace Products EBITDA and margins, module/engine exchange volumes including the new United CFM56-7B program, SPV deployment, progress on the $500M buyback and whether the dividend is raised again (it has been raised with each 2026 quarterly report).", "confirmed": true}, {"when": "2026-12-10", "label": "Investor meeting in New York", "detail": "Scheduled investor meeting; a likely venue for 2027 guidance and an update on the asset-light SPV strategy.", "confirmed": true}], "pulse": "FTAI trades near $154 after hitting a 52-week low of $149.47 on October 23, roughly half its $323 high, as the aerospace-aftermarket selloff, margin-reset worries and doubts about the FTAI Power business weigh on the shares; the 7-8% bounce on October 21 did not hold. Sell-side support remains (Macquarie Outperform/$305; Morgan Stanley Overweight but cut to $310 and dropped FTAI as top pick for Howmet), while business momentum continues with the United CFM56-7B exchange deal and the WestJet 737-700 purchase for the 2026 SPV. Q3 results on October 29 (before the open, consensus revenue roughly $1.0bn) are the key near-term test for margins, module volumes and the 2027 outlook."}
+{
+ "ticker": "FTAI",
+ "news": [
+  {
+   "date": "2026-10-27",
+   "headline": "KBRA and Fitch Assign Preliminary Ratings to FTAI's MRE 2026-2 Aircraft Lease-Backed Notes",
+   "source": "Business Wire / Traders Union",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLWVYM1hjbVVNNXJ2TnBtVkdOeXY2WjNFVnFwNDZMa2VEVzVTMUF3ZWQxU1ZKbVR4amtHRFp6dWhyaGdwUjhJekI1QXVoS2JyamptU0JvM3hiQU93aWo0ME5FSW0tWDVGZEFfYXhFaTZMb2w0anA0cUNha0JRck9uc0ZMYmlkTEZfcVctTzlTOEk0WVp6?oc=5",
+   "summary": "KBRA and Fitch assigned preliminary/expected ratings to MRE 2026-2, the second aircraft lease-backed securitization from FTAI's Strategic Capital platform after the $612M MRE 2026-1 deal in June. A repeat ABS issuance shows the asset-light SPV model can keep recycling capital through the debt markets."
+  },
+  {
+   "date": "2026-10-23",
+   "headline": "FTAI Aviation stock hits 52-week low at $149.47",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOODVBMDRLaHp0eWU1ME50TVlkeHQtMnlyZ1daZTFkS1hER1dIRGpHc01EVktuSTVlX1VMekRoX0FxUVBJN2kyc2M4M1Zoak1uWWRBbkotb0JoZmR3eG5tMThIZmoybExBenN4YW5idU9IcFZOOWp4eFFVN0dBR01ZTmstbnNtVVlzVUxGM2ZnV2FUcWs1S1F4Ymx1QmJadTRSU3VsYWtidjg5T0tkQ3c?oc=5",
+   "summary": "FTAI shares hit a 52-week low of $149.47 intraday on October 23 and closed at about $154, days before Q3 results, after a 7-8% rebound on October 21 faded. The stock has lost roughly half its value from the $323 high amid aftermarket-sector selling and margin/power-business questions."
+  },
+  {
+   "date": "2026-10-21",
+   "headline": "Morgan Stanley Names Howmet Its Top Aerospace Pick, Replacing FTAI; Cuts FTAI Target to $310",
+   "source": "Investing.com / Yahoo Finance",
+   "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-names-top-aerospace-pick-to-replace-ftai-4963477",
+   "summary": "Morgan Stanley swapped FTAI out as its top commercial-aerospace pick in favour of Howmet, arguing the aftermarket selloff is overdone, and lowered its FTAI target to $310 from $360 while keeping an Overweight rating. The bank remains constructive on FTAI, but losing top-pick status removes a prominent sell-side tailwind ahead of Q3."
+  },
+  {
+   "date": "2026-10-16",
+   "headline": "Macquarie Initiates FTAI Aviation at Outperform With $305 Price Target",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/analyst-ratings/macquarie-initiates-ftai-aviation-stock-coverage-with-outperform-rating-93CH-4953707",
+   "summary": "Macquarie analyst Marni Lysaght launched coverage at Outperform with a $305 target, about 80% above the then-price of roughly $169, as part of a six-name aerospace initiation. The shares had fallen about a third over six months."
+  },
+  {
+   "date": "2026-10-08",
+   "headline": "FTAI Aviation Signs Multi-Year Engine Exchange Agreement With United Airlines, Extending the Program to CFM56-7B",
+   "source": "FTAI Aviation press release",
+   "url": "https://ir.ftaiaviation.com/news-events/press-releases",
+   "summary": "United expanded its maintenance, repair and exchange partnership with FTAI from the V2500 to CFM56-7B engines under a multi-year deal, receiving serviceable engines ahead of scheduled removals instead of shop visits. It is a marquee validation of FTAI's exchange model with a major U.S. carrier."
+  },
+  {
+   "date": "2026-09-28",
+   "headline": "FTAI Aviation acquires 27 Boeing 737-700 aircraft from WestJet",
+   "source": "Simply Wall St",
+   "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/learn-why-the-bull-case-for-ftai-aviation-stock-could-change",
+   "summary": "FTAI's 2026 SPV bought 17 WestJet-leased aircraft via sale-leaseback, and FTAI acquired the other 10 off lease for its Aerospace Products business."
+  }
+ ],
+ "catalysts": [
+  {
+   "when": "2026-10-29",
+   "label": "Q3 2026 earnings",
+   "detail": "Results before market open with an 8:00 a.m. ET call (announced October 6); consensus revenue is roughly $1.0bn. Key items: Aerospace Products EBITDA and margins, module/engine exchange volumes including the new United CFM56-7B program, SPV deployment and the new MRE 2026-2 securitization, progress on the $500M buyback and whether the dividend is raised again (it has been raised with each 2026 quarterly report).",
+   "confirmed": true
+  },
+  {
+   "when": "2026-12-10",
+   "label": "Investor meeting in New York",
+   "detail": "Scheduled investor meeting; a likely venue for 2027 guidance and an update on the asset-light SPV strategy.",
+   "confirmed": true
+  }
+ ],
+ "pulse": "FTAI rebounded about 2% to roughly $158 on October 27 after hitting a 52-week low of $149.47 on October 23, still about half its $323 high, as the aerospace-aftermarket selloff, margin-reset worries and doubts about FTAI Power weigh on the shares. The business keeps executing (United CFM56-7B exchange deal, WestJet 737-700 purchase, and a second Strategic Capital ABS, MRE 2026-2, now being rated by KBRA and Fitch), and sell-side support remains with Macquarie at Outperform/$305 and Morgan Stanley at Overweight/$310. Q3 results on October 29 before the open (consensus revenue about $1.0bn) are the key near-term test for margins, module volumes, the buyback and the 2027 outlook ahead of the December 10 investor meeting."
+}

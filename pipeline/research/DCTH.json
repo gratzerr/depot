@@ -2,6 +2,13 @@
  "ticker": "DCTH",
  "news": [
   {
+   "date": "2026-10-27",
+   "headline": "Delcath to Participate in UBS, Canaccord Genuity and Craig-Hallum Investor Conferences in November",
+   "source": "Business Wire / StockTitan",
+   "url": "https://www.stocktitan.net/news/DCTH/",
+   "summary": "Management will attend the UBS Global Healthcare Conference (November 10, Palm Beach Gardens, with a live webcast), the Canaccord Genuity MedTech, Diagnostics and Digital Health Forum (November 11, New York) and the Craig-Hallum Alpha Select Conference (November 17, New York). The appearances follow directly on the November 9 Q3 report, giving management an immediate platform to discuss results and guidance."
+  },
+  {
    "date": "2026-10-26",
    "headline": "Delcath to Host Q3 2026 Earnings Call on November 9",
    "source": "Business Wire / Delcath IR",
@@ -35,13 +42,6 @@
    "source": "TipRanks / Zacks Investment Research",
    "url": "https://www.zacks.com/stock/research/DCTH/price-target-stock-forecast",
    "summary": "H.C. Wainwright's Swayampakula Ramakanth reaffirmed Buy with a $32 target after the firm's September investor conference. All brokers covering Delcath rate it Strong Buy, with Zacks' short-term consensus near $21.80 and broader averages around $22.50-$24.50."
-  },
-  {
-   "date": "2026-09-11",
-   "headline": "Delcath Grants Inducement RSUs to Four New Employees",
-   "source": "Business Wire / StockTitan",
-   "url": "https://www.stocktitan.net/news/DCTH/delcath-systems-inc-announces-inducement-grants-under-nasdaq-listing-3hmymjqean0n.html",
-   "summary": "Delcath granted 34,000 restricted stock units to four newly hired employees under Nasdaq Rule 5635(c)(4), its third such grant since May. The steady hiring points to a continued commercial and clinical build-out behind HEPZATO center activations and the mCRC and DELUMA trials."
   }
  ],
  "catalysts": [
@@ -49,6 +49,12 @@
    "when": "2026-11-09",
    "label": "Q3 2026 results and call (Nov 9, 8:30 a.m. ET)",
    "detail": "Delcath announced on October 26 that it will report Q3 2026 results and host a call on Monday, November 9 at 8:30 a.m. ET. Consensus revenue sits near $25.8M (Benzinga), and options were pricing a move of roughly +/-17%. The call is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
+   "confirmed": true
+  },
+  {
+   "when": "2026-11-10",
+   "label": "UBS Global Healthcare Conference presentation (webcast)",
+   "detail": "Management presents at UBS on November 10 in Palm Beach Gardens, the day after Q3 results, followed by the Canaccord Genuity forum on November 11 and Craig-Hallum Alpha Select on November 17 in New York. The webcast UBS session is the first post-earnings venue for color on center activations, the 2026 guidance and the mCRC/DELUMA trials.",
    "confirmed": true
   },
   {
@@ -76,5 +82,5 @@
    "confirmed": true
   }
  ],
- "pulse": "Delcath closed the week at about $14.41 on October 23, near its $14.08 October 16 low and roughly 17% below the $17.42 August high (52-week range $8.12-$17.42). On October 26 the company set its Q3 2026 report and call for November 9 at 8:30 a.m. ET, without preliminary revenue numbers; no readout has been published yet from the October 24 ESMO investigator session on the mCRC and DELUMA trials. Coverage remains unanimously Buy with $21-$32 targets, and the November 9 bar is about $25.8M in Q3 revenue, reaffirmation or a raise of the $104M-$108M FY guidance and progress toward about 37 active centers."
+ "pulse": "Delcath trades around $14.4, near its $14.08 October 16 low and roughly 17% below the $17.42 August high, as investors wait for Q3 numbers. The company set its Q3 2026 report and call for November 9 at 8:30 a.m. ET (no preliminary revenue) and on October 27 lined up UBS (Nov 10, webcast), Canaccord (Nov 11) and Craig-Hallum (Nov 17) appearances right after the print. Coverage remains unanimously Buy with $21-$32 targets; the bar is about $25.8M Q3 revenue, reaffirmation or a raise of the $104M-$108M FY guidance and progress toward about 37 active centers."
 }

@@ -48,13 +48,13 @@
   {
    "when": "2026-11",
    "label": "FDA filing decision and priority review determination",
-   "detail": "The FDA's 60-day filing review on the BLA submitted September 2 ends around November 1, 2026, so acceptance for review should be communicated in early November. The decision will show whether priority review was granted (six-month vs ten-month clock, i.e. roughly Q2 vs Q4 2027 action) and normally sets the PDUFA date. After the weaker four-year data, a clean acceptance on the 36-month package is the key test of whether the FDA still stands behind the agreed filing basis.",
+   "detail": "The FDA's 60-day filing review on the BLA submitted September 2 ends around November 1, 2026; as of October 27 no acceptance notice has been issued, so it should be communicated in the coming days or with Q3 results. The decision will show whether priority review was granted (six-month vs ten-month clock, i.e. roughly Q2 vs Q4 2027 action) and normally sets the PDUFA date. After the weaker four-year data, a clean acceptance on the 36-month package is the key test of whether the FDA still stands behind the agreed filing basis.",
    "confirmed": false
   },
   {
    "when": "2026-11-10",
    "label": "Q3 2026 results and regulatory update",
-   "detail": "uniQure's Q3 2026 results are projected for around November 9-10, 2026 per earnings calendars (AJ Bell lists November 10 with an 8:30 a.m. ET call), not yet formally confirmed by the company; the notice usually comes about a week ahead. Expect updates on BLA acceptance, review designation and PDUFA date, the UK MAA, the FDA's view of the four-year data, confirmatory-trial start-up, AMT-260 second-cohort enrollment (guided for Q3 but not yet confirmed) and cash burn against the $810.3M June 30 cash position.",
+   "detail": "uniQure's Q3 2026 results are projected for around November 9-10, 2026 per earnings calendars (AJ Bell lists November 10 with an 8:30 a.m. ET call, Public.com November 9); as of October 27 the company has not announced the date, which usually comes about a week ahead. Expect updates on BLA acceptance, review designation and PDUFA date, the UK MAA, the FDA's view of the four-year data, confirmatory-trial start-up, AMT-260 second-cohort enrollment and cash burn against the $810.3M June 30 cash position.",
    "confirmed": false
   },
   {
@@ -100,5 +100,5 @@
    "confirmed": false
   }
  ],
- "pulse": "QURE closed at $22.43 on Friday October 23, still range-bound at roughly $21-23 since early October; an October 26 check of Google News, company press releases and SEC EDGAR found nothing new beyond JPMorgan's October 16 13G/A (stake raised to about 8.5%), with no BLA acceptance notice and no Q3 date announced yet. Sentiment remains split after the September 29 four-year AMT-130 data (non-significant 44% cUHDRS slowing, ~39% one-day drop), with UBS at Buy ($48) against Barclays' Equal-Weight ($28) and target cuts at Goldman and RBC. The next binary moment is the FDA filing and priority-review decision on the 36-month-based BLA, due within days (60-day review ends ~November 1), followed by Q3 results expected around November 10 and a likely advisory committee."
+ "pulse": "QURE is still range-bound around $21-23 (last close $22.43) roughly four weeks after the September 29 four-year AMT-130 data (non-significant 44% cUHDRS slowing, ~39% one-day drop); an October 27 check of Google News, SEC EDGAR and web sources found no new company news since JPMorgan's October 16 13G/A raising its stake to about 8.5%. Analyst views stay split, with UBS at Buy ($48) against Barclays' Equal-Weight ($28) and target cuts at Goldman and RBC. The next binary moment is the FDA filing and priority-review decision on the 36-month-based BLA, due around November 1, followed by Q3 results expected around November 9-10 and a likely advisory committee."
 }

@@ -23,13 +23,6 @@
    "summary": "Michelle Caron, CPA, currently CFO of Nasdaq-listed A10 Networks and previously CFO at Danaher units Beckman Coulter Life Sciences, Pall and Phenomenex, joined the board effective immediately, adding 28 years of medtech and life-science finance experience. CEO Adrian Mendes framed the hire around scaling commercial operations and advancing Claire; the release contained no reimbursement or revenue news, making this the first company announcement of any kind since the August 20 Q2 print."
   },
   {
-   "date": "2026-08-21",
-   "headline": "MicroCap Opportunities: 'First Two Claires and the Reimbursement Clock'",
-   "source": "MicroCap Opportunities (Substack)",
-   "url": "https://microcapopportunities.substack.com/p/perimeter-medical-imaging-ai-first",
-   "summary": "A detailed post-Q2 breakdown notes both installed Claire systems are S-Series conversions at Intermountain's LDS Hospital and American Fork rather than net-new customers, leaving the site count stuck at 22 with no upfront capital-sale revenue. It frames Q2's US$503K revenue, the 28% opex cut and US$6.4M cash (about 12 months of runway) as a race between the commercial ramp and the CMS reimbursement clock."
-  },
-  {
    "date": "2026-08-20",
    "headline": "Perimeter Announces Preliminary Second Quarter 2026 Financial Results",
    "source": "Perimeter IR / PR Newswire",
@@ -60,7 +53,7 @@
   {
    "when": "2026-Q4",
    "label": "First net-new Claire placement outside the legacy base",
-   "detail": "Both commercial Claire systems are conversions of existing S-Series customers on a flat 22-site base, carrying no upfront capital-sale revenue. A genuinely new hospital system signing is the clearest proof the Intermountain deal is repeatable; management cites late-stage opportunities but will not size the funnel, blaming hospital AI review committees for delays. Nothing has been announced as of October 26, seven months after FDA approval.",
+   "detail": "Both commercial Claire systems are conversions of existing S-Series customers on a flat 22-site base, carrying no upfront capital-sale revenue. A genuinely new hospital system signing is the clearest proof the Intermountain deal is repeatable; management cites late-stage opportunities but will not size the funnel, blaming hospital AI review committees for delays. Nothing has been announced as of October 27, seven months after FDA approval.",
    "confirmed": false
   },
   {
@@ -88,5 +81,5 @@
    "confirmed": false
   }
  ],
- "pulse": "PINK trades near the bottom of its 52-week range on the OTC (PYNKF, about US$0.12 in late October), well below the C$0.35 LIFE issue price. As of October 26 the IR site still shows no news since the October 22 Planet MicroCap notice: no net-new hospital, no Intermountain expansion beyond two sites, no reimbursement update and no Q3 call date yet, so the October 28 Toronto presentation is the near-term watch point for funnel commentary. With US$6.4M of cash at June 30 (about a year of runway) and a likely dilutive raise ahead, the swing factors remain the Q3 print (estimated mid-November) and the December CMS public meeting on the HCPCS code."
+ "pulse": "PINK trades near the bottom of its 52-week range on the OTC (PYNKF, about US$0.12 in late October), well below the C$0.35 LIFE issue price. As of October 27 the IR site shows no news since the October 22 Planet MicroCap notice: no net-new hospital, no Intermountain expansion beyond two sites, no reimbursement update and no Q3 call date yet, so CEO Adrian Mendes' October 28 Toronto presentation is the near-term watch point for funnel commentary. With US$6.4M of cash at June 30 (about a year of runway) and a likely dilutive raise ahead, the swing factors remain the Q3 print (expected mid-November) and the December CMS public meeting on the HCPCS code."
 }

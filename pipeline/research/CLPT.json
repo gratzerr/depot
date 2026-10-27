@@ -2,6 +2,13 @@
  "ticker": "CLPT",
  "news": [
   {
+   "date": "2026-10-26",
+   "headline": "Earnings preview: ClearPoint Neuro expected to post a Q3 loss of 31 cents per share",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRlpTOS1uendpLVQ0MnlWQldNb0lCYU0xbEVDZ09XaXBuQVVFVVBzdEtQb2dFX3hVUTZGOTIyd3hDaDlqUWU4WERJU190SXJ6dEZRRWRuUmMwZFRxSVdJVDNSWXBKaWVkVElPaTU3NHJBVUFmWlNfcm50a19mdGdFaUNpcW9GWW0tZnVYX2tuY0V3aDFBRy01ZVduVFdLTlhRRXhTdkgzM2xqMElRVkJxNzdjY3hYLVR0bFFhcEJtXzdxN29haE1iZjJpb0xZbk9RTUlGQjlDcXNOMFlBRFFZM1UzdnJEZw?oc=5",
+   "summary": "An earnings preview published two days before the October 28 report puts the consensus Q3 2026 estimate at a loss of 31 cents per share, wider than the $0.26-0.27 loss seen earlier in October. The wider estimate suggests analysts have trimmed expectations after the AMT-130 four-year setback and the cut to $48-52M FY guidance."
+  },
+  {
    "date": "2026-10-14",
    "headline": "ClearPoint Neuro to report Q3 2026 results on October 28",
    "source": "StockTitan / ACCESS Newswire",
@@ -28,27 +35,13 @@
    "source": "HDBuzz",
    "url": "https://en.hdbuzz.net/amt-130-at-four-years-hopeful-signs-complex-controls/",
    "summary": "High-dose AMT-130 patients showed a 44% slowing of cUHDRS decline versus the Enroll-HD comparator at four years, not statistically significant, while a post-hoc analysis versus an earlier control set showed a significant 54% slowing and Total Functional Capacity decline was a significant 61% slower. The 36-month analysis on 15 high-dose patients showed 80% cUHDRS slowing; the BLA filed September 2 still awaits an FDA acceptance decision in Q4 and the UK MAA has been validated."
-  },
-  {
-   "date": "2026-09-03",
-   "headline": "CEO Joe Burnett cash-exercises 12,517 options at $3.47 and holds every share",
-   "source": "SEC EDGAR Form 4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1285550/000119312526382208/ownership.xml",
-   "summary": "In a Form 4 filed September 3 for a September 2 transaction, CEO and President Joseph Burnett exercised 12,517 stock options at $3.47, paid the exercise price in cash and retained all resulting shares rather than doing a cashless sell-to-cover. His direct holding rose to 130,720 shares plus 191,388 shares held through the Joseph M. Burnett Trust, an unusual signal after a year of insider selling."
-  },
-  {
-   "date": "2026-09-02",
-   "headline": "Partner uniQure submits AMT-130 BLA to FDA and MAA to UK MHRA for Huntington's disease",
-   "source": "BioPharm International",
-   "url": "https://www.biopharminternational.com/view/uniqure-submits-bla-and-maa-for-amt-130-gene-therapy-in-huntington-s-disease",
-   "summary": "uniQure submitted a Biologics License Application to the FDA seeking accelerated approval of AMT-130 (ifezuntirgene inilparvovec) with a Priority Review request, plus a parallel Marketing Authorisation Application to the UK MHRA, based on three-year Phase I/II data showing a statistically significant 75% slowing of progression on cUHDRS versus an external control (p=0.003). Every patient in those studies was dosed through the ClearPoint Neuro Navigation System and SmartFlow cannula, making this the first BLA built on ClearPoint's delivery platform in a large chronic indication."
   }
  ],
  "catalysts": [
   {
    "when": "2026-10-28",
    "label": "Q3 2026 earnings (Oct 28, after close): biologics back to growth and cash-burn check",
-   "detail": "ClearPoint reports Q3 2026 results on October 28 after the close, with a call at 4:30 p.m. ET. Management said the CAL preclinical facility, in its possession since July, should return the biologics and drug delivery segment (down 15% to $4.0M in Q2) to growth in Q3, making this the first test of whether the cut to $48-52M guidance was timing or demand. With cash at $29.4M against a roughly $10M quarterly operating loss, investors will also want commentary on funding needs and on how the AMT-130 four-year miss changes management's view of uniQure-related revenue timing. Third-party consensus sits around a $0.26-0.27 loss per share on roughly $12.3-12.4M of revenue (Earnings Whispers, TradingView), a bar that looks demanding after Q2's $10.9M print, which missed the ~$12.7M estimate.",
+   "detail": "ClearPoint reports Q3 2026 results on October 28 after the close, with a call at 4:30 p.m. ET. Management said the CAL preclinical facility, in its possession since July, should return the biologics and drug delivery segment (down 15% to $4.0M in Q2) to growth in Q3, making this the first test of whether the cut to $48-52M guidance was timing or demand. With cash at $29.4M against a roughly $10M quarterly operating loss, investors will also want commentary on funding needs and on how the AMT-130 four-year miss changes management's view of uniQure-related revenue timing. Consensus has drifted to about a $0.31 loss per share (TradingView preview, October 26), down from $0.26-0.27 earlier in October, with revenue estimates near $12.3M. That revenue bar still looks demanding after Q2's $10.9M print, which missed the ~$12.7M estimate.",
    "confirmed": true
   },
   {
@@ -106,5 +99,5 @@
    "confirmed": false
   }
  ],
- "pulse": "CLPT trades around $9, near the bottom of its $8.27-$30.10 52-week range, after partner uniQure's AMT-130 four-year data missed statistical significance on September 29; an October 26 sweep found no new ClearPoint business news beyond the October 14 earnings-date notice, while sell-side views on uniQure are split (UBS raised its QURE target to $48 around October 20) ahead of the FDA's BLA filing decision. Wednesday's October 28 Q3 print is the immediate test: consensus of about $12.3M revenue looks demanding after Q2's $10.9M miss, biologics must reaccelerate via the CAL facility, and $29.4M of cash against a roughly $10M quarterly operating loss keeps funding a live question. The FDA's 60-day acceptance call on the AMT-130 BLA, due around early November, follows right after and sets the timeline for ClearPoint's largest delivery-revenue opportunity."
+ "pulse": "CLPT is near the bottom of its $8.27-$30.10 52-week range after partner uniQure's AMT-130 four-year data missed statistical significance on September 29. Since then the only company-specific news is the October 14 earnings-date notice, and the consensus Q3 loss has widened to about $0.31 per share. The October 28 Q3 print is the immediate test: will biologics reaccelerate via the CAL facility, and can $29.4M of cash cover a roughly $10M quarterly operating loss? The FDA's 60-day acceptance decision on the AMT-130 BLA, due in early November, follows right after and sets the timeline for ClearPoint's largest delivery-revenue opportunity."
 }

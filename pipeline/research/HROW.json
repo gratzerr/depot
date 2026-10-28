@@ -2,6 +2,13 @@
  "ticker": "HROW",
  "news": [
   {
+   "date": "2026-10-27",
+   "headline": "BlackRock updates its passive stake above 5% in Harrow (HROW)",
+   "source": "Stock Titan / SEC",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeng2ZEV6MERuREg2ZlpsUEYxOTd4eVdfYnNKVFRnMHZsWjhVVFFBaVFDaTMycWlWVW5zNFR2WlJjMXhnM0t5b2RuYVJrR2gxd0J2MTA0T3Q1UTF4cnRmUS0yXzNmVktNNTVWNlQ3YzI1eGhnaWhldlZPLWFhV01Ya1NicnNNLXcxWnNuWFdoalc2NXJHUWhGSlVtSEItZlg1SUhjUmE4cmdYZFJHMk4wR3dvcVZFSXYzdkI2Vzh1d1VjcE0?oc=5",
+   "summary": "BlackRock filed an amended Schedule 13G reporting about 2.76M Harrow shares, roughly 7.4% of the company as of September 30, 2026. It is a passive position, but shows a large index/institutional holder stayed in through the selloff."
+  },
+  {
    "date": "2026-10-26",
    "headline": "Harrow To Report Third Quarter 2026 Financial Results After Market Close on November 9, 2026",
    "source": "GlobeNewswire",
@@ -21,13 +28,6 @@
    "source": "Investing.com",
    "url": "https://www.investing.com/news/company-news/harrow-stock-hits-52week-low-at-2851-usd-93CH-4941307",
    "summary": "Harrow shares touched a 52-week low of $28.51, down about 38% year to date, as the Q2 earnings miss (adjusted loss of $0.46 vs. about $0.11 expected) weighs on sentiment. BTIG reiterated its Buy rating with a $63 target on October 7."
-  },
-  {
-   "date": "2026-10-08",
-   "headline": "Harrow: Q3 Needs To Prove The Turnaround Is Real",
-   "source": "Seeking Alpha",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTkY4eTR5THdOc1U5QkhvUkpJY3RCRkU0LXZhWm0tSFk3ZmRXZkk4ZU5WWjBPNzRqM2pUM2FTUnZKYkhudFJpeUJiLUtuT3I2dlluOVZkYUI5NzRSbmlEdlVMWkRVMTFqcmdFdUt2c0dpM0p4Vy1Sb3hEUXFkbC1EbVBvZnVpUjhaWEtKM0l0RTdXZw?oc=5",
-   "summary": "Seeking Alpha commentary frames the upcoming Q3 report as the key proof point for Harrow's turnaround after weak first-half results. Investors want to see the VEVYE ramp and margin improvement translate into a clear revenue step-up."
   },
   {
    "date": "2026-10-08",
@@ -95,5 +95,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Harrow trades around $29-30, near its October 9 52-week low of $28.51 (about 38% down year to date), with sentiment split between bullish sell-side targets (BTIG $63, Buy) and skeptical commentary that the 2H guide is too back-end loaded. The TYRVAYA acquisition closed October 5, and Q3 results are now confirmed for November 9 after the close, where a strong ramp is needed to keep the $350-365M revenue guidance credible. Q4 also brings pending QUELL and NATACYN topline readouts and a G-MELT pre-NDA update."
+ "pulse": "Harrow trades around $29-30, near its October 9 52-week low of $28.51 (about 38% down year to date), with sentiment split between bullish sell-side targets (BTIG $63, Buy) and skeptical commentary that the 2H guide is too back-end loaded; BlackRock's latest 13G/A shows a ~7.4% passive stake. The TYRVAYA acquisition closed October 5, and Q3 results are confirmed for November 9 after the close, where a strong ramp is needed to keep the $350-365M revenue guidance credible. Q4 also brings pending QUELL and NATACYN topline readouts and a G-MELT pre-NDA update."
 }

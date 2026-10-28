@@ -2,11 +2,11 @@
  "ticker": "NKTR",
  "news": [
   {
-   "date": "2026-10-23",
-   "headline": "Nektar Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSlpfbDlMcDNQT00xUmJPaXFSRThpUUNzSGJZaGRXclBuY3NUR0ZEMWliUk9VdnZXVE9ockstdlE2T2pXNGJ5QUJoMjVZSFBaTktJaHhRVEJTUXF2a2FLQk1wOEJGUmtrTVVHR2otZzJlbVpUMlI4bkc3bF9Ndi1sai04MjRPdDUzTk85VmJBNzBJYTV6bkcwSVRWQzVUMld5TDh5Y210eXNHZVA2ZjF5SXJ4VGVRSVhQX3RJaF9vdnNBVm9FUEs2amxha200NUk?oc=5",
-   "summary": "Nektar disclosed routine stock-option and RSU inducement grants to newly hired employees under its expanded 2025 inducement plan, consistent with the 250,000-share S-8 registered on October 20. Housekeeping, not a business catalyst, but it shows continued hiring as the ZENITH Phase 3 program scales up."
+   "date": "2026-10-27",
+   "headline": "Nektar Therapeutics to Announce Financial Results for the Third Quarter on Thursday, November 12, 2026",
+   "source": "Quantisnow / TradingView",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWUpZNkVSODFtcC1SNWw2RFAxZ3pBVlM0c1pRcUtRMERHQkQ2QkZ4bGxpRTRCYVVXTnB1djVqbUY2dFJjb3FoNk5ITHFUM0pZdE1Dd3RSdEtKZ214bURNLUh4NGl1akFuZ0hHVk9ySXRINE1mU2FIT3E5NXFNSGcyVV9LY29HTUpDdjE5UDZ1OTduMktrZHhMWmh1Q211NGhSNHhrWERwdGQ1d1FOVVhJ?oc=5",
+   "summary": "Nektar set its Q3 2026 report for Thursday, November 12 after the U.S. market close, with a CEO-hosted conference call. That is about a week later than last year's November 6 print, and it settles the last open date on the near-term calendar."
   },
   {
    "date": "2026-10-22",
@@ -53,15 +53,21 @@
  ],
  "catalysts": [
   {
+   "when": "2026-H2",
+   "label": "First NKTR-0165 (TNFR2 agonist) preclinical data at a scientific conference",
+   "detail": "Management guided to presenting preclinical data for NKTR-0165, its bivalent TNFR2 agonist antibody, at a scientific conference in the second half of 2026. It is the only meaningful pipeline asset behind rezpeg. No venue or date has been named, so it could slip into 2027.",
+   "confirmed": true
+  },
+  {
+   "when": "2026-11-12",
+   "label": "Q3 2026 earnings report",
+   "detail": "Nektar confirmed on October 27 that it will report Q3 2026 results on Thursday, November 12 after the U.S. market close, followed by a conference call hosted by the CEO. Focus: cash runway (about $1 billion, guided into Q3 2028), ZENITH Phase 3 enrollment including the newly started AD-3, and any update on post-trial motions and interest in the $90 million Lilly verdict.",
+   "confirmed": true
+  },
+  {
    "when": "2026-Q4",
    "label": "Post-trial rulings in Nektar v. Eli Lilly (judgment, interest, appeals)",
    "detail": "The jury awarded $90 million plus interest on September 24; with simple interest the gross amount is estimated at about $115 million (BTIG sees $130-140 million), but the court still has to set interest and enter judgment. Post-trial motions from either side and a possible appeal could change or delay the payment, and a settlement is also possible. It is a modest cash add to the ~$1 billion balance, not a valuation driver.",
-   "confirmed": false
-  },
-  {
-   "when": "2026-11",
-   "label": "Q3 2026 earnings report",
-   "detail": "Nektar reported Q3 2025 on November 6 after a date notice on October 28, so Q3 2026 results are expected in the first half of November; MarketBeat estimates November 5, but the company had not announced a date as of October 27. Focus: cash runway, ZENITH Phase 3 enrollment and any update on post-trial motions in the Lilly case.",
    "confirmed": false
   },
   {
@@ -69,12 +75,6 @@
    "label": "Start of a clinical study in an additional autoimmune indication",
    "detail": "Management committed to starting a clinical study in a further autoimmune indication before the end of 2026, to broaden the Treg mechanism beyond atopic dermatitis, alopecia areata and type 1 diabetes. The indication has not been disclosed. The February 2026 UCSF multiple sclerosis research collaboration is the most-cited guess. This adds pipeline optionality rather than driving valuation.",
    "confirmed": false
-  },
-  {
-   "when": "2026-H2",
-   "label": "First NKTR-0165 (TNFR2 agonist) preclinical data at a scientific conference",
-   "detail": "Management guided to presenting preclinical data for NKTR-0165, its bivalent TNFR2 agonist antibody, at a scientific conference in the second half of 2026. It is the only meaningful pipeline asset behind rezpeg. No venue or date has been named, so it could slip into 2027.",
-   "confirmed": true
   },
   {
    "when": "2027-Q1",
@@ -107,5 +107,5 @@
    "confirmed": true
   }
  ],
- "pulse": "No new company-specific news since the routine October 23 inducement-grant notice; NKTR slipped another 3.7% that day and trades in the high-$30s, near its post-EADV low of about $35.8, as investors weigh fading off-drug alopecia responses against deepening long-term efficacy. The sell side is split, with Piper Sandler ($192), BTIG ($178) and Leerink ($130) bullish and UBS Neutral at $53, while the three ZENITH AD Phase 3 studies enroll toward a mid-2028 readout on about $1 billion of cash. Next up are Q3 results in early November (date notice still pending as of October 27), post-trial rulings on the $90 million Lilly verdict, and 52-week off-treatment AD data in Q1 2027."
+ "pulse": "Nektar has now confirmed it will report Q3 2026 results on November 12 after the close; the only other news since the EADV sell-off is analyst activity and a routine inducement grant. NKTR fell 3.7% on October 23 and trades in the high-$30s, near its post-EADV low of about $35.8, with the sell side split between Piper Sandler ($192), BTIG ($178) and Leerink ($130) and UBS at Neutral ($53). After the print, watch for post-trial rulings on the $90 million Lilly verdict, a new autoimmune study start before year-end, and 52-week off-treatment AD data in Q1 2027, while three ZENITH AD Phase 3s enroll toward a mid-2028 readout."
 }

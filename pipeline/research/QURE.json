@@ -2,6 +2,13 @@
  "ticker": "QURE",
  "news": [
   {
+   "date": "2026-10-28",
+   "headline": "uniQure sets Q3 2026 results for November 4",
+   "source": "GlobeNewswire",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS3hyREJhZFNkam5INFBDRERZcTNlZkYtaVo5NXR0SDhLZXJpeHZBQmUtdmNjN3FOaGduSVJ3TU9IcmxlMTNzNEJNWXMxQmhBN1JrTzdCbXRtWXZZazJDbHUyRDg2Qm5qamV3QVczOEVmdHBIRlBKd1UzaVktRnJTZUFLa3hyV0ZwWDFrVFJyVDNYdHRKQjNxMjR2SzQ1bDJUTnVrM19KT1hXMmExZkFaQWItUDBUTzNiUTJKazZsUjBQYnpoNUc0?oc=5",
+   "summary": "uniQure announced it will report third-quarter 2026 financial results and give a company update on November 4, 2026, earlier than the November 9-10 window third-party calendars had projected. The timing falls just after the FDA's 60-day filing review on the AMT-130 BLA ends around November 1, so the call is likely to carry the acceptance and priority-review outcome."
+  },
+  {
    "date": "2026-10-16",
    "headline": "JPMorgan Chase lifts its passive uniQure stake to about 8.5% (5.95M shares)",
    "source": "StockTitan (SEC filings)",
@@ -27,14 +34,7 @@
    "headline": "Four-year AMT-130 data: 44% cUHDRS slowing at high dose, not statistically significant",
    "source": "Bloomberg",
    "url": "https://www.bloomberg.com/news/articles/2026-09-29/uniqure-huntington-s-treatment-benefit-is-less-after-four-years-than-three-years",
-   "summary": "In 12 high-dose patients at 48 months, AMT-130 slowed cUHDRS decline by 44% versus the Enroll-HD external control (p=0.144), while Total Functional Capacity held up at 61% slowing (p=0.008). uniQure stressed that the BLA rests on the 36-month analysis, which it restated as 80% cUHDRS slowing (p=0.005) and 67% TFC slowing; critics pointed to missing data and possible survivor bias in the control group."
-  },
-  {
-   "date": "2026-09-29",
-   "headline": "uniQure shares plunge ~39% in worst day in over ten months after the four-year readout",
-   "source": "MarketBeat",
-   "url": "https://www.marketbeat.com/instant-alerts/price-uniqure-nasdaq-qure-shares-gap-down-heres-what-happened-2026-09-29/",
-   "summary": "The stock gapped down from a $39.11 prior close to open at $23.85 as investors questioned whether the treatment benefit lasts, wiping out the post-filing and June-offering levels. The selloff left shares well below the $45.50 price of the June equity raise."
+   "summary": "In 12 high-dose patients at 48 months, AMT-130 slowed cUHDRS decline by 44% versus the Enroll-HD external control (p=0.144), while Total Functional Capacity held up at 61% slowing (p=0.008). uniQure stressed that the BLA rests on the 36-month analysis, which it restated as 80% cUHDRS slowing (p=0.005) and 67% TFC slowing; critics pointed to missing data and possible survivor bias in the control group. Shares fell about 39% that day, from a $39.11 close to well below the $45.50 price of the June equity raise."
   },
   {
    "date": "2026-09-02",
@@ -48,14 +48,14 @@
   {
    "when": "2026-11",
    "label": "FDA filing decision and priority review determination",
-   "detail": "The FDA's 60-day filing review on the BLA submitted September 2 ends around November 1, 2026; as of October 27 no acceptance notice has been issued, so it should be communicated in the coming days or with Q3 results. The decision will show whether priority review was granted (six-month vs ten-month clock, i.e. roughly Q2 vs Q4 2027 action) and normally sets the PDUFA date. After the weaker four-year data, a clean acceptance on the 36-month package is the key test of whether the FDA still stands behind the agreed filing basis.",
+   "detail": "The FDA's 60-day filing review on the BLA submitted September 2 ends around November 1, 2026; as of October 28 no acceptance notice has been issued, so it should be communicated in the coming days or with the November 4 Q3 results. The decision will show whether priority review was granted (six-month vs ten-month clock, i.e. roughly Q2 vs Q4 2027 action) and normally sets the PDUFA date. After the weaker four-year data, a clean acceptance on the 36-month package is the key test of whether the FDA still stands behind the agreed filing basis.",
    "confirmed": false
   },
   {
-   "when": "2026-11-10",
+   "when": "2026-11-04",
    "label": "Q3 2026 results and regulatory update",
-   "detail": "uniQure's Q3 2026 results are projected for around November 9-10, 2026 per earnings calendars (AJ Bell lists November 10 with an 8:30 a.m. ET call, Public.com November 9); as of October 27 the company has not announced the date, which usually comes about a week ahead. Expect updates on BLA acceptance, review designation and PDUFA date, the UK MAA, the FDA's view of the four-year data, confirmatory-trial start-up, AMT-260 second-cohort enrollment and cash burn against the $810.3M June 30 cash position.",
-   "confirmed": false
+   "detail": "uniQure confirmed on October 28 that it will report Q3 2026 results and provide a company update on November 4, 2026 (its 2026 calls have been held at 8:30 a.m. ET). Expect updates on BLA acceptance, review designation and PDUFA date, the UK MAA, the FDA's view of the four-year data, confirmatory-trial start-up, AMT-260 second-cohort enrollment and cash burn against the $810.3M June 30 cash position.",
+   "confirmed": true
   },
   {
    "when": "2026-H2",
@@ -100,5 +100,5 @@
    "confirmed": false
   }
  ],
- "pulse": "QURE is still range-bound around $21-23 (last close $22.43) roughly four weeks after the September 29 four-year AMT-130 data (non-significant 44% cUHDRS slowing, ~39% one-day drop); an October 28 check of Google News and web sources found no new company news, no BLA acceptance notice and no confirmed Q3 date since JPMorgan's October 16 13G/A raising its stake to about 8.5%. Analyst views stay split, with UBS at Buy ($48) against Barclays' Equal-Weight ($28) and target cuts at Goldman and RBC. The next binary moment is the FDA filing and priority-review decision on the 36-month-based BLA, due around November 1, followed by Q3 results expected around November 9-10 and a likely advisory committee."
+ "pulse": "QURE is still range-bound around $21-23 (last close $22.43) a month after the September 29 four-year AMT-130 data (non-significant 44% cUHDRS slowing, ~39% one-day drop), with analyst views split between UBS at Buy ($48) and Barclays at Equal-Weight ($28) and JPMorgan raising its stake to about 8.5%. On October 28 the company confirmed Q3 results for November 4, just after the FDA's 60-day filing review on the 36-month-based BLA ends around November 1. The filing and priority-review decision, and any word on an advisory committee, are the next binary moment for the stock."
 }

@@ -2,18 +2,18 @@
  "ticker": "CLPT",
  "news": [
   {
-   "date": "2026-10-26",
-   "headline": "Earnings preview: ClearPoint Neuro expected to post a Q3 loss of 31 cents per share",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRlpTOS1uendpLVQ0MnlWQldNb0lCYU0xbEVDZ09XaXBuQVVFVVBzdEtQb2dFX3hVUTZGOTIyd3hDaDlqUWU4WERJU190SXJ6dEZRRWRuUmMwZFRxSVdJVDNSWXBKaWVkVElPaTU3NHJBVUFmWlNfcm50a19mdGdFaUNpcW9GWW0tZnVYX2tuY0V3aDFBRy01ZVduVFdLTlhRRXhTdkgzM2xqMElRVkJxNzdjY3hYLVR0bFFhcEJtXzdxN29haE1iZjJpb0xZbk9RTUlGQjlDcXNOMFlBRFFZM1UzdnJEZw?oc=5",
-   "summary": "An earnings preview published two days before the October 28 report puts the consensus Q3 2026 estimate at a loss of 31 cents per share, wider than the $0.26-0.27 loss seen earlier in October. The wider estimate suggests analysts have trimmed expectations after the AMT-130 four-year setback and the cut to $48-52M FY guidance."
+   "date": "2026-10-28",
+   "headline": "ClearPoint Neuro Q3 revenue up 36% to $12.1M; FY2026 guidance narrowed to $48-50M",
+   "source": "ClearPoint Neuro (SEC 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001285550/000119312526436125/clpt-ex99_1.htm",
+   "summary": "Q3 revenue rose 36% to $12.1 million, slightly below the roughly $12.3-12.5M consensus, with neurosurgery navigation and therapy up 59% to $5.4M (helped by IRRAflow) and biologics and drug delivery back to growth at $4.9M (+11%) on CAL preclinical services. ClearPoint trimmed the top of its FY2026 outlook to $48-50M from $48-52M, while $22.0M of ATM proceeds lifted cash to $46.2M against $20.1M of year-to-date operating cash burn."
   },
   {
-   "date": "2026-10-14",
-   "headline": "ClearPoint Neuro to report Q3 2026 results on October 28",
-   "source": "StockTitan / ACCESS Newswire",
-   "url": "https://www.stocktitan.net/news/CLPT/clear-point-neuro-to-announce-third-quarter-2026-results-october-28-9kh8y04etko5.html",
-   "summary": "ClearPoint will release third-quarter 2026 results after the market close on Wednesday, October 28, with a webcast and conference call at 4:30 p.m. ET. It is the first print since the cut to $48-52M FY guidance and the uniQure four-year data setback."
+   "date": "2026-10-28",
+   "headline": "ClearPoint joins Dartmouth-led $2.98M NCI grant for MR-guided spinal laser therapy",
+   "source": "ClearPoint Neuro (SEC 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001285550/000119312526436125/clpt-ex99_1.htm",
+   "summary": "ClearPoint is the industry partner in a five-year, $2.98 million NIH/NCI R01 program led by Dartmouth Health to advance MR-guided laser therapy for spinal metastases using the ClearPoint Prism system. Management called it early-stage research that supports its spine LITT roadmap."
   },
   {
    "date": "2026-10-01",
@@ -38,12 +38,6 @@
   }
  ],
  "catalysts": [
-  {
-   "when": "2026-10-28",
-   "label": "Q3 2026 earnings (Oct 28, after close): biologics back to growth and cash-burn check",
-   "detail": "ClearPoint reports Q3 2026 results on October 28 after the close, with a call at 4:30 p.m. ET. Management said the CAL preclinical facility, in its possession since July, should return the biologics and drug delivery segment (down 15% to $4.0M in Q2) to growth in Q3, making this the first test of whether the cut to $48-52M guidance was timing or demand. With cash at $29.4M against a roughly $10M quarterly operating loss, investors will also want commentary on funding needs and on how the AMT-130 four-year miss changes management's view of uniQure-related revenue timing. Consensus has drifted to about a $0.31-0.32 loss per share (TradingView previews, October 26-27), down from $0.26-0.27 earlier in October, with revenue estimates near $12.3M. That revenue bar still looks demanding after Q2's $10.9M print, which missed the ~$12.7M estimate.",
-   "confirmed": true
-  },
   {
    "when": "2026-11",
    "label": "FDA 60-day filing review decides acceptance and Priority Review for the AMT-130 BLA",
@@ -81,6 +75,12 @@
    "confirmed": false
   },
   {
+   "when": "2027-Q1",
+   "label": "Q4 and full-year 2026 results vs. narrowed $48-50M guidance",
+   "detail": "With $35.1M booked through Q3, the narrowed $48-50M FY2026 outlook implies Q4 revenue of roughly $13-15M, a step up from Q3's $12.1M. The print will show whether biologics growth from the CAL facility holds and how quickly the company keeps tapping its ATM program after raising $22.0M year to date. Date not yet announced.",
+   "confirmed": false
+  },
+  {
    "when": "2027-H1",
    "label": "AMT-130 confirmatory Phase 3 trial start",
    "detail": "The FDA's agreement to accept a BLA under accelerated approval is contingent on uniQure running a prospective, randomized confirmatory trial. Every dosing in that study would again require ClearPoint's navigation system and SmartFlow cannula, so trial initiation adds a multi-year stream of procedure and service revenue on top of any commercial launch volumes. Design details and timing have not been disclosed.",
@@ -99,5 +99,5 @@
    "confirmed": false
   }
  ],
- "pulse": "CLPT is near the bottom of its $8.27-$30.10 52-week range after partner uniQure's AMT-130 four-year data missed statistical significance on September 29. Q3 2026 results come today, October 28, after the close (call 4:30 p.m. ET), with the consensus loss widened to about $0.31-0.32 per share; the tests are whether biologics reaccelerate via the CAL facility and whether $29.4M of cash can cover a roughly $10M quarterly operating loss. The FDA's 60-day acceptance decision on the AMT-130 BLA, due in early November, follows right after and sets the timeline for ClearPoint's largest delivery-revenue opportunity."
+ "pulse": "CLPT sits near the bottom of its $8.27-$30.10 52-week range after partner uniQure's AMT-130 four-year data missed statistical significance on September 29. Q3 results on October 28 showed 36% growth to $12.1M with biologics back to double-digit growth, but revenue was slightly below consensus and FY2026 guidance was narrowed to $48-50M (top end cut from $52M), while ATM sales of $22.0M lifted cash to $46.2M at the cost of dilution. The next driver is the FDA's 60-day acceptance and priority-review decision on the AMT-130 BLA in early November, which sets the timeline for ClearPoint's largest delivery-revenue opportunity."
 }

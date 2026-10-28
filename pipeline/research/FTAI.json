@@ -2,6 +2,13 @@
  "ticker": "FTAI",
  "news": [
   {
+   "date": "2026-10-28",
+   "headline": "FTAI Aviation Maintains Outperform Rating, Price Target Lowered to $250",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNejRVN3Q4clp2ME5qMVhlRndkbkxxQ1pVVlBBUEhhV0d5UGRYS2JVQkI2VDVqcmszMXZ6YmY5V1k4eE5XZllqb0lPZVdsZ1lRcEM5cGU3Rm9HLXl1bWFyQm9YQ1hVNlpCUHBuR0txZGw5d0VFV2M5TUpEQUNZWFZncVN3XzYxMVZEU3VoOUg2dXdXaXdqZHZzRzluZndTNkNmczVrRW91X25oRkVi?oc=5",
+   "summary": "On the eve of Q3 results, an analyst kept an Outperform rating on FTAI but cut the price target to $250, the latest in a string of target reductions after the stock's slide. Previews also highlight the FTAI Power segment, whose $1.465bn hyperscaler purchase order for 2027 Mod-1 deliveries is a key part of the bull case."
+  },
+  {
    "date": "2026-10-27",
    "headline": "KBRA and Fitch Assign Preliminary Ratings to FTAI's MRE 2026-2 Aircraft Lease-Backed Notes",
    "source": "Business Wire / Traders Union",
@@ -48,7 +55,7 @@
   {
    "when": "2026-10-29",
    "label": "Q3 2026 earnings",
-   "detail": "Results before market open with an 8:00 a.m. ET call (announced October 6); consensus revenue is roughly $1.0bn. Key items: Aerospace Products EBITDA and margins, module/engine exchange volumes including the new United CFM56-7B program, SPV deployment and the new MRE 2026-2 securitization, progress on the $500M buyback and whether the dividend is raised again (it has been raised with each 2026 quarterly report).",
+   "detail": "Results before market open with an 8:00 a.m. ET call (announced October 6); consensus is roughly $1.43 EPS on about $1.0bn revenue. Key items: Aerospace Products EBITDA and margins, module/engine exchange volumes including the new United CFM56-7B program, FTAI Power commercial-launch timing (first Mod-1 deliveries now expected in 2027 against a $1.465bn hyperscaler order), SPV deployment and the MRE 2026-2 securitization, progress on the $500M buyback and whether the dividend is raised again.",
    "confirmed": true
   },
   {
@@ -58,5 +65,5 @@
    "confirmed": true
   }
  ],
- "pulse": "FTAI rebounded about 2% to roughly $158 on October 27 after hitting a 52-week low of $149.47 on October 23, still about half its $323 high, as the aerospace-aftermarket selloff, margin-reset worries and doubts about FTAI Power weigh on the shares and bears still question the valuation. The business keeps executing (United CFM56-7B exchange deal and a second Strategic Capital ABS, MRE 2026-2, now rated by KBRA and Fitch), and sell-side support remains with Macquarie at Outperform/$305 and Morgan Stanley at Overweight/$310. Q3 results on October 29 before the open (consensus revenue about $1.0bn, after an EPS miss in Q2) are the key test for margins, module volumes, the buyback and the 2027 outlook ahead of the December 10 investor meeting."
+ "pulse": "FTAI trades around $158 after hitting a 52-week low of $149.47 on October 23, about half its $323 high, as the aerospace-aftermarket selloff, margin-reset worries and doubts about FTAI Power weigh on the shares; sell-side support persists (Macquarie Outperform/$305, Morgan Stanley Overweight/$310) but targets keep drifting lower, with a fresh cut to $250 at Outperform on October 28. The business keeps executing (United CFM56-7B exchange deal, second Strategic Capital ABS MRE 2026-2 rated by KBRA and Fitch). Q3 results on October 29 before the open (EPS consensus about $1.43, revenue about $1.0bn) are the key test for margins, module volumes, the Power launch timeline and the buyback ahead of the December 10 investor meeting."
 }

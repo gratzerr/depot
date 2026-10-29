@@ -488,9 +488,9 @@
   "src": "https://assets.parqet.com/logos/isin/CA73044W3021?format=png&size=64"
  },
  "PRCT": {
-  "d": "hsl(207 80% 71%)",
-  "l": "hsl(207 72% 31%)",
-  "src": "https://assets.parqet.com/logos/isin/US74276L1052?format=png&size=64"
+  "d": "hsl(210 83% 71%)",
+  "l": "hsl(210 72% 31%)",
+  "src": "file:PRCT.svg:4260"
  },
  "PRG.F": {
   "d": "hsl(221 85% 71%)",

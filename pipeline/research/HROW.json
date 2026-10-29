@@ -2,6 +2,13 @@
  "ticker": "HROW",
  "news": [
   {
+   "date": "2026-10-29",
+   "headline": "Harrow's Top Two Drugs Alone Can Justify Its Current Valuation",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOS1uU3IyZVIwcEJIby1EYktDT3EzVlFmaDFrTHROSERnQngxeFNaaDlpNnBuZGJEdURRRkViRjYwTU1KUWxfMkpnQUlZc3daLWI0RVpMU215Rm9TakRVWHR6eGtZRkhDTE4tZTBNWHpjYXZnU3IwMWhCTUdTM09OaGF6bjJJYWZMSHU3b1NIR3lDM0FnaEhSZG9hel9QSmVqY3NOZg?oc=5",
+   "summary": "A bullish Seeking Alpha analysis argues that Harrow's two leading products alone are enough to justify the current market value near 52-week lows. It is a counterpoint to the skeptical October 23 piece ahead of the November 9 Q3 report."
+  },
+  {
    "date": "2026-10-27",
    "headline": "BlackRock updates its passive stake above 5% in Harrow (HROW)",
    "source": "Stock Titan / SEC",
@@ -42,13 +49,6 @@
    "source": "Harrow (GlobeNewswire)",
    "url": "https://investors.harrow.com/news-releases/news-release-details/harrow-closes-acquisition-tyrvayar",
    "summary": "Harrow closed its purchase of TYRVAYA (varenicline nasal spray for dry eye) from Viatris outside Japan for $30M cash plus up to $70M in sales milestones. The product is expected to contribute over $30M of revenue in 2027."
-  },
-  {
-   "date": "2026-09-30",
-   "headline": "Harrow Ophthalmic Portfolio Highlighted in 15 Scientific Presentations at AAOpt and AAO",
-   "source": "GlobeNewswire",
-   "url": "https://www.globenewswire.com/news-release/2026/09/30/3371749/0/en/harrow-ophthalmic-portfolio-highlighted-in-15-scientific-presentations-at-aaopt-and-aao.html",
-   "summary": "Harrow will present 15 abstracts (13 at AAOpt, Sept 30-Oct 3; 2 at AAO, Oct 9-12) covering VEVYE, VERKAZIA, FLAREX and BYQLOVI, including Phase 3 and 52-week long-term safety data."
   }
  ],
  "catalysts": [
@@ -95,5 +95,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Harrow trades around $29-30, near its October 9 52-week low of $28.51 (about 38% down year to date), with sentiment split between bullish sell-side targets (BTIG $63, Buy) and skeptical commentary that the 2H guide is too back-end loaded; BlackRock's latest 13G/A shows a ~7.4% passive stake. The TYRVAYA acquisition closed October 5, and Q3 results are confirmed for November 9 after the close, where a strong ramp is needed to keep the $350-365M revenue guidance credible. Q4 also brings pending QUELL and NATACYN topline readouts and a G-MELT pre-NDA update."
+ "pulse": "Harrow trades around $29-30, near its October 9 52-week low of $28.51 (about 38% down year to date), with sentiment split between bullish voices (BTIG $63 Buy; an October 29 Seeking Alpha piece arguing the top two products alone justify the valuation) and skeptical commentary that the 2H guide is too back-end loaded; BlackRock's latest 13G/A shows a ~7.4% passive stake. The TYRVAYA acquisition closed October 5, and Q3 results are confirmed for November 9 after the close, where a strong ramp is needed to keep the $350-365M revenue guidance credible. Q4 also brings pending QUELL and NATACYN topline readouts and a G-MELT pre-NDA update."
 }

@@ -2,6 +2,13 @@
  "ticker": "LXEO",
  "news": [
   {
+   "date": "2026-10-29",
+   "headline": "Lexeo files $300 million mixed shelf registration (Form S-3)",
+   "source": "SEC (Form S-3)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001907108/000119312526437001/d238747ds3.htm",
+   "summary": "Lexeo filed a new shelf covering up to $300 million of common stock, preferred stock, debt, warrants and other securities, carrying forward about $135.4 million unsold from its prior S-3 and allowing future at-the-market sales; no specific offering or sales agent was named. The filing reiterates that the LX2020 clinical and regulatory update remains on track for Q4 2026, but with the stock near $3 it signals dilution risk ahead."
+  },
+  {
    "date": "2026-10-24",
    "headline": "Lexeo PKP2-ACM endpoints webcast frames NSVT reduction as the key test for LX2020",
    "source": "Yahoo Finance / Seeking Alpha (event slides)",
@@ -30,13 +37,6 @@
    "summary": "At the International Congress of Parkinson's Disease and Movement Disorders in Seoul, investigators presented LX2006 Phase I/II data showing mFARS stabilization or improvement versus a propensity-matched UNIFAI natural-history cohort (n=17, p=0.003), plus new subscore breakdowns. The analyses support a neurologic benefit on top of the cardiac LVMI effect, but contained no new patients or endpoints."
   },
   {
-   "date": "2026-10-05",
-   "headline": "Stifel reiterates Buy on Lexeo with $17 target",
-   "source": "Investing.com",
-   "url": "https://www.investing.com/news/analyst-ratings/stifel-reiterates-buy-rating-on-lexeo-therapeutics-stock-at-17-93CH-4931425",
-   "summary": "Stifel kept its Buy and $17 target after management meetings, citing confidence that SUNRISE-FA 2 will hit its 15% LVMI effect size and strong natural-history-study enrollment feeding trial rollover. Baird ($28, Outperform) and Raymond James ($24, Strong Buy) also stayed bullish with shares at $3.53."
-  },
-  {
    "date": "2026-09-22",
    "headline": "Lexeo to acquire Mantle Therapeutics and signs three CNS collaborations to broaden its Friedreich ataxia franchise",
    "source": "GlobeNewswire via Yahoo Finance",
@@ -54,7 +54,7 @@
   {
    "when": "2026-Q4",
    "label": "LX2020 12-month high-dose HEROIC-PKP2 data",
-   "detail": "Twelve-month efficacy and safety update for high-dose participants in the Phase I/II HEROIC-PKP2 trial in PKP2 arrhythmogenic cardiomyopathy, guided for Q4 2026 and, per the October 20 Chardan chat, paired with a regulatory update. Seven of 10 patients are on the high dose, and most should have 12-month follow-up. One nine-month patient previously showed a 65% NSVT reduction, and management views 35-40% as clinically meaningful. Liver enzyme elevations at the high dose were managed under protocol. This is the nearest hard datapoint for the stock.",
+   "detail": "Twelve-month efficacy and safety update for high-dose participants in the Phase I/II HEROIC-PKP2 trial in PKP2 arrhythmogenic cardiomyopathy, guided for Q4 2026 and, per the October 20 Chardan chat, paired with a regulatory update; the October 29 S-3 filing reiterated the Q4 2026 timing. Seven of 10 patients are on the high dose, and most should have 12-month follow-up. One nine-month patient previously showed a 65% NSVT reduction, and management views 35-40% as clinically meaningful. Liver enzyme elevations at the high dose were managed under protocol. This is the nearest hard datapoint for the stock.",
    "confirmed": true
   },
   {
@@ -82,5 +82,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Lexeo trades near $2.80 (market cap around $230 million, roughly equal to its cash), close to its October lows after a slide of more than 70% this year; checks through October 29 found no new company press releases or filings beyond the October 21 PKP2-ACM endpoints webcast. The story now hinges on the Q4 HEROIC-PKP2 12-month high-dose LX2020 readout and whether the FDA will accept NSVT reduction as a pivotal endpoint, with Q3 results expected in November (third-party estimate November 11, not confirmed by the company). Analysts remain supportive (Stifel $17, Baird $28), runway is guided into 2028, and SUNRISE-FA 2 for LX2006 is still on track for 2H 2027."
+ "pulse": "Lexeo closed at $3.13 on October 28, near its October lows after a slide of more than 70% this year, and on October 29 filed a new $300 million shelf registration that adds financing flexibility but raises dilution concerns at a market value roughly equal to cash. The story hinges on the Q4 HEROIC-PKP2 12-month high-dose LX2020 readout, reaffirmed as on track in the shelf filing, and whether the FDA will accept NSVT reduction as a pivotal endpoint; Q3 results are expected in November (date not yet confirmed). Analysts remain supportive (Stifel $17, Baird $28), runway is guided into 2028, and SUNRISE-FA 2 for LX2006 is still on track for 2H 2027."
 }

@@ -2,6 +2,13 @@
  "ticker": "CLPT",
  "news": [
   {
+   "date": "2026-10-29",
+   "headline": "Stifel cuts ClearPoint Neuro price target to $18 from $22, keeps Buy",
+   "source": "Investing.com",
+   "url": "https://in.investing.com/news/stock-market-news/clearpoint-neuro-stock-price-target-lowered-to-18-by-stifel-93CH-5662917",
+   "summary": "Stifel lowered its target after Q3 revenue of $12.1M came in slightly below its $12.5M estimate and management cut the FY2026 guidance midpoint by $1M to $49M. The firm kept its Buy rating with shares around $10.56, down about 56% over the past year."
+  },
+  {
    "date": "2026-10-28",
    "headline": "ClearPoint Neuro Q3 revenue up 36% to $12.1M; FY2026 guidance narrowed to $48-50M",
    "source": "ClearPoint Neuro (SEC 8-K)",
@@ -99,5 +106,5 @@
    "confirmed": false
   }
  ],
- "pulse": "CLPT sits near the bottom of its $8.27-$30.10 52-week range after partner uniQure's AMT-130 four-year data missed statistical significance on September 29. Q3 results on October 28 showed 36% growth to $12.1M with biologics back to double-digit growth, but revenue was slightly below consensus and FY2026 guidance was narrowed to $48-50M (top end cut from $52M), while ATM sales of $22.0M lifted cash to $46.2M at the cost of dilution. The next driver is the FDA's 60-day acceptance and priority-review decision on the AMT-130 BLA in early November, which sets the timeline for ClearPoint's largest delivery-revenue opportunity."
+ "pulse": "CLPT trades around $10.50, near the bottom of its 52-week range, after partner uniQure's AMT-130 four-year data missed statistical significance on September 29. Q3 results on October 28 showed 36% growth to $12.1M with biologics back to double-digit growth and a narrower-than-expected loss ($0.24 per share), but revenue was slightly below consensus, FY2026 guidance was narrowed to $48-50M, and Stifel cut its target to $18 (Buy) the next day; $22.0M of ATM sales lifted cash to $46.2M at the cost of dilution. The next driver is the FDA's 60-day acceptance and priority-review decision on the AMT-130 BLA in early November, likely disclosed by uniQure by its November 4 Q3 call."
 }

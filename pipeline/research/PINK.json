@@ -2,18 +2,18 @@
  "ticker": "PINK",
  "news": [
   {
+   "date": "2026-10-30",
+   "headline": "Perimeter Medical's Claire Earns TIME Best Inventions of 2026 Special Mention and Multiple Industry Honors",
+   "source": "Perimeter IR / PR Newswire",
+   "url": "https://ir.perimetermed.com/news-events/press-releases/detail/218/perimeter-medicals-claire-earns-time-best-inventions-of",
+   "summary": "Perimeter formally announced Claire's TIME Best Inventions 2026 special mention (Healthcare and Medical) alongside a TAG Award for Real-Time Surgical Intelligence, a Globee Gold/Best of Category award in HealthTech innovation, and finalist spots for the Fierce Life Sciences Innovation Awards and D CEO 2027 Innovation Awards (winners in January 2027). CEO Adrian Mendes said the focus is bringing Claire to more hospitals, but the release contained no placements, revenue, reimbursement news or Q3 call date."
+  },
+  {
    "date": "2026-10-22",
    "headline": "Perimeter Medical Imaging AI to Participate in the Planet MicroCap Showcase in Toronto",
    "source": "Perimeter IR / PR Newswire",
    "url": "https://ir.perimetermed.com/news-events/press-releases/detail/217/perimeter-medical-imaging-ai-to-participate-in-the-planet",
    "summary": "CEO Adrian Mendes will present a commercial strategy and milestone update at the Planet MicroCap Showcase in Toronto on October 28, 2026 at 3:30 p.m. ET (webcast live and archived on the IR site), alongside in-person one-on-one investor meetings. It is an investor-conference notice rather than new commercial or reimbursement news."
-  },
-  {
-   "date": "2026-10-15",
-   "headline": "TIME names Perimeter's Claire OCT System a special mention on its Best Inventions of 2026 list",
-   "source": "TIME / BioTuesdays",
-   "url": "https://time.com/collection/best-inventions-special-mentions/2026/perimeter-medical-imaging-ai-claire/",
-   "summary": "TIME recognized Claire, the only FDA-approved imaging device that uses AI during breast-conserving surgery for real-time margin assessment, with a special mention in its Best Inventions of 2026 collection, citing Intermountain surgeon feedback that the AI acts as 'an additional set of trained eyes.' It is a visibility boost for hospital sales conversations but came with no new placement, revenue or reimbursement news."
   },
   {
    "date": "2026-10-02",
@@ -35,6 +35,13 @@
    "source": "Seeking Alpha (earnings call transcript)",
    "url": "https://seekingalpha.com/article/4938933-perimeter-medical-imaging-ai-inc-pink-ca-q2-2026-earnings-call-transcript",
    "summary": "CEO Adrian Mendes confirmed only two commercial Claire installs, both S-Series conversions, and declined to quantify a funnel he called 'in flux' as hospital AI review committees push some deals toward 2027. CFO Sara Brien reiterated roughly 12 months of runway, and management said the HCPCS coding application filed with CMS in June is under review, guiding to first Medicare claims in Q1 2027."
+  },
+  {
+   "date": "2026-08-13",
+   "headline": "Intermountain Health Brings Perimeter's Claire to the Operating Room, a Landmark in Breast Cancer Surgery Using AI",
+   "source": "Perimeter IR / PR Newswire",
+   "url": "https://ir.perimetermed.com/news-events/press-releases/detail/213/intermountain-health-brings-perimeters-claire-to-the",
+   "summary": "Intermountain Health became the first U.S. health system to deploy Claire commercially, going live at LDS Hospital and American Fork Hospital under a systemwide agreement. It remains the company's only commercial Claire customer, and no further Intermountain sites have been announced since."
   }
  ],
  "catalysts": [
@@ -81,5 +88,5 @@
    "confirmed": false
   }
  ],
- "pulse": "PINK trades near the bottom of its 52-week range on the OTC (PYNKF, about US$0.12 in late October), well below the C$0.35 LIFE issue price. As of October 30 the IR site shows no new release after CEO Adrian Mendes' October 28 Planet MicroCap presentation in Toronto: no net-new hospital, no Intermountain expansion beyond two sites, no reimbursement update and no Q3 call date yet. With US$6.4M of cash at June 30 (about a year of runway) and a likely dilutive raise ahead, the swing factors remain the Q3 print (expected mid-November) and the December CMS public meeting on the HCPCS code."
+ "pulse": "PINK sits near the bottom of its 52-week range (OTC PYNKF about US$0.12), well below the C$0.35 LIFE issue price. October's news flow was all visibility rather than business: a new board member (CFO Michelle Caron), the October 28 Planet MicroCap presentation, and an October 30 release bundling Claire's TIME Best Inventions mention with TAG and Globee awards, with still no net-new hospital, no Intermountain expansion beyond two sites, no reimbursement update and no Q3 call date. With US$6.4M of cash at June 30 (about a year of runway) and a likely dilutive raise ahead, the swing factors remain the Q3 print (expected mid-November) and the December CMS public meeting on the HCPCS code."
 }

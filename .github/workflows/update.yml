@@ -82,8 +82,24 @@ jobs:
         run: |
           # -L --post301/302: nach einer Repo-Umbenennung kennt ein laufender Job noch den
           # alten Namen; GitHub antwortet 301, und ohne diese Flags riss die Kette (2026-09-09)
-          curl -s -L --post301 --post302 -X POST \
-            -H "Authorization: Bearer ${{ github.token }}" \
-            -H "Accept: application/vnd.github+json" \
-            https://api.github.com/repos/${{ github.repository }}/actions/workflows/update.yml/dispatches \
-            -d '{"ref":"main"}' && echo "next run dispatched"
+          # Seit 2026-10-30: HTTP-Status pruefen und nachsehen, ob der Folgelauf wirklich
+          # angelegt wurde — der Dispatch meldete "success", aber es kam kein Lauf (2 h Stillstand,
+          # der stuendliche Waechter lief wegen Cron-Drosselung erst Stunden spaeter).
+          API=https://api.github.com/repos/${{ github.repository }}/actions/workflows/update.yml
+          AUTH="Authorization: Bearer ${{ github.token }}"
+          for i in 1 2 3 4 5; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' -L --post301 --post302 -X POST \
+              -H "$AUTH" -H "Accept: application/vnd.github+json" "$API/dispatches" -d '{"ref":"main"}')
+            sleep 15
+            next=$(curl -s -L -H "$AUTH" -H "Accept: application/vnd.github+json" "$API/runs?per_page=10" | python3 -c "
+          import json,sys
+          try:
+              r=json.load(sys.stdin)['workflow_runs']
+              print(sum(1 for x in r if str(x['id'])!='${{ github.run_id }}' and x['status'] in ('queued','pending','waiting','requested','in_progress')))
+          except Exception:
+              print(0)")
+            echo "dispatch try $i: http $code, waiting runs $next"
+            if [ "${next:-0}" -gt 0 ]; then echo "next run dispatched"; exit 0; fi
+            sleep $((i*10))
+          done
+          echo "::warning::self-dispatch: kein Folgelauf sichtbar nach 5 Versuchen"

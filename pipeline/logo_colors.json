@@ -232,7 +232,9 @@
   "src": "https://assets.parqet.com/logos/isin/US29772L1089?format=png&size=64"
  },
  "FPS": {
-  "src": "https://assets.parqet.com/logos/isin/US34631F1021?format=png&size=64"
+  "d": "hsl(185 85% 71%)",
+  "l": "hsl(185 72% 31%)",
+  "src": "file:FPS.png:1608"
  },
  "FTAI": {
   "d": "hsl(197 59% 71%)",

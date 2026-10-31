@@ -46,6 +46,12 @@
  ],
  "catalysts": [
   {
+   "when": "2026-11-04",
+   "label": "Partner uniQure Q3 2026 results with AMT-130 regulatory update",
+   "detail": "uniQure reports Q3 2026 results pre-market on November 4, 2026, its first scheduled update since the September 29 four-year readout. Any word on FDA filing acceptance, Priority Review or the 3-year primary basis for the AMT-130 BLA directly affects the timing of ClearPoint's largest potential commercial delivery revenue stream.",
+   "confirmed": true
+  },
+  {
    "when": "2026-11",
    "label": "FDA 60-day filing review decides acceptance and Priority Review for the AMT-130 BLA",
    "detail": "uniQure submitted the AMT-130 BLA on September 2, 2026 with a Priority Review request and still guides to an FDA acceptance decision in Q4 2026; the standard 60-day filing review ends around November 1. After the September 29 four-year readout missed statistical significance on the primary cUHDRS comparison, the acceptance call and any FDA comment on the 3-year primary basis are now the decisive checkpoint for the single most important program in ClearPoint's delivery-platform thesis.",
@@ -106,5 +112,5 @@
    "confirmed": false
   }
  ],
- "pulse": "CLPT sits around $10.50, near its 52-week low, after partner uniQure's AMT-130 four-year data missed statistical significance on September 29. Q3 results on October 28 showed 36% growth to $12.1M with biologics back to growth and a narrower-than-expected $0.24 loss per share, but revenue was slightly below consensus, FY2026 guidance was narrowed to $48-50M, Stifel cut its target to $18 (Buy), and $22.0M of ATM sales lifted cash to $46.2M at the cost of dilution. No FDA acceptance of the AMT-130 BLA has been reported yet; that decision, due around early November, is the next major swing factor."
+ "pulse": "CLPT sits around $10.50, near its 52-week low, after partner uniQure's AMT-130 four-year data missed statistical significance on September 29. Q3 results on October 28 showed 36% growth to $12.1M with biologics back to growth and a narrower-than-expected $0.24 loss per share, but revenue was slightly below consensus, FY2026 guidance was narrowed to $48-50M, Stifel cut its target to $18 (Buy), and $22.0M of ATM sales lifted cash to $46.2M at the cost of dilution. No FDA acceptance of the AMT-130 BLA has been reported yet; that decision, due around early November, and uniQure's November 4 Q3 update are the next major swing factors."
 }

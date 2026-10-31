@@ -231,6 +231,9 @@
   "l": "hsl(203 66% 31%)",
   "src": "https://assets.parqet.com/logos/isin/US29772L1089?format=png&size=64"
  },
+ "FPS": {
+  "src": "https://assets.parqet.com/logos/isin/US34631F1021?format=png&size=64"
+ },
  "FTAI": {
   "d": "hsl(197 59% 71%)",
   "l": "hsl(197 54% 31%)",
@@ -591,6 +594,11 @@
   "d": "hsl(49 85% 71%)",
   "l": "hsl(49 72% 31%)",
   "src": "https://assets.parqet.com/logos/isin/US8545021011?format=png&size=64"
+ },
+ "TE": {
+  "d": "hsl(215 35% 74%)",
+  "l": "hsl(215 30% 32%)",
+  "src": "https://assets.parqet.com/logos/isin/US35834F1049?format=png&size=64"
  },
  "TENX": {
   "d": "hsl(212 58% 71%)",

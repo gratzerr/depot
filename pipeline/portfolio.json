@@ -16,34 +16,17 @@
    "price": 0
   },
   {
-   "pid": "pp_HROW",
-   "ticker": "HROW",
-   "name": "Harrow Inc",
+   "pid": "pp_FPS",
+   "ticker": "FPS",
+   "name": "Forgent Power Solutions-Cl A",
    "assetType": "security",
    "thesis": "",
-   "ySym": "HROW",
-   "gquery": "Harrow Inc",
+   "ySym": "FPS",
+   "gquery": "Forgent Power Solutions-Cl A",
    "links": {
-    "stocktwits": "https://stocktwits.com/symbol/HROW",
-    "x": "https://x.com/search?q=%24HROW&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=HROW"
-   },
-   "shares": 0,
-   "price": 0,
-   "value": 0
-  },
-  {
-   "pid": "pp_PRCT",
-   "ticker": "PRCT",
-   "name": "Procept Biorobotics Corp",
-   "assetType": "security",
-   "thesis": "",
-   "ySym": "PRCT",
-   "gquery": "Procept Biorobotics Corp",
-   "links": {
-    "stocktwits": "https://stocktwits.com/symbol/PRCT",
-    "x": "https://x.com/search?q=%24PRCT&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=PRCT"
+    "stocktwits": "https://stocktwits.com/symbol/FPS",
+    "x": "https://x.com/search?q=%24FPS&f=live",
+    "finviz": "https://finviz.com/quote.ashx?t=FPS"
    },
    "shares": 0,
    "price": 0,
@@ -61,6 +44,23 @@
     "stocktwits": "https://stocktwits.com/symbol/FTAI",
     "x": "https://x.com/search?q=%24FTAI&f=live",
     "finviz": "https://finviz.com/quote.ashx?t=FTAI"
+   },
+   "shares": 0,
+   "price": 0,
+   "value": 0
+  },
+  {
+   "pid": "pp_HROW",
+   "ticker": "HROW",
+   "name": "Harrow Inc",
+   "assetType": "security",
+   "thesis": "",
+   "ySym": "HROW",
+   "gquery": "Harrow Inc",
+   "links": {
+    "stocktwits": "https://stocktwits.com/symbol/HROW",
+    "x": "https://x.com/search?q=%24HROW&f=live",
+    "finviz": "https://finviz.com/quote.ashx?t=HROW"
    },
    "shares": 0,
    "price": 0,

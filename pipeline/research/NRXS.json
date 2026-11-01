@@ -58,12 +58,6 @@
    "confirmed": false
   },
   {
-   "when": "2027-H1",
-   "label": "Further national payer policies (UnitedHealthcare and others)",
-   "detail": "After two national-scale wins in five weeks (about 18M lives on September 16 and about 26M from Aetna on October 15) coverage stands above 147 million lives. Management keeps pursuing additional major national insurers; hospitals generally want roughly 70% of their population covered before broad adoption, so a remaining top-five payer would be the next step change.",
-   "confirmed": false
-  },
-  {
    "when": "2026-12-31",
    "label": "Series B preferred coupon ends, conversion expected",
    "detail": "The 8.5% Series B coupon expires December 31, 2026; the Q3 dividend was declared on October 14 as about 81,339 common shares payable October 30. Management expects the roughly 3.7 million preferred shares to convert afterward, removing the dividend drag but lifting common shares from 13.6M toward the 20.4M fully diluted count.",
@@ -73,6 +67,12 @@
    "when": "2027-Q1",
    "label": "Broader VA expansion decision",
    "detail": "The first 10-12 commission-only VA reps were hired in mid-September, each covering one to three of the roughly 180-200 VA hospitals and community care centers reachable under the Federal Supply Schedule contract. Results from this cohort will decide whether to expand the VA effort in early 2027, making Q4 2026 VA orders the key data point.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-H1",
+   "label": "Further national payer policies (UnitedHealthcare and others)",
+   "detail": "After two national-scale wins in five weeks (about 18M lives on September 16 and about 26M from Aetna on October 15) coverage stands above 147 million lives. Management keeps pursuing additional major national insurers; hospitals generally want roughly 70% of their population covered before broad adoption, so a remaining top-five payer would be the next step change.",
    "confirmed": false
   },
   {
@@ -88,5 +88,5 @@
    "confirmed": false
   }
  ],
- "pulse": "As of November 1 there has been no new company news since NeurAxis scheduled Q3 2026 results for November 9 before the open (call at 9:00 a.m. ET); the stock last traded around $7.25 (about +60% year to date) after the October 15 national policy (identified as Aetna) lifted IB-Stim coverage above 147 million lives. The report, eight days away, will show whether the two new national policies (~18M and ~26M lives), first VA orders and the sales build-out under CCO Craig Blanchard are turning into utilization. Funding remains the main overhang, with about $4M of cash as of September 21 and going-concern language making a capital raise around the report likely, while roughly 3.7M Series B preferred shares are expected to convert after December 31."
+ "pulse": "As of November 1, NeurAxis has issued no new company news since scheduling Q3 2026 results for November 9 before the open (call at 9:00 a.m. ET), and the stock holds around $7.25, roughly 60% above its early-October $4.84 low after the October 15 national policy (identified as Aetna) lifted IB-Stim coverage above 147 million lives. The report, eight days away, will be the first read on whether the two new national policies (~18M and ~26M lives), first VA orders and the sales build-out under CCO Craig Blanchard translate into utilization against the $7-8M full-year pace. Funding is the main overhang, with about $4M of cash as of September 21 and going-concern language making a raise around the print likely, while roughly 3.7M Series B preferred shares are expected to convert after December 31."
 }

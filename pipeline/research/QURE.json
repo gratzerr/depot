@@ -35,20 +35,13 @@
    "source": "Bloomberg",
    "url": "https://www.bloomberg.com/news/articles/2026-09-29/uniqure-huntington-s-treatment-benefit-is-less-after-four-years-than-three-years",
    "summary": "In 12 high-dose patients at 48 months, AMT-130 slowed cUHDRS decline by 44% versus the Enroll-HD external control (p=0.144), while Total Functional Capacity held up at 61% slowing (p=0.008). uniQure stressed that the BLA rests on the 36-month analysis, which it restated as 80% cUHDRS slowing (p=0.005) and 67% TFC slowing; critics pointed to missing data and possible survivor bias in the control group. Shares fell about 39% that day, from a $39.11 close to well below the $45.50 price of the June equity raise."
-  },
-  {
-   "date": "2026-09-02",
-   "headline": "uniQure submits US BLA and UK MAA for AMT-130 in Huntington's disease",
-   "source": "GlobeNewswire",
-   "url": "https://www.globenewswire.com/news-release/2026/09/02/3354993/0/en/uniqure-announces-submission-of-biologics-license-application-for-ifezuntirgene-inilparvovec-amt-130-in-huntington-s-disease.html",
-   "summary": "uniQure filed a Biologics License Application with the FDA seeking accelerated approval for ifezuntirgene inilparvovec (AMT-130) and, in parallel, a Marketing Authorisation Application with the UK MHRA, both supported by the three-year Phase I/II analysis versus a propensity-score-matched Enroll-HD external control. The company requested priority review, which would compress the FDA review to six months after the 60-day filing review."
   }
  ],
  "catalysts": [
   {
    "when": "2026-11",
    "label": "FDA filing decision and priority review determination",
-   "detail": "The FDA's 60-day filing review on the BLA submitted September 2 ends around November 1, 2026; as of November 1 no acceptance notice has been published, so it is most likely to be disclosed with the November 4 Q3 results or shortly after. The decision will show whether priority review was granted (six-month vs ten-month clock, i.e. roughly Q2 vs Q4 2027 action) and normally sets the PDUFA date. After the weaker four-year data, a clean acceptance on the 36-month package is the key test of whether the FDA still stands behind the agreed filing basis.",
+   "detail": "The FDA's 60-day filing review on the BLA submitted September 2 ends around November 1, 2026; as of November 1 no acceptance notice has been published (the BLA was submitted September 2 together with a UK MAA, with priority review requested), so it is most likely to be disclosed with the November 4 Q3 results or shortly after. The decision will show whether priority review was granted (six-month vs ten-month clock, i.e. roughly Q2 vs Q4 2027 action) and normally sets the PDUFA date. After the weaker four-year data, a clean acceptance on the 36-month package is the key test of whether the FDA still stands behind the agreed filing basis.",
    "confirmed": false
   },
   {
@@ -100,5 +93,5 @@
    "confirmed": false
   }
  ],
- "pulse": "QURE is still trading in the low $20s a month after the September 29 four-year AMT-130 data (non-significant 44% cUHDRS slowing, ~39% one-day drop), with analysts split between UBS at Buy ($48) and Barclays at Equal-Weight ($28) and JPMorgan raising its stake to about 8.5%. The FDA's 60-day filing review of the 36-month-based BLA ends around today (November 1) with no acceptance notice published yet, and Q3 results follow pre-market on November 4. Filing acceptance, priority-review status, the PDUFA date and any advisory-committee signal, most likely disclosed on that call, are the next binary moment for the stock."
+ "pulse": "QURE is still trading in the low $20s a month after the September 29 four-year AMT-130 data (non-significant 44% cUHDRS slowing, ~39% one-day drop), with analysts split between UBS at Buy ($48) and Barclays at Equal-Weight ($28) and JPMorgan having raised its passive stake to about 8.5%. As of November 1 there is no new company news beyond the October 28 notice; the FDA's 60-day filing review of the 36-month-based BLA ends around now with no acceptance announced yet. Q3 results and a company update follow pre-market on November 4 (8:30 a.m. ET call), where filing acceptance, priority-review status, the PDUFA date and any advisory-committee signal are the next binary moment for the stock."
 }

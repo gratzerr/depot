@@ -2,6 +2,13 @@
  "ticker": "FPS",
  "news": [
   {
+   "date": "2026-10-28",
+   "headline": "Forgent Power Solutions Shares Climb 7.4% as Post-CFO-Exit Rebound Extends",
+   "source": "Kalkine / MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbUZxTDF5aUN5RmRINHc1WGVRVWZjMHhZRU4wZFlFVEdxWTY5ZDl3VlFhRjdWWnNWWFc3ZmNBT2I2QmdmYVZsS05yQS16Sl9USXI5OUZzcmRJQmMycGViZWtMRkJSLTlZRFZzWXBXVVlSdENCd2p5d0J0SjE1LVBOWEszYTMzbWxVNGwzZHVSbTZ1T2lBUTNucWVzZExJRkhqS0s0cWE0b0lPOWtWZ0tFVmpiVUN4S1V3Y2lFV2Z4MWxSTG43X29mRW9LdjdtSHR2bWEwdWtCbzRWVkR3X0RUOXhMZHdUQ3dpNEdWbUZ3?oc=5",
+   "summary": "FPS gapped up and closed about 7.4% higher on October 28, its second strong session in a row after Clear Street's Buy initiation and the Columbus office announcement. The rebound follows a week in which the stock fell about 23% to a record low on the surprise CFO exit."
+  },
+  {
    "date": "2026-10-27",
    "headline": "Forgent Power Solutions to Invest $3 Million in Downtown Columbus Office, Adding 85 Jobs",
    "source": "WSYX",
@@ -35,13 +42,6 @@
    "source": "Investing.com",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV3BNM2w4QldiRkpuSkhoZHlhbThSRFdMRXZxbUc1WXU4TzdELVBCN2FYYVpkSHl5NVNtdTB2N2pIUmxBak1uZUFoLXBMTWR5X1ljQ2czRzl6TlBXRGdoeHY0RlFfM0tvRWlxY2VFMXhlUXVwNm9jbHBsaF8xNFNIU0dlU2FBQVhBS2JYN181cjFzNzdralZuYU1fTmNabVNyVG5BdTNlLTFXbHlLM1VhdW9BaHN6cFU3RTlvT2JCMVd2U0c0Rmc?oc=5",
    "summary": "Wells Fargo opened coverage with a neutral Equal Weight rating, joining Morgan Stanley (Hold) as the more cautious voices after the post-earnings run-up. The debate centres on valuation and margin execution rather than demand."
-  },
-  {
-   "date": "2026-09-23",
-   "headline": "IPO Lock-Up on Certain Forgent Class B Shares Expires",
-   "source": "MarketScreener",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcXhabnAxVmNJbE9UbkJDMjgwRUpMT1Q4bzg1aWF3UEFmQkhOSHc1SHBpcWlpeEtKQng0MFU4UERfMnBuNENuNVhnY3hORlNwNEZDN3hXd2tiYjVtOWV3cGdvdzR5NWV0N0tjT2IzR2hESGQyV2s5Tkk3VERYRWVXdF9hVUxIbDU1eFNsTWhMTHpWR1V0c1Q5WkRZT2VYV0hPbFdOcDYxSDdmb09jYmpqend5cTFmQmp1b0hNUjVBNjdZaUt1ZkQxR2RZZ3YxOXdqNktmRnpnYldVR2pobnV3M2VEcThtdw?oc=5",
-   "summary": "A lock-up agreement on part of the sponsor-held Class B stock from the February 2026 NYSE IPO ended on September 23, 2026. That frees a large block of insider and sponsor shares for possible sale, a lasting overhang after the earlier upsized follow-on offering."
   }
  ],
  "catalysts": [
@@ -58,5 +58,5 @@
    "confirmed": true
   }
  ],
- "pulse": "Forgent (NYSE: FPS), a February-2026 IPO selling electrical power-distribution equipment to AI data centers and utilities, sold off hard in the week of the surprise October 22 CFO exit (Ryan Fiedler, replaced internally by Amy Ard; 'no disagreement' per 8-K/A), then recovered part of the drop after Clear Street initiated at Buy ($58 target) and the company said in the same 8-K that fiscal Q1 revenue and adjusted EBITDA will beat the top of guidance. The next test is the November 12 report, where the size of the beat, order growth on the ~$3B backlog and FY2027 guidance will decide whether the momentum resumes."
+ "pulse": "As of November 1, 2026, Forgent (NYSE: FPS), the February-2026 IPO supplying power-distribution equipment to AI data centers and utilities, is rebounding from a record low after shares fell about 23% in the week of the October 22 CFO exit (Ryan Fiedler replaced internally by Amy Ard; 'no disagreement' per 8-K/A). Clear Street's Buy initiation ($58 target), the 85-job Columbus office and the pre-announced beat on fiscal Q1 revenue and adjusted EBITDA drove gains of roughly 6% on October 27 and 7% on October 28, and institutional buying continues. The next test is the November 12 report, where the size of the beat, order growth on the ~$3B backlog and FY2027 guidance will decide whether momentum resumes."
 }

@@ -2,6 +2,13 @@
  "ticker": "LXEO",
  "news": [
   {
+   "date": "2026-11-02",
+   "headline": "Lexeo reports 3-year neurologic durability for LX2006 and sets AHA and ICAR presentations for November",
+   "source": "GlobeNewswire via StockTitan",
+   "url": "https://www.stocktitan.net/news/LXEO/lexeo-therapeutics-to-present-multiple-oral-and-poster-presentations-yd6ldb8fun9m.html",
+   "summary": "In LX2006's Phase I/II study, participants followed for 24 months (n=11) improved mFARS by a mean 2.13 points per year (4.26 over two years) versus a propensity-matched UNIFAI control cohort, and a 36-month subset (n=7) improved by more than 4 points from baseline, with durable LVMI and troponin benefit (no new figures). Lexeo will give two preclinical oral talks (desmoplakin LX2021, TNNI3) at AHA on November 7 and present LX2006 data at ICAR on November 11; there was no LX2020 update."
+  },
+  {
    "date": "2026-10-29",
    "headline": "Lexeo files $300 million mixed shelf registration (Form S-3)",
    "source": "SEC (Form S-3)",
@@ -21,13 +28,6 @@
    "source": "Investing.com (Chardan conference transcript)",
    "url": "https://www.investing.com/news/transcripts/lexeo-at-chardan-healthcare-conference-pipeline-advances-cash-runway-93CH-4960418",
    "summary": "Management said the Q4 LX2020 update will combine 12-month follow-up on most high-dose patients with a regulatory update, though the FDA has not yet accepted NSVT as a pivotal endpoint. Lexeo regards a 35-40% NSVT reduction as clinically meaningful, versus 20-30% for standard-of-care drugs. It reiterated that SUNRISE-FA 2 (13 treated vs. 13 controls) remains on track for 2H 2027, with the BLA in 1H 2028, and that quarterly burn in the mid-to-high $20 million range funds operations into 2028."
-  },
-  {
-   "date": "2026-10-16",
-   "headline": "JPMorgan discloses 5.5% passive stake in Lexeo",
-   "source": "StockTitan (SEC Schedule 13G)",
-   "url": "https://www.stocktitan.net/sec-filings/LXEO/schedule-13g-lexeo-therapeutics-inc-passive-investment-disclosure-5-a928d111dd95.html",
-   "summary": "JPMorgan Chase reported beneficial ownership of 4,573,701 Lexeo shares (5.5% of the class), most of it bought around $3.38 at the end of September. It joins Balyasny, Affinity, Paradigm, OrbiMed and State Street among holders above 5% even as the stock keeps sliding."
   },
   {
    "date": "2026-10-07",
@@ -50,6 +50,18 @@
    "label": "Q3 2026 earnings report",
    "detail": "First quarterly results including the Mantle acquisition, with SUNRISE-FA 2 enrollment progress and runway commentary against the $234.2 million June cash balance. No date had been announced as of November 1; Lexeo reported Q3 2025 on November 5, 2025, Q2 2026 on August 12, and earnings calendars currently estimate November 11 after the close. With the market cap roughly equal to cash and a new $300 million shelf on file, any change to the into-2028 runway or a financing would be the key signal.",
    "confirmed": false
+  },
+  {
+   "when": "2026-11-07",
+   "label": "AHA Scientific Sessions 2026 oral presentations (preclinical)",
+   "detail": "Two oral talks in Chicago on November 7: LX2021 gene therapy in a severe desmoplakin cardiomyopathy mouse model and gene therapy rescue in a porcine TNNI3 cardiomyopathy model. These are early pipeline readouts, not clinical data.",
+   "confirmed": true
+  },
+  {
+   "when": "2026-11-11",
+   "label": "ICAR 2026: LX2006 oral and poster presentations",
+   "detail": "At the International Congress for Ataxia Research in Atlanta, LX2006 safety and preliminary efficacy will be presented orally, alongside a poster on the externally controlled neurologic-progression analysis (24-month mFARS benefit vs. UNIFAI controls; 36-month n=7 subset) and a poster on cerebellar transduction by AAVrh.10hFXN.",
+   "confirmed": true
   },
   {
    "when": "2026-Q4",
@@ -82,5 +94,5 @@
    "confirmed": false
   }
  ],
- "pulse": "As of November 2, 2026, Lexeo trades near $3, close to its October lows after a slide of more than 70% this year, with no new company news since the October 29 filing of a $300 million shelf that adds financing flexibility but raises dilution concerns at a market value roughly equal to cash. The near-term story hinges on the Q4 HEROIC-PKP2 12-month high-dose LX2020 readout and whether the FDA will accept NSVT reduction as a pivotal endpoint, with Q3 results expected in early-to-mid November (date not yet announced). Runway is guided into 2028, analysts remain supportive (Stifel $17, Baird $28), and SUNRISE-FA 2 for LX2006 is still on track for 2H 2027."
+ "pulse": "As of November 2, 2026, Lexeo trades near $3, close to its lows after a slide of more than 70% this year. Today it reported durable neurologic data for LX2006 (a 4.26-point two-year mFARS benefit vs. natural-history controls, with 36-month follow-up in seven patients) ahead of AHA (Nov 7) and ICAR (Nov 11) presentations, while the October 29 $300 million shelf keeps dilution risk in view at a market value roughly equal to cash. The near-term swing factor remains the Q4 HEROIC-PKP2 12-month LX2020 readout and FDA feedback on NSVT as a pivotal endpoint, with Q3 results expected in mid-November (date not yet announced), runway guided into 2028 and SUNRISE-FA 2 on track for 2H 2027."
 }

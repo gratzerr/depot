@@ -2,6 +2,13 @@
  "ticker": "FPS",
  "news": [
   {
+   "date": "2026-11-02",
+   "headline": "Jim Cramer Calls Forgent Power a 'Really Really Good' Company",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOejRrS0UyM0h3UER0eXA0YnJ6VERkUzNENjdsRVJBTHdNZ2p4ODV4SzRTUjJZbUxwS25EampKNFdwc2tRZlRXb0dXN0dUSkNsWGdwWkZhY2dPZVYwX3JPVms3Vkh3R0dSdW5MVGFXU3lUUDFIZ0FfWmJkakNkVm5JWEpuOVVqOVRiakhzOVpHb2NNcmxhY2VfNzBUa3dhcXNZb2RZdA?oc=5",
+   "summary": "On Mad Money, Jim Cramer reaffirmed his long-running bullish view, calling Forgent a 'really really good' company ahead of its November 12 report. He has backed the data-center power equipment maker repeatedly since its February IPO, though he has also flagged its premium valuation."
+  },
+  {
    "date": "2026-10-28",
    "headline": "Forgent Power Solutions Shares Climb 7.4% as Post-CFO-Exit Rebound Extends",
    "source": "Kalkine / MarketBeat",
@@ -35,13 +42,6 @@
    "source": "Investing.com",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNUJxbEJQNEIza29ZeHdDbTVCZGQwVG44bXNxWEI2aGQwREJTYXVqTUNueGZSaG5USWRENTJnMHF4aDQzNHNlM3JIX2JDY05wOWwyQVJfaVNFb1UxZExTVXd5OVU4MzdqaFFyTXNNQzlJX1d4SU55WlFZVGQtckpKVmgwU19iOFJCUmc5VlQxMWNveG02S0QwZUh5cmpoRVlDbkZFejZObmh0Q1VKSW5kQXNuaUFSMURRMkFKWmF5U19qanc?oc=5",
    "summary": "Bernstein started coverage at Outperform, arguing consensus underestimates Forgent's earnings power from AI data-center and grid demand; the stock jumped on the call. Coverage now spans about ten analysts with a 'Strong Buy' average and targets of roughly $51-73 (TD Cowen high at $73)."
-  },
-  {
-   "date": "2026-09-25",
-   "headline": "Wells Fargo Initiates Forgent Power Solutions at Equal Weight",
-   "source": "Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV3BNM2w4QldiRkpuSkhoZHlhbThSRFdMRXZxbUc1WXU4TzdELVBCN2FYYVpkSHl5NVNtdTB2N2pIUmxBak1uZUFoLXBMTWR5X1ljQ2czRzl6TlBXRGdoeHY0RlFfM0tvRWlxY2VFMXhlUXVwNm9jbHBsaF8xNFNIU0dlU2FBQVhBS2JYN181cjFzNzdralZuYU1fTmNabVNyVG5BdTNlLTFXbHlLM1VhdW9BaHN6cFU3RTlvT2JCMVd2U0c0Rmc?oc=5",
-   "summary": "Wells Fargo opened coverage with a neutral Equal Weight rating, joining Morgan Stanley (Hold) as the more cautious voices after the post-earnings run-up. The debate centres on valuation and margin execution rather than demand."
   }
  ],
  "catalysts": [
@@ -58,5 +58,5 @@
    "confirmed": true
   }
  ],
- "pulse": "As of November 2, 2026, Forgent (NYSE: FPS), the February-2026 IPO supplying power-distribution equipment to AI data centers and utilities, is rebounding from a record low after shares fell about 23% in the week of the October 22 CFO exit (Ryan Fiedler replaced internally by Amy Ard; 'no disagreement' per 8-K/A). Clear Street's Buy initiation ($58 target), the 85-job Columbus office and the pre-announced beat on fiscal Q1 revenue and adjusted EBITDA drove gains of roughly 6% on October 27 and 7% on October 28, and institutional buying continues. The next test is the November 12 report, where the size of the beat, order growth on the ~$3B backlog and FY2027 guidance will decide whether momentum resumes."
+ "pulse": "As of November 2, 2026, Forgent (NYSE: FPS), the February-2026 IPO supplying power-distribution equipment to AI data centers and utilities, is rebounding from a record low after shares fell about 23% in the week of the October 22 CFO exit (Ryan Fiedler replaced internally by Amy Ard; 'no disagreement' per 8-K/A). Clear Street's Buy initiation ($58 target), the 85-job Columbus office, the pre-announced beat on fiscal Q1 revenue and adjusted EBITDA, continued institutional buying and fresh praise from Jim Cramer have supported the recovery. The next test is the November 12 report, where the size of the beat, order growth on the ~$3B backlog and FY2027 guidance will decide whether momentum resumes."
 }

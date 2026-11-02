@@ -2,6 +2,13 @@
  "ticker": "QURE",
  "news": [
   {
+   "date": "2026-11-02",
+   "headline": "FDA accepts AMT-130 BLA with Priority Review; PDUFA date May 1, 2027, AdCom tentatively planned",
+   "source": "GlobeNewswire / StockTitan",
+   "url": "https://www.stocktitan.net/news/QURE/uni-qure-announces-fda-acceptance-and-priority-review-of-the-zbkw04fh9ft6.html",
+   "summary": "The FDA accepted the accelerated-approval BLA for ifezuntirgene inilparvovec (AMT-130), filed on the 36-month data, and granted Priority Review with a May 1, 2027 target action date. The agency said it is tentatively planning an advisory committee meeting with no date set yet, and uniQure plans to begin US screening for the roughly 200-patient confirmatory study by the end of 2026."
+  },
+  {
    "date": "2026-10-28",
    "headline": "uniQure sets Q3 2026 results for November 4",
    "source": "GlobeNewswire",
@@ -39,33 +46,27 @@
  ],
  "catalysts": [
   {
-   "when": "2026-11",
-   "label": "FDA filing decision and priority review determination",
-   "detail": "The FDA's 60-day filing review on the BLA submitted September 2 ended around November 1, 2026; as of November 2 no acceptance notice has been published (the BLA was submitted September 2 together with a UK MAA, with priority review requested), so it is most likely to be disclosed with the November 4 Q3 results or shortly after. The decision will show whether priority review was granted (six-month vs ten-month clock, i.e. roughly Q2 vs Q4 2027 action) and normally sets the PDUFA date. After the weaker four-year data, a clean acceptance on the 36-month package is the key test of whether the FDA still stands behind the agreed filing basis.",
-   "confirmed": false
-  },
-  {
    "when": "2026-11-04",
    "label": "Q3 2026 results and regulatory update",
-   "detail": "uniQure confirmed on October 28 that it will report Q3 2026 results and provide a company update on November 4, 2026 (its 2026 calls have been held at 8:30 a.m. ET). Expect updates on BLA acceptance, review designation and PDUFA date, the UK MAA, the FDA's view of the four-year data, confirmatory-trial start-up, AMT-260 second-cohort enrollment and cash burn against the $810.3M June 30 cash position.",
+   "detail": "uniQure confirmed it will report Q3 2026 results and give a company update on November 4, 2026, before the market opens. The FDA acceptance is already public, so the focus shifts to the advisory-committee timing, the UK MAA, the start of confirmatory-trial screening, AMT-260 second-cohort enrollment and cash burn against the $810.3M June 30 cash position.",
    "confirmed": true
   },
   {
-   "when": "2026-H2",
-   "label": "FDA advisory committee (AdCom) decision",
-   "detail": "Management said in July it considers an advisory committee for the first Huntington's gene therapy probable and is preparing for one. The four-year data, with missing-data and control-group questions, make a public AdCom more likely; any announcement would most likely come with or after the filing decision in early November.",
-   "confirmed": false
-  },
-  {
-   "when": "2026-H2",
-   "label": "Confirmatory trial initiation",
-   "detail": "uniQure and the FDA have aligned on a roughly 200-patient confirmatory study randomized 2:1 to AMT-130 versus standard of care, with Total Functional Capacity at 36 months as the primary endpoint. The company expects enrollment underway before the accelerated-approval decision; notably, TFC was the endpoint that stayed statistically significant at four years.",
-   "confirmed": false
+   "when": "2026-Q4",
+   "label": "Confirmatory trial screening start",
+   "detail": "uniQure plans to begin US screening by the end of 2026 for the roughly 200-patient study, randomized 2:1 to AMT-130 versus standard of care, with Total Functional Capacity at 36 months as the primary endpoint. Management expects the study to be well underway by the time of a potential approval; TFC was the endpoint that stayed statistically significant at four years.",
+   "confirmed": true
   },
   {
    "when": "2026-H2",
    "label": "Additional international regulatory pathways",
    "detail": "uniQure has said it is pursuing registration routes for AMT-130 beyond the US and UK, including EU options, with an update guided for the second half of 2026. No EMA or other-jurisdiction filing plan has been disclosed yet.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-H1",
+   "label": "FDA advisory committee meeting for AMT-130",
+   "detail": "In the November 2 acceptance letter the FDA said it is tentatively planning to discuss the BLA at an advisory committee; the date has not been set and uniQure will announce it once finalized. Given the small, externally controlled dataset and the weaker four-year cUHDRS result, the panel vote is likely the key pre-PDUFA event.",
    "confirmed": false
   },
   {
@@ -77,14 +78,14 @@
   {
    "when": "2027-H1",
    "label": "ICER evidence report and CEPAC verdict",
-   "detail": "ICER's draft evidence report on AMT-130 is due in January 2027, followed by a Midwest CEPAC public meeting and vote in March 2027 and a final report in April 2027 - close to a potential FDA action date. The four-year durability data will feed directly into its cost-effectiveness modeling for a one-time gene therapy.",
+   "detail": "ICER's draft evidence report on AMT-130 is due in January 2027, followed by a Midwest CEPAC public meeting and vote in March 2027 and a final report in April 2027, just before the May 1 PDUFA date. The four-year durability data will feed directly into its cost-effectiveness modeling for a one-time gene therapy.",
    "confirmed": true
   },
   {
-   "when": "2027-Q2",
-   "label": "Potential FDA accelerated approval decision for AMT-130",
-   "detail": "If priority review is granted, the FDA action date would land around late April or early May 2027, potentially making AMT-130 the first approved disease-modifying therapy for Huntington's disease. Without priority review the decision slips toward late 2027.",
-   "confirmed": false
+   "when": "2027-05-01",
+   "label": "FDA PDUFA date for AMT-130 (accelerated approval)",
+   "detail": "The FDA accepted the BLA with Priority Review and set a May 1, 2027 target action date. Approval would make AMT-130 the first disease-modifying therapy for Huntington's disease, but acceptance does not guarantee approval and an advisory committee is tentatively planned beforehand.",
+   "confirmed": true
   },
   {
    "when": "2027",
@@ -93,5 +94,5 @@
    "confirmed": false
   }
  ],
- "pulse": "As of November 2, 2026, QURE has recovered to about $24.83 (October 30 close), helped by a 12% jump on October 27 for which no company-specific driver was published. The stock remains far below its level before the September 29 four-year AMT-130 data (non-significant 44% cUHDRS slowing), and analysts are split between UBS at Buy ($48) and Barclays at Equal-Weight ($28). The FDA's 60-day filing review of the September 2 BLA has now run out with no acceptance announced, so filing acceptance, priority-review status, the PDUFA date and any advisory-committee signal are the key items for the Q3 results and company update before the open on November 4."
+ "pulse": "As of November 2, 2026, QURE's main regulatory overhang has cleared: the FDA accepted the AMT-130 BLA on the 36-month data, granted Priority Review and set a May 1, 2027 PDUFA date, though it also tentatively plans an advisory committee, a public test after the non-significant four-year cUHDRS result. Shares came into the news near $24.83 (October 30 close), far below pre-readout levels, and early trading was mixed after an initial jump. Next up are the Q3 results on November 4, the AdCom date, and the start of confirmatory-trial screening by year-end."
 }

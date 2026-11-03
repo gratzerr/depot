@@ -2,13 +2,6 @@
  "ticker": "NKTR",
  "news": [
   {
-   "date": "2026-10-30",
-   "headline": "Nektar Therapeutics: Focus Returns To The Strengths Of The Company",
-   "source": "Seeking Alpha",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVnBSLVZKTk5UTkVfTmVJc1JLcEp4NUpZUURLOVJaVWliUWI0RF95WW90ZmNHbXBBSlR5a09xblNHemFham11N29FWkV3VGk5RnBCU1BEUnV4UWhKZU5SbUNtRTRwczNLUzRVajlCVEM0bTZjUkhVTTBoVGpmd0o3UnV6WXhUVTVlUUVQVnVyejY5N0JoMUN5NDZiX1hfdkVyY2g2dzZtaEdFdw?oc=5",
-   "summary": "A constructive Seeking Alpha analysis argues attention is shifting back to Nektar's core strengths after the post-EADV sell-off. It lands two weeks before the November 12 Q3 report, with the stock still near its lows."
-  },
-  {
    "date": "2026-10-27",
    "headline": "Nektar Therapeutics to Announce Financial Results for the Third Quarter on Thursday, November 12, 2026",
    "source": "Quantisnow / TradingView",
@@ -107,5 +100,5 @@
    "confirmed": true
   }
  ],
- "pulse": "As of November 2, 2026, Nektar has issued no new press release since setting its Q3 2026 report for November 12 after the close; recent flow is analyst activity and previews (Zacks flags a likely beat, Seeking Alpha ran a constructive piece on October 30). NKTR is stuck in the high-$30s (about EUR 34 in Frankfurt on October 30, around $37 on October 26), down roughly a third over the past month and near its post-EADV low, with targets spread from UBS's Neutral $53 to Piper Sandler's $192. Beyond the print, watch post-trial rulings on the $90 million Lilly verdict, a new autoimmune study start before year-end, and 52-week off-treatment AD data in Q1 2027 while three ZENITH AD Phase 3s enroll toward a mid-2028 readout."
+ "pulse": "As of November 3, 2026, Nektar has issued no new press release since setting its Q3 2026 report for November 12 after the close; recent flow is analyst activity and commentary, including a constructive Seeking Alpha piece on October 30 arguing focus is returning to the company's strengths. NKTR remains in the high-$30s, down roughly a third since the October 1 EADV sell-off, with targets spread from UBS's Neutral $53 to Piper Sandler's $192. Beyond the print, watch post-trial rulings on the $90 million Lilly verdict, a new autoimmune study start before year-end, and 52-week off-treatment AD data in Q1 2027 while three ZENITH AD Phase 3s enroll toward a mid-2028 readout."
 }

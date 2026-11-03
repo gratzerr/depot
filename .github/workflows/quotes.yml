@@ -8,7 +8,7 @@ on:
         description: 'Kommagetrennte Ticker (Yahoo-Format, OCC fuer Optionen)'
         required: true
       date:
-        description: 'Optional YYYY-MM-DD (Schlusskurse bis dahin) oder since:YYYY-MM-DD (ganze Reihe, dividendenbereinigt)'
+        description: 'Optional YYYY-MM-DD (Schlusskurse bis dahin) oder since:YYYY-MM-DD[:W] (Reihe) oder chain (ganze Optionskette mit Volumen/OI)'
         required: false
         default: ''
 permissions:
@@ -41,6 +41,16 @@ jobs:
                       df = ch.calls if cp == "C" else ch.puts
                       r = df[abs(df["strike"] - int(k) / 1000) < 1e-6].iloc[0]
                       print(f"QUOTE {tk} bid={r['bid']} ask={r['ask']} last={r['lastPrice']} lastTrade={r['lastTradeDate']}")
+                  elif qd == "chain":
+                      t = yf.Ticker(tk)
+                      for ex in t.options:
+                          ch = t.option_chain(ex)
+                          for side, df in (("C", ch.calls), ("P", ch.puts)):
+                              for _, r in df.iterrows():
+                                  if (r.get("volume") or 0) > 0 or (r.get("openInterest") or 0) > 0:
+                                      print(f"CHAIN {tk} {ex} {side}{r['strike']:g} bid={r['bid']} ask={r['ask']} last={r['lastPrice']} "
+                                            f"vol={int(r['volume'] or 0) if r['volume']==r['volume'] else 0} oi={int(r['openInterest'] or 0) if r['openInterest']==r['openInterest'] else 0} "
+                                            f"iv={r['impliedVolatility']:.3f} lt={str(r['lastTradeDate'])[:10]}")
                   else:
                       if qd.startswith("since:"):
                           start, _, freq = qd[6:].partition(":")

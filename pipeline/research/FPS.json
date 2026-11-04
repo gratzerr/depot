@@ -2,6 +2,13 @@
  "ticker": "FPS",
  "news": [
   {
+   "date": "2026-11-04",
+   "headline": "Forgent Power Solutions (NYSE:FPS) Shares Gap Down",
+   "source": "MarketBeat / Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVldGMUhQWWJDSFBkdXA0b0tfcjloUDZTTTZSbU5kVzJNb2VRbVZTTkxIYVlLMDVKdWJkNmRfMW5SaVJmLWVnSzh2MFpoYV94bm9FN0d0dS1xX3BRX092Nlg0cld3cTFzODEweUROV3VvMHRwWjVxdjdVZ1NiTFdDYkl6eHVpSDd6bkVObHgyNTZ3YV9KUy1INDIzamJkZDZEamtiNG9DTmVKR1pGNFZYU1hXNTdjajBmOXoyZ0tqa1FNQQ?oc=5",
+   "summary": "FPS gapped lower at the open on November 4, giving back part of its late-October rebound one week before the fiscal Q1 report. A same-day Simply Wall St valuation piece noted the stock is still roughly 33% below its highs yet argued it may remain overvalued on cash-flow measures."
+  },
+  {
    "date": "2026-11-02",
    "headline": "Jim Cramer Calls Forgent Power a 'Really Really Good' Company",
    "source": "Benzinga",
@@ -35,13 +42,6 @@
    "source": "Business Wire / SEC 8-K",
    "url": "https://finviz.com/news/406260/forgent-announces-cfo-transition",
    "summary": "CFO Ryan Fiedler is stepping down for personal reasons about a year after joining, moving into an external consulting role; EVP of Finance Amy Ard, who has more than 25 years of finance experience, succeeds him. An 8-K/A stressed the departure was not due to any disagreement, but the shares fell about 11% that day on the surprise exit. In the same 8-K the company said fiscal Q1 revenue and adjusted EBITDA will exceed the high end of its guidance ranges and set the report for November 12."
-  },
-  {
-   "date": "2026-10-02",
-   "headline": "Bernstein Initiates Forgent Power Solutions at Outperform, Sees Large Earnings Upside",
-   "source": "Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNUJxbEJQNEIza29ZeHdDbTVCZGQwVG44bXNxWEI2aGQwREJTYXVqTUNueGZSaG5USWRENTJnMHF4aDQzNHNlM3JIX2JDY05wOWwyQVJfaVNFb1UxZExTVXd5OVU4MzdqaFFyTXNNQzlJX1d4SU55WlFZVGQtckpKVmgwU19iOFJCUmc5VlQxMWNveG02S0QwZUh5cmpoRVlDbkZFejZObmh0Q1VKSW5kQXNuaUFSMURRMkFKWmF5U19qanc?oc=5",
-   "summary": "Bernstein started coverage at Outperform, arguing consensus underestimates Forgent's earnings power from AI data-center and grid demand; the stock jumped on the call. Coverage now spans about ten analysts with a 'Strong Buy' average and targets of roughly $51-73 (TD Cowen high at $73)."
   }
  ],
  "catalysts": [
@@ -58,5 +58,5 @@
    "confirmed": true
   }
  ],
- "pulse": "As of November 4, 2026, Forgent (NYSE: FPS), the February-2026 IPO supplying power-distribution equipment to AI data centers and utilities, has recovered part of the roughly 23% slide that followed the October 22 CFO exit (Ryan Fiedler replaced internally by Amy Ard; 'no disagreement' per 8-K/A). Clear Street's Buy initiation ($58 target), the 85-job Columbus office, the pre-announced beat on fiscal Q1 revenue and adjusted EBITDA and renewed praise from Jim Cramer have supported the rebound. The next test is the November 12 report, where the size of the beat, order growth on the ~$3B backlog and FY2027 guidance will decide whether momentum resumes."
+ "pulse": "As of November 4, 2026, Forgent (NYSE: FPS), the February-2026 IPO supplying power-distribution equipment to AI data centers and utilities, gapped lower today after a late-October rebound from the roughly 23% slide that followed the October 22 CFO exit (Ryan Fiedler replaced internally by Amy Ard; 'no disagreement' per 8-K/A). Supports remain Clear Street's Buy initiation ($58 target), Bernstein's Outperform, the 85-job Columbus office and the pre-announced beat on fiscal Q1 revenue and adjusted EBITDA, while valuation debate persists with the stock still about a third below its highs. The November 12 report, with the size of the beat, order growth on the ~$3B backlog and FY2027 guidance, is the next decisive test."
 }

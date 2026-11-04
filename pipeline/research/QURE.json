@@ -2,18 +2,18 @@
  "ticker": "QURE",
  "news": [
   {
+   "date": "2026-11-04",
+   "headline": "uniQure reports Q3 2026 results: $5.2M revenue, $61.2M net loss, $768.4M cash",
+   "source": "GlobeNewswire / StockTitan",
+   "url": "https://www.stocktitan.net/news/QURE/uni-qure-announces-third-quarter-2026-financial-results-and-provides-i2stzum7gog4.html",
+   "summary": "Q3 revenue rose to $5.2M (from $3.7M) on higher license revenue, and the net loss narrowed to $61.2M ($0.88 per share) from $80.5M; cash and investments of $768.4M are still guided to fund operations into 2030. uniQure confirmed FDA alignment on the ~200-patient confirmatory AMT-130 study (screening to start in the US by end-2026), said the UK MHRA validated its MAA, completed enrollment of the seven-patient second AMT-260 epilepsy cohort and resumed AMT-191 Fabry dosing in August."
+  },
+  {
    "date": "2026-11-02",
    "headline": "FDA accepts AMT-130 BLA with Priority Review; PDUFA date May 1, 2027, AdCom tentatively planned",
    "source": "GlobeNewswire / Reuters",
    "url": "https://www.stocktitan.net/news/QURE/uni-qure-announces-fda-acceptance-and-priority-review-of-the-zbkw04fh9ft6.html",
    "summary": "The FDA accepted the accelerated-approval BLA for ifezuntirgene inilparvovec (AMT-130), filed on the 36-month data, and granted Priority Review with a May 1, 2027 target action date. The agency said it is tentatively planning an advisory committee meeting with no date set yet, and uniQure plans to begin US screening for the roughly 200-patient confirmatory study by the end of 2026."
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "uniQure sets Q3 2026 results for November 4",
-   "source": "GlobeNewswire",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS3hyREJhZFNkam5INFBDRERZcTNlZkYtaVo5NXR0SDhLZXJpeHZBQmUtdmNjN3FOaGduSVJ3TU9IcmxlMTNzNEJNWXMxQmhBN1JrTzdCbXRtWXZZazJDbHUyRDg2Qm5qamV3QVczOEVmdHBIRlBKd1UzaVktRnJTZUFLa3hyV0ZwWDFrVFJyVDNYdHRKQjNxMjR2SzQ1bDJUTnVrM19KT1hXMmExZkFaQWItUDBUTzNiUTJKazZsUjBQYnpoNUc0?oc=5",
-   "summary": "uniQure announced it will report third-quarter 2026 financial results and give a company update on November 4, 2026, earlier than the November 9-10 window third-party calendars had projected. The timing falls just after the FDA's 60-day filing review on the AMT-130 BLA ends around November 1, so the call is likely to carry the acceptance and priority-review outcome."
   },
   {
    "date": "2026-10-16",
@@ -46,15 +46,15 @@
  ],
  "catalysts": [
   {
-   "when": "2026-11-04",
-   "label": "Q3 2026 results and regulatory update",
-   "detail": "uniQure reports Q3 2026 results and gives a company update today, November 4, 2026; results were not yet published at the time of this refresh. With the FDA acceptance already public, the focus is on advisory-committee timing, the UK MAA, the start of confirmatory-trial screening, AMT-260 second-cohort enrollment and cash burn against the $810.3M June 30 cash position.",
+   "when": "2026-11-10",
+   "label": "Guggenheim, Stifel and UBS investor conferences",
+   "detail": "Management presents at the Guggenheim Healthcare Conference (Nov 10, Boston), the Stifel Healthcare Conference (Nov 11, New York) and the UBS Global Biopharma Conference (Nov 16, London), the first post-earnings venues for color on AdCom timing, launch preparation and the confirmatory study.",
    "confirmed": true
   },
   {
    "when": "2026-Q4",
    "label": "Confirmatory trial screening start",
-   "detail": "uniQure plans to begin US screening by the end of 2026 for the roughly 200-patient study, randomized 2:1 to AMT-130 versus standard of care, with Total Functional Capacity at 36 months as the primary endpoint. Management expects the study to be well underway by the time of a potential approval; TFC was the endpoint that stayed statistically significant at four years.",
+   "detail": "uniQure confirmed in its Q3 report that it reached alignment with the FDA on key elements of the roughly 200-patient study, randomized 2:1 to AMT-130 versus standard of care with Total Functional Capacity at 36 months as the primary endpoint, and plans to begin patient screening in the US by the end of 2026. TFC was the endpoint that stayed statistically significant at four years.",
    "confirmed": true
   },
   {
@@ -72,8 +72,8 @@
   {
    "when": "2027-H1",
    "label": "AMT-260 higher-dose epilepsy data and AMT-191 Fabry update",
-   "detail": "Updated Phase I/IIa data in refractory mesial temporal lobe epilepsy, including the second, higher-dose cohort, are planned for H1 2027 after first-cohort data in June 2026 showed 79-100% disabling-seizure reductions in three of six patients. A Fabry (AMT-191) update is guided to the same window, but dosing there is paused pending evaluation of liver enzyme elevations in two mid-dose patients. With AMT-130 sentiment damaged, these pipeline readouts carry more weight.",
-   "confirmed": false
+   "detail": "Updated Phase I/IIa data in refractory mesial temporal lobe epilepsy, including the now fully enrolled seven-patient second dose cohort, are planned for H1 2027 after first-cohort data in June 2026 showed 79-100% disabling-seizure reductions in three of six patients. Updated AMT-191 Fabry results from all dose cohorts are guided to the same window; enrollment there resumed in August after liver enzyme elevations in two mid-dose patients resolved with immunosuppression.",
+   "confirmed": true
   },
   {
    "when": "2027-H1",
@@ -90,9 +90,9 @@
   {
    "when": "2027",
    "label": "UK MHRA marketing authorisation decision",
-   "detail": "The MAA filed with the MHRA on September 2 runs on its own clock, independent of the FDA, offering a second potential approval route. uniQure has not disclosed an expected MHRA decision timeline.",
+   "detail": "The MHRA validated the MAA submitted in Q3 2026, and the review runs on its own clock independent of the FDA, offering a second potential approval route. uniQure has not disclosed an expected MHRA decision timeline.",
    "confirmed": false
   }
  ],
- "pulse": "As of November 4, 2026, QURE's main regulatory overhang has cleared: the FDA accepted the AMT-130 BLA on the 36-month data, granted Priority Review and set a May 1, 2027 PDUFA date, but also tentatively plans an advisory committee, a public test after the non-significant four-year cUHDRS result. Shares remain far below pre-readout levels despite a partial rebound helped by the filing acceptance and bullish analyst notes such as UBS's $48 target. Today's Q3 results and company update, the AdCom date and the start of confirmatory-trial screening by year-end are the next items to watch."
+ "pulse": "As of November 4, 2026, uniQure has cleared its key filing hurdle, with the FDA accepting the AMT-130 BLA under Priority Review and a May 1, 2027 PDUFA date, though a tentatively planned advisory committee will publicly test the small, externally controlled dataset after the non-significant four-year cUHDRS result. Today's Q3 report was uneventful on the numbers ($5.2M revenue, $61.2M net loss) with $768.4M of cash funding operations into 2030, plus FDA alignment on the confirmatory study, MHRA validation of the UK filing and a fully enrolled second AMT-260 cohort. Next up are the AdCom date, confirmatory-trial screening by year-end and H1 2027 AMT-260/AMT-191 data."
 }

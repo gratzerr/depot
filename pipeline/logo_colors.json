@@ -29,6 +29,11 @@
   "l": "hsl(258 38% 31%)",
   "src": "https://assets.parqet.com/logos/isin/US03823U1025?format=png&size=64"
  },
+ "AAON": {
+  "d": "hsl(203 85% 71%)",
+  "l": "hsl(203 72% 31%)",
+  "src": "https://assets.parqet.com/logos/isin/US0003602069?format=png&size=64"
+ },
  "ABBV": {
   "d": "hsl(220 85% 71%)",
   "l": "hsl(220 72% 31%)",
@@ -290,6 +295,11 @@
   "d": "hsl(3 85% 71%)",
   "l": "hsl(3 72% 31%)",
   "src": "https://assets.parqet.com/logos/isin/US45168D1046?format=png&size=64"
+ },
+ "IESC": {
+  "d": "hsl(199 45% 71%)",
+  "l": "hsl(199 39% 31%)",
+  "src": "https://assets.parqet.com/logos/isin/US44951W1062?format=png&size=64"
  },
  "IOC.F": {
   "d": "hsl(208 85% 71%)",

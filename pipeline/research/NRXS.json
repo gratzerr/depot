@@ -1,1 +1,92 @@
-{"ticker": "NRXS", "news": [{"date": "2026-10-27", "headline": "NeurAxis to Host Third Quarter 2026 Results and Business Update Call on Monday, November 9, 2026", "source": "GlobeNewswire / Eastern Herald", "url": "https://easternherald.com/press-release/neuraxis-to-host-third-quarter-2026-results-and-business-update-call-on-monday-november-9-2026/", "summary": "NeurAxis will release summarized Q3 2026 results before the market opens on November 9 and host a call at 9:00 a.m. ET. It will be the first report to include the two national payer wins (about 18M lives in September and about 26M in October) and the start of the sales-force build-out under new CCO Craig Blanchard."}, {"date": "2026-10-15", "headline": "NeurAxis Announces Medical Policy Coverage Milestone, Expanding Access to 26 Million Additional Covered Lives", "source": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/10/15/3381751/0/en/neuraxis-announces-medical-policy-coverage-milestone-expanding-access-to-26-million-additional-covered-lives.html", "summary": "A major national insurer issued a written PENFS medical policy covering about 26 million members across multiple states, taking IB-Stim's footprint past 147 million covered lives. The release does not name the payer, but Aetna's Clinical Policy Bulletin 0011 now lists IB-Stim as medically necessary; shares closed up about 19% on roughly 43x normal volume."}, {"date": "2026-10-14", "headline": "NeurAxis Declares Q3 Series B Preferred Dividend Payable in About 81,339 Common Shares", "source": "TradingView", "url": "https://www.tradingview.com/symbols/AMEX-NRXS/news/", "summary": "The board declared the quarterly 8.5% Series B preferred dividend payable in roughly 81,339 common shares on October 30, a small non-cash dilution. The coupon expires December 31, 2026, after which management expects the roughly 3.7 million preferred shares to convert to common."}, {"date": "2026-10-08", "headline": "CEO, CFO and CRO Buy Shares in the Open Market at $4.84", "source": "Investing.com / SEC Form 4", "url": "https://www.investing.com/news/insider-trading-news/neuraxis-ceo-brian-carrico-buys-1297-in-company-stock-93CH-4939916", "summary": "On October 8, CFO Timothy Henrichs bought 1,937 shares (about $9.4K, lifting his direct stake to 9,530 shares), while CEO Brian Carrico and CRO Thomas Carrico added 268 and 328 shares at the same $4.84 price. The combined ~$12K is small but marks a coordinated management buy near the low, a week before the ~26M-life coverage win."}, {"date": "2026-09-29", "headline": "NeurAxis Appoints Craig Blanchard as Chief Commercial Officer", "source": "GlobeNewswire", "url": "https://www.stocktitan.net/news/NRXS/neur-axis-positions-for-next-phase-of-commercial-growth-with-ob3at8k8vwi8.html", "summary": "Craig Blanchard, a former commercial leader at Guidant, Boston Scientific and NICO (acquired by Stryker in 2024), started as CCO on September 21 and will run sales and marketing. The hire is meant to lead a significant W-2 sales-force build-out in regions where payer coverage is already in place."}, {"date": "2026-09-29", "headline": "NeurAxis at Lytham Partners Fall 2026 Conference: Coverage Gains, $4M Cash and Sales Force Expansion", "source": "Investing.com", "url": "https://www.investing.com/news/transcripts/neuraxis-at-lytham-partners-fall-2026-investor-conference-coverage-gains-93CH-4923534", "summary": "Management cited H1 2026 revenue of $3.5M (+94%), 86% gross margin, about $4,800 revenue per four-device patient course and more than 30 medical policies, with the recent mid-September payer adding roughly 18 million lives (identified in the recap as Cigna). Cash was $4M with no debt as of September 21 on 13.6M shares, and a 350-400 patient adult RCT is expected to read out in late 2027."}], "catalysts": [{"when": "2026-11-09", "label": "Q3 2026 results and call (Nov 9, 9:00 a.m. ET)", "detail": "Announced October 27: summarized results before the open on November 9 with a 9:00 a.m. ET call. Key tests: revenue against the $7-8M full-year pace (implying $3.5-4.5M in H2 vs $3.5M in H1), ASP progress, first VA rep orders, early utilization from the September (~18M) and October (~26M, Aetna) policies, and how management addresses only $4M of cash as of September 21 alongside the going-concern language.", "confirmed": true}, {"when": "2026-Q4", "label": "Financing to fund sales-force build-out", "detail": "With $4M of cash and no debt as of September 21, a Q2 opex run-rate near $3.8M per quarter and a planned W-2 sales expansion under new CCO Craig Blanchard, a capital raise or ATM usage looks likely around or after the Q3 report; the post-Aetna rally to the high $7s gives a better window than the $4.84 early-October low.", "confirmed": false}, {"when": "2026-12-31", "label": "Series B preferred coupon ends, conversion expected", "detail": "The 8.5% Series B coupon expires December 31, 2026; the Q3 dividend was declared on October 14 as about 81,339 common shares payable October 30. Management expects the roughly 3.7 million preferred shares to convert afterward, removing the dividend drag but lifting common shares from 13.6M toward the 20.4M fully diluted count.", "confirmed": true}, {"when": "2027-Q1", "label": "Broader VA expansion decision", "detail": "The first 10-12 commission-only VA reps were hired in mid-September, each covering one to three of the roughly 180-200 VA hospitals and community care centers reachable under the Federal Supply Schedule contract. Results from this cohort will decide whether to expand the VA effort in early 2027, making Q4 2026 VA orders the key data point.", "confirmed": false}, {"when": "2027-H1", "label": "Further national payer policies (UnitedHealthcare and others)", "detail": "After two national-scale wins in five weeks (about 18M lives on September 16 and about 26M from Aetna on October 15) coverage stands above 147 million lives. Management keeps pursuing additional major national insurers; hospitals generally want roughly 70% of their population covered before broad adoption, so a remaining top-five payer would be the next step change.", "confirmed": false}, {"when": "2027-H1", "label": "State Medicaid adoption of CPT 64567", "detail": "Around 25-30 states have loaded CPT code 64567 onto Medicaid fee schedules under EPSDT, while 20-25 states still lack a payment methodology even though the Category I code took effect January 1, 2026. Each additional state unlocks a reimbursed pediatric patient pool, with the 2027 fee-schedule cycle the next broad opportunity.", "confirmed": false}, {"when": "2027-Q4", "label": "Covered lives above 200 million and adult RCT readout", "detail": "Management targets more than 200 million covered lives by end-2027, up from over 147 million after the Aetna policy, and expects its 350-400 patient multi-site adult randomized trial to read out in late 2027 to support broader adult insurance coverage.", "confirmed": false}], "pulse": "As of November 5, 2026, NeurAxis has issued no new company news since scheduling its Q3 2026 results for November 9 before the open (call at 9:00 a.m. ET), and the stock trades in the mid-$6s, well above its early-October low of $4.84 after the October 15 national policy (identified as Aetna) lifted IB-Stim coverage above 147 million lives. The report is the first test of whether the new ~18M and ~26M-life policies, first VA orders and the sales build-out under CCO Craig Blanchard are translating into revenue against the $7-8M full-year pace. Funding remains the main overhang, with only about $4M of cash as of September 21 and going-concern language, so a capital raise around the report is likely."}
+{
+ "ticker": "NRXS",
+ "news": [
+  {
+   "date": "2026-10-27",
+   "headline": "NeurAxis to Host Third Quarter 2026 Results and Business Update Call on Monday, November 9, 2026",
+   "source": "GlobeNewswire / Eastern Herald",
+   "url": "https://easternherald.com/press-release/neuraxis-to-host-third-quarter-2026-results-and-business-update-call-on-monday-november-9-2026/",
+   "summary": "NeurAxis will release summarized Q3 2026 results before the market opens on November 9 and host a call at 9:00 a.m. ET. It will be the first report to include the two national payer wins (about 18M lives in September and about 26M in October) and the start of the sales-force build-out under new CCO Craig Blanchard."
+  },
+  {
+   "date": "2026-10-15",
+   "headline": "NeurAxis Announces Medical Policy Coverage Milestone, Expanding Access to 26 Million Additional Covered Lives",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/10/15/3381751/0/en/neuraxis-announces-medical-policy-coverage-milestone-expanding-access-to-26-million-additional-covered-lives.html",
+   "summary": "A major national insurer issued a written PENFS medical policy covering about 26 million members across multiple states, taking IB-Stim's footprint past 147 million covered lives. The release does not name the payer, but Aetna's Clinical Policy Bulletin 0011 now lists IB-Stim as medically necessary; shares closed up about 19% on roughly 43x normal volume."
+  },
+  {
+   "date": "2026-10-14",
+   "headline": "NeurAxis Declares Q3 Series B Preferred Dividend Payable in About 81,339 Common Shares",
+   "source": "TradingView",
+   "url": "https://www.tradingview.com/symbols/AMEX-NRXS/news/",
+   "summary": "The board declared the quarterly 8.5% Series B preferred dividend payable in roughly 81,339 common shares on October 30, a small non-cash dilution. The coupon expires December 31, 2026, after which management expects the roughly 3.7 million preferred shares to convert to common."
+  },
+  {
+   "date": "2026-10-08",
+   "headline": "CEO, CFO and CRO Buy Shares in the Open Market at $4.84",
+   "source": "Investing.com / SEC Form 4",
+   "url": "https://www.investing.com/news/insider-trading-news/neuraxis-ceo-brian-carrico-buys-1297-in-company-stock-93CH-4939916",
+   "summary": "On October 8, CFO Timothy Henrichs bought 1,937 shares (about $9.4K, lifting his direct stake to 9,530 shares), while CEO Brian Carrico and CRO Thomas Carrico added 268 and 328 shares at the same $4.84 price. The combined ~$12K is small but marks a coordinated management buy near the low, a week before the ~26M-life coverage win."
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "NeurAxis Appoints Craig Blanchard as Chief Commercial Officer",
+   "source": "GlobeNewswire",
+   "url": "https://www.stocktitan.net/news/NRXS/neur-axis-positions-for-next-phase-of-commercial-growth-with-ob3at8k8vwi8.html",
+   "summary": "Craig Blanchard, a former commercial leader at Guidant, Boston Scientific and NICO (acquired by Stryker in 2024), started as CCO on September 21 and will run sales and marketing. The hire is meant to lead a significant W-2 sales-force build-out in regions where payer coverage is already in place."
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "NeurAxis at Lytham Partners Fall 2026 Conference: Coverage Gains, $4M Cash and Sales Force Expansion",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/transcripts/neuraxis-at-lytham-partners-fall-2026-investor-conference-coverage-gains-93CH-4923534",
+   "summary": "Management cited H1 2026 revenue of $3.5M (+94%), 86% gross margin, about $4,800 revenue per four-device patient course and more than 30 medical policies, with the recent mid-September payer adding roughly 18 million lives (identified in the recap as Cigna). Cash was $4M with no debt as of September 21 on 13.6M shares, and a 350-400 patient adult RCT is expected to read out in late 2027."
+  }
+ ],
+ "catalysts": [
+  {
+   "when": "2026-11-09",
+   "label": "Q3 2026 results and call (Nov 9, 9:00 a.m. ET)",
+   "detail": "Announced October 27: summarized results before the open on November 9 with a 9:00 a.m. ET call. Key tests: revenue against the $7-8M full-year pace (implying $3.5-4.5M in H2 vs $3.5M in H1), ASP progress, first VA rep orders, early utilization from the September (~18M) and October (~26M, Aetna) policies, and how management addresses only $4M of cash as of September 21 alongside the going-concern language.",
+   "confirmed": true
+  },
+  {
+   "when": "2026-Q4",
+   "label": "Financing to fund sales-force build-out",
+   "detail": "With $4M of cash and no debt as of September 21, a Q2 opex run-rate near $3.8M per quarter and a planned W-2 sales expansion under new CCO Craig Blanchard, a capital raise or ATM usage looks likely around or after the Q3 report; the post-Aetna rally to the high $7s gives a better window than the $4.84 early-October low.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-12-31",
+   "label": "Series B preferred coupon ends, conversion expected",
+   "detail": "The 8.5% Series B coupon expires December 31, 2026; the Q3 dividend was declared on October 14 as about 81,339 common shares payable October 30. Management expects the roughly 3.7 million preferred shares to convert afterward, removing the dividend drag but lifting common shares from 13.6M toward the 20.4M fully diluted count.",
+   "confirmed": true
+  },
+  {
+   "when": "2027-Q1",
+   "label": "Broader VA expansion decision",
+   "detail": "The first 10-12 commission-only VA reps were hired in mid-September, each covering one to three of the roughly 180-200 VA hospitals and community care centers reachable under the Federal Supply Schedule contract. Results from this cohort will decide whether to expand the VA effort in early 2027, making Q4 2026 VA orders the key data point.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-H1",
+   "label": "Further national payer policies (UnitedHealthcare and others)",
+   "detail": "After two national-scale wins in five weeks (about 18M lives on September 16 and about 26M from Aetna on October 15) coverage stands above 147 million lives. Management keeps pursuing additional major national insurers; hospitals generally want roughly 70% of their population covered before broad adoption, so a remaining top-five payer would be the next step change.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-H1",
+   "label": "State Medicaid adoption of CPT 64567",
+   "detail": "Around 25-30 states have loaded CPT code 64567 onto Medicaid fee schedules under EPSDT, while 20-25 states still lack a payment methodology even though the Category I code took effect January 1, 2026. Each additional state unlocks a reimbursed pediatric patient pool, with the 2027 fee-schedule cycle the next broad opportunity.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-Q4",
+   "label": "Covered lives above 200 million and adult RCT readout",
+   "detail": "Management targets more than 200 million covered lives by end-2027, up from over 147 million after the Aetna policy, and expects its 350-400 patient multi-site adult randomized trial to read out in late 2027 to support broader adult insurance coverage.",
+   "confirmed": false
+  }
+ ],
+ "pulse": "As of November 6, 2026, NeurAxis has issued no new company news since scheduling its Q3 2026 results for November 9 before the open (call at 9:00 a.m. ET), and the stock trades well above its early-October low of $4.84 after the October 15 national policy (identified as Aetna) lifted IB-Stim coverage above 147 million lives. The report is the first test of whether the new ~18M and ~26M-life policies, first VA orders and the sales build-out under CCO Craig Blanchard are translating into revenue against the $7-8M full-year pace. Funding remains the main overhang, with only about $4M of cash as of September 21 and going-concern language, so a capital raise around the report is likely."
+}

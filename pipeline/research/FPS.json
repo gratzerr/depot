@@ -2,6 +2,13 @@
  "ticker": "FPS",
  "news": [
   {
+   "date": "2026-11-06",
+   "headline": "Roth Capital Initiates Forgent Power Solutions at Buy",
+   "source": "TipRanks / StreetInsider / MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ0hraTNWVmM3djRjMC1lUzUyM1FXcWowT0J0UXFyR1pLUVNRb19JTXdHbHRuNHpaWTJ6T2g4XzhZSkN5SVpOTUF6Z0g2Y3pmV2pOQnBLWlZHSmVuUkdYTndOX21hS0g3SktqQTFCTzVnOWl4aG9TT3RLWlRaUE1raldZVExjNW8wMlpqVG5ZcDVyVlBrX1JnWXliaTYtTjROdjdOTE14dGtZMy13OEVhcUE2emxoWU1ZX1c1NFZjb3VzdHRVRl9KWGZB?oc=5",
+   "summary": "Roth Capital (Roth/MKM) started coverage of Forgent at Buy, citing its differentiated exposure to AI-infrastructure build-outs through data-center power-distribution equipment. The initiation lands at the 52-week low, a week before the November 12 fiscal Q1 report."
+  },
+  {
    "date": "2026-11-05",
    "headline": "Forgent Power Solutions (NYSE:FPS) Hits New 52-Week Low",
    "source": "MarketBeat / Investing.com",
@@ -14,13 +21,6 @@
    "source": "Benzinga",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOejRrS0UyM0h3UER0eXA0YnJ6VERkUzNENjdsRVJBTHdNZ2p4ODV4SzRTUjJZbUxwS25EampKNFdwc2tRZlRXb0dXN0dUSkNsWGdwWkZhY2dPZVYwX3JPVms3Vkh3R0dSdW5MVGFXU3lUUDFIZ0FfWmJkakNkVm5JWEpuOVVqOVRiakhzOVpHb2NNcmxhY2VfNzBUa3dhcXNZb2RZdA?oc=5",
    "summary": "On Mad Money, Jim Cramer reaffirmed his long-running bullish view, calling Forgent a 'really really good' company ahead of its November 12 report. He has backed the data-center power equipment maker repeatedly since its February IPO, though he has also flagged its premium valuation."
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Forgent Power Solutions Shares Climb 7.4% as Post-CFO-Exit Rebound Extends",
-   "source": "Kalkine / MarketBeat",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbUZxTDF5aUN5RmRINHc1WGVRVWZjMHhZRU4wZFlFVEdxWTY5ZDl3VlFhRjdWWnNWWFc3ZmNBT2I2QmdmYVZsS05yQS16Sl9USXI5OUZzcmRJQmMycGViZWtMRkJSLTlZRFZzWXBXVVlSdENCd2p5d0J0SjE1LVBOWEszYTMzbWxVNGwzZHVSbTZ1T2lBUTNucWVzZExJRkhqS0s0cWE0b0lPOWtWZ0tFVmpiVUN4S1V3Y2lFV2Z4MWxSTG43X29mRW9LdjdtSHR2bWEwdWtCbzRWVkR3X0RUOXhMZHdUQ3dpNEdWbUZ3?oc=5",
-   "summary": "FPS gapped up and closed about 7.4% higher on October 28, its second strong session in a row after Clear Street's Buy initiation and the Columbus office announcement. The rebound follows a week in which the stock fell about 23% to a record low on the surprise CFO exit."
   },
   {
    "date": "2026-10-27",
@@ -58,5 +58,5 @@
    "confirmed": true
   }
  ],
- "pulse": "As of November 6, 2026, Forgent (NYSE: FPS), the February-2026 IPO supplying power-distribution equipment to AI data centers and utilities, has fallen to a new 52-week low, erasing the late-October rebound that followed the roughly 23% slide on the October 22 CFO exit (Ryan Fiedler replaced internally by Amy Ard; 'no disagreement' per 8-K/A). Supports remain Clear Street's Buy initiation ($58 target), Bernstein's Outperform, the 85-job Columbus office and the pre-announced beat on fiscal Q1 revenue and adjusted EBITDA, while valuation debate persists. Options imply about an 11% move on the November 12 report, where the size of the beat, order growth on the ~$3B backlog and FY2027 guidance are the decisive tests."
+ "pulse": "As of November 6, 2026, Forgent (NYSE: FPS), the February-2026 IPO supplying power-distribution equipment to AI data centers and utilities, trades at a new 52-week low after erasing the late-October rebound that followed the roughly 23% slide on the October 22 CFO exit (Ryan Fiedler replaced internally by Amy Ard; 'no disagreement' per 8-K/A). Sell-side support keeps building, with Roth initiating at Buy on November 6 after Clear Street's Buy ($58 target) and Bernstein's Outperform, and the company has already pre-announced that fiscal Q1 revenue and adjusted EBITDA beat the top of guidance. Options imply about an 11% move on the November 12 report, where the size of the beat, order growth on the ~$3B backlog and FY2027 guidance are the decisive tests."
 }

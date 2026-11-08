@@ -2,6 +2,13 @@
  "ticker": "ORCL",
  "news": [
   {
+   "date": "2026-11-06",
+   "headline": "Microsoft reportedly winding down 2023 deal to rent AI cloud capacity from Oracle",
+   "source": "Bloomberg / Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0g4UzRRaV9OckNuUjZYeVcybWl4SnhZUHVRR3pXVTFUdVMtWENOSWRKdjhUQThNTWlRWXd3YVJFTUVaM1hOaFI2UWJ6cDlWZjM4Q3NXTWZDVlJFSTdnS3RqNExHcG93anIxTDhpNXJTRGduSEgxcWNaYnNRYTdOdWF4SzBoZzBLV3o1Wi1ZaEVPWkFXZVJSSWhYZWFSdE9BRFlINGtWWjhhM2FLUEdaYjJQOTBLQ0VCLVIyXw?oc=5",
+   "summary": "Bloomberg reported that Microsoft is winding down a 2023 arrangement to rent AI computing capacity from Oracle's cloud as it shifts to its own data center buildout. Coming two days after the Tencent cancellation, it was the second lost non-OpenAI customer in a week and the stock fell about 4%."
+  },
+  {
    "date": "2026-11-04",
    "headline": "Oracle abandons $7 billion Tencent AI chip-leasing deal under US government pressure",
    "source": "Reuters / Financial Times",
@@ -35,13 +42,6 @@
    "source": "Yahoo Finance / CNBC",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBUN1NSM3FTc2tqZEdsWlpzRzYxaXFfdFZsLTZuY2JxSk5SVWtzTWVWcGZRRmRvcDROWjgyU3BfTjZmV0t4SnYw?oc=5",
    "summary": "Shares fell more than 5% after a Financial Times report cut OpenAI's annualized revenue estimate by about $20B, reviving worries about Oracle's dependence on OpenAI for most of its roughly $664B backlog. The WSJ reported the same day that Oracle was exploring additional financing for AI chip purchases."
-  },
-  {
-   "date": "2026-09-24",
-   "headline": "Oracle triggers 'force majeure' on $165B Project Jupiter data center over power delays",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZqSDVjdjZZaURFZ3VZNzlrRzdIZzE1MDRPNkNlQjRsbmlzLWdzUTRqTEFVdnNCS1czRkNrbVZTbzFHa1B2Nm51ZWRKSUUxMm41M05DWWw5WlQwZWhsR0duLVMzS1lXekZ1enFyS0VpcHRUTTduUVZtVnhXRDZRTVpHN0ZfUnhjUVVCbkNMeTAtZHdmOVpwUXpyZDNDY00zRVVyM1dyVG5fMTJ6RzE5XzBFTHU2YTNtMDdmdjh3?oc=5",
-   "summary": "Oracle sent force-majeure notices to developers including Blue Owl on the New Mexico Project Jupiter campus after power-supply setbacks, shielding itself from liability while saying it remains committed to the project. The move rattled AI-infrastructure lenders and Oracle bondholders; in October Oracle pledged emissions cuts to defuse a permit challenge."
   }
  ],
  "catalysts": [
@@ -70,5 +70,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Oracle shares have roughly halved from their highs on AI-debt worries, recovered about 11% on the October 28 Investor Day targets, then slid again after Oracle used its entire $20B funding cap at once (stock priced at $116, notes at 7-8.65%) and dropped the $7B Tencent chip-leasing deal under US pressure. The bull case rests on the ~$664B backlog (dominated by OpenAI) and the plan to turn free-cash-flow positive in H2 FY28; the bear case is leverage, Project Jupiter power delays and OpenAI concentration. The next test is the fiscal Q2 report expected around December 9."
+ "pulse": "Oracle shares slid to four-month lows in early November: the October 28 Investor Day rally (about +11%) was erased after Oracle used its entire $20B funding cap at once (stock priced at $116, notes at 7-8.65%), dropped the $7B Tencent chip-leasing deal under US pressure, and then fell another ~4% on November 6 on a Bloomberg report that Microsoft is winding down its AI cloud-capacity rental deal. Both lost deals deepen the concentration on OpenAI within the ~$664B backlog, while the bull case rests on the FY30 targets and positive free cash flow from H2 FY28. The next test is the fiscal Q2 report expected around December 9."
 }

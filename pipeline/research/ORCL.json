@@ -1,1 +1,74 @@
-{"ticker": "ORCL", "news": [{"date": "2026-11-06", "headline": "Oracle's shareholder meeting will be online; guests can watch, but not vote.", "source": "Stock Titan", "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYU4yT0tud3VQcTRDN3RRdVlHRkNPdmFKNlZ4enphQWNkd3ptSjY5U0hOVHNZTFY3b3RaQl9yN1ZOSENtWG5EX2p4N0s5dklfSWUxMnFWa3Q1YXhtRkJXVWMtV2VoVmJuMUw0QngxY2JDSEZiOG9kV2hjOHdQbU9GVjMtcmVEc3libXJJTkFrc3I0YWVmYWNaQUtxa1d2WGJ6anRlQ2dkcmtWYVpnMnduVjZsQWg5S1pz?oc=5", "summary": "Oracle's annual shareholder meeting will be held online; guests can watch but not vote."}, {"date": "2026-10-27", "headline": "ORCL Stock Rebounds but Faces $136 Resistance as Oracle Expands OpenAI, Nvidia and Google Partnerships but Infrastructure Risks Mount", "source": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/10/27/orcl-stock-rebounds-but-faces-136-resistance-as-oracle-expands-openai-nvidia-and-google-partnerships-but-infrastructure-risks-mount/", "summary": "Shares rebounded as Oracle widened its OpenAI, Nvidia and Google partnerships, while infrastructure and funding risks remain in focus."}, {"date": "2026-10-12", "headline": "Oracle Shares Fall 5% as AI Financing: What to Know", "source": "JournalArta", "url": "https://journalarta.com/en/2026/10/12/oracle-stock-price-ai-spending-debt/", "summary": "Oracle announced a $20B raise split between common stock and senior notes to fund AI capacity, and the shares dropped on the dilution and leverage."}], "catalysts": [{"when": "~2026-12-09", "label": "Fiscal Q2 2027 earnings", "detail": "Projected date, not yet confirmed by Oracle; consensus around $1.57 EPS on ~$21.3B revenue.", "confirmed": false}], "pulse": "Oracle is funding a huge AI-infrastructure build-out, including a $20B stock-and-bond raise in October. The OpenAI contract dominates the ~$650B backlog, and S&P cut the rating to BBB-. Next test is the fiscal Q2 report in early December."}
+{
+ "ticker": "ORCL",
+ "news": [
+  {
+   "date": "2026-11-04",
+   "headline": "Oracle abandons $7 billion Tencent AI chip-leasing deal under US government pressure",
+   "source": "Reuters / Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWJQOGRuTGwyaDdhNm9pUkwxSTdndmhaLTI1MTAzYUdpd0EyNE1YT2xGeFNVbGNKRXhOa1Fob3QyOS05RnJReHJ6N3BhWlNBNXJXaU5XN3hzcllGUzRHbGVfTU9sUlNZNlNwd3FvMHA5VE9CcDRoQXJFNGQ3X29ZeDJEbXliRHB5a2FGVVBpUklwLTBfaG05UC1iR1VLd3kxNDFlVnlvV05LZDVvaVN5VUFaNm1PVDBmZVN6V2h3?oc=5",
+   "summary": "Per the FT, Oracle walked away from the roughly $7B agreement, reported in early October, to lease about 100,000 advanced AI chips to Tencent from offshore data centers, after pressure from the Trump administration. The cancellation removes a sizable non-OpenAI customer from the backlog and the shares fell on the news."
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Oracle Announces Pricing of $20 Billion of Common Stock and Senior Notes",
+   "source": "Oracle Investor Relations",
+   "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Pricing-of-20-Billion-of-Common-Stock-and-Senior-Notes/default.aspx",
+   "summary": "Oracle sold 86.2M shares at $116 (about $9.9B net) plus $10B of senior notes in five tranches with coupons of 7.00% (2029) to 8.65% (2046), closing November 4. The raise uses the entire $20B FY27-FY30 new-funding cap set just five days earlier at Investor Day, and the stock dropped on the dilution and high borrowing cost."
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Oracle Investor Day 2026: $225B FY30 revenue target, $20B funding cap and path to positive free cash flow",
+   "source": "Oracle IR / Reuters",
+   "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Investor-Day-2026-Accelerating-Value-Creation/default.aspx",
+   "summary": "Oracle reaffirmed FY27 guidance (revenue of at least $90B, non-GAAP EPS of $8.10) and set FY30 targets of $225B+ revenue, 40%+ non-GAAP operating margin and $21+ EPS, with free cash flow turning positive in H2 FY28 and at least $30B in FY29. It capped new capital-market funding through FY30 at $20B (ex-refinancing), and the stock jumped about 11%."
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Oracle integrates ChatGPT and Codex into its apps, expands OpenAI partnership and adds Google AI chips to OCI",
+   "source": "CNBC / OpenAI",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLXNOakpZUWg2elFlZ2k0VXcxVHlybzUtYTJxWmZIUEw1QmM4a0xiRmdrdjZFZGloUU5HZG1DTFp0Ry1FcC1PMFVrY2gxYmlrb0E2dUFaaHF6Z2NGSV9mRW5wVkh2TTI4Yy1ZeU42X003YjdrZjhaem1XOEh4eXk5MTVn0gGHAUFVX3lxTE1aMnIwbG5ZZUoxd1NqT0hCeS1hdFdCbnVzWVdBUkUyb1lzZzVQRXU5WHNJTEhUOXd1eG11RGVZajFHazZnaWZ1MS03eHNCVUlPaTl1dXN0WW50Q0w4ZERuR3hOd25TRmV0VEYtckN3TmlIZ2dFdkhueFN6dy1lWVlDd2FQTmMxRQ?oc=5",
+   "summary": "At its AI World event Oracle embedded OpenAI's ChatGPT and Codex in its enterprise applications and OpenAI agreed to bring Oracle apps into ChatGPT, broadening the relationship beyond compute leasing. Oracle also expanded its cloud accelerator lineup with Google TPUs alongside Nvidia and AMD."
+  },
+  {
+   "date": "2026-10-08",
+   "headline": "Oracle stock falls on report of OpenAI revenue shortfall and plans for more AI-chip financing",
+   "source": "Yahoo Finance / CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBUN1NSM3FTc2tqZEdsWlpzRzYxaXFfdFZsLTZuY2JxSk5SVWtzTWVWcGZRRmRvcDROWjgyU3BfTjZmV0t4SnYw?oc=5",
+   "summary": "Shares fell more than 5% after a Financial Times report cut OpenAI's annualized revenue estimate by about $20B, reviving worries about Oracle's dependence on OpenAI for most of its roughly $664B backlog. The WSJ reported the same day that Oracle was exploring additional financing for AI chip purchases."
+  },
+  {
+   "date": "2026-09-24",
+   "headline": "Oracle triggers 'force majeure' on $165B Project Jupiter data center over power delays",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZqSDVjdjZZaURFZ3VZNzlrRzdIZzE1MDRPNkNlQjRsbmlzLWdzUTRqTEFVdnNCS1czRkNrbVZTbzFHa1B2Nm51ZWRKSUUxMm41M05DWWw5WlQwZWhsR0duLVMzS1lXekZ1enFyS0VpcHRUTTduUVZtVnhXRDZRTVpHN0ZfUnhjUVVCbkNMeTAtZHdmOVpwUXpyZDNDY00zRVVyM1dyVG5fMTJ6RzE5XzBFTHU2YTNtMDdmdjh3?oc=5",
+   "summary": "Oracle sent force-majeure notices to developers including Blue Owl on the New Mexico Project Jupiter campus after power-supply setbacks, shielding itself from liability while saying it remains committed to the project. The move rattled AI-infrastructure lenders and Oracle bondholders; in October Oracle pledged emissions cuts to defuse a permit challenge."
+  }
+ ],
+ "catalysts": [
+  {
+   "when": "~2026-12-09",
+   "label": "Fiscal Q2 2027 earnings",
+   "detail": "Projected date, not yet confirmed by Oracle (typically announced a few weeks ahead). First print after Investor Day and the $20B raise; focus on RPO/backlog after the Tencent cancellation, OCI growth, capex and cash burn against the reaffirmed FY27 guide of $90B+ revenue and $8.10 non-GAAP EPS.",
+   "confirmed": false
+  },
+  {
+   "when": "2026-Q4",
+   "label": "Project Jupiter power resolution",
+   "detail": "Whether the force-majeure situation at the $165B New Mexico campus is resolved and power/permitting issues are cleared; delays here push out OpenAI-linked capacity and revenue recognition.",
+   "confirmed": false
+  },
+  {
+   "when": "~2027-03",
+   "label": "Fiscal Q3 2027 earnings",
+   "detail": "Expected mid-March 2027 based on Oracle's usual calendar; next checkpoint on capacity ramp and progress toward the FY27 targets.",
+   "confirmed": false
+  },
+  {
+   "when": "2028-H2",
+   "label": "Free cash flow turns positive (company target)",
+   "detail": "Investor Day target: FCF positive in the second half of FY28 and at least $30B in FY29, with net debt below 3.5x adjusted EBITDA in FY29 and growth self-funded from then on. Any slippage would likely force funding beyond the $20B cap, which is already fully used.",
+   "confirmed": false
+  }
+ ],
+ "pulse": "Oracle shares have roughly halved from their highs on AI-debt worries, recovered about 11% on the October 28 Investor Day targets, then slid again after Oracle used its entire $20B funding cap at once (stock priced at $116, notes at 7-8.65%) and dropped the $7B Tencent chip-leasing deal under US pressure. The bull case rests on the ~$664B backlog (dominated by OpenAI) and the plan to turn free-cash-flow positive in H2 FY28; the bear case is leverage, Project Jupiter power delays and OpenAI concentration. The next test is the fiscal Q2 report expected around December 9."
+}

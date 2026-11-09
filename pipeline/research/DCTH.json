@@ -2,11 +2,18 @@
  "ticker": "DCTH",
  "news": [
   {
-   "date": "2026-11-04",
-   "headline": "Delcath Systems: Intriguingly Poised Ahead Of Q3 Earnings",
-   "source": "Seeking Alpha",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcWw3YmJBa05BYjg1U1NydFY5NjZnbVh1a1pheUpJVFBxVUFPN0hscnREdTJpa1IxdDIteU5uMWd2aGxFR09sSVdoRi1Ra1gybHZ4VFpkd1pObDhCcWFEbVRKX29hbDVzSW8wY3dZZEVQRE1UZDRmNndSTmxXMk5PTzNNV1lJRUZDR1d1dldzTnR2NTNfMC1neHBwRl9GQQ?oc=5",
-   "summary": "A Seeking Alpha preview argues Delcath looks attractively positioned into its November 9 Q3 report after the October share-price decline. Data providers put Q3 revenue consensus near $26M, and the report will test whether HEPZATO growth is tracking the $104M-$108M full-year guide."
+   "date": "2026-11-09",
+   "headline": "Delcath Q3 2026: revenue up 70% to $35.1M, net income $7.0M; FY2026 guidance raised to $115M-$117M",
+   "source": "Business Wire / SEC 8-K",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000872912/000162828026071894/dcth-q32026erex991.htm",
+   "summary": "Q3 revenue rose to $35.1M from $20.6M (HEPZATO KIT $32.7M, CHEMOSAT $2.4M), well above the ~$26M consensus, with 89% gross margin, net income of $7.0M ($0.17 diluted EPS) and adjusted EBITDA of $11.5M; cash and investments reached $104.3M with no debt. FY2026 revenue guidance was raised to $115M-$117M from $104M-$108M, with HEPZATO volume growth of at least 41%, Q3 HEPZATO volume up about 72% and 33 active treatment centers."
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "BTIG keeps Buy on Delcath and raises price target to $25 from $21",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVE04N1lHR0ZyNHpjRElaZFdhb2xvM2dfVDNFeUZBbkV1NmwxRGRZUVNOUXloUFBPQl81bkxiUGFIZm9hdXVxcE53UE5tLTdHMEY0Tks3eUpEanZoM0R3eVFzTzRfaVVkd0R0YW5RUzgxWGZMSVFGMFo3OXJPekZoRUVKUEpVMmhfdnFJVFV3c3d5Qmk3U2lXeDlXMVhiV01HcWt1bk5wcS1LRFBfa2RzcXNEb0liSnQ4WkIzMUhybzFjaWtxZFlieFNKMFM1UQ?oc=5",
+   "summary": "BTIG reiterated its Buy rating and lifted its target to $25 after the Q3 beat and guidance raise. Shares traded higher on the day following the results."
   },
   {
    "date": "2026-10-27",
@@ -21,13 +28,6 @@
    "source": "SEC Schedule 13G / StockTitan",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTzk5dmY4Y05FVEFoT0V2QnRGbDlRRktSUlhnQlVUNDFrVEVVOWVQQTI5ek5kamtpSDMwbmp1VC0wTTVjOXdjRnZ0NGpXYnBHMmYwZ1JiLWFqNGF5TmI5eUNkbmZrOUVrVnV5U0dUdjZnZjl6dU05Z0pyYVlpbUpTRjBITS1yTVlMcDRRWnkwQ3hMV3BUOHFXczk2cmlIYzlRQWhKTjhKMW9zR251aG43RER4cktIT2llSzJJdTk4Z1dESzRt?oc=5",
    "summary": "BlackRock Portfolio Management reported beneficial ownership of 2,180,493 Delcath shares, or 6.3% of the class as of September 30, 2026. That is up from the 1,836,121 shares (5.3%) BlackRock disclosed in July, so a large passive holder kept adding during the Q3 pullback."
-  },
-  {
-   "date": "2026-10-26",
-   "headline": "Delcath to Host Q3 2026 Earnings Call on November 9",
-   "source": "Business Wire / Delcath IR",
-   "url": "https://investors.delcath.com/news-releases/news-release-details/delcath-systems-host-third-quarter-2026-earnings-call",
-   "summary": "Delcath will report results for the quarter ended September 30, 2026 and hold a conference call and webcast on Monday, November 9, 2026 at 8:30 a.m. ET. The date is later than the November 3-5 window data providers had estimated, and the notice came without preliminary revenue figures."
   },
   {
    "date": "2026-10-19",
@@ -46,27 +46,27 @@
  ],
  "catalysts": [
   {
-   "when": "2026-11-09",
-   "label": "Q3 2026 results and call (Nov 9, 8:30 a.m. ET)",
-   "detail": "Delcath announced on October 26 that it will report Q3 2026 results and host a call on Monday, November 9 at 8:30 a.m. ET. Consensus sits near $26.0M revenue and an EPS loss of about $0.09 (TradingView), and options were pricing a move of roughly +/-17%. The call is the first check on whether HEPZATO volumes and center activations are tracking the raised $104M-$108M FY guidance, whether that range gets lifted again, and whether operating leverage shows through after the 340B pricing and spending concerns raised in September commentary.",
-   "confirmed": true
-  },
-  {
    "when": "2026-11-10",
    "label": "UBS Global Healthcare Conference presentation (webcast)",
-   "detail": "Management presents at UBS on November 10 in Palm Beach Gardens, the day after Q3 results, followed by the Canaccord Genuity forum on November 11 and Craig-Hallum Alpha Select on November 17 in New York. The webcast UBS session is the first post-earnings venue for color on center activations, the 2026 guidance and the mCRC/DELUMA trials.",
+   "detail": "Management presents at UBS on November 10 in Palm Beach Gardens, the day after the Q3 beat, followed by the Canaccord Genuity forum on November 11 and Craig-Hallum Alpha Select on November 17 in New York. These are the first venues for follow-up color on the raised $115M-$117M guide, center activations and the mCRC/DELUMA trials.",
    "confirmed": true
   },
   {
    "when": "2026-Q4",
-   "label": "~37 active HEPZATO treatment centers, incl. MD Anderson and Mayo Clinic Scottsdale",
-   "detail": "Delcath exited Q2 with 31 active HEPZATO KIT centers and guided to roughly six additional activations by year-end for about 37. Named additions include MD Anderson, Mayo Clinic Scottsdale, UT Southwestern, OHSU Knight Cancer Institute and Columbia's Herbert Irving Comprehensive Cancer Center; UVA Health came online in July. Center count is the most direct driver of near-term revenue, and the September inducement grants for four new hires point to continued commercial staffing behind the build-out.",
+   "label": "~37 active HEPZATO treatment centers by year-end (33 active now)",
+   "detail": "Delcath reported 33 active HEPZATO KIT treatment centers with its Q3 results, up from 31 at the end of Q2, against an earlier goal of roughly 37 by year-end. Named additions in the pipeline include MD Anderson, Mayo Clinic Scottsdale, UT Southwestern, OHSU Knight Cancer Institute and Columbia; center count remains the most direct driver of near-term revenue.",
    "confirmed": true
   },
   {
    "when": "2027-Q1",
-   "label": "FY2026 revenue $104M-$108M and positive adjusted EBITDA",
-   "detail": "Raised guidance implies at least 28% HEPZATO volume growth over 2025, with FY gross margin guided to 86%-89% after Q2 printed 90%. Positive full-year adjusted EBITDA would confirm a self-funding commercial model and, with $95.9M of cash and no debt, remove the dilution overhang that has historically capped the multiple.",
+   "label": "FY2026 results vs raised $115M-$117M guide and positive adjusted EBITDA",
+   "detail": "On November 9 Delcath raised FY2026 revenue guidance to $115M-$117M (from $104M-$108M), with HEPZATO volume growth of at least 41% over 2025, gross margin of 87%-89% and positive adjusted EBITDA. Nine-month revenue was $89.2M, implying roughly $26M-$28M for Q4; the FY report and the first 2027 outlook are due in early 2027.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-Q1",
+   "label": "Cholangiocarcinoma IND submission",
+   "detail": "The Q3 release lists a planned IND submission for HEPZATO in cholangiocarcinoma in early 2027, plus completion of preclinical development of an oxaliplatin-based PHP product by mid-2027, pending FDA agreement. Both would broaden the liver-directed platform beyond uveal melanoma, mCRC and breast cancer.",
    "confirmed": true
   },
   {
@@ -82,5 +82,5 @@
    "confirmed": true
   }
  ],
- "pulse": "As of the morning of November 9, 2026, Delcath has issued no new company news since its October 26-27 notices on the Q3 earnings date and November investor conferences, and the Q3 release was not yet public at the time of this refresh; previews point to Q3 revenue near $26M and an EPS loss of about $0.09, with Canaccord reiterating Buy ($21 target on November 3) and BlackRock's passive stake up to 6.3%. Shares sit around $14 after an October decline, so sentiment hinges on today's 8:30 a.m. ET call and the follow-on UBS (Nov 10, webcast), Canaccord (Nov 11) and Craig-Hallum (Nov 17) appearances, where investors want a reaffirmed or raised $104M-$108M FY guide and progress toward about 37 active centers."
+ "pulse": "Delcath delivered a clear beat on November 9: Q3 revenue rose 70% to $35.1M (vs ~$26M consensus) with 89% gross margin, $7.0M net income, $11.5M adjusted EBITDA and $104.3M of cash with no debt, and FY2026 guidance was raised to $115M-$117M from $104M-$108M. Shares rose on the print from around $14 and BTIG lifted its target to $25, as HEPZATO volume grew about 72% with 33 active centers. Next come the UBS (Nov 10), Canaccord (Nov 11) and Craig-Hallum (Nov 17) appearances, further center activations toward year-end, mCRC and DELUMA trial enrollment and a planned cholangiocarcinoma IND in early 2027."
 }

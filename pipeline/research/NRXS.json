@@ -2,11 +2,11 @@
  "ticker": "NRXS",
  "news": [
   {
-   "date": "2026-10-27",
-   "headline": "NeurAxis to Host Third Quarter 2026 Results and Business Update Call on Monday, November 9, 2026",
-   "source": "GlobeNewswire / Eastern Herald",
-   "url": "https://easternherald.com/press-release/neuraxis-to-host-third-quarter-2026-results-and-business-update-call-on-monday-november-9-2026/",
-   "summary": "NeurAxis will release summarized Q3 2026 results before the market opens on November 9 and host a call at 9:00 a.m. ET. It will be the first report to include the two national payer wins (about 18M lives in September and about 26M in October) and the start of the sales-force build-out under new CCO Craig Blanchard."
+   "date": "2026-11-09",
+   "headline": "NeurAxis reports record Q3 2026: revenue up 150% to $2.0M, net loss widens to $6.5M",
+   "source": "GlobeNewswire / SEC 10-Q",
+   "url": "https://finviz.com/news/418938/neuraxis-reports-record-third-quarter-2026-financial-results-driven-by-150-year-over-year-revenue-growth",
+   "summary": "Q3 net sales rose 150% to $2.03M (from $0.81M) on 92% higher unit deliveries, roughly in line with the ~$2.1M consensus, and gross margin improved 330 bps to 86.6%. The net loss widened to $6.5M, mainly on $4.3M of one-time stock compensation inside $7.0M of G&A; cash was $4.5M at September 30 and the company has since raised $1.7M via its ATM."
   },
   {
    "date": "2026-10-15",
@@ -46,15 +46,9 @@
  ],
  "catalysts": [
   {
-   "when": "2026-11-09",
-   "label": "Q3 2026 results and call (Nov 9, 9:00 a.m. ET)",
-   "detail": "Announced October 27: summarized results before the open on November 9 with a 9:00 a.m. ET call. Previews put consensus near $2.1M revenue (vs $0.8M a year earlier) and an EPS loss of about $0.21. Key tests: revenue against the $7-8M full-year pace (implying $3.5-4.5M in H2 vs $3.5M in H1), ASP progress, first VA rep orders, early utilization from the September (~18M) and October (~26M, Aetna) policies, and how management addresses only $4M of cash as of September 21 alongside the going-concern language.",
-   "confirmed": true
-  },
-  {
    "when": "2026-Q4",
    "label": "Financing to fund sales-force build-out",
-   "detail": "With $4M of cash and no debt as of September 21, a Q2 opex run-rate near $3.8M per quarter and a planned W-2 sales expansion under new CCO Craig Blanchard, a capital raise or ATM usage looks likely around or after the Q3 report; the post-Aetna rally to the high $7s gives a better window than the $4.84 early-October low.",
+   "detail": "Cash was $4.5M at September 30, 2026 (down from $8.3M at June 30, largely due to withholding taxes on RSU net settlement), and NeurAxis has already raised $1.7M through its at-the-market facility in Q4. With a planned W-2 sales expansion under CCO Craig Blanchard and a new VP of Market Access, further ATM usage or a larger raise looks likely.",
    "confirmed": false
   },
   {
@@ -67,6 +61,12 @@
    "when": "2027-Q1",
    "label": "Broader VA expansion decision",
    "detail": "The first 10-12 commission-only VA reps were hired in mid-September, each covering one to three of the roughly 180-200 VA hospitals and community care centers reachable under the Federal Supply Schedule contract. Results from this cohort will decide whether to expand the VA effort in early 2027, making Q4 2026 VA orders the key data point.",
+   "confirmed": false
+  },
+  {
+   "when": "2027-03",
+   "label": "Q4/FY2026 results",
+   "detail": "The next report will show the first full quarter of utilization after the ~18M-life (September) and ~26M-life (October) payer policies, early VA orders and the cash position after Q4 ATM sales. NeurAxis has not announced a date; it reported Q4 2025 in March.",
    "confirmed": false
   },
   {
@@ -88,5 +88,5 @@
    "confirmed": false
   }
  ],
- "pulse": "As of the morning of November 9, 2026, NeurAxis has issued no new company news since scheduling its Q3 2026 results for today before the open (call at 9:00 a.m. ET), and the release was not yet public at the time of this refresh; previews look for revenue near $2.1M and an EPS loss of about $0.21. The stock trades well above its early-October low of $4.84 after the October 15 national policy (identified as Aetna) lifted IB-Stim coverage above 147 million lives, and the report is the first test of whether the new ~18M and ~26M-life policies, first VA orders and the sales build-out under CCO Craig Blanchard are translating into revenue against the $7-8M full-year pace. Funding remains the main overhang, with only about $4M of cash as of September 21 and going-concern language, so a capital raise around the report is likely."
+ "pulse": "NeurAxis reported record Q3 2026 results on November 9: revenue up 150% to $2.03M on 92% higher unit deliveries and an 86.6% gross margin, but the net loss widened to $6.5M, inflated by $4.3M of one-time stock compensation. Coverage now exceeds 147 million lives after the September and October national policies, while the sales build-out under CCO Craig Blanchard and the VA channel ramp. Funding remains the key overhang with just $4.5M of cash at quarter-end plus $1.7M raised via the ATM since, so further dilution is likely before Q4 results and additional payer wins."
 }

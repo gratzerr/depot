@@ -46,9 +46,9 @@
  ],
  "catalysts": [
   {
-   "when": "~2026-12-09",
+   "when": "~2026-12-10",
    "label": "Fiscal Q2 2027 earnings",
-   "detail": "Projected date, not yet confirmed by Oracle (typically announced a few weeks ahead). First print after Investor Day and the $20B raise; focus on RPO/backlog after the Tencent cancellation, OCI growth, capex and cash burn against the reaffirmed FY27 guide of $90B+ revenue and $8.10 non-GAAP EPS.",
+   "detail": "Projected date (calendar estimates point to Dec 10 after the close); not yet confirmed by Oracle, which usually sets the date in late Nov/early Dec. Company guide: revenue $21.00-21.64B, non-GAAP EPS $1.83-1.91. First print after Investor Day and the $20B raise; focus on RPO/backlog after the Tencent cancellation, OCI growth, capex and cash burn against the reaffirmed FY27 guide of $90B+ revenue and $8.10 non-GAAP EPS.",
    "confirmed": false
   },
   {
@@ -70,5 +70,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Oracle shares slid to four-month lows in early November: the October 28 Investor Day rally (about +11%) was erased after Oracle used its entire $20B funding cap at once (stock priced at $116, notes at 7-8.65%), dropped the $7B Tencent chip-leasing deal under US pressure, and then fell another ~4% on November 6 on a Bloomberg report that Microsoft is winding down its AI cloud-capacity rental deal. Both lost deals deepen the concentration on OpenAI within the ~$664B backlog, while the bull case rests on the FY30 targets and positive free cash flow from H2 FY28. The next test is the fiscal Q2 report expected around December 9."
+ "pulse": "Oracle shares slid to multi-year lows in early November (new 52-week low around $109 by Nov 7): the October 28 Investor Day rally (about +11%) was erased after Oracle used its entire $20B funding cap at once (stock priced at $116, notes at 7-8.65%), dropped the $7B Tencent chip-leasing deal under US pressure, and then fell another ~4% on November 6 on a Bloomberg report that Microsoft is winding down its AI cloud-capacity rental deal. Both lost deals deepen the concentration on OpenAI within the ~$664B backlog, while the bull case rests on the FY30 targets and positive free cash flow from H2 FY28. The next test is the fiscal Q2 report expected around December 10."
 }

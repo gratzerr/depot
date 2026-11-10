@@ -2,6 +2,13 @@
  "ticker": "ORCL",
  "news": [
   {
+   "date": "2026-11-10",
+   "headline": "Oracle breaks ground on roughly $2B Nashville world headquarters campus",
+   "source": "Becker's / Axios",
+   "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/oracle-to-break-ground-on-2b-nashville-headquarters/",
+   "summary": "Oracle scheduled the groundbreaking of its River North world headquarters in Nashville for November 10, an estimated $2B campus with about 2 million sq ft of office space that it calls a hub for AI innovation. The start goes ahead despite this year's large layoffs, which had raised doubts about the plan."
+  },
+  {
    "date": "2026-11-09",
    "headline": "Cloud push lifts Oracle (NYSE: ORCL) as infrastructure revenue more than doubles and data center spending jumps",
    "source": "Stock Titan",
@@ -42,13 +49,6 @@
    "source": "CNBC / OpenAI",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLXNOakpZUWg2elFlZ2k0VXcxVHlybzUtYTJxWmZIUEw1QmM4a0xiRmdrdjZFZGloUU5HZG1DTFp0Ry1FcC1PMFVrY2gxYmlrb0E2dUFaaHF6Z2NGSV9mRW5wVkh2TTI4Yy1ZeU42X003YjdrZjhaem1XOEh4eXk5MTVn0gGHAUFVX3lxTE1aMnIwbG5ZZUoxd1NqT0hCeS1hdFdCbnVzWVdBUkUyb1lzZzVQRXU5WHNJTEhUOXd1eG11RGVZajFHazZnaWZ1MS03eHNCVUlPaTl1dXN0WW50Q0w4ZERuR3hOd25TRmV0VEYtckN3TmlIZ2dFdkhueFN6dy1lWVlDd2FQTmMxRQ?oc=5",
    "summary": "At its AI World event Oracle embedded OpenAI's ChatGPT and Codex in its enterprise applications and OpenAI agreed to bring Oracle apps into ChatGPT, broadening the relationship beyond compute leasing. Oracle also expanded its cloud accelerator lineup with Google TPUs alongside Nvidia and AMD."
-  },
-  {
-   "date": "2026-10-08",
-   "headline": "Oracle stock falls on report of OpenAI revenue shortfall and plans for more AI-chip financing",
-   "source": "Yahoo Finance / CNBC",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBUN1NSM3FTc2tqZEdsWlpzRzYxaXFfdFZsLTZuY2JxSk5SVWtzTWVWcGZRRmRvcDROWjgyU3BfTjZmV0t4SnYw?oc=5",
-   "summary": "Shares fell more than 5% after a Financial Times report cut OpenAI's annualized revenue estimate by about $20B, reviving worries about Oracle's dependence on OpenAI for most of its roughly $664B backlog. The WSJ reported the same day that Oracle was exploring additional financing for AI chip purchases."
   }
  ],
  "catalysts": [
@@ -77,5 +77,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Oracle shares slid to two-year lows in early November (52-week low around $109 by Nov 7) before bouncing about 3% on November 9: the October 28 Investor Day rally (about +11%) was erased after Oracle used its entire $20B funding cap at once (stock priced at $116, notes at 7-8.65%), dropped the $7B Tencent chip-leasing deal under US pressure, and lost ~4% on November 6 on a Bloomberg report that Microsoft is winding down its AI cloud-capacity rental deal. Both lost deals deepen the concentration on OpenAI within the ~$664B backlog, while the bull case rests on cloud infrastructure revenue more than doubling, the FY30 targets and positive free cash flow from H2 FY28. The next test is the fiscal Q2 report expected around December 10-14 (date not yet confirmed)."
+ "pulse": "Oracle shares hit two-year lows in early November (52-week low around $109 on Nov 7) and bounced about 3% to roughly $116.50 on November 9, with Goldman Sachs keeping its Buy rating and $206 target. The October 28 Investor Day rally was wiped out after Oracle used its whole $20B funding cap at once (stock at $116, notes at 7-8.65%), dropped the $7B Tencent chip-leasing deal under US pressure and, per Bloomberg, lost Microsoft's AI cloud-capacity rental deal, which deepens its reliance on OpenAI within the ~$664B backlog. The next test is the fiscal Q2 report expected around December 10-14 (date not yet confirmed), where RPO, OCI growth and capex against the FY27 guide of $90B+ revenue will be in focus."
 }

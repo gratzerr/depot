@@ -2,6 +2,13 @@
  "ticker": "FPS",
  "news": [
   {
+   "date": "2026-11-11",
+   "headline": "JP Morgan keeps Overweight on Forgent, lowers price target to $35 from $49",
+   "source": "TradingView / MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTnZNSWpxNU92VDRxUFNVSFNNdDA5U3FFVFVndzlTVTQzUXVlcEh5aHdRWVpXQk9iTDhwcDNzRlNZSlJGYTJMTVZaNkR5V0E0VWlaUDFORHMtTHlIZzU0bWhxci1Benh1N0dpVTNZNTBvclA4c0l6dm5LcWRQUDdnd3ZwRF9FX092eE8xUjdJc1AwYWZDOTRFVGtnWVNsNzNiN2QxX3Q5QWw0Q1d4cXFCcHl0M1BVbXlEeWY4bVE2LVd3czU2RVdONTRBQW9tWFk0ZlpKMUY5b0NxYWdyZkJQMG9uSkhra25v?oc=5",
+   "summary": "On the eve of fiscal Q1 results, JP Morgan kept its Overweight rating but cut its target to $35 from $49, tracking the roughly 40% one-month slide in the shares. The new target still sits well above the low-$20s share price."
+  },
+  {
    "date": "2026-11-09",
    "headline": "Forgent Power Solutions (FPS) is soaring double digits ahead of earnings",
    "source": "Insider Monkey",
@@ -42,13 +49,6 @@
    "source": "Business Wire",
    "url": "https://investor.wedbush.com/wedbush/article/bizwire-2026-10-22-forgent-announces-cfo-transition",
    "summary": "CFO Ryan Fiedler stepped down about a year after the IPO and moved into a consulting role. EVP of Finance Amy Ard succeeds him. The company said the departure was not due to any disagreement, but the stock fell about 11% that day."
-  },
-  {
-   "date": "2026-10-22",
-   "headline": "Forgent to Report Fiscal First Quarter 2027 Results; Revenues and Adjusted EBITDA Will Exceed High End of Guidance",
-   "source": "Business Wire",
-   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZ0NxLXB5b25MaGVMX04weDdaRmo5Sk9xX2N2dHdyZmdPT0o0QkdDYzNSb0NjZUFhbUU1UnFDZDlpM1pBSkhMSG9zQVkxLTBDUkdfQUVzbTBkcWtfdzZYa1p2VEx1b0ZaR2F0VzZlNmRGYUktVEpJRWF2SWJQQklqNi1Vb0F0ekl3Njc3ekdRTVpYNDMwMVR4VGlJa245TFNEMXAtZDJzTElxbTJGUENWZl9tdWlZc2ZxMHRuT01lLUFOS2VaWjZPR2swNGhIY1dzSVRwS0lUd0JuUXdBbWxDU0lmdDVONUNkQmUzalA3aTJCd3d2ZHBMWHFpT3gyTVk?oc=5",
-   "summary": "Forgent pre-announced that fiscal Q1 (quarter ended Sep 30) revenue and adjusted EBITDA will beat the top of its guidance. Full results come before the open on Nov 12, with a call at 11:00 a.m. ET."
   }
  ],
  "catalysts": [
@@ -71,5 +71,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Going into tomorrow's (Nov 12) pre-market fiscal Q1 report, Forgent's fundamentals still look strong: it has a record $3.0B backlog and has already said Q1 revenue and adj. EBITDA beat the top of guidance. The stock is still near its 52-week low after the surprise October CFO exit and valuation/AI-capex sentiment worries; it bounced about 16% to $22.60 on Nov 9, then eased to about $21.48 on Nov 10, and no new company news has come out since. Sell-side support is building (Clear Street Buy/$58, Roth/MKM Buy). The key test is whether bookings stay strong and the FY2027 guide ($2.4-2.6B revenue, $575-625M adj. EBITDA) is raised."
+ "pulse": "Forgent reports fiscal Q1 2027 before the open on November 12 (call 11:00 a.m. ET), having already said revenue and adj. EBITDA beat the top of guidance on the back of a record ~$3.0B backlog. The stock is down about 40% in a month on the October CFO exit and AI-capex sentiment worries, trading in the low $20s; on November 11 JP Morgan stayed Overweight but cut its target to $35 from $49, while Clear Street (Buy/$58) and Roth/MKM (Buy) recently initiated. The key test is bookings momentum and whether the FY2027 guide ($2.4-2.6B revenue, $575-625M adj. EBITDA) is raised."
 }

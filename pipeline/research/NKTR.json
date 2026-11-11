@@ -2,6 +2,13 @@
  "ticker": "NKTR",
  "news": [
   {
+   "date": "2026-11-10",
+   "headline": "State Street reports a passive stake above 5% in Nektar Therapeutics",
+   "source": "Stock Titan",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQTUtcWpOeTN6dTM5MW9EVmNsWkZGaGY3N3RORklianY5eF9jdFRPczR5eE9VclBHTHJEYVd1UUZJeURCbXJRNG9lLXkyY09JZ1BmTjFOdGhuby1SRU8tMHp0MGJxMnF3NTVVbERjOHR2UklCOUNYeHJLVDBzWFJMc1ZlSGJDa2h0NEMzTmFWaDRwaF9PU2RJOVlwcXA5aDZqUkdsbXF5NDdmZ1d4RGx6cWpjMEFDaXhnNXlBSGRkZVlsV1hB?oc=5",
+   "summary": "State Street filed a Schedule 13G disclosing a passive ownership stake above 5% in Nektar. It is a sign of growing index and institutional ownership after this year's large equity raises, not an activist position."
+  },
+  {
    "date": "2026-10-27",
    "headline": "Nektar Therapeutics to Announce Financial Results for the Third Quarter on Thursday, November 12, 2026",
    "source": "Quantisnow / TradingView",
@@ -35,13 +42,6 @@
    "source": "Nektar IR",
    "url": "https://ir.nektar.com/news-releases/news-release-details/update-nektar-therapeutics",
    "summary": "In REZOLVE-AA, SALT<=20 responses held in 75% of responders at four months and 63% at six months off treatment, and SALT<=10 rose from 7% at week 52 to 19%. In AD maintenance, complete clearance (EASI-100) rose to 22% with monthly and 18% with quarterly dosing by week 52. Nektar also said the third Phase 3 study, ZENITH AD-3 in treatment-experienced patients, has started."
-  },
-  {
-   "date": "2026-09-24",
-   "headline": "Jury awards $90M to Nektar in Lilly dispute over rezpeg",
-   "source": "BioWorld",
-   "url": "https://www.bioworld.com/articles/734368-jury-awards-90m-to-nektar-in-lilly-dispute-over-rezpeg",
-   "summary": "A federal jury in the Northern District of California found Lilly breached the implied covenant of good faith in the former rezpegaldesleukin partnership and awarded Nektar $90 million, while rejecting the express-breach claim. That is far below the roughly $1 billion Nektar sought, and court-set interest, post-trial motions and any appeal are still pending."
   }
  ],
  "catalysts": [
@@ -100,5 +100,5 @@
    "confirmed": true
   }
  ],
- "pulse": "As of November 10, 2026, Nektar has issued no new press release or 8-K since setting its Q3 2026 report for Thursday, November 12 after the close; recent 'eczema buzz' pieces only rehash the ZENITH Phase 3 program. NKTR remains well below its pre-EADV level after the October 1 sell-off, with analyst targets spread from UBS's Neutral $53 to Piper Sandler's $192 and roughly $1 billion of cash funding operations into Q3 2028. Beyond the print, watch post-trial rulings on the $90 million Lilly verdict, a new autoimmune study start before year-end, and 52-week off-treatment AD data in Q1 2027 while three ZENITH AD Phase 3s enroll toward a mid-2028 readout."
+ "pulse": "As of November 11, 2026, Nektar reports Q3 2026 results tomorrow (Thursday, November 12) after the close; the only new filing since the date announcement is State Street's 13G disclosing a passive stake above 5%. NKTR remains well below its pre-EADV level after the October 1 sell-off, with analyst targets spread from UBS's Neutral $53 to Piper Sandler's $192 and roughly $1 billion of cash funding operations into Q3 2028. Beyond the print, watch post-trial rulings on the $90 million Lilly verdict, a new autoimmune study start before year-end, and 52-week off-treatment AD data in Q1 2027 while three ZENITH AD Phase 3s enroll toward a mid-2028 readout."
 }

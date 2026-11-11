@@ -2,11 +2,11 @@
  "ticker": "ORCL",
  "news": [
   {
-   "date": "2026-11-10",
-   "headline": "Oracle Helps Financial Institutions Make Faster, More Informed Treasury and Customer Decisions with AI-Assisted Analytics",
-   "source": "Oracle",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQckFadlFVTnhOODk3aXhGbmhOWjU3VDBBTDNONGl3eTBGbGNZVHgtbzRwVjFTNHM0WVZxNzdnQm9kem5XQ0JwNWwydDZHTWJzZFl2MUtfd093NkUzTmJyd2JaYlhyRkRPWXdiOFAxT29kcFZHa1FWYWpBZnNYNEZIUmNDV1F3c0hxZi0xZzhkRllfV1VlMk5IUzN2NHBJbzVRV1ZoLXZBTU9tbFFLTlYtUVhSNEluUDZDYUdSN1d2Tk1qSEtpb0JraVRNNDNvYWxyaF92WnF2Y0c4bmY4NHJFOXdibFY2U2l5d255MEpSMA?oc=5",
-   "summary": "Oracle launched two AI-assisted analytics applications for banks and other financial institutions that let treasury and finance teams query data in plain English for treasury and customer decisions. It is a small product step that underlines Oracle's push to embed AI across its industry applications, but not a needle-mover against the recent cloud-contract losses."
+   "date": "2026-11-11",
+   "headline": "Why Oracle Stock Is Up Today",
+   "source": "The Motley Fool / Benzinga",
+   "url": "https://www.fool.com/investing/2026/11/11/why-oracle-stock-is-up-today/",
+   "summary": "Oracle shares jumped roughly 9% intraday on Nov 11 to around $128 as AI cloud stocks rebounded, bouncing off the two-year low of about $109 set on Nov 6. Benzinga also pointed to a record peak-demand reduction by Oracle's Opower utility software, though the move looked mostly like a sector-wide relief rally."
   },
   {
    "date": "2026-11-10",
@@ -83,5 +83,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Oracle trades around $115-118 on Nov 11, near the two-year lows of about $109 hit on Nov 7 and close to the $116 price of its $20B equity-and-debt raise, after edging lower on Nov 10. Sell-side support is holding (Bernstein Outperform/$325 and KeyBanc Overweight reiterated Nov 10, Goldman Buy/$206), while bears focus on the dropped $7B Tencent deal, Microsoft winding down its AI capacity rental, OpenAI concentration in the ~$664B backlog and a record CDS spread. Next up are the Nov 18 annual meeting and the fiscal Q2 report expected around December 10-14 (not yet confirmed), where RPO, OCI growth and capex versus the FY27 guide will be in focus."
+ "pulse": "Oracle rebounded about 9% intraday on Nov 11 to roughly $128 in a broad AI cloud relief rally, after sliding to a two-year low near $109 on Nov 6 and briefly trading below the $116 price of its $20B equity-and-debt raise; Benzinga notes the chart is still close to a death cross. Sell-side support is holding (Bernstein Outperform/$325, UBS Buy/$250, Stephens Overweight/$213), while bears focus on the dropped $7B Tencent deal, Microsoft winding down its AI capacity rental, OpenAI concentration in the ~$664B backlog and high leverage. Next up are the Nov 18 annual meeting and the fiscal Q2 report expected around December 10-14 (not yet confirmed), where RPO, OCI growth and capex versus the FY27 guide will be in focus."
 }

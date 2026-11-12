@@ -10,17 +10,17 @@
   },
   {
    "date": "2026-11-10",
-   "headline": "Oracle breaks ground on roughly $2B Nashville world headquarters campus",
-   "source": "Becker's / Axios",
-   "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/oracle-to-break-ground-on-2b-nashville-headquarters/",
-   "summary": "Oracle scheduled the groundbreaking of its River North world headquarters in Nashville for November 10, an estimated $2B campus with about 2 million sq ft of office space that it calls a hub for AI innovation. The start goes ahead despite this year's large layoffs, which had raised doubts about the plan."
-  },
-  {
-   "date": "2026-11-10",
    "headline": "Bernstein Reiterates Outperform on Oracle's AI Growth",
    "source": "Tradingpedia / Investing.com",
    "url": "https://www.tradingpedia.com/2026/11/10/bernstein-reiterates-outperform-on-oracles-ai-growth/",
    "summary": "Bernstein's Mark Moerdler kept Oracle as a top pick with an Outperform rating and $325 target after updating his 10-year model, arguing both the AI data-center unit and the core database business are AI winners. He said Oracle should not need further funding and is about 18 months from positive free cash flow, naming OpenAI's IPO and the FCF turn as catalysts."
+  },
+  {
+   "date": "2026-11-07",
+   "headline": "Ezra Klein Floats “the End of Oracle” as OpenAI Weighs Smaller Data Center Plans",
+   "source": "TIKR / The Wall Street Journal",
+   "url": "https://www.tikr.com/blog/ezra-klein-floats-the-end-of-oracle-as-openai-weighs-smaller-data-center-plans",
+   "summary": "Citing a Wall Street Journal report, TIKR says senior OpenAI leaders were discussing whether to reset next year's data-center capacity expectations after the US elections. With S&P estimating OpenAI at about half of Oracle's $664B backlog, any cut would hit OCI growth most directly, and the mid-December Q2 report will show whether the backlog held."
   },
   {
    "date": "2026-11-06",
@@ -83,5 +83,5 @@
    "confirmed": false
   }
  ],
- "pulse": "Oracle rebounded about 9% intraday on Nov 11 to roughly $128 in a broad AI cloud relief rally, after sliding to a two-year low near $109 on Nov 6 and briefly trading below the $116 price of its $20B equity-and-debt raise; Benzinga notes the chart is still close to a death cross. Sell-side support is holding (Bernstein Outperform/$325, UBS Buy/$250, Stephens Overweight/$213), while bears focus on the dropped $7B Tencent deal, Microsoft winding down its AI capacity rental, OpenAI concentration in the ~$664B backlog and high leverage. Next up are the Nov 18 annual meeting and the fiscal Q2 report expected around December 10-14 (not yet confirmed), where RPO, OCI growth and capex versus the FY27 guide will be in focus."
+ "pulse": "Oracle rebounded about 9% on Nov 11 to roughly $128 in a broad AI cloud relief rally, after sliding to a two-year low near $109 on Nov 6 and briefly trading below the $116 price of its $20B equity-and-debt raise. Sell-side support is holding (Bernstein Outperform/$325, KeyBanc Overweight/$300, UBS Buy/$250), while bears focus on the dropped $7B Tencent deal, Microsoft winding down its AI capacity rental, and a WSJ report that OpenAI, roughly half of the ~$664B backlog, is weighing whether to reset next year's data-center capacity plans. Next up are the Nov 18 annual meeting and the fiscal Q2 report expected around December 10-14 (not yet confirmed), where RPO, OCI growth and capex versus the FY27 guide will be in focus."
 }

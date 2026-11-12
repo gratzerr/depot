@@ -215,7 +215,9 @@ def displayed_isins():
 _shown_isins = displayed_isins()
 # displayed brokers = the ports the CURRENT holdings sit in (IBKR/SQ); the private
 # depot has its own port name and is never among them
-_disp_ports = set()
+# IBKR/SQ always count as displayed: once the last SQ position was sold (2026-11), SQ
+# vanished from the holdings and its whole booking history dropped out of the feed
+_disp_ports = {"IBKR", "SQ"} if pp else set()
 for _h in (pp.get("holdings", []) if pp else []):
     _disp_ports.update((_h.get("byPort") or {}).keys())
 # the Parqet-derived shown-set is frozen in the pre-retirement past — extend it with

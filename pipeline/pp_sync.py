@@ -908,10 +908,12 @@ out={"fileDate":datetime.datetime.fromtimestamp(os.path.getmtime(DEPOT)).strftim
          for si,q in lots.items() if sum(l[0] for l in q)>1e-6 },
      "ports":sorted({(portfolios.get(t["owner"]) or {}).get("name") for t in txs.values()
                      if t["kind"]=="port" and t["owner"]} - {None}),
-     "acts":sorted(({**{k:v for k,v in a.items() if k!="sec"},
+     # newest first; on the same day in REVERSE processing order, so a short opened and
+     # covered intraday reads SHORT (bottom) -> COVER (top), not the other way (2026-11-12)
+     "acts":[r for _,r in sorted(((i,{**{k:v for k,v in a.items() if k!="sec"},
                      "tk":SEC[a["sec"]]["tk"] or (SEC[a["sec"]]["name"] or "")[:10],
-                     "isin":SEC[a["sec"]]["isin"]}
-                    for a in acts), key=lambda x:x["d"], reverse=True),
+                     "isin":SEC[a["sec"]]["isin"]})
+                    for i,a in enumerate(acts)), key=lambda x:(x[1]["d"],x[0]), reverse=True)],
      "trades":sorted(({**{k:v for k,v in tr.items() if k!="sec"},
                        "ticker":SEC[tr["sec"]]["tk"] or (SEC[tr["sec"]]["name"] or "")[:10],
                        "name":SEC[tr["sec"]]["name"],"isin":SEC[tr["sec"]]["isin"]}

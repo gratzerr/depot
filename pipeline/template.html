@@ -2530,7 +2530,7 @@ function secResultBlock(tk){
     +(r.trades.length?`<div style="overflow-x:auto;margin-top:10px"><table class="htable sd-tx"><thead><tr>
       <th>Bought</th><th>Sold</th><th>Held</th><th>Shares</th><th>Proceeds</th><th>Return</th><th>Gain</th><th>Depot</th>
       </tr></thead><tbody>${r.trades.map(t=>`<tr>
-      <td>${dFull(t.buy)}</td><td>${dFull(t.sell)}</td><td class="tnum">${t.days}d</td>
+      <td>${dFull(t.buy)}${t.short?' <span class="shortbadge">SHORT</span>':''}</td><td>${dFull(t.sell)}</td><td class="tnum">${t.days}d</td>
       <td class="tnum">${maskable(Number(t.sh).toLocaleString('en-US'))}</td>
       <td class="tnum">${maskable(m(_ccy==='EUR'&&t.proceedsEur!=null?t.proceedsEur:t.proceedsUsd))}</td>
       <td class="tnum ${t.ret==null?'':(t.ret>=0?'up':'down')}">${t.ret==null?'—':fmtPct(t.ret)}</td>
@@ -2541,7 +2541,7 @@ function secTx(tk){
   const rows=(DATA.acts||[]).filter(a=>a.tk===tk);
   if(!rows.length) return '';
   const body=rows.slice(0,40).map(a=>{
-    const ty=actLabel(a.t), sign=actSign(a.t), sym=CCY_SYM[a.ccy]||((a.ccy||'USD')+' ');
+    const ty=a.short?'Short':a.cover?'Cover':actLabel(a.t), sign=actSign(a.t), sym=CCY_SYM[a.ccy]||((a.ccy||'USD')+' ');
     const g=a.gUsd;
     return `<tr><td>${dFull(a.d)}</td><td><span class="atype ${actCls(ty)}">${esc(ty.toUpperCase())}</span></td>
       <td class="tnum">${a.sh?maskable(Number(a.sh).toLocaleString('en-US')):'—'}</td>
@@ -2557,7 +2557,7 @@ function secTx(tk){
     +(rows.length>40?`<div class="asub" style="margin-top:6px">${rows.length-40} older bookings — see the Activities feed.</div>`:'');
 }
 function actCls(t){
-  if(t==="Buy")return "buy"; if(t==="Sell")return "sell";
+  if(t==="Buy"||t==="Cover")return "buy"; if(t==="Sell"||t==="Short")return "sell";
   if(t==="Interest Charge"||t==="Withdrawal")return "oth";   // debits stay neutral, never "income blue"
   if(/Dividend|Interest|Deposit/.test(t))return "div"; return "oth";
 }
@@ -2638,7 +2638,7 @@ function renderActivities(){
     const dt=new Date(a.d).toLocaleDateString('en-US',{month:'short',day:'2-digit',year:'2-digit'});
     const {tk,base}=actTk(a);
     const nm=actName2(a);
-    const ty=actLabel(a.t), sign=actSign(a.t);
+    const ty=a.short?'Short':a.cover?'Cover':actLabel(a.t), sign=actSign(a.t);
     const isTrade=!!(a.sh&&a.px);
     const sub=isTrade? (Number(a.sh).toLocaleString('en-US')+" @ "+sym+(+a.px).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}))
       : (a.port||"");

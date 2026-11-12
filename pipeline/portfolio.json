@@ -16,23 +16,6 @@
    "price": 0
   },
   {
-   "pid": "pp_ORCL",
-   "ticker": "ORCL",
-   "name": "Oracle Corp",
-   "assetType": "security",
-   "thesis": "",
-   "ySym": "ORCL",
-   "gquery": "Oracle Corp",
-   "links": {
-    "stocktwits": "https://stocktwits.com/symbol/ORCL",
-    "x": "https://x.com/search?q=%24ORCL&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=ORCL"
-   },
-   "shares": 0,
-   "price": 0,
-   "value": 0
-  },
-  {
    "pid": "pp_FPS",
    "ticker": "FPS",
    "name": "Forgent Power Solutions-Cl A",

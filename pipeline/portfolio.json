@@ -50,6 +50,23 @@
    "value": 0
   },
   {
+   "pid": "pp_INIO",
+   "ticker": "INIO",
+   "name": "Innio Nv",
+   "assetType": "security",
+   "thesis": "",
+   "ySym": "INIO",
+   "gquery": "Innio Nv",
+   "links": {
+    "stocktwits": "https://stocktwits.com/symbol/INIO",
+    "x": "https://x.com/search?q=%24INIO&f=live",
+    "finviz": "https://finviz.com/quote.ashx?t=INIO"
+   },
+   "shares": 0,
+   "price": 0,
+   "value": 0
+  },
+  {
    "pid": "pp_OSS",
    "ticker": "OSS",
    "name": "One Stop Systems Inc",

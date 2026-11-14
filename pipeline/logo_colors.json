@@ -307,7 +307,9 @@
   "src": "https://assets.parqet.com/logos/isin/US44951W1062?format=png&size=64"
  },
  "INIO": {
-  "src": "https://assets.parqet.com/logos/isin/NL00150745D9?format=png&size=64"
+  "d": "hsl(151 79% 71%)",
+  "l": "hsl(151 72% 31%)",
+  "src": "file:INIO.png:10547"
  },
  "IOC.F": {
   "d": "hsl(208 85% 71%)",

@@ -407,9 +407,9 @@
   "src": "https://assets.parqet.com/logos/isin/DE0008430026?format=png&size=64"
  },
  "NBIS": {
-  "d": "hsl(70 85% 71%)",
-  "l": "hsl(70 72% 31%)",
-  "src": "https://assets.parqet.com/logos/isin/NL0009805522?format=png&size=64"
+  "d": "hsl(71 85% 71%)",
+  "l": "hsl(71 72% 31%)",
+  "src": "file:NBIS.png:2212"
  },
  "NBIS270115C00080000": {
   "src": "https://assets.parqet.com/logos/symbol/NBIS270115C00080000?format=png&size=64"

@@ -379,24 +379,34 @@ def _ext_last(yf,tk):
         return None
 
 def _chain_iv(df,S,K,T,isc):
-    """Aktuelle Markt-IV aus der GANZEN Kette desselben Verfalls statt nur aus dem
-    eigenen, illiquiden Strike: alle Strikes von 0.9*Spot bis 1.5*K mit Geld UND
-    Brief, Spread < 120 % der Mitte; Gewichtung 1/Spread (enge Quotes zaehlen mehr)
-    und Naehe zum eigenen Strike (Skew). None, wenn weniger als 2 brauchbare Strikes."""
+    """Aktuelle Markt-IV AM EIGENEN STRIKE aus der Kette desselben Verfalls statt nur
+    aus dem eigenen, illiquiden Quote: Strikes 0.85*K..1.2*K (und >= 0.9*Spot) mit
+    Geld UND Brief, Spread < 120 % der Mitte; Gewichtung 1/Spread und Naehe zu K.
+    Nur wenn dort < 2 brauchbar sind: breiteres Fenster 0.9*Spot..1.5*K (die Strikes
+    am Geld haben wegen des Skews eine hoehere IV — 2026-11-21: 79 % statt 77 %)."""
     from math import log
-    num=den=0.0; n=0
-    try:
+    def _est(lo,hi):
+        num=den=0.0; n=0
         for _,r in df.iterrows():
             k=float(r.get("strike") or 0); b=float(r.get("bid") or 0); a=float(r.get("ask") or 0)
-            if not (k>=0.9*S and k<=1.5*K and b>0 and a>b): continue
+            if not (k>=lo and k<=hi and k>=0.9*S and b>0 and a>b): continue
             mid=(a+b)/2.0; sr=(a-b)/mid
             if sr>=1.2: continue
             v=_bs_iv(mid,S,k,T,0.04,isc)
             if not v or v<0.05 or v>3.9: continue
             w=1.0/max(sr,0.05)/(1.0+4.0*abs(log(k/K))); num+=w*v; den+=w; n+=1
+        return num/den if n>=2 and den>0 else None
+    try:
+        return _est(0.85*K,1.2*K) or _est(0.0,1.5*K)
     except Exception:
         return None
-    return num/den if n>=2 and den>0 else None
+
+# Kalibrierung auf die IV des Brokers (IBKR): der Broker bewertet den Call mit
+# seiner eigenen Vol-Flaeche, die einige Punkte UNTER der Marktmitte liegt. Am
+# Stichtag gilt: Modell-IV = Broker-IV; danach laeuft die IV mit der Kette mit
+# (Offset = Broker-IV minus Ketten-IV desselben Tages). 2026-11-20: IBKR 73 %,
+# Wert 500 Kontrakte = $119k bei Schluss 73.22 (Owner, 2026-11-21).
+IV_CAL={"ABVX270319C00120000":("2026-11-20",0.732)}
 
 def _bs(S,K,T,r,v,call=True):
     """Black-Scholes-Preis einer europaeischen Option (ohne Dividende)."""
@@ -500,9 +510,14 @@ def live_overlay():
                         if iv: ivh[eff]=round(iv,4)
                         if ivh:
                             ivm=ivh[max(ivh)]
-                            ex=_ext_last(yf,und) if re.match(r"^[A-Z]{1,5}$",und) else None
-                            S_live=ex[1] if (ex and ex[0]>=str(sp.index[-1].date())) else S
-                            px,qual=_bs(S_live,K,T,0.04,ivm,isc),3
+                            cal=IV_CAL.get(tk)
+                            if cal and ivh.get(cal[0]):
+                                ivm=max(0.05,ivm+(cal[1]-ivh[cal[0]]))
+                            # Spot = REGULAERER Kurs: Optionen handeln nur in der
+                            # regulaeren Sitzung, der Broker bewertet mit dem Schluss-
+                            # kurs (After-Market 76.46 statt 73.22 machte 3.78 statt
+                            # 2.36, 2026-11-21)
+                            px,qual=_bs(S,K,T,0.04,ivm,isc),3
                 except Exception:
                     pass
                 ivh={k:ivh[k] for k in sorted(ivh)[-30:]}

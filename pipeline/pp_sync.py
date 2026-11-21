@@ -351,14 +351,52 @@ PADD={"BUY","DELIVERY_INBOUND","TRANSFER_IN"};PSUB={"SELL","DELIVERY_OUTBOUND","
 # History stays untouched (sec_price uses file history for all past days).
 def us_eff_date():
     """Last US trading day with (at least partial) prices: weekends roll back to
-    Friday; before ~market open (13:35 UTC) the previous trading day counts."""
-    now=datetime.datetime.utcnow()
+    Friday. Ab Beginn des Pre-Market (04:00 New York) zaehlt HEUTE (Wunsch des
+    Owners 2026-11-21: Pre-/After-Market-Kurse immer mitnehmen); vorher der Vortag.
+    Frueher erst ab 13:35 UTC — dadurch kamen auch Ein-/Auszahlungen von heute
+    erst nachmittags ins Cash (Vorfall 2026-11-17)."""
+    try:
+        from zoneinfo import ZoneInfo
+        now=datetime.datetime.now(ZoneInfo("America/New_York"))
+    except Exception:
+        now=datetime.datetime.utcnow()-datetime.timedelta(hours=5)
     d=now.date()
-    if now.hour*60+now.minute < 13*60+35: d-=datetime.timedelta(days=1)
+    if now.hour<4: d-=datetime.timedelta(days=1)
     while d.weekday()>=5: d-=datetime.timedelta(days=1)
     return d.isoformat()
 
 PREV={}   # si -> Vortagesschluss desselben Kursanbieters wie der Live-Kurs
+
+def _ext_last(yf,tk):
+    """Letzter Kurs INKL. Pre-/After-Market (5-Min-Balken, prepost=True):
+    (New-York-Datum, Kurs) oder None. Tagesbalken kennen nur die regulaere Sitzung."""
+    try:
+        h=yf.Ticker(tk).history(period="5d",interval="5m",prepost=True)["Close"].dropna()
+        h=h[h>0]
+        if not len(h): return None
+        return h.index[-1].strftime("%Y-%m-%d"), float(h.iloc[-1])
+    except Exception:
+        return None
+
+def _chain_iv(df,S,K,T,isc):
+    """Aktuelle Markt-IV aus der GANZEN Kette desselben Verfalls statt nur aus dem
+    eigenen, illiquiden Strike: alle Strikes von 0.9*Spot bis 1.5*K mit Geld UND
+    Brief, Spread < 120 % der Mitte; Gewichtung 1/Spread (enge Quotes zaehlen mehr)
+    und Naehe zum eigenen Strike (Skew). None, wenn weniger als 2 brauchbare Strikes."""
+    from math import log
+    num=den=0.0; n=0
+    try:
+        for _,r in df.iterrows():
+            k=float(r.get("strike") or 0); b=float(r.get("bid") or 0); a=float(r.get("ask") or 0)
+            if not (k>=0.9*S and k<=1.5*K and b>0 and a>b): continue
+            mid=(a+b)/2.0; sr=(a-b)/mid
+            if sr>=1.2: continue
+            v=_bs_iv(mid,S,k,T,0.04,isc)
+            if not v or v<0.05 or v>3.9: continue
+            w=1.0/max(sr,0.05)/(1.0+4.0*abs(log(k/K))); num+=w*v; den+=w; n+=1
+    except Exception:
+        return None
+    return num/den if n>=2 and den>0 else None
 
 def _bs(S,K,T,r,v,call=True):
     """Black-Scholes-Preis einer europaeischen Option (ohne Dividende)."""
@@ -414,7 +452,7 @@ def live_overlay():
                 # und funktioniert dort. Kurs = Geld/Brief-Mitte wie beim Broker.
                 m2=re.match(r"^([A-Z.]{1,6})(\d{2})(\d{2})(\d{2})([CP])(\d{8})$", tk)
                 und,yy,mm,dd,cp,kk=m2.groups()
-                px=0.0; qual=0; bid=ask=0.0   # 3 = Modell (BS), 2 = Geld/Brief-Mitte, 1 = Last-Trade VON HEUTE, 0 = nichts
+                px=0.0; qual=0; bid=ask=0.0; df=None   # 3 = Modell (BS), 2 = Geld/Brief-Mitte, 1 = Last-Trade VON HEUTE, 0 = nichts
                 for _try in range(3):
                     try:
                         oc=yf.Ticker(und).option_chain(f"20{yy}-{mm}-{dd}")
@@ -442,8 +480,13 @@ def live_overlay():
                 c0=oq.get(tk) or {}
                 # Modellkurs aus dem Basiswert (Wunsch des Owners, 2026-10-20): Geld/Brief
                 # der illiquiden Calls springt (5.00/6.70 ohne Umsatz), der Wert soll mit
-                # dem Basiswert laufen. IV = Median der letzten 10 Tages-IVs aus brauchbaren
-                # Mitten (Spread < 50 % der Mitte); Kurs = Black-Scholes mit aktuellem Spot.
+                # dem Basiswert laufen. Kurs = Black-Scholes mit der AKTUELLEN Markt-IV
+                # (2026-11-21: der alte 10-Tage-Median hing hinterher — die IV der ABVX-
+                # Maerz-Calls stieg auf ~78 %, das Modell rechnete noch mit 64 % und zeigte
+                # 1.44 statt ~2.90). Tages-IV = spreadgewichtete IV ueber die Kette
+                # (_chain_iv), Fallback eigener Strike bei engem Spread; gerechnet wird mit
+                # der juengsten Tages-IV. Spot fuer die IV = regulaerer Kurs (passt zu den
+                # Options-Quotes), Spot fuer den Wert = Kurs inkl. Pre-/After-Market.
                 ivh={k:float(v) for k,v in (c0.get("ivh") or {}).items() if v}
                 try:
                     K=int(kk)/1000.0; isc=(cp=="C")
@@ -451,13 +494,15 @@ def live_overlay():
                     sp=yf.Ticker(und).history(period="5d")["Close"].dropna()
                     S=float(sp.iloc[-1]) if len(sp) else 0.0
                     if S>0 and T>0:
-                        if qual==2 and (ask-bid)<0.5*px:
+                        iv=_chain_iv(df,S,K,T,isc) if df is not None else None
+                        if not iv and qual==2 and (ask-bid)<0.5*px:
                             iv=_bs_iv(px,S,K,T,0.04,isc)
-                            if iv: ivh[eff]=round(iv,4)
-                        ivs=sorted(ivh[k] for k in sorted(ivh)[-10:])
-                        if ivs:
-                            ivm=ivs[len(ivs)//2] if len(ivs)%2 else (ivs[len(ivs)//2-1]+ivs[len(ivs)//2])/2
-                            px,qual=_bs(S,K,T,0.04,ivm,isc),3
+                        if iv: ivh[eff]=round(iv,4)
+                        if ivh:
+                            ivm=ivh[max(ivh)]
+                            ex=_ext_last(yf,und) if re.match(r"^[A-Z]{1,5}$",und) else None
+                            S_live=ex[1] if (ex and ex[0]>=str(sp.index[-1].date())) else S
+                            px,qual=_bs(S_live,K,T,0.04,ivm,isc),3
                 except Exception:
                     pass
                 ivh={k:ivh[k] for k in sorted(ivh)[-30:]}
@@ -508,6 +553,16 @@ def live_overlay():
                                 pairs.append((eff, sq_px))
                     except Exception:
                         pass
+                # Pre-/After-Market (Wunsch des Owners 2026-11-21): der letzte Kurs
+                # INKL. verlaengertem Handel wird der heutige Kurs — vor der Eroeffnung
+                # der Pre-Market-Kurs (bzw. der After-Market-Kurs vom Vorabend, solange
+                # noch nichts gehandelt wurde), nach Handelsschluss der After-Market-
+                # Kurs. Vortagesschluss (PREV) bleibt der regulaere Schlusskurs.
+                if re.match(r"^[A-Z]{1,5}$", tk):
+                    ex=_ext_last(yf,tk)
+                    lastd=max((d for d,_ in pairs), default="")
+                    if ex and ex[0]>=lastd and ex[0]<=eff:
+                        pairs=[(d,p) for d,p in pairs if d<eff]+[(eff,ex[1])]
         except Exception:
             continue
         if not pairs: continue

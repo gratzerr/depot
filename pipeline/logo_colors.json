@@ -186,6 +186,11 @@
   "l": "hsl(209 72% 31%)",
   "src": "https://assets.parqet.com/logos/isin/US1725731079?format=png&size=64"
  },
+ "CRWV": {
+  "d": "hsl(232 82% 71%)",
+  "l": "hsl(232 72% 31%)",
+  "src": "https://assets.parqet.com/logos/isin/US21873S1087?format=png&size=64"
+ },
  "DAP.F": {
   "d": "hsl(259 85% 71%)",
   "l": "hsl(259 72% 31%)",
@@ -301,6 +306,11 @@
   "l": "hsl(199 39% 31%)",
   "src": "https://assets.parqet.com/logos/isin/US44951W1062?format=png&size=64"
  },
+ "INIO": {
+  "d": "hsl(151 79% 71%)",
+  "l": "hsl(151 72% 31%)",
+  "src": "file:INIO.png:10547"
+ },
  "IOC.F": {
   "d": "hsl(208 85% 71%)",
   "l": "hsl(208 72% 31%)",
@@ -397,9 +407,9 @@
   "src": "https://assets.parqet.com/logos/isin/DE0008430026?format=png&size=64"
  },
  "NBIS": {
-  "d": "hsl(70 85% 71%)",
-  "l": "hsl(70 72% 31%)",
-  "src": "https://assets.parqet.com/logos/isin/NL0009805522?format=png&size=64"
+  "d": "hsl(71 85% 71%)",
+  "l": "hsl(71 72% 31%)",
+  "src": "file:NBIS.png:2212"
  },
  "NBIS270115C00080000": {
   "src": "https://assets.parqet.com/logos/symbol/NBIS270115C00080000?format=png&size=64"
@@ -468,9 +478,9 @@
   "src": "https://assets.parqet.com/logos/isin/US68389X1054?format=png&size=64"
  },
  "OSS": {
-  "d": "hsl(205 48% 71%)",
-  "l": "hsl(205 44% 31%)",
-  "src": "https://assets.parqet.com/logos/isin/US68247W1099?format=png&size=64"
+  "d": "hsl(206 85% 71%)",
+  "l": "hsl(206 72% 31%)",
+  "src": "file:OSS.png:30419"
  },
  "PALI": {
   "d": "hsl(357 84% 71%)",

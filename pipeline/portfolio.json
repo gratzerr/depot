@@ -16,17 +16,17 @@
    "price": 0
   },
   {
-   "pid": "pp_ORCL",
-   "ticker": "ORCL",
-   "name": "Oracle Corp",
+   "pid": "pp_NBIS",
+   "ticker": "NBIS",
+   "name": "Nebius Group Nv",
    "assetType": "security",
    "thesis": "",
-   "ySym": "ORCL",
-   "gquery": "Oracle Corp",
+   "ySym": "NBIS",
+   "gquery": "Nebius Group Nv",
    "links": {
-    "stocktwits": "https://stocktwits.com/symbol/ORCL",
-    "x": "https://x.com/search?q=%24ORCL&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=ORCL"
+    "stocktwits": "https://stocktwits.com/symbol/NBIS",
+    "x": "https://x.com/search?q=%24NBIS&f=live",
+    "finviz": "https://finviz.com/quote.ashx?t=NBIS"
    },
    "shares": 0,
    "price": 0,
@@ -44,23 +44,6 @@
     "stocktwits": "https://stocktwits.com/symbol/FPS",
     "x": "https://x.com/search?q=%24FPS&f=live",
     "finviz": "https://finviz.com/quote.ashx?t=FPS"
-   },
-   "shares": 0,
-   "price": 0,
-   "value": 0
-  },
-  {
-   "pid": "pp_IESC",
-   "ticker": "IESC",
-   "name": "Ies Holdings Inc",
-   "assetType": "security",
-   "thesis": "",
-   "ySym": "IESC",
-   "gquery": "Ies Holdings Inc",
-   "links": {
-    "stocktwits": "https://stocktwits.com/symbol/IESC",
-    "x": "https://x.com/search?q=%24IESC&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=IESC"
    },
    "shares": 0,
    "price": 0,

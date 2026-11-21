@@ -8,7 +8,7 @@ on:
         description: 'Kommagetrennte Ticker (Yahoo-Format, OCC fuer Optionen)'
         required: true
       date:
-        description: 'Optional YYYY-MM-DD (Schlusskurse bis dahin) oder since:YYYY-MM-DD[:W] (Reihe) oder chain (ganze Optionskette mit Volumen/OI)'
+        description: 'Optional YYYY-MM-DD (Schlusskurse bis dahin) oder since:YYYY-MM-DD[:W] (Reihe) oder chain (ganze Optionskette mit Volumen/OI) oder info (Bewertung + Quartalsumsatz)'
         required: false
         default: ''
 permissions:
@@ -41,6 +41,20 @@ jobs:
                       df = ch.calls if cp == "C" else ch.puts
                       r = df[abs(df["strike"] - int(k) / 1000) < 1e-6].iloc[0]
                       print(f"QUOTE {tk} bid={r['bid']} ask={r['ask']} last={r['lastPrice']} lastTrade={r['lastTradeDate']}")
+                  elif qd == "info":
+                      t = yf.Ticker(tk); i = t.info or {}
+                      keys = ["currentPrice", "marketCap", "enterpriseValue", "sharesOutstanding", "totalCash", "totalDebt",
+                              "totalRevenue", "revenueGrowth", "grossMargins", "operatingMargins", "ebitda", "freeCashflow",
+                              "netIncomeToCommon", "trailingPE", "forwardPE", "forwardEps", "enterpriseToRevenue", "enterpriseToEbitda"]
+                      print(f"INFO {tk} " + " ".join(f"{k}={i.get(k)}" for k in keys))
+                      try:
+                          q = t.quarterly_income_stmt
+                          for row in ("Total Revenue", "Net Income", "Operating Income"):
+                              if row in q.index:
+                                  s = q.loc[row].dropna()
+                                  print(f"FIN {tk} {row.replace(' ', '')} " + " ".join(f"{d.date()}={v:.0f}" for d, v in s.items()))
+                      except Exception as e:
+                          print(f"FIN {tk} ERROR {e}")
                   elif qd == "chain":
                       t = yf.Ticker(tk)
                       for ex in t.options:

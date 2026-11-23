@@ -402,11 +402,14 @@ def _chain_iv(df,S,K,T,isc):
         return None
 
 # Kalibrierung auf die IV des Brokers (IBKR): der Broker bewertet den Call mit
-# seiner eigenen Vol-Flaeche, die einige Punkte UNTER der Marktmitte liegt. Am
-# Stichtag gilt: Modell-IV = Broker-IV; danach laeuft die IV mit der Kette mit
-# (Offset = Broker-IV minus Ketten-IV desselben Tages). 2026-11-20: IBKR 73 %,
-# Wert 500 Kontrakte = $119k bei Schluss 73.22 (Owner, 2026-11-21).
-IV_CAL={"ABVX270319C00120000":("2026-11-20",0.732)}
+# seiner eigenen, GEGLAETTETEN Vol-Flaeche. Am Stichtag gilt Modell-IV = Broker-IV;
+# danach folgt die Modell-IV den Aenderungen der Ketten-IV nur GEDAEMPFT (Faktor
+# IV_BETA): 20.11.->23.11. sprang die Yahoo-Ketten-IV um +5.1 Punkte (77.3->82.5 %),
+# IBKR nur um +0.8 (73.2->74.0 %) — mit vollem Mitlaufen zeigte die Seite $135k
+# statt $112k. Stichtage: 2026-11-20 IBKR 73.2 % ($119k), 2026-11-23 IBKR 74.0 %
+# ($112k bei ABVX ~72.5) (Owner).
+IV_CAL={"ABVX270319C00120000":("2026-11-23",0.740)}
+IV_BETA=0.3
 
 def _bs(S,K,T,r,v,call=True):
     """Black-Scholes-Preis einer europaeischen Option (ohne Dividende)."""
@@ -512,7 +515,7 @@ def live_overlay():
                             ivm=ivh[max(ivh)]
                             cal=IV_CAL.get(tk)
                             if cal and ivh.get(cal[0]):
-                                ivm=max(0.05,ivm+(cal[1]-ivh[cal[0]]))
+                                ivm=max(0.05,cal[1]+IV_BETA*(ivm-ivh[cal[0]]))
                             # Spot = REGULAERER Kurs: Optionen handeln nur in der
                             # regulaeren Sitzung, der Broker bewertet mit dem Schluss-
                             # kurs (After-Market 76.46 statt 73.22 machte 3.78 statt

@@ -411,7 +411,11 @@ def _chain_iv(df,S,K,T,isc):
 # fiel am selben Tag auf 73.3 % — die Ketten-IV rauscht +/-5 Punkte gegen die
 # glatte IBKR-IV und taugt nicht als Fortschreibung. Daher IV_BETA=0: die IV bleibt
 # auf dem zuletzt gemeldeten Broker-Wert, nur der Basiswert bewegt den Kurs.
-IV_CAL={"ABVX270319C00120000":("2026-11-24",0.770)}
+# 2026-11-24 abends: Roll 500x120C -> 250x100C (Owner); IBKR bewertet die 250x100C
+# mit $183k bei ABVX ~79.2 -> IV 76.7 %. Der 120C bleibt bis zur PP-Buchung des
+# Rolls mit 75.1 % kalibriert (= ebenfalls $183k), damit der Depotwert stimmt.
+IV_CAL={"ABVX270319C00120000":("2026-11-24",0.751),
+        "ABVX270319C00100000":("2026-11-24",0.767)}
 IV_BETA=0.0
 
 def _bs(S,K,T,r,v,call=True):
@@ -514,11 +518,12 @@ def live_overlay():
                         if not iv and qual==2 and (ask-bid)<0.5*px:
                             iv=_bs_iv(px,S,K,T,0.04,isc)
                         if iv: ivh[eff]=round(iv,4)
-                        if ivh:
-                            ivm=ivh[max(ivh)]
-                            cal=IV_CAL.get(tk)
-                            if cal and ivh.get(cal[0]):
-                                ivm=max(0.05,cal[1]+IV_BETA*(ivm-ivh[cal[0]]))
+                        cal=IV_CAL.get(tk)
+                        if ivh or cal:
+                            ivm=ivh[max(ivh)] if ivh else cal[1]
+                            if cal:   # Broker-IV; ohne Ketten-IV am Stichtag direkt die Broker-IV
+                                ivm=(max(0.05,cal[1]+IV_BETA*(ivm-ivh[cal[0]]))
+                                     if ivh.get(cal[0]) else cal[1])
                             # Spot = REGULAERER Kurs: Optionen handeln nur in der
                             # regulaeren Sitzung, der Broker bewertet mit dem Schluss-
                             # kurs (After-Market 76.46 statt 73.22 machte 3.78 statt

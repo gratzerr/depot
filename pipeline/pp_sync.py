@@ -407,9 +407,12 @@ def _chain_iv(df,S,K,T,isc):
 # IV_BETA): 20.11.->23.11. sprang die Yahoo-Ketten-IV um +5.1 Punkte (77.3->82.5 %),
 # IBKR nur um +0.8 (73.2->74.0 %) — mit vollem Mitlaufen zeigte die Seite $135k
 # statt $112k. Stichtage: 2026-11-20 IBKR 73.2 % ($119k), 2026-11-23 IBKR 74.0 %
-# ($112k bei ABVX ~72.5) (Owner).
-IV_CAL={"ABVX270319C00120000":("2026-11-23",0.740)}
-IV_BETA=0.3
+# ($112k bei ABVX ~72.5) (Owner). 2026-11-24: IBKR 77 %, die Yahoo-Ketten-IV
+# fiel am selben Tag auf 73.3 % — die Ketten-IV rauscht +/-5 Punkte gegen die
+# glatte IBKR-IV und taugt nicht als Fortschreibung. Daher IV_BETA=0: die IV bleibt
+# auf dem zuletzt gemeldeten Broker-Wert, nur der Basiswert bewegt den Kurs.
+IV_CAL={"ABVX270319C00120000":("2026-11-24",0.770)}
+IV_BETA=0.0
 
 def _bs(S,K,T,r,v,call=True):
     """Black-Scholes-Preis einer europaeischen Option (ohne Dividende)."""

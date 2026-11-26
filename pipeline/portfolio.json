@@ -67,21 +67,21 @@
    "value": 0
   },
   {
-   "ticker": "ABVX",
-   "name": "Abivax — Mar-2027 $120 Call",
+   "pid": "pp_OSS280121C00005000",
+   "ticker": "OSS",
    "assetType": "option",
-   "value": 0,
+   "name": "OSS — Jan-2028 $5 Call",
+   "thesis": "",
+   "gquery": "OSS",
+   "links": {
+    "stocktwits": "https://stocktwits.com/symbol/OSS",
+    "x": "https://x.com/search?q=%24OSS&f=live",
+    "finviz": "https://finviz.com/quote.ashx?t=OSS"
+   },
+   "occ": "OSS280121C00005000",
    "shares": 0,
    "price": 0,
-   "thesis": "Long call on Abivax (exp Mar 2027, strike $120) — leveraged bet on obefazimod, the oral anti-inflammatory miR-124 enhancer in ulcerative colitis",
-   "links": {
-    "ir": "https://www.abivax.com/investors/",
-    "stocktwits": "https://stocktwits.com/symbol/ABVX",
-    "x": "https://x.com/search?q=%24ABVX&f=live",
-    "finviz": "https://finviz.com/quote.ashx?t=ABVX"
-   },
-   "gquery": "Abivax",
-   "occ": "ABVX270319C00120000"
+   "value": 0
   }
  ]
 }

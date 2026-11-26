@@ -1243,7 +1243,7 @@ function renderHoldingsTable(){
     +'<tbody>'+rows.map(r=>{
       const cells=[];
       cells.push(`<td><div class="hname sd-clk" data-sd="${esc(r.h.ticker)}">${logoImg(r.h.logos,'llogo')}<div style="min-width:0"><div class="c1">${esc(r.h.ticker)}${r.h.short?' <span class="shortbadge">SHORT</span>':''}</div><div class="nm2">${esc(r.h.name)}</div></div></div></td>`);
-      if(_hcols.shares) cells.push(`<td><div class="c1">${r.shares!=null?maskable((+r.shares).toLocaleString('en-US')):'—'}</div></td>`);
+      if(_hcols.shares) cells.push(`<td><div class="c1">${r.shares==null?'—':_optQty(r.shares,r.h.name,r.h.ticker)}</div></td>`);
       if(_hcols.entry) cells.push(`<td><div class="c1">${r.avg!=null?maskable(r.sym+fmt2(r.avg,r.avg<1?4:2)):'—'}</div><div class="c2">${r.basis?fmtUsd(r.basis):''}</div></td>`);
       if(_hcols.price) cells.push(`<td><div class="c1">${r.price!=null?r.sym+fmt2(r.price,r.price<1?4:2):'—'}</div><div class="c2">&nbsp;</div></td>`);
       if(_hcols.day) cells.push(`<td><div class="c1 ${r.day==null?'':(r.day>=0?'up':'down')}">${r.day==null?'—':fmtPct(r.day)}</div></td>`);
@@ -2196,7 +2196,7 @@ function renderSecurities(){
       <td><div class="hname sd-clk" data-sd="${esc(r.tk)}" title="Open ${esc(r.tk)}">${logoImg(tickerLogos(r.tk),'llogo',r.tk)}
         <div style="min-width:0"><div class="c1">${esc(actTk({tk:r.tk}).tk)}${r.state==='closed'?' <span class="asub">closed</span>':''}</div>
         ${r.name?`<div class="nm2">${esc(r.name)}</div>`:''}</div></div></td>
-      <td style="text-align:right" class="tnum">${r.shares?maskable(Number(r.shares).toLocaleString('en-US')):'—'}</td>
+      <td style="text-align:right" class="tnum">${r.shares?_optQty(r.shares,r.name,r.tk):'—'}</td>
       <td style="text-align:right" class="tnum">${r.entry==null?'—':fmtP2(r.entry,r.ccy)}</td>
       <td style="text-align:right" class="tnum">${r.price==null?'—':fmtP2(r.price,r.ccy)}</td>
       <td style="text-align:right" class="tnum ${r.day==null?'':(r.day>=0?'up':'down')}">${r.day==null?'—':fmtPct(r.day)}</td>
@@ -2531,7 +2531,7 @@ function secResultBlock(tk){
       <th>Bought</th><th>Sold</th><th>Held</th><th>Shares</th><th>Proceeds</th><th>Return</th><th>Gain</th><th>Depot</th>
       </tr></thead><tbody>${r.trades.map(t=>`<tr>
       <td>${dFull(t.buy)}${t.short?' <span class="shortbadge">SHORT</span>':''}</td><td>${dFull(t.sell)}</td><td class="tnum">${t.days}d</td>
-      <td class="tnum">${maskable(Number(t.sh).toLocaleString('en-US'))}</td>
+      <td class="tnum">${_optQty(t.sh,'',t.ticker)}</td>
       <td class="tnum">${maskable(m(_ccy==='EUR'&&t.proceedsEur!=null?t.proceedsEur:t.proceedsUsd))}</td>
       <td class="tnum ${t.ret==null?'':(t.ret>=0?'up':'down')}">${t.ret==null?'—':fmtPct(t.ret)}</td>
       <td class="tnum ${(t.gainUsd||0)>=0?'up':'down'}">${maskable(m(_ccy==='EUR'&&t.gainEur!=null?t.gainEur:t.gainUsd))}</td>
@@ -2544,7 +2544,7 @@ function secTx(tk){
     const ty=a.short?'Short':a.cover?'Cover':actLabel(a.t), sign=actSign(a.t), sym=CCY_SYM[a.ccy]||((a.ccy||'USD')+' ');
     const g=a.gUsd;
     return `<tr><td>${dFull(a.d)}</td><td><span class="atype ${actCls(ty)}">${esc(ty.toUpperCase())}</span></td>
-      <td class="tnum">${a.sh?maskable(Number(a.sh).toLocaleString('en-US')):'—'}</td>
+      <td class="tnum">${a.sh?_optQty(a.sh,'',a.tk):'—'}</td>
       <td class="tnum">${a.px?sym+(+a.px).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}):'—'}</td>
       <td class="tnum">${maskable(sign+sym+Math.abs(+a.amt||0).toLocaleString('en-US',{maximumFractionDigits:0}))}</td>
       <td class="tnum ${g==null?'':(g>=0?'up':'down')}">${g==null?'—':maskable((g>=0?'+':'−')+fmtUsd(Math.abs(g)))}</td>
@@ -2569,6 +2569,14 @@ const ACT_TYPES=[['BUY','Buy','−'],['SELL','Sell','+'],['DIVIDEND','Dividend',
 const actLabel=t=>(ACT_TYPES.find(x=>x[0]===t)||[t,String(t||'').replace(/_/g,' ').replace(/([a-z])([A-Z])/g,'$1 $2')])[1];
 const actSign=t=>(ACT_TYPES.find(x=>x[0]===t)||['','','+'])[2];
 const _actF={from:'',to:'',type:'',sec:'',depot:'',q:''};
+/* Optionen: Stueckzahl als KONTRAKTE (1 Kontrakt = 100 Aktien) statt 100.000 "Stueck"
+   (Owner 2026-11-26: "1000 OSS Calls, nicht 100k"). Kurs bleibt je Aktie wie beim Broker. */
+function _isOpt(name,tk){ return / (Call|Put)$/.test(name||'') || /^[A-Z.]{1,6}\d{6}[CP]\d{8}$/.test(tk||''); }
+function _optQty(sh,name,tk){
+  return _isOpt(name,tk)
+    ? maskable((+sh/100).toLocaleString('en-US',{maximumFractionDigits:2}))+' <span class="asub">contracts</span>'
+    : maskable((+sh).toLocaleString('en-US'));
+}
 /* option OCC symbol -> readable label (ABVX270115C00120000 -> ABVX Jan-2027 $120 Call) */
 function actTk(a){
   const raw=a.tk||'—', occ=raw.match(/^([A-Z.]{1,6})(\d{2})(\d{2})(\d{2})([CP])(\d{8})$/);
@@ -2640,7 +2648,7 @@ function renderActivities(){
     const nm=actName2(a);
     const ty=a.short?'Short':a.cover?'Cover':actLabel(a.t), sign=actSign(a.t);
     const isTrade=!!(a.sh&&a.px);
-    const sub=isTrade? (Number(a.sh).toLocaleString('en-US')+" @ "+sym+(+a.px).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}))
+    const sub=isTrade? ((_isOpt('',a.tk)?(Number(a.sh)/100).toLocaleString('en-US',{maximumFractionDigits:2})+" contracts":Number(a.sh).toLocaleString('en-US'))+" @ "+sym+(+a.px).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}))
       : (a.port||"");
     const isin=a.isin||(DATA.isinByTicker&&DATA.isinByTicker[tk])||'';
     const cur=tickerLogos(base);

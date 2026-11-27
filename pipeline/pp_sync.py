@@ -368,15 +368,34 @@ def us_eff_date():
 PREV={}   # si -> Vortagesschluss desselben Kursanbieters wie der Live-Kurs
 
 def _ext_last(yf,tk):
-    """Letzter Kurs INKL. Pre-/After-Market (5-Min-Balken, prepost=True):
-    (New-York-Datum, Kurs) oder None. Tagesbalken kennen nur die regulaere Sitzung."""
+    """Letzter Kurs INKL. Pre-/After-Market: (New-York-Datum, Kurs) oder None.
+    Primaer das Quote-Feld preMarketPrice/postMarketPrice (marketState) — die
+    5-Min-Balken mit prepost=True enthielten den laufenden Pre-Market NICHT
+    (2026-11-27 05:27 ET: Balken endeten Mi 19:55, Quote hatte NBIS pre 91.48).
+    Fallback: letzter 5-Min-Balken. Tagesbalken kennen nur die regulaere Sitzung."""
+    bar=None
     try:
         h=yf.Ticker(tk).history(period="5d",interval="5m",prepost=True)["Close"].dropna()
         h=h[h>0]
-        if not len(h): return None
-        return h.index[-1].strftime("%Y-%m-%d"), float(h.iloc[-1])
+        if len(h): bar=(h.index[-1].strftime("%Y-%m-%d"), float(h.iloc[-1]))
     except Exception:
-        return None
+        pass
+    try:
+        from zoneinfo import ZoneInfo
+        ny=ZoneInfo("America/New_York")
+        i=yf.Ticker(tk).info or {}
+        st=str(i.get("marketState") or "").upper()
+        pre=float(i.get("preMarketPrice") or 0); post=float(i.get("postMarketPrice") or 0)
+        if st=="PRE" and pre>0:            # nur waehrend des Pre-Market (PREPRE = Nacht, Kurs alt)
+            return datetime.datetime.now(ny).strftime("%Y-%m-%d"), pre
+        if st in ("POST","POSTPOST","PREPRE","CLOSED") and post>0:
+            rt=i.get("postMarketTime") or i.get("regularMarketTime")
+            d=(datetime.datetime.fromtimestamp(int(rt),ny).strftime("%Y-%m-%d") if rt
+               else (bar[0] if bar else datetime.datetime.now(ny).strftime("%Y-%m-%d")))
+            return d, post
+    except Exception:
+        pass
+    return bar
 
 def _chain_iv(df,S,K,T,isc):
     """Aktuelle Markt-IV AM EIGENEN STRIKE aus der Kette desselben Verfalls statt nur

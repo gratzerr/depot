@@ -41,6 +41,14 @@ jobs:
                       df = ch.calls if cp == "C" else ch.puts
                       r = df[abs(df["strike"] - int(k) / 1000) < 1e-6].iloc[0]
                       print(f"QUOTE {tk} bid={r['bid']} ask={r['ask']} last={r['lastPrice']} lastTrade={r['lastTradeDate']}")
+                  elif qd == "prepost":
+                      h = yf.Ticker(tk).history(period="5d", interval="5m", prepost=True)["Close"].dropna()
+                      print(f"PREPOST {tk} n={len(h)} " + " ".join(f"{d.strftime('%m-%d %H:%M')}={c:.4f}" for d, c in list(h.items())[-6:]))
+                      try:
+                          i = yf.Ticker(tk).info or {}
+                          print(f"PREPOST {tk} info pre={i.get('preMarketPrice')} post={i.get('postMarketPrice')} reg={i.get('regularMarketPrice')} state={i.get('marketState')}")
+                      except Exception as e:
+                          print(f"PREPOST {tk} info ERROR {e}")
                   elif qd == "info":
                       t = yf.Ticker(tk); i = t.info or {}
                       keys = ["currentPrice", "marketCap", "enterpriseValue", "sharesOutstanding", "totalCash", "totalDebt",

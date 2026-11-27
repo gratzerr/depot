@@ -434,7 +434,10 @@ def _chain_iv(df,S,K,T,isc):
 # mit $183k bei ABVX ~79.2 -> IV 76.7 %. Der 120C bleibt bis zur PP-Buchung des
 # Rolls mit 75.1 % kalibriert (= ebenfalls $183k), damit der Depotwert stimmt.
 IV_CAL={"ABVX270319C00120000":("2026-11-24",0.751),
-        "ABVX270319C00100000":("2026-11-24",0.767)}
+        "ABVX270319C00100000":("2026-11-24",0.767),
+        # 2026-11-27: IBKR OSS Jan-28 5C Mark 1.576 ($157.6k fuer 1.000 Kontrakte) bei
+        # OSS 4.42 -> 92.5 % (IBKR-Anzeige 91.7 %); Yahoo-Kette lag bei 96.5 % (1.66)
+        "OSS280121C00005000":("2026-11-27",0.925)}
 IV_BETA=0.0
 
 def _bs(S,K,T,r,v,call=True):
